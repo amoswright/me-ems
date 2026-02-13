@@ -1,0 +1,361 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --text-base: 16px;
+    --text-sm: calc(var(--text-base) * 0.875);
+    --text-lg: calc(var(--text-base) * 1.125);
+    --text-xl: calc(var(--text-base) * 1.25);
+
+    /* Light mode colors */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --bg-tertiary: #e9ecef;
+    --text-primary: #1a1a1a;
+    --text-secondary: #4a5568;
+    --text-tertiary: #718096;
+    --border-color: #e2e8f0;
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+
+  .dark {
+    --bg-primary: #1a202c;
+    --bg-secondary: #2d3748;
+    --bg-tertiary: #4a5568;
+    --text-primary: #f7fafc;
+    --text-secondary: #e2e8f0;
+    --text-tertiary: #cbd5e0;
+    --border-color: #4a5568;
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: var(--text-base);
+    line-height: 1.6;
+    color: var(--text-primary);
+    background-color: var(--bg-secondary);
+  }
+
+  /* Better touch targets for mobile */
+  button, a, select {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Protocol content styles */
+.protocol-content {
+  line-height: 1.75;
+  background-color: var(--bg-primary);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1rem;
+}
+
+/* Smooth scrolling for provider level navigation */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px; /* Account for sticky header + tabs */
+}
+
+.protocol-content ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.protocol-content ol[type="a"] {
+  list-style-type: lower-alpha;
+  margin-top: 0.5rem;
+}
+
+.protocol-content ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.protocol-content li {
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.protocol-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  background-color: var(--bg-primary);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.protocol-content th {
+  background-color: #f1f5f9;
+  padding: 0.875rem;
+  border: 1px solid #e2e8f0;
+  font-weight: 600;
+  text-align: left;
+  color: var(--text-primary);
+}
+
+.dark .protocol-content th {
+  background-color: #334155;
+  border-color: #475569;
+  color: var(--text-primary);
+}
+
+.protocol-content td {
+  padding: 0.875rem;
+  border: 1px solid #e2e8f0;
+  color: var(--text-primary);
+}
+
+.dark .protocol-content td {
+  border-color: #475569;
+}
+
+.protocol-content strong {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.protocol-content em {
+  font-style: italic;
+}
+
+.protocol-content h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.protocol-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  margin-top: 1.5rem;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.protocol-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+.protocol-content p {
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+/* Protocol reference links */
+.protocol-content .protocol-ref-link {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+.protocol-content .protocol-ref-link:hover {
+  color: #1d4ed8;
+  text-decoration-thickness: 2px;
+}
+
+.dark .protocol-content .protocol-ref-link {
+  color: #60a5fa;
+}
+
+.dark .protocol-content .protocol-ref-link:hover {
+  color: #93c5fd;
+}
+
+/* Mermaid diagram styles */
+.mermaid-diagram {
+  background-color: var(--bg-primary);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  margin: 1.5rem 0;
+}
+
+.mermaid-diagram svg {
+  max-width: none !important;
+}
+
+/* Improve mermaid flowchart readability */
+.mermaid-diagram .node rect,
+.mermaid-diagram .node circle,
+.mermaid-diagram .node ellipse,
+.mermaid-diagram .node polygon {
+  stroke-width: 3px;
+}
+
+.mermaid-diagram .edgeLabel {
+  background-color: var(--bg-primary);
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  .protocol-content {
+    padding: 1rem;
+  }
+
+  .protocol-content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .mermaid-diagram {
+    padding: 0.5rem;
+  }
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  padding: 1rem;
+  background-color: #2563eb;
+  color: white;
+  transform: translateY(-100%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+/* Utility classes for animations */
+.hover\:scale-102:hover {
+  transform: scale(1.02);
+}
+
+.active\:scale-98:active {
+  transform: scale(0.98);
+}
+
+/* Loading states */
+.loading-spinner {
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-top-color: #2563eb;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Focus visible for better keyboard navigation */
+*:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Improve tap highlight on mobile */
+* {
+  -webkit-tap-highlight-color: rgba(37, 99, 235, 0.1);
+}
+
+/* Better link styles */
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+/* Print styles */
+@media print {
+  header {
+    display: none;
+  }
+
+  .protocol-content {
+    box-shadow: none;
+    border: 1px solid #e5e7eb;
+  }
+
+  a[href]::after {
+    content: none;
+  }
+}
+
+/* Improve scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-tertiary);
+}
+
+/* Photo viewer customization */
+.PhotoView-Slider__BannerWrap {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.PhotoView-Slider__ArrowLeft,
+.PhotoView-Slider__ArrowRight {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s;
+}
+
+.PhotoView-Slider__ArrowLeft:hover,
+.PhotoView-Slider__ArrowRight:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.PhotoView-Slider__toolbarIcon {
+  color: white;
+}
+
+/* Mobile-specific photo viewer styles */
+@media (max-width: 640px) {
+  .PhotoView-Slider__ArrowLeft,
+  .PhotoView-Slider__ArrowRight {
+    width: 44px;
+    height: 44px;
+  }
+}

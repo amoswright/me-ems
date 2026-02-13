@@ -1,0 +1,603 @@
+{
+  "title": "Maine EMS Protocols 2025",
+  "categories": [
+    {
+      "id": "brown",
+      "name": "Foreword",
+      "displayName": "Brown - Foreword",
+      "color": "#8B4513",
+      "protocols": [
+        {
+          "id": "brown_foreword",
+          "title": "Foreword",
+          "pageCount": 6
+        }
+      ]
+    },
+    {
+      "id": "purple",
+      "name": "Definitions",
+      "displayName": "Purple - Definitions",
+      "color": "#800080",
+      "protocols": [
+        {
+          "id": "purple_definitions",
+          "title": "Definitions",
+          "pageCount": 8
+        }
+      ]
+    },
+    {
+      "id": "blue",
+      "name": "Respiratory",
+      "displayName": "Blue - Respiratory",
+      "color": "#0066CC",
+      "protocols": [
+        {
+          "id": "blue_pre_intubation_checklist",
+          "title": "Pre-Intubation Checklist",
+          "pageCount": 1
+        },
+        {
+          "id": "blue_airway_algorithm",
+          "title": "Airway Algorithm",
+          "pageCount": 1
+        },
+        {
+          "id": "blue_confirmation_and_monitoring_of_advanced_airways",
+          "title": "Confirmation and Monitoring of Advanced Airways",
+          "pageCount": 1
+        },
+        {
+          "id": "blue_failed_intubation_algorithm",
+          "title": "Failed Intubation Algorithm",
+          "pageCount": 1
+        },
+        {
+          "id": "blue_post_intubation_biad_pain_control",
+          "title": "Post Intubation / BIAD Pain Control",
+          "pageCount": 1
+        },
+        {
+          "id": "blue_respiratory_distress_with_bronchospasm",
+          "title": "Respiratory Distress with Bronchospasm",
+          "pageCount": 3
+        },
+        {
+          "id": "blue_anxiolysis_in_cpap",
+          "title": "Anxiolysis in CPAP",
+          "pageCount": 1
+        },
+        {
+          "id": "blue_pulmonary_edema_without_shock_",
+          "title": "Pulmonary Edema (without shock)",
+          "pageCount": 1
+        },
+        {
+          "id": "blue_pulmonary_hypertension_complications",
+          "title": "Pulmonary Hypertension Complications",
+          "pageCount": 1
+        },
+        {
+          "id": "blue_surgical_cricothyrotomy",
+          "title": "Surgical Cricothyrotomy",
+          "pageCount": 2
+        },
+        {
+          "id": "blue_tracheostomy_care",
+          "title": "Tracheostomy Care",
+          "pageCount": 2
+        }
+      ]
+    },
+    {
+      "id": "red",
+      "name": "Cardiac",
+      "displayName": "Red - Cardiac",
+      "color": "#DC143C",
+      "protocols": [
+        {
+          "id": "red_chest_pain_general",
+          "title": "Chest Pain - General",
+          "pageCount": 1
+        },
+        {
+          "id": "red_chest_pain_suspected_cardiac_origin_stemi_criteria",
+          "title": "Chest Pain - Suspected Cardiac Origin / STEMI Criteria",
+          "pageCount": 3
+        },
+        {
+          "id": "red_guidelines_to_the_prehospital_use_of_12_lead_ecgs_by_the_als_clinician",
+          "title": "Guidelines to the Prehospital Use of 12-Lead ECGs by the ALS Clinician",
+          "pageCount": 1
+        },
+        {
+          "id": "red_chest_pain_fibrinolytic_checklist",
+          "title": "Chest Pain - Fibrinolytic Checklist",
+          "pageCount": 1
+        },
+        {
+          "id": "red_chest_pain_uncertain_etiology",
+          "title": "Chest Pain - Uncertain Etiology",
+          "pageCount": 1
+        },
+        {
+          "id": "red_cardiac_arrest_overview",
+          "title": "Cardiac Arrest Overview",
+          "pageCount": 1
+        },
+        {
+          "id": "red_adult_cardiac_arrest",
+          "title": "Adult Cardiac Arrest",
+          "pageCount": 4
+        },
+        {
+          "id": "red_refractory_vf_vt",
+          "title": "Refractory VF / VT",
+          "pageCount": 1
+        },
+        {
+          "id": "red_termination_of_resuscitation",
+          "title": "Termination of Resuscitation",
+          "pageCount": 2
+        },
+        {
+          "id": "red_adult_post_resuscitation_care_amp_checklist",
+          "title": "Adult Post-Resuscitation Care &amp; Checklist",
+          "pageCount": 2
+        },
+        {
+          "id": "red_pediatric_cardiac_arrest",
+          "title": "Pediatric Cardiac Arrest",
+          "pageCount": 3
+        },
+        {
+          "id": "red_pediatric_post_resuscitation_care",
+          "title": "Pediatric Post-Resuscitation Care",
+          "pageCount": 1
+        },
+        {
+          "id": "red_pediatric_cardiac_arrest_medications_and_dosages",
+          "title": "Pediatric Cardiac Arrest Medications and Dosages",
+          "pageCount": 1
+        },
+        {
+          "id": "red_adult_tachycardia",
+          "title": "Adult Tachycardia",
+          "pageCount": 3
+        },
+        {
+          "id": "red_pediatric_tachycardia",
+          "title": "Pediatric Tachycardia",
+          "pageCount": 3
+        },
+        {
+          "id": "red_adult_bradycardia",
+          "title": "Adult Bradycardia",
+          "pageCount": 1
+        },
+        {
+          "id": "red_pediatric_bradycardia",
+          "title": "Pediatric Bradycardia",
+          "pageCount": 1
+        },
+        {
+          "id": "red_cardiogenic_shock",
+          "title": "Cardiogenic Shock",
+          "pageCount": 1
+        },
+        {
+          "id": "red_syncope",
+          "title": "Syncope",
+          "pageCount": 1
+        },
+        {
+          "id": "red_ventricular_assist_devices",
+          "title": "Ventricular Assist Devices",
+          "pageCount": 2
+        },
+        {
+          "id": "red_hyperkalemia",
+          "title": "Hyperkalemia",
+          "pageCount": 2
+        }
+      ]
+    },
+    {
+      "id": "gold",
+      "name": "General Medical",
+      "displayName": "Gold - General Medical",
+      "color": "#DAA520",
+      "protocols": [
+        {
+          "id": "gold_allergy_anaphylaxis",
+          "title": "Allergy / Anaphylaxis",
+          "pageCount": 4
+        },
+        {
+          "id": "gold_altered_level_of_consciousness",
+          "title": "Altered Level of Consciousness",
+          "pageCount": 1
+        },
+        {
+          "id": "gold_diabetic_hypoglycemic_emergencies",
+          "title": "Diabetic/Hypoglycemic Emergencies",
+          "pageCount": 2
+        },
+        {
+          "id": "gold_seizure",
+          "title": "Seizure",
+          "pageCount": 2
+        },
+        {
+          "id": "gold_stroke",
+          "title": "Stroke",
+          "pageCount": 4
+        },
+        {
+          "id": "gold_medical_shock",
+          "title": "Medical Shock",
+          "pageCount": 2
+        },
+        {
+          "id": "gold_abdominal_pain",
+          "title": "Abdominal Pain",
+          "pageCount": 1
+        },
+        {
+          "id": "gold_nausea_and_vomiting",
+          "title": "Nausea and Vomiting",
+          "pageCount": 1
+        },
+        {
+          "id": "gold_fever",
+          "title": "Fever",
+          "pageCount": 1
+        }
+      ]
+    },
+    {
+      "id": "green",
+      "name": "Trauma",
+      "displayName": "Green - Trauma",
+      "color": "#228B22",
+      "protocols": [
+        {
+          "id": "green_trauma_triage",
+          "title": "Trauma Triage",
+          "pageCount": 1
+        },
+        {
+          "id": "green_spine_assessment_management",
+          "title": "Spine Assessment & Management",
+          "pageCount": 2
+        },
+        {
+          "id": "green_chest_trauma",
+          "title": "Chest Trauma",
+          "pageCount": 1
+        },
+        {
+          "id": "green_head_trauma",
+          "title": "Head Trauma",
+          "pageCount": 2
+        },
+        {
+          "id": "green_hemorrhage",
+          "title": "Hemorrhage",
+          "pageCount": 1
+        },
+        {
+          "id": "green_hemorrhagic_shock",
+          "title": "Hemorrhagic Shock",
+          "pageCount": 2
+        },
+        {
+          "id": "green_burn",
+          "title": "Burn",
+          "pageCount": 2
+        },
+        {
+          "id": "green_universal_pain_management",
+          "title": "Universal Pain Management",
+          "pageCount": 3
+        },
+        {
+          "id": "green_termination_of_resuscitation_for_traumatic_cardiac_arrest",
+          "title": "Termination of Resuscitation for Traumatic Cardiac Arrest",
+          "pageCount": 1
+        },
+        {
+          "id": "green_crush_injury",
+          "title": "Crush Injury",
+          "pageCount": 1
+        },
+        {
+          "id": "green_facial_dental_injury",
+          "title": "Facial / Dental Injury",
+          "pageCount": 1
+        },
+        {
+          "id": "green_ophthalmology",
+          "title": "Ophthalmology",
+          "pageCount": 1
+        },
+        {
+          "id": "green_open_fractures",
+          "title": "Open Fractures",
+          "pageCount": 1
+        },
+        {
+          "id": "green_strangulation",
+          "title": "Strangulation",
+          "pageCount": 1
+        }
+      ]
+    },
+    {
+      "id": "yellow",
+      "name": "Toxicologic",
+      "displayName": "Yellow - Toxicologic",
+      "color": "#FFD700",
+      "protocols": [
+        {
+          "id": "yellow_poisoning_overdose",
+          "title": "Poisoning / Overdose",
+          "pageCount": 3
+        },
+        {
+          "id": "yellow_naloxone_dispensation",
+          "title": "Naloxone Dispensation",
+          "pageCount": 1
+        },
+        {
+          "id": "yellow_alcohol_intoxication_severe_alcohol_withdrawal",
+          "title": "Alcohol Intoxication / Severe Alcohol Withdrawal",
+          "pageCount": 2
+        },
+        {
+          "id": "yellow_nerve_agent_organophosphate_carbamate_poisoning",
+          "title": "Nerve Agent / Organophosphate / Carbamate Poisoning",
+          "pageCount": 1
+        },
+        {
+          "id": "yellow_cyanide_co_exposure",
+          "title": "Cyanide / CO Exposure",
+          "pageCount": 2
+        },
+        {
+          "id": "yellow_radiation_injuries",
+          "title": "Radiation Injuries",
+          "pageCount": 1
+        },
+        {
+          "id": "yellow_severe_hypothermia_with_signs_of_life",
+          "title": "Severe Hypothermia WITH Signs of Life",
+          "pageCount": 1
+        },
+        {
+          "id": "yellow_severe_hypothermia_without_signs_of_life",
+          "title": "Severe Hypothermia WITHOUT Signs of Life",
+          "pageCount": 1
+        },
+        {
+          "id": "yellow_hyperthermia_heat_exhaustion_heat_stroke",
+          "title": "Hyperthermia - Heat Exhaustion / Heat Stroke",
+          "pageCount": 2
+        },
+        {
+          "id": "yellow_drowning_submersion_injuries",
+          "title": "Drowning/Submersion Injuries",
+          "pageCount": 1
+        }
+      ]
+    },
+    {
+      "id": "lavender",
+      "name": "Obstetric",
+      "displayName": "Lavender - Obstetric",
+      "color": "#E6E6FA",
+      "protocols": [
+        {
+          "id": "lavender_obstetric_emergencies",
+          "title": "Obstetric Emergencies",
+          "pageCount": 1
+        },
+        {
+          "id": "lavender_child_birth",
+          "title": "Child Birth",
+          "pageCount": 1
+        },
+        {
+          "id": "lavender_newborn_metrics_apgar_o2_saturation",
+          "title": "Newborn Metrics / APGAR & O2 Saturation",
+          "pageCount": 1
+        },
+        {
+          "id": "lavender_newborn_resuscitation",
+          "title": "Newborn Resuscitation",
+          "pageCount": 1
+        }
+      ]
+    },
+    {
+      "id": "pink",
+      "name": "Pediatric",
+      "displayName": "Pink - Pediatric",
+      "color": "#FFC0CB",
+      "protocols": [
+        {
+          "id": "pink_brief_resolved_unexplained_event",
+          "title": "Brief Resolved Unexplained Event",
+          "pageCount": 1
+        },
+        {
+          "id": "pink_pediatric_respiratory_distress_with_inspiratory_stridor",
+          "title": "Pediatric Respiratory Distress with Inspiratory Stridor",
+          "pageCount": 1
+        },
+        {
+          "id": "pink_neonatal_and_young_infant_fever",
+          "title": "Neonatal and Young Infant Fever",
+          "pageCount": 1
+        },
+        {
+          "id": "pink_normal_pediatric_vital_signs",
+          "title": "Normal Pediatric Vital Signs",
+          "pageCount": 1
+        },
+        {
+          "id": "pink_pediatric_specific_equipment_sizes",
+          "title": "Pediatric Specific Equipment Sizes",
+          "pageCount": 1
+        },
+        {
+          "id": "pink_pediatric_transportation",
+          "title": "Pediatric Transportation",
+          "pageCount": 2
+        }
+      ]
+    },
+    {
+      "id": "orange",
+      "name": "Behavioral",
+      "displayName": "Orange - Behavioral",
+      "color": "#FF8C00",
+      "protocols": [
+        {
+          "id": "orange_transport_of_mentally_ill_patients",
+          "title": "Transport of Mentally Ill Patients",
+          "pageCount": 1
+        },
+        {
+          "id": "orange_depression_suicidal_ideation",
+          "title": "Depression / Suicidal Ideation",
+          "pageCount": 1
+        },
+        {
+          "id": "orange_restraints",
+          "title": "Restraints",
+          "pageCount": 1
+        },
+        {
+          "id": "orange_hyperactive_delirium_with_severe_agitation",
+          "title": "Hyperactive Delirium with Severe Agitation",
+          "pageCount": 1
+        }
+      ]
+    },
+    {
+      "id": "grey",
+      "name": "Operations",
+      "displayName": "Grey - Operations",
+      "color": "#808080",
+      "protocols": [
+        {
+          "id": "grey_minimum_landing_zone",
+          "title": "Minimum Landing Zone",
+          "pageCount": 2
+        },
+        {
+          "id": "grey_do_not_resuscitate_guidelines",
+          "title": "Do Not Resuscitate Guidelines",
+          "pageCount": 5
+        },
+        {
+          "id": "grey_pre_hospital_management_of_hospice_patients",
+          "title": "Pre-hospital Management of Hospice Patients",
+          "pageCount": 3
+        },
+        {
+          "id": "grey_death_situations_for_emergency_responders",
+          "title": "Death Situations for Emergency Responders",
+          "pageCount": 2
+        },
+        {
+          "id": "grey_maine_death_with_dignity_law",
+          "title": "Maine Death With Dignity Law",
+          "pageCount": 1
+        },
+        {
+          "id": "grey_bariatric_patients",
+          "title": "Bariatric Patients",
+          "pageCount": 1
+        },
+        {
+          "id": "grey_mass_casualty_disasters_hazmat",
+          "title": "Mass Casualty / Disasters/Hazmat",
+          "pageCount": 3
+        },
+        {
+          "id": "grey_sexual_assault_victim",
+          "title": "Sexual Assault Victim",
+          "pageCount": 1
+        },
+        {
+          "id": "grey_child_abuse_management_and_reporting",
+          "title": "Child Abuse Management and Reporting",
+          "pageCount": 2
+        },
+        {
+          "id": "grey_adult_abuse_and_intoxicated_drivers",
+          "title": "Adult Abuse, and Intoxicated Drivers",
+          "pageCount": 1
+        },
+        {
+          "id": "grey_transport_protocol",
+          "title": "Transport Protocol",
+          "pageCount": 2
+        },
+        {
+          "id": "grey_protective_headgear_removal",
+          "title": "Protective Headgear Removal",
+          "pageCount": 1
+        },
+        {
+          "id": "grey_crime_scenes",
+          "title": "Crime Scenes",
+          "pageCount": 1
+        },
+        {
+          "id": "grey_defibrillation_cardioversion_settings",
+          "title": "Defibrillation / Cardioversion Settings",
+          "pageCount": 1
+        },
+        {
+          "id": "grey_baby_safe_haven_laws",
+          "title": "Baby Safe Haven Laws",
+          "pageCount": 1
+        },
+        {
+          "id": "grey_safe_response_transport",
+          "title": "Safe Response & Transport",
+          "pageCount": 1
+        },
+        {
+          "id": "grey_care_of_the_deaf_and_hard_of_hearing",
+          "title": "Care of the Deaf and Hard of Hearing",
+          "pageCount": 2
+        },
+        {
+          "id": "grey_care_of_the_visually_impaired_and_blind",
+          "title": "Care of the Visually Impaired and Blind",
+          "pageCount": 1
+        },
+        {
+          "id": "grey_maine_ems_medication_list",
+          "title": "Maine EMS Medication List",
+          "pageCount": 1
+        },
+        {
+          "id": "grey_telephone_radio_reference_contact_numbers",
+          "title": "Telephone / Radio Reference/ Contact Numbers",
+          "pageCount": 3
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "parsedAt": "2026-02-12T02:24:39.758Z",
+    "totalProtocols": 101,
+    "totalCategories": 11
+  }
+}

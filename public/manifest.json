@@ -1,0 +1,19 @@
+{
+  "name": "Maine EMS Protocols 2025",
+  "short_name": "ME EMS 2025",
+  "description": "Maine Emergency Medical Services Clinical Protocols - 2025 Edition",
+  "theme_color": "#DC2626",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

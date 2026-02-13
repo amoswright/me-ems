@@ -1,0 +1,18 @@
+flowchart
+A[All Clinicians Assess A,B,Cs including respiratory rate, effort, adequacy & Pulse Oximetry] -- Adequate --> B[Consider supplemental O₂ and Monitoring]
+    A -- Inadequate --> C[EMT Contact ALS BLS Measures First: Open Airway Oral and/or Nasal Airways, Suction as needed, Bag Valve Mask EMT #40;if available and trained#41; /AEMT/ Paramedic consider trial of CPAP in Adult]
+
+    C -- Obstruction --> D[All Clinicians Airway Obstruction Procedures Paramedic Direct Laryngoscopy]
+    D -- Unsuccessful --> E[Failed Intubation Algorithm, Blue 4]
+    D -- Successful ---> A
+G[Continue BVM or CPAP]
+
+    H[1.Continue monitoring 2.Capnography 3.Consider c-collar 4.Consider gastric tube to decompress the stomach #40;Paramedic only#41; 5.Contact receiving hospital]
+    H --> I[Paramedic Refer to Post-Intubation/BIAD Pain Control protocol, Blue 5]
+    C -- Unsuccessful --> J[AEMT/Paramedic Blind Insertion Airway Device or Paramedic Intubation]
+    J -- Unsuccessful --> L[Failed Intubation Algorithm, Blue 4]
+    J -- Successful --> H
+
+C -- Successful --> G
+G -- Becomes Inadequate --> C
+

@@ -1,0 +1,709 @@
+[
+  {
+    "id": "brown_foreword",
+    "title": "Foreword",
+    "category": "brown",
+    "categoryName": "Foreword",
+    "content": "Foreword\n\nThese protocols were developed for the following reasons:\n1. To provide the EMS clinician with a quick field reference, and\n2. To develop written standards of care which are consistent throughout the State of Maine\n\nUsers of these protocols are expected to have more detailed knowledge of basic patient management principles found in EMS textbooks and literature appropriate to the EMS clinician's level of training and licensure.\n\nEMS clinicians are encouraged to contact OLMC in any situa"
+  },
+  {
+    "id": "purple_definitions",
+    "title": "Definitions",
+    "category": "purple",
+    "categoryName": "Definitions",
+    "content": "Definitions\n\nACLS is Advanced Cardiac Life Support.\n\nAdvanced Airway means the skill of endotracheal intubation and use of other airway modalities such as Blind Insertion Airway Devices (BIAD) performed only by those who have completed practical training in each of these skills.\n\nAEMT (Advanced EMT) means the ability to provide Advanced EMT level of care (previously called Intermediate EMT).\n\nAHA is the American Heart Association.\n\nALS (Advanced Life Support) means the ability to provide advance"
+  },
+  {
+    "id": "blue_pre_intubation_checklist",
+    "title": "Pre-Intubation Checklist",
+    "category": "blue",
+    "categoryName": "Respiratory",
+    "content": "Pre-Intubation Checklist\n\nThis is a checklist for consideration during intubation. The MDPB recognizes that clinical conditions may dictate the most appropriate sequence of steps during the intubation of patients.\n\n1.  Airway adjuncts ready\n    *   Suction\n    *   Oropharyngeal airway/ 2 nasopharyngeal airways\n    *   Nasal cannula for apneic oxygenation\n\n2.  Intubation equipment ready\n    *   Laryngoscope assembled and functional\n    *   ET tube ready with lubricant, bougie and syringe (Use of "
+  },
+  {
+    "id": "blue_airway_algorithm",
+    "title": "Airway Algorithm",
+    "category": "blue",
+    "categoryName": "Respiratory",
+    "content": "Airway Algorithm\n\n\ngraph TD\n    A[All Clinicians Assess A,B,Cs including respiratory rate, effort, adequacy & Pulse Oximetry] -- Adequate --> B[Consider supplemental O₂ and Monitoring]\n    A -- Inadequate --> C[EMT Contact ALS BLS Measures First: Open Airway Oral and/or Nasal Airways, Suction as needed, Bag Valve Mask EMT #40;if available and trained#41; /AEMT/ Paramedic consider trial of CPAP in Adult]\n\n    C -- Obstruction --> D[All Clinicians Airway Obstruction Procedures Paramedic Direct Lar"
+  },
+  {
+    "id": "blue_confirmation_and_monitoring_of_advanced_airways",
+    "title": "Confirmation and Monitoring of Advanced Airways",
+    "category": "blue",
+    "categoryName": "Respiratory",
+    "content": "Confirmation and Monitoring of Advanced Airways\n\n\ngraph TD\n    A[Place Advanced Airway] --> B[Confirm ETT or Blind Insertion Airway Device placement with continuous wave form capnography.* AND Confirm ETT and BIAD placement with physical exam, including absence of sounds over the epigastrum, presence of symmetric bilateral breath sounds, etc.]\n    B --> C[ETT/BIAD placement correct]\n    B --> D[ETT/BIAD placement uncertain or equivocal findings for confirmation]\n    B --> E[ETT/BIAD placement in"
+  },
+  {
+    "id": "blue_failed_intubation_algorithm",
+    "title": "Failed Intubation Algorithm",
+    "category": "blue",
+    "categoryName": "Respiratory",
+    "content": "Failed Intubation Algorithm\n\nA \"failed\" intubation or the \"can't intubate patient\" is defined as two (2) unsuccessful intubation attempts by the most proficient technician on scene OR anatomy inconsistent with intubation attempts.\n\nNO MORE THAN THREE (3) TOTAL ATTEMPTS PER PATIENT WITHOUT OLMC CONSULTATION.\n\n\ngraph TD\n    A[Adequate oxygenation and ventilation with BVM?] -->|Yes| B[Continue BVM]\n    A -->|No| C{Facial trauma or unrelieved obstruction?}\n    B --> D[If SPO₂ drops less than 90% or "
+  },
+  {
+    "id": "blue_post_intubation_biad_pain_control",
+    "title": "Post Intubation / BIAD Pain Control",
+    "category": "blue",
+    "categoryName": "Respiratory",
+    "content": "Post-Intubation/BIAD Pain Control\n\nAll patients with an ETT or BIAD inserted who are not currently in cardiac arrest are at risk for pain, anxiety and self-extubation. Therefore, appropriate pain control and anxiolysis are required for all patients after placement of advanced airways. Signs of inadequate pain control/sedation include eye opening, coughing or gagging, sweating, tearing, new or worsening hypertension and/or tachycardia, tachypnea, or attempts to self-extubate. 1. Minimize stimulat"
+  },
+  {
+    "id": "blue_respiratory_distress_with_bronchospasm",
+    "title": "Respiratory Distress with Bronchospasm",
+    "category": "blue",
+    "categoryName": "Respiratory",
+    "content": "Respiratory Distress with Bronchospasm #1\n(COPD, Emphysema, Chronic Bronchitis, Asthma)\n\nCAUTION: RESPIRATORY DISTRESS MAY BE DUE TO MULTIPLE OTHER CAUSES FOR WHICH OTHER TREATMENTS MAY BE INDICATED, INCLUDING THE FOLLOWING:\n\nPulmonary Edema, see Blue 10\nAnaphylaxis, see Gold 1\nChest Trauma, see Green 7 1. O₂ as appropriate.\n2. If needed, assist ventilation with positive pressure ventilation using 100% O₂.\n3. Request ALS. (see Definitions, Purple 1)\n4. Ipratropium bromide 0.5 mg / albuterol sulf"
+  },
+  {
+    "id": "blue_anxiolysis_in_cpap",
+    "title": "Anxiolysis in CPAP",
+    "category": "blue",
+    "categoryName": "Respiratory",
+    "content": "Anxiolysis in CPAP\n\nAdult patients with respiratory failure who are unable to oxygenate and ventilate often require CPAP. These patients may be combative and unable to tolerate CPAP either due to their hypoxia or anxiety. 1. Attempt coaching. 2. If CPAP causing nausea and bloating, consider ondansetron, see Nausea and Vomiting protocol, Gold 18. 3. If unable to achieve sufficient anxiolysis to tolerate CPAP with coaching, contact OLMC for ONE of the following anxiolytics:\n\na. Midazolam\n    i. 0."
+  },
+  {
+    "id": "blue_pulmonary_edema_without_shock_",
+    "title": "Pulmonary Edema (without shock)",
+    "category": "blue",
+    "categoryName": "Respiratory",
+    "content": "Pulmonary Edema (without shock)\n\nAvoid nitroglycerin in any patient who has used a phosphodiesterase inhibitor within the past 48 hours. Examples are: sildenafil (Viagra, Revatio), vardenafil (Levitra, Staxyn), tadalafil (Cialis, Adcirca) which are used for erectile dysfunction and pulmonary hypertension. Contact OLMC for options in patients who have taken such medicines.\n\nIf initial systolic BP is less than 100 mmHg, refer to Cardiogenic Shock protocol, Red 32. 1. O₂ as appropriate. Assist vent"
+  },
+  {
+    "id": "blue_pulmonary_hypertension_complications",
+    "title": "Pulmonary Hypertension Complications",
+    "category": "blue",
+    "categoryName": "Respiratory",
+    "content": "Pulmonary Hypertension Complications\n\nThere are increasing numbers of patients being treated for pulmonary hypertension throughout the state of Maine. Pulmonary hypertension is a disease in which a patient's pulmonary arterial pressures are elevated and can be due to multiple factors, including heart disease, chronic lung disease, or thromboembolic disease. Additionally, in some cases of pulmonary hypertension, the etiology is uncertain. Patients manifest with multiple clinical symptoms, includi"
+  },
+  {
+    "id": "blue_surgical_cricothyrotomy",
+    "title": "Surgical Cricothyrotomy",
+    "category": "blue",
+    "categoryName": "Respiratory",
+    "content": "Surgical Cricothyrotomy #1\n\nThe following protocol is an effort to maintain awareness of a procedure that occurs rarely in the Maine EMS system. Ultimately, this procedure should be practiced on a regular basis to maintain proficiency. PLEASE NOTE, this protocol describes a generally acceptable open cricothyrotomy and will differ from services that employ percutaneous kits. The inclusion of this protocol DOES NOT mandate that all clinicians use this exact procedural description. Clinicians shoul"
+  },
+  {
+    "id": "blue_tracheostomy_care",
+    "title": "Tracheostomy Care",
+    "category": "blue",
+    "categoryName": "Respiratory",
+    "content": "Tracheostomy Care #1\n\nIndication:\nAn adult or pediatric patient with an established tracheostomy with signs of respiratory distress or failure.\n&lt;img&gt;A small teddy bear icon.&lt;/img&gt;\n\nProcedure:\n1. Consult the patient's caregiver for assistance.\n2. Assess the tracheostomy tube looking for easily reversible causes of distress, including detached oxygen source, plugging, etc.\n3. Administer high-flow O₂ over the tracheostomy via non-rebreather mask or blow by.\n4. If patient's respiratory d"
+  },
+  {
+    "id": "red_chest_pain_general",
+    "title": "Chest Pain - General",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Chest Pain - General\n\nFor all patients with chest pain, evaluation for acute coronary syndrome should occur. Commonly, it is difficult with the tools available to EMS clinicians to completely rule out a cardiac cause of chest pain. Therefore, all patients should be transported for emergency medical evaluation. Cardiac disease is but one of the many causes of chest pain and the EMS clinician should consider various causes such as esophageal, chest wall, pulmonary embolism, aortic dissection, spon"
+  },
+  {
+    "id": "red_chest_pain_suspected_cardiac_origin_stemi_criteria",
+    "title": "Chest Pain - Suspected Cardiac Origin / STEMI Criteria",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Chest Pain - Suspected Cardiac Origin #1\n\n*   Avoid nitroglycerin in any patient who has used a phosphodiesterase inhibitor within the past 48 hours. Examples are:\n    *   sildenafil (Viagra, Revatio), vardenafil (Levitra, Staxyn), tadalafil (Cialis, Adcirca) which are used for erectile dysfunction and pulmonary hypertension.\n    *   epoprostenol (Flolan) or treprostinil (Remodulin) which are used for pulmonary hypertension.\n*   Administer nitrates with caution as hypotension can occur in any pa"
+  },
+  {
+    "id": "red_guidelines_to_the_prehospital_use_of_12_lead_ecgs_by_the_als_clinician",
+    "title": "Guidelines to the Prehospital Use of 12-Lead ECGs by the ALS Clinician",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Guidelines to the Prehospital Use of 12-Lead ECG by the ALS Clinician\n\n1.  Prehospital 12-lead ECG is now a standard of care for increasing diagnostic information regarding the chest pain/cardiac arrest patient\n2.  Acquisition of a 12-lead ECG should be done in all patients with chest pain or a potential cardiac complaint/diagnosis such as syncope or shortness of breath. Given the frequency of atypical presentation in the elderly, responders must have a high index of suspicion in the elderly pat"
+  },
+  {
+    "id": "red_chest_pain_fibrinolytic_checklist",
+    "title": "Chest Pain - Fibrinolytic Checklist",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Chest Pain Fibrinolytic Checklist\n\nFor chest pain of suspected cardiac origin, initiate therapy per protocol, including the early use of aspirin and nitroglycerin, if not contraindicated.\n\nUse this checklist, or local equivalent, if available.\n\nReport the information as soon as practical to the receiving ED.\n\nYou may copy and use this page as your checklist, or you may use a checklist recommended by your usual receiving hospital which contains at least these questions.\n\nPlease follow your destin"
+  },
+  {
+    "id": "red_chest_pain_uncertain_etiology",
+    "title": "Chest Pain - Uncertain Etiology",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Chest Pain - Uncertain Etiology\n\nFor ALL patients with chest pain, consider the possibility of cardiac disease no matter what the history and physical exam suggest. However, there are other sources of non-cardiac chest pain to consider such as pulmonary embolism, spontaneous pneumothorax, aortic dissection/aneurysm, esophageal, chest wall, etc.\n\nIf trauma suspected, refer to the Chest Trauma protocol, Green 7.\n\nEMT:\n1. Administer O₂ only to patients with dyspnea, hypoxia (SpO₂ less than 94%), or"
+  },
+  {
+    "id": "red_cardiac_arrest_overview",
+    "title": "Cardiac Arrest Overview",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Cardiac Arrest Overview\n\n\ngraph TD\n    A[START] --> B[Initiate or assume chest compressions]\n    B --> C[Effective bystander chest compressions]\n    B --> D[Consider 2 Minutes of chest compressions]\n    D --> E[Analyze rhythm and defibrillate if appropriate]\n    E --> F[Immediately resume 2 minutes of chest compressions and provide EPINEPHrine every 3-5 minutes; consider amiodarone]\n    F --> G[ROSC: refer to post-resuscitation care protocol: Adult, Red 16; Pediatric, Red 21]\n    F --> H[Conside"
+  },
+  {
+    "id": "red_adult_cardiac_arrest",
+    "title": "Adult Cardiac Arrest",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Adult Cardiac Arrest #1 1. Initiate CPR until AED arrives unless valid DNR or signs incompatible with life (refer to Do Not Resuscitate Guidelines, Grey 3) are present; refer to Termination of Resuscitation protocol, Red 14.\n2. Attach AED as soon as available with minimal interruptions in chest compressions and follow AED prompts.\n3. Place oral and/or nasal airway(s).\n4. High-flow O₂ with BVM ventilation at a ratio of 30:2 or 1 breath every 10 chest compressions during recoil and without interru"
+  },
+  {
+    "id": "red_refractory_vf_vt",
+    "title": "Refractory VF / VT",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Adult Refractory VF/VT\n\n*   Recurrent VF/VT is defined as SUCCESSFULLY CONVERTED by standard defibrillation techniques but subsequently returns. It should NOT be treated by dual sequential defibrillation (DSD). It is managed by treatment of correctable causes and use of anti-arrhythmic medications in addition to standard defibrillation.\n*   Refractory VF/VT is defined as NOT CONVERTED by standard defibrillation. It is initially managed by treating correctable causes with anti-arrhythmic medicati"
+  },
+  {
+    "id": "red_termination_of_resuscitation",
+    "title": "Termination of Resuscitation",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Termination of Resuscitation #1\n\nResuscitation should be withheld under the following circumstances:\n* When it is found that the patient has a DNR order or other actionable medical order (e.g., POLST/MOLST form, etc.), refer to the DNR Guidelines, Grey 3.\n* Scene Safety: the physical environment is not safe for the clinician(s).\n* When irreversible signs of death, such as rigor mortis, dependent lividity, decapitation, decomposition, incineration, other obvious lethal injuries are present.\n* Whe"
+  },
+  {
+    "id": "red_adult_post_resuscitation_care_amp_checklist",
+    "title": "Adult Post-Resuscitation Care &amp; Checklist",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Adult Post-Resuscitation Care 1. Manage airway. Administer O₂ only to keep O₂ sats greater than or equal to 94% and less than 99% (avoid hypo/hyperoxia). Maintain ventilation rate between 10-12 breaths per minute.\n2. Request ALS.\n3. Perform 12-lead ECG, if so trained. 4. Provide advanced airway management if indicated and initiate capnography. Avoid excessive ventilation. Aim for ventilation rate between 10-12 breaths per minute.\n5. Obtain IV access and treat hypotension with fluid boluses. Goal"
+  },
+  {
+    "id": "red_pediatric_cardiac_arrest",
+    "title": "Pediatric Cardiac Arrest",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "&lt;img&gt;Bear with stethoscope&lt;/img&gt; Pediatric Cardiac Arrest #1 &lt;img&gt;Bear with stethoscope&lt;/img&gt;\n\nThis protocol is for infants and children. For Newborns, refer to Newborn Resuscitation protocol, Lavender 5. 1. Initiate immediate CPR with minimal interruptions, continue CPR until AED arrives or signs incompatible with life are present, refer to Do Not Resuscitate Guidelines, Grey 3; refer to Termination of Resuscitation protocol, Red 14.\n2. Attach AED as soon as available wi"
+  },
+  {
+    "id": "red_pediatric_post_resuscitation_care",
+    "title": "Pediatric Post-Resuscitation Care",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "&lt;img&gt;Bear with stethoscope&lt;/img&gt; Pediatric Post-Resuscitation Care &lt;img&gt;Bear with stethoscope&lt;/img&gt; 1. Manage airway per Airway Algorithm, Blue 2.\n2. Optimize ventilation and oxygenation:\n    a. Initial ventilation rate of 12-20 breaths/min.\n    b. Administer oxygen as appropriate with target of achieving 94-99% saturation (avoid hypo-/hyperoxia).\n3. Request ALS.\n4. Perform 12-lead ECG, if so trained and doing so would not delay transport. 5. Titrate waveform capnography "
+  },
+  {
+    "id": "red_pediatric_cardiac_arrest_medications_and_dosages",
+    "title": "Pediatric Cardiac Arrest Medications and Dosages",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "&lt;img&gt;Bear with stethoscope&lt;/img&gt; Pediatric Cardiac Medications & Dosages &lt;img&gt;Bear with stethoscope&lt;/img&gt;\n\nPrehospital clinicians should consider patient age, diagnosis, transport time, clinician experience, and effectiveness of ongoing bag-valve-mask ventilation in considering whether to continue with bag-valve-mask ventilation versus proceeding to endotracheal intubation. Bag-valve-mask ventilation has been shown to be equivalent to endotracheal ventilation in pediatric"
+  },
+  {
+    "id": "red_adult_tachycardia",
+    "title": "Adult Tachycardia",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Adult Tachycardia #1\n\nNOTE: For all cases, attempt to identify and treat the underlying cause of the patient's tachycardia which may include maximizing oxygenation or (for Advanced EMTs/Paramedics) maximizing hemodynamics. If uncertainty exists between sinus tachycardia and SVT, please contact OLMC. 1. Airway management per Airway Algorithm, Blue 2.\n2. Request ALS.\n3. Perform 12-lead ECG, if available and so trained. 4. Establish IV/IO.\n5. Cardiac monitor, perform 12-lead ECG.\n6. Request ALS. If"
+  },
+  {
+    "id": "red_pediatric_tachycardia",
+    "title": "Pediatric Tachycardia",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "&lt;img&gt;Bear&lt;/img&gt; Pediatric Tachycardia #1 &lt;img&gt;Bear&lt;/img&gt;\n\nNOTE: For all cases, attempt to identify and treat the underlying cause of the patient's tachycardia which may include maximizing oxygenation or (for Advanced EMTs/Paramedics) maximizing hemodynamics. In the stable patient, a heart rate of less than 180 in children and less than 220 in infants is probable sinus tachycardia if p-waves are present and normal in appearance. If uncertainty exists between sinus tachycar"
+  },
+  {
+    "id": "red_adult_bradycardia",
+    "title": "Adult Bradycardia",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Adult Bradycardia #2\n\nPEARLS\n* Transplanted, denervated hearts will not respond to atropine. Proceed to pacing, vasopressor infusion, or both\n\n* Examples of circumstances leading to increased vagal tone include the following: cholinergic medications (phenylephrine, neostigmine), sedatives (morphine) and nasopharangeal or esophageal stimulation (eg. due to gastric reflux, breath holding, vomiting, coughing, intubation, placement of nasopharangeal tube, suctioning, etc.)\n\n* Consider causes of brad"
+  },
+  {
+    "id": "red_pediatric_bradycardia",
+    "title": "Pediatric Bradycardia",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "&lt;img&gt;Bear&lt;/img&gt; Pediatric Bradycardia &lt;img&gt;Bear&lt;/img&gt;\n\nPediatric patients are considered bradycardic if HR is less than 60 beats/min despite adequate oxygenation and ventilation. In children, bradycardia almost always reflects hypoxia rather than a primary cardiac problem. It is a pre-arrest rhythm and the prognosis is poor if left untreated. Immediate delivery of oxygen and assisted ventilations are essential. Untreated bradycardia will quickly cause shock, hypotension a"
+  },
+  {
+    "id": "red_cardiogenic_shock",
+    "title": "Cardiogenic Shock",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Cardiogenic Shock 1. O₂ as appropriate.\n2. Request ALS.\n3. If available and so trained, perform 12 lead ECG. EMTs are not certified to interpret the 12-lead ECG or change the ALS response based on obtaining a 12-lead ECG. The purpose of the EMT in obtaining the 12-lead ECG is to present it to the Paramedic and/or receiving facility. 4. Cardiac monitor, obtain 12-lead ECG\n5. Establish IV en route.\n6. Request ALS.\n\n7. Contact OLMC with following information:\nVital signs, lung sounds, cardiac rhyth"
+  },
+  {
+    "id": "red_syncope",
+    "title": "Syncope",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Syncope 1. Obtain history (seizure, stroke, fluid loss, palpitations, chest pain, dizzy, trauma) and consider spinal immobilization if appropriate.\n2. O₂ as appropriate.\n3. Perform finger stick to measure blood glucose, if so trained. If blood glucose less than 60 mg/dL, refer to Diabetic/ Hypoglycemic Emergencies protocol, Gold 6.\n4. Treat for shock if appropriate. If the cause of the shock is:\n    a. Anaphylaxis, refer to the Allergy/Anaphylaxis protocol, Gold 1.\n    b. Cardiogenic, refer to t"
+  },
+  {
+    "id": "red_ventricular_assist_devices",
+    "title": "Ventricular Assist Devices",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Ventricular Assist Devices #1\n\nPatient Care Goals\n* Rapid identification of, and interventions for, cardiovascular compromise in patients with VADs\n* Rapid identification of, and interventions for, VAD-related malfunctions or complications\n\nInclusion Criteria\n* Any patient with a Ventricular Assist Device\n\nPatient Management\n1. For VAD-related complaints, consider early consult with the patient's VAD support team, including the following individuals in the following order:\n    a. The patient's V"
+  },
+  {
+    "id": "red_hyperkalemia",
+    "title": "Hyperkalemia",
+    "category": "red",
+    "categoryName": "Cardiac",
+    "content": "Hyperkalemia #1\n\nHyperkalemia (elevated serum potassium levels) can become a life-threatening electrolyte disturbance which causes changes in the electrical system of the heart potentially leading to fatal arrhythmias. While serum electrolyte values are not routinely available in the prehospital setting, a paramedic can identify the electrical changes on ECG and initiate prompt treatment.\n\nPatients at highest risk of cardiac consequences of hyperkalemia are those in renal failure: either end sta"
+  },
+  {
+    "id": "gold_allergy_anaphylaxis",
+    "title": "Allergy / Anaphylaxis",
+    "category": "gold",
+    "categoryName": "General Medical",
+    "content": "Allergy/Anaphylaxis #1 1. Manage airway as appropriate, see Airway Algorithm, Blue 2\n2. If shock present, refer to Medical Shock protocol, Gold 14\n3. If anaphylaxis is identified, assist administration of patient's own EPINEPHrine auto-injector, administer an adult or pediatric (as applicable) auto-injector, OR provide EPINEPHrine through the Maine EMS Check and Inject program in the anterolateral thigh:\n    a. Adult: EPINEPHrine 0.3 mg IM [0.3 mL of 1 mg/mL] in anterolateral thigh, or\n    b. Pe"
+  },
+  {
+    "id": "gold_altered_level_of_consciousness",
+    "title": "Altered Level of Consciousness",
+    "category": "gold",
+    "categoryName": "General Medical",
+    "content": "Altered Level of Consciousness\n\nAssess for trauma, drugs, diabetes, breath odor, needle tracks, medical alert tags, suspected seizure. A thorough history and physical exam is imperative. Bring any available medication lists and collateral information with patient to the hospital. Refer to appropriate protocol for specific suspected conditions.\n\nConsider SCENE SAFETY as there may be an environmental or toxicologic cause, especially if more than one patient has decreased level of consciousness. 1."
+  },
+  {
+    "id": "gold_diabetic_hypoglycemic_emergencies",
+    "title": "Diabetic/Hypoglycemic Emergencies",
+    "category": "gold",
+    "categoryName": "General Medical",
+    "content": "Diabetic/Hypoglycemic Emergencies #1 1. Manage airway as appropriate, see Airway Algorithm, Blue 2\n2. Request ALS, if available\n3. If trained, perform finger stick to measure blood glucose\n    a. If blood glucose is less than 60 mg/dL, AND PATIENT IS CONSCIOUS AND ABLE TO SWALLOW, give glucose (one tablet or tube) orally. Repeat, as needed, for clinical improvement.\n4. If unable to obtain a finger stick blood glucose, and patient is a known diabetic, has clinical signs of hypoglycemia AND IS CON"
+  },
+  {
+    "id": "gold_seizure",
+    "title": "Seizure",
+    "category": "gold",
+    "categoryName": "General Medical",
+    "content": "Seizure #1 PEARLS for Seizures: Most seizures are self-limited. Unless a specific underlying condition exists (e.g., diabetes with hypoglycemia, head injury), treatment of a seizure or multiple seizures with a total duration of less than 5 minutes should focus on patient protection and oxygenation. 1. Manage airway as appropriate, see Airway Algorithm, Blue 2\n2. Spinal immobilization as indicated. Refer to Spine Assessment & Management protocol, Green 3\n3. For head injury, refer to Head Trauma p"
+  },
+  {
+    "id": "gold_stroke",
+    "title": "Stroke",
+    "category": "gold",
+    "categoryName": "General Medical",
+    "content": "Stroke #1\n\nStroke should be suspected whenever a person suddenly develops new neurological symptoms or complaints. These most commonly are weakness or loss of sensation to one side of the face or limbs, abnormal speech (slurred or inappropriate words) or comprehension, loss of vision or double vision, dizziness, difficulty with coordination of the limbs or walking. Other symptoms that can be due to stroke include sudden dizziness/vertigo or nausea and vomiting, sudden confusion or alterations in"
+  },
+  {
+    "id": "gold_medical_shock",
+    "title": "Medical Shock",
+    "category": "gold",
+    "categoryName": "General Medical",
+    "content": "Medical Shock #1\n\nSee Cardiogenic Shock protocol, Red 32 if appropriate\nSee Hemorrhagic Shock protocol, Green 13 if appropriate\nSee Allergy and Anaphylaxis protocol, Gold 1 if appropriate\nSee Airway Algorithm, Blue 2 if appropriate\n\nIDENTIFICATION OF POSSIBLE SEPSIS\n\n*   Suspected infection? AND:\n*   Evidence of sepsis criteria? Includes two or more of the following:\n    *   Temperature less than 96.8°F (36°C) or greater than 101°F (38.3°C)\n    *   Heart rate greater than 90 bpm\n    *   Respirat"
+  },
+  {
+    "id": "gold_abdominal_pain",
+    "title": "Abdominal Pain",
+    "category": "gold",
+    "categoryName": "General Medical",
+    "content": "Abdominal Pain\n\nMany diseases cause abdominal pain. While it is almost impossible to diagnose the cause of abdominal pain in the EMS environment, it is important to be prepared for the patient to suddenly become very ill. If the patient is in shock, refer to the medical shock protocol. 1. Manage airway as appropriate, see Airway Algorithm, Blue 2\n2. If evidence of shock, refer to the Medical Shock protocol, Gold 14\n3. If available and so trained, perform 12-lead ECG in patients with prior histor"
+  },
+  {
+    "id": "gold_nausea_and_vomiting",
+    "title": "Nausea and Vomiting",
+    "category": "gold",
+    "categoryName": "General Medical",
+    "content": "Nausea and Vomiting\n\nNausea and vomiting are symptoms of some other illness. Therefore, this is a supplemental protocol to be used in addition to other relevant protocols 1. Manage airway as appropriate, see Airway Algorithm, Blue 2\n2. Transport in position of comfort, unless contraindicated\n3. If available and so trained, perform 12-lead ECG if the patient has a history of cardiac disease, risk factors for cardiac disease, or based on the EMS clinician's discretion. 4. Consider Ondansetron: (Re"
+  },
+  {
+    "id": "gold_fever",
+    "title": "Fever",
+    "category": "gold",
+    "categoryName": "General Medical",
+    "content": "Fever #1\n\nThis protocol applies to patients with measured temperatures greater than or equal to 101F (38.3C) who have NOT received any acetaminophen-containing medications in the past 6 hours, do NOT have underlying liver disease AND are NOT allergic to acetaminophen. 1.  If infection suspected, see Medical Shock protocol, Gold 14\n2.  Begin passive cooling by turning on fan/air conditioning in patient compartment and uncovering the patient.\n3.  If no contraindications to oral medications exist, "
+  },
+  {
+    "id": "green_trauma_triage",
+    "title": "Trauma Triage",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Trauma Triage #2\n(Patient with Blunt or Penetrating Trauma) *   EMS clinician triage to the appropriate level Trauma Center is beneficial to patient outcomes.\n*   Patients with any suspicion for specialty surgical needs (including neurosurgical injury) should be transferred to a Level 1 or Level 2 Trauma Center whenever possible.\n*   If additional transfer time to a Level 1 or Level 2 Trauma Center is felt to be deleterious to the patient, transfer to the highest-level Trauma Center available or"
+  },
+  {
+    "id": "green_spine_assessment_management",
+    "title": "Spine Assessment & Management",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Spine Assessment & Management #2\n\n* High risk mechanisms of injury in the pediatric population include, but are not limited to, the following: motor vehicle collisions, recreational vehicles (all-terrain vehicles and snowmobiles), axial loading, substantial torso injuries, and falls greater than 10 feet.\n\n** Clearance of the spine requires the patient to be calm, cooperative, sober, and alert. Note that the smell of alcohol on the breath is not necessarily the same thing as intoxication; a singl"
+  },
+  {
+    "id": "green_chest_trauma",
+    "title": "Chest Trauma",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Chest Trauma 1. Administer O₂ or assist ventilations (PPV) as appropriate, refer to Airway Algorithm, Blue 2.\n2. Request ALS, if available.\n3. Impaled Objects:\n    a. Secure in place with bulky dressings.\n4. Open chest wound:\n    a. Cover with thick, bulky dressing (e.g., abd pad or bulky trauma dressing) and secure in place.\n        i. Monitor for persistent air leak and add additional dressings or consider occlusive dressing and one-way valve, if needed.\n5. Flail segment with paradoxical movem"
+  },
+  {
+    "id": "green_head_trauma",
+    "title": "Head Trauma",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Head Trauma #1\n\nDefinition: Prehospital identification of moderate to severe Traumatic Brain Injury (TBI): Any patient with physical trauma and a mechanism consistent with the potential to have induced a brain injury and:\n\n*   Any injured patient with loss of consciousness, especially those with a GCS less than 15 or decreased level of consciousness, decreased responsiveness, or any deterioration of mental status. Please recall, GCS may be difficult to obtain or interpret in young children or in"
+  },
+  {
+    "id": "green_hemorrhage",
+    "title": "Hemorrhage",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Hemorrhage 1. Identify all sites of bleeding and control with direct pressure and elevation.\n2. If life-threatening bleeding is on extremity and uncontrolled with direct pressure, consider applying a Maine EMS-approved tourniquet.\n    a. Tourniquets should be applied proximally on the affected limb for the following reasons:\n        i. Injuries are commonly more proximal than anticipated, and\n        ii. Double-bone structures in both the forearm and the lower leg effectively splint the arteries"
+  },
+  {
+    "id": "green_hemorrhagic_shock",
+    "title": "Hemorrhagic Shock",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Hemorrhagic Shock #1\n\nIf history of illness or mechanism of injury consistent with signs/symptoms of shock (elevated pulse, elevated respiratory rate, cool/pale skin, altered LOC, anxiety, sweating or lowered BP) then transport as soon and as efficiently as possible.\n\nIf the cause of the shock is NOT related to hemorrhage , consider the following protocols:\nAnaphylaxis, refer to the Anaphylaxis protocol, Gold 1\nCardiogenic, refer to the Cardiogenic Shock protocol, Red 32\nTension pneumothorax, re"
+  },
+  {
+    "id": "green_burn",
+    "title": "Burn",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Burn #1 1. Remove burned clothing and/or jewelry, unless adhered to patient.\n2. Administer high flow oxygen in patients with respiratory distress or evidence of hemorrhagic shock. Additionally, consider the administration of oxygen in patients who may have been exposed to high levels of carbon monoxide (e.g., enclosed spaces).\n3. Give highest priority to airway problems and major trauma.\n4. Manage shock, if present.\n5. Cover burn with dry dressing, sterile sheet, or commercially prepared dry dre"
+  },
+  {
+    "id": "green_universal_pain_management",
+    "title": "Universal Pain Management",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Universal Pain Management #1\n\nPatient Inclusion Criteria\nAdult and pediatric patients who are experiencing pain either from a traumatic injury or with non-traumatic chest, abdominal, or flank pain. Contact OLMC for any other painful conditions including but not limited to back pain, headache, and non-traumatic extremity pain.\n\nPatient Exclusion Criteria\nChange in baseline mental status or head injury with change in mental status from baseline.\nFor suspected cardiac chest pain, refer to Chest Pai"
+  },
+  {
+    "id": "green_termination_of_resuscitation_for_traumatic_cardiac_arrest",
+    "title": "Termination of Resuscitation for Traumatic Cardiac Arrest",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Termination of Resuscitation For Traumatic Cardiac Arrest\n\nDo NOT initiate cardiac arrest resuscitation regardless of transport if any of the following exist:\n*   Injuries incompatible with life\n*   Evidence of significant time lapse since pulselessness, including dependent lividity, rigor mortis or decomposition\n\nInclusion Criteria:\n*   Cardiac arrest from blunt or penetrating trauma in adult and pediatric patients\n\nExclusion Criteria: (Patients for whom this protocol does not apply):\n*   Patie"
+  },
+  {
+    "id": "green_crush_injury",
+    "title": "Crush Injury",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Crush Injury\n\nEMT/ADVANCED EMT/ PARAMEDIC\n1.  If severe hemorrhage is present, refer to Hemorrhage protocol, Green 12.\n2.  Administer high-flow oxygen to maintain O₂ sat between 94-99%.\n3.  Manage airway as appropriate, see Airway Algorithm, Blue 2. 4.  Intravenous access should be established with Normal Saline initial bolus of 10-15 mL/kg (prior to extrication if possible). 5.  For significant crush injuries or prolonged entrapped extremity, consider sodium bicarbonate 1 mEq/kg (max dose of 50"
+  },
+  {
+    "id": "green_facial_dental_injury",
+    "title": "Facial / Dental Injury",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Facial/Dental Injury\n\nEMT/ADVANCED EMT/ PARAMEDIC\n\n1.  Administer oxygen, as appropriate, with a target of achieving 94-99% saturation.\n2.  Avulsed tooth:\n    a. Avoid touching the root of the avulsed tooth. Do not wipe off tooth.\n    b. Pick up at crown end. If dirty, rinse off under cold water for 10 seconds.\n    c. Place tooth in milk or saline as the storage medium. Alternatively, a cooperative patient can hold tooth in mouth using own saliva as storage medium.\n3.  Unstable Mandible Injury:\n"
+  },
+  {
+    "id": "green_ophthalmology",
+    "title": "Ophthalmology",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Ophthalmology 1. Assess eye. Never put pressure on an injured globe.\n2. Assess gross visual acuity (e.g., count fingers).\n3. For thermal exposure, assist patient with removal of contact lenses and apply cool saline gauze to both eyes.\n4. For chemical exposure, assist patient with removal on contact lenses and flush eye(s) with sterile saline or clean water source continuously.\n5. For direct eye trauma:\n    a. Impaled object: secure object and patch both eyes. Keep patient supine.\n    b. Puncture"
+  },
+  {
+    "id": "green_open_fractures",
+    "title": "Open Fractures",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Open Fractures\n\nDefinition of Open Fracture: Suspected fracture with associated extensive tissue damage, wound, and/or visible bone; including partial or completed amputations. 1. Assess for other life-threatening injuries and manage as indicated.\n2. In patients who are otherwise stable, gross contamination (such as leaves or gravel) should be removed if possible.\n3. Cover open fractures with moist, sterile dressing.\n4. Splint the fractured extremity in the anatomic position, if possible, or the"
+  },
+  {
+    "id": "green_strangulation",
+    "title": "Strangulation",
+    "category": "green",
+    "categoryName": "Trauma",
+    "content": "Strangulation\n\n*   Strangulation should be suspected anytime that someone has been assaulted and experienced either syncope, blunt neck trauma (e.g., \"choking\", being held down with an extremity to their neck, etc.), facial or chest injuries, hoarse voice, loss of hearing or vision, incontinence, etc.\n*   Patients who have suffered strangulation are at risk for airway compromise, vascular injury and stroke up to 72 hours after injury.\n*   Interpersonal violence scenes are high risk for EMS provi"
+  },
+  {
+    "id": "yellow_poisoning_overdose",
+    "title": "Poisoning / Overdose",
+    "category": "yellow",
+    "categoryName": "Toxicologic",
+    "content": "Poisoning/Overdose #1\n\nCall Poison Control (1-800-222-1222) to receive medical guidance on patient care and to ensure that information regarding the toxin can be sent to the receiving ED prior to patient arrival. 1. Administer O₂, as appropriate.\n2. Manage airway as needed, refer to Airway Algorithm, Blue 2.\n3. Request ALS.\n4. If respirations less than 12/minute AND narcotic overdose suspected:\n\nNEVER GIVE NALOXONE TO A NEONATE\n&lt;img&gt;Bear with bandage&lt;/img&gt;\n\na. ADULT and PEDIATRIC pat"
+  },
+  {
+    "id": "yellow_naloxone_dispensation",
+    "title": "Naloxone Dispensation",
+    "category": "yellow",
+    "categoryName": "Toxicologic",
+    "content": "Naloxone Dispensation\n\nAmendments to Maine Law in 2021 allow EMS clinicians in the state of Maine to distribute naloxone to patients who are treated for opioid overdose, but refuse transport to the hospital. This protocol establishes the conditions for naloxone distribution (i.e., Naloxone \"Leave Behind\" Program). If a patient treated for opioid overdose refuses transport to the hospital, and the patient has decision making capacity (defined by Maine EMS Transport protocol, Grey 22):\n1. Distribu"
+  },
+  {
+    "id": "yellow_alcohol_intoxication_severe_alcohol_withdrawal",
+    "title": "Alcohol Intoxication / Severe Alcohol Withdrawal",
+    "category": "yellow",
+    "categoryName": "Toxicologic",
+    "content": "Alcohol Intoxication/Severe Alcohol Withdrawal #1 1. Assess ABCs.\n2. Obtain vital signs.\n3. Assess level of consciousness. Consider alternative diagnosis. Refer to Altered Level of Consciousness protocol, Gold 5.\n4. If trained, perform finger stick blood glucose.\n    a. If blood glucose less than 60 mg/dL or clinical condition suggests hypoglycemia, request ALS and refer to Diabetic/Hypoglycemic protocol, Gold 6\n5. In Acute Alcohol Intoxication - If the patient has evidence of incapacitating int"
+  },
+  {
+    "id": "yellow_nerve_agent_organophosphate_carbamate_poisoning",
+    "title": "Nerve Agent / Organophosphate / Carbamate Poisoning",
+    "category": "yellow",
+    "categoryName": "Toxicologic",
+    "content": "Nerve Agent/Organophosphate/Carbamate Poisoning WARNING: CONTACT WITH THESE TOXINS CAN BE FATAL TO RESCUERS. CONSIDER SCENE SAFETY AND DECONTAMINATION\n* Assess for SLUDGEM symptoms (Salivation, Lacrimation, Urination, Defecation, GI Distress, Emesis, Muscle twitching/Miosis [constricted pupils]) and the Killer-Bs (Bradycardia, Bronchorrhea, Bronchospasm).\n* If you suspect a bioterrorism/WMD threat, see Grey 34.\n* Transport patients with all windows of ambulance open.\n* Decontaminate entire ambul"
+  },
+  {
+    "id": "yellow_cyanide_co_exposure",
+    "title": "Cyanide / CO Exposure",
+    "category": "yellow",
+    "categoryName": "Toxicologic",
+    "content": "Cyanide/CO Exposure #1\n\nDon PPE if necessary, assess patient after evacuation\nRemove patient from source of smoke/inhalation\n\n\ngraph LR\n    A[Assessment] --> B[Proceed to appropriate trauma or airway management protocol]\n    subgraph Assessment\n        A1[Vital signs]\n        A2[Evidence of major trauma]\n        A3[Major burns, inhalation injury]\n    end\n\n\nSeverity of Exposure Definitions (CO, CN, or Combined)\n\n\n  \n    \n      Mild Exposure\n      Moderate Exposure\n      Severe Exposure\n    \n  \n  "
+  },
+  {
+    "id": "yellow_radiation_injuries",
+    "title": "Radiation Injuries",
+    "category": "yellow",
+    "categoryName": "Toxicologic",
+    "content": "Radiation Injuries 1. Ensure the scene is safe.\n2. Don standard PPE capable of preventing skin exposure to liquids and solids (gown and gloves), mucous membrane exposure to liquids and particles (face mask and eye protection), and inhalational exposure to particles (N95 face mask or respirator).\n3. Hazmat Trained Personnel to determine need for decontamination\n4. For Mass Casualty Incidents (MCI), if vomiting occurs:\n    a. Within 1 hour of exposure, survival is unlikely. If providing care to pa"
+  },
+  {
+    "id": "yellow_severe_hypothermia_with_signs_of_life",
+    "title": "Severe Hypothermia WITH Signs of Life",
+    "category": "yellow",
+    "categoryName": "Toxicologic",
+    "content": "Severe Hypothermia WITH Signs of Life\n\n\n  \n    \n      Classification\n      Core Temp\n      Clinical Presentation\n    \n  \n  \n    \n      Normal\n      &gt;95° F / 35° C\n      Cold sensation/shivering\n    \n    \n      Mild\n      90 - 95° F32 - 35° C\n      Loss of fine or gross motor skills inability to complete simple thoughts\n    \n    \n      Moderate\n      82 - 90° F28 - 32° C\n      &lt;/= 90° F/32° C: Shivering stops&lt;/=86° F/30° C: AMS\n    \n    \n      Severe\n      ≤82° F≤28° C≤77° F≤24° C\n      "
+  },
+  {
+    "id": "yellow_severe_hypothermia_without_signs_of_life",
+    "title": "Severe Hypothermia WITHOUT Signs of Life",
+    "category": "yellow",
+    "categoryName": "Toxicologic",
+    "content": "Severe Hypothermia WITHOUT Signs of Life\n\nNote: Assess for pulse and respirations for 1 minute.\n\nNote: Definitive treatment for severe hypothermia without signs of life is rewarming with cardiopulmonary bypass. Do not delay transport of these patients. Do not initiate CPR if it will delay transport.\n\nDo not initiate resuscitation if the patient meets any of the criteria in Grey 3 Section II.A OR Rescuers are exhausted or in a dangerous situation. These patients are deceased. 1. Initiate CPR afte"
+  },
+  {
+    "id": "yellow_hyperthermia_heat_exhaustion_heat_stroke",
+    "title": "Hyperthermia - Heat Exhaustion / Heat Stroke",
+    "category": "yellow",
+    "categoryName": "Toxicologic",
+    "content": "Hyperthermia - Heat Exhaustion\n\nHEAT EXHAUSTION — Volume depletion due to sweat loss.\n\nASSESSMENT:\nIf core temperature is obtained, it will be variable but always below 105° F (40.6° C).\nClinical pattern is essentially that of compensated hypovolemic shock:\n* Weakness and vomiting,\n* Skin condition/color is variable. Core-shell shunt to increase heat loss competes with shell-core shunt to protect volume. Skin is usually pale and moist with variable skin temperature,\n* Sweating,\n* Normal consciou"
+  },
+  {
+    "id": "yellow_drowning_submersion_injuries",
+    "title": "Drowning/Submersion Injuries",
+    "category": "yellow",
+    "categoryName": "Toxicologic",
+    "content": "Drowning/Submersion Injuries 1.  If C-spine injury suspected, manage C-spine per Spine Assessment & Management protocol, Green 3.\n2.  Obtain specific history including time, temperature, associated injury, etc.\n3.  Begin resuscitation efforts while removing patient from the water (e.g., rescue breaths) - follow ABC (rather than CAB) flow of resuscitation.\n4.  Consider hypothermia, refer to Severe Hypothermia protocols, Yellow 11 & 12.\n5.  Remove wet clothes and warm the patient.\n6.  Conscious pa"
+  },
+  {
+    "id": "lavender_obstetric_emergencies",
+    "title": "Obstetric Emergencies",
+    "category": "lavender",
+    "categoryName": "Obstetric",
+    "content": "Obstetric Emergencies\n\nMost pregnancies progress with no complications. In cases of pregnancy with either vaginal bleeding or abdominal/pelvic pain, consider the following possibilities:\n\n1.  Abruptio placenta: placenta prematurely separates from the uterus causing intrauterine bleeding\n2.  Placenta previa: placenta covers part or all of the cervical opening\n3.  Ectopic pregnancy (ruptured)\n4.  Spontaneous abortion (miscarriage)\n5.  Pre-eclampsia/eclampsia (can occur for up to 6 weeks postpartum"
+  },
+  {
+    "id": "lavender_child_birth",
+    "title": "Child Birth",
+    "category": "lavender",
+    "categoryName": "Obstetric",
+    "content": "Childbirth #1 1. Evaluate for crowning/imminent delivery.\n2. If crowning/imminent delivery, encourage mother to relax, breathe slowly, and let baby deliver.\n3. If hypotensive, roll patient onto left or right hip.\n4. If the presenting part is the cord, apply pressure to the baby with a sterile, gloved hand to keep pressure off the cord until cord pulsations are felt. Raise mother's hips onto pillows. Keep cord warm and moist. Do not clamp or cut cord.\n5. Request ALS, if available, and DO NOT DELA"
+  },
+  {
+    "id": "lavender_newborn_metrics_apgar_o2_saturation",
+    "title": "Newborn Metrics / APGAR & O2 Saturation",
+    "category": "lavender",
+    "categoryName": "Obstetric",
+    "content": "Newborn Metrics\n\nAssess the baby at 1 minute and again at 5 minutes.\n\nDO NOT DELAY RESUSCITATION to obtain APGAR Score.\n\nA score of less than 7 suggests need for resuscitation with suction, ventilation, and ALS back up.\n\nAPGAR Score\n\n\n  \n    \n      \n      \n      0\n      1\n      2\n    \n  \n  \n    \n      A\n      Appearance\n      Blue or Pale\n      Body Pink/Hands Blue\n      Pink\n    \n    \n      P\n      Pulse\n      Absent\n      less than 100\n      greater than 100\n    \n    \n      G\n      Grimace*\n  "
+  },
+  {
+    "id": "lavender_newborn_resuscitation",
+    "title": "Newborn Resuscitation",
+    "category": "lavender",
+    "categoryName": "Obstetric",
+    "content": "Newborn Resuscitation\n\n\ngraph TD\n    A[Term gestation? Breathing or crying? Good muscle tone?] -->|YES| B[Routine careProvide warmthOpen airwayDryOngoing evaluation]\n    A -->|NO| C[Provide warmthOpen airwayDry, stimulate]\n\n    subgraph 30 Sec\n        direction LR\n        D[HR Below 100?Gasping or apnea?] -->|YES| E[PPV With room air (No oxygen). Advanced airway as needed]\n        D -->|NO| F[Labored breathing orPersistent cyanosis?]\n    end\n\n    E --> G[HR below 100?]\n    G -->|YES| H[Ensure ad"
+  },
+  {
+    "id": "pink_brief_resolved_unexplained_event",
+    "title": "Brief Resolved Unexplained Event",
+    "category": "pink",
+    "categoryName": "Pediatric",
+    "content": "Brief Resolved Unexplained Event\n\nPEARLS\nDefinition of Brief Resolved Unexplained Event (BRUE):\nThese are sudden, brief (less than 1 minute), now resolved (returned to baseline) episodes of at least one of the following in a child less than 1 years old:\n1. Cyanosis or pallor\n2. Absent, decreased, or irregular breathing\n3. Marked change in tone (hyper- or hypotonia)\n4. Altered level of responsiveness\nNOTE: Most children who experience a BRUE have a normal physical exam, however, almost 50% will h"
+  },
+  {
+    "id": "pink_pediatric_respiratory_distress_with_inspiratory_stridor",
+    "title": "Pediatric Respiratory Distress with Inspiratory Stridor",
+    "category": "pink",
+    "categoryName": "Pediatric",
+    "content": "Pediatric Respiratory Distress with Inspiratory Stridor\n\nInspiratory stridor may be due to many causes in the pediatric population, including croup, foreign body aspiration, or epiglottitis.\n\nStridor refers to upper airway obstruction as in laryngotracheitis/croup and is often accompanied by hoarseness and/or a barking cough (seal-like cough).\n\nAs stridor worsens in severity, the following may also be observed: tachypnea, retractions, accessory muscle use, nasal flaring, fatigue from respiratory"
+  },
+  {
+    "id": "pink_neonatal_and_young_infant_fever",
+    "title": "Neonatal and Young Infant Fever",
+    "category": "pink",
+    "categoryName": "Pediatric",
+    "content": "Neonatal and Young Infant Fever\n\nPEARLS\nNeonates and young infants have immature immune systems and are at high risk for serious bacterial infection despite appearing well. The rate of serious bacterial infection (SBI) is up to 20% in neonates. Often, fever may be the only sign of critical illness in these children. All febrile neonates and young infants should be transported to the emergency department for further evaluation.\n\nDefinitions:\n*   Neonates are children 0-28 days old.\n*   Young infa"
+  },
+  {
+    "id": "pink_normal_pediatric_vital_signs",
+    "title": "Normal Pediatric Vital Signs",
+    "category": "pink",
+    "categoryName": "Pediatric",
+    "content": "Normal Pediatric Vital Signs, 1\n\nNormal Pediatric Vital Signs\n\n\n  \n    \n      Age\n      Approximate Weight (kg)\n      Pulse/Min\n      Resp/Min\n      Minimum Systolic BP\n      Glucose (mg/dl)\n    \n  \n  \n    \n      Newborn\n      3\n      100-160\n      30-60\n      60\n      45-120\n    \n    \n      6 months\n      7\n      100-160\n      30-60\n      70\n      \n    \n    \n      1 year\n      10\n      100-140\n      24-40\n      70\n      \n    \n    \n      2 years\n      12\n      80-130\n      24-40\n      70\n      \n"
+  },
+  {
+    "id": "pink_pediatric_specific_equipment_sizes",
+    "title": "Pediatric Specific Equipment Sizes",
+    "category": "pink",
+    "categoryName": "Pediatric",
+    "content": "Pediatric Specific Equipment Sizes\n\n\n  \n    \n      Equipment\n      \n    \n    \n      GREY3-5 kg\n      PINKSmallInfant6-7 kg\n      REDInfant8-9 kg\n      PURPLEToddler10-11 kg\n      YELLOWSmallChild12-14 kg\n      WHITEChild15-18 kg\n      BLUEChild19-23 kg\n      ORANGELargeChild24-29 kg\n      GREENAdult30-36 kg\n    \n  \n  \n    \n      BVM\n      Infant or child\n      Infant or child\n      Infant or child\n      Child\n      Child\n      Child\n      Child\n      Child\n      Adult\n    \n    \n      Oral Airway"
+  },
+  {
+    "id": "pink_pediatric_transportation",
+    "title": "Pediatric Transportation",
+    "category": "pink",
+    "categoryName": "Pediatric",
+    "content": "Pediatric Transportation, #1\n\nPEARLS\nThese guidelines apply to transporting pediatric patients who are of an age/weight that require a child safety seat. Pediatric patients that don't require a child safety seat should be transported following adult guidelines.\n\nMaine Statute 29-A M.R.S.§2081(2) & (3) requires all children weighing less than 80 pounds, less than 57 inches in height and less than 8 years old to be properly restrained in a child safety seat when riding in a vehicle. Children betwe"
+  },
+  {
+    "id": "orange_transport_of_mentally_ill_patients",
+    "title": "Transport of Mentally Ill Patients",
+    "category": "orange",
+    "categoryName": "Behavioral",
+    "content": "Transport of Mentally Ill Patients #1\n\nMaine EMS personnel are generally called to transport a mentally ill patient in one of two situations:\n\nEmergency Transport\nSafety for the patient and the crew is the primary concern in the transport of the mentally ill patient. Recognizing that altered level of consciousness can mimic mental illness, especially in the prehospital setting, personnel should perform a thorough medical evaluation referring to Altered Level of Consciousness protocol, Gold 5, pr"
+  },
+  {
+    "id": "orange_depression_suicidal_ideation",
+    "title": "Depression / Suicidal Ideation",
+    "category": "orange",
+    "categoryName": "Behavioral",
+    "content": "Depression/Suicidal Ideation\n\n1.  Ensure the scene is safe and request law enforcement for patients actively threatening/attempting suicide.\n2.  Assess the patient: has suicide attempt or self-harm occurred? If yes, evaluate for need of medical treatment (e.g., ingestion) or traumatic injuries (e.g., cutting, strangulation) and refer to appropriate protocol. If needed, call for ALS.\n3.  Establish rapport with the patient by listening carefully and speaking in a non-confrontational manner.\n4.  As"
+  },
+  {
+    "id": "orange_restraints",
+    "title": "Restraints",
+    "category": "orange",
+    "categoryName": "Behavioral",
+    "content": "Restraints\n\nIn certain limited situations, when a patient poses a significant danger to self or others, it may be appropriate to restrain the patient involuntarily. Clinicians are cautioned to use physical restraint as a last resort, preferably with the assistance of local law enforcement. Once the decision is made to restrain a patient, the least restrictive restraint reasonable should be implemented and the patient should remain restrained until arrival at the emergency department, unless it i"
+  },
+  {
+    "id": "orange_hyperactive_delirium_with_severe_agitation",
+    "title": "Hyperactive Delirium with Severe Agitation",
+    "category": "orange",
+    "categoryName": "Behavioral",
+    "content": "Hyperactive Delirium with Severe Agitation #3 Agitation - is defined by excessive, purposeless cognitive and motor activity or restlessness, usually associated with a state of tension or anxiety. Hyperactive Delirium with Severe Agitation is a sub-category of agitation, with a potential for higher morbidity and mortality. It can be defined by a patient presenting with the following constellation of symptoms (based on the 2009 ACEP White Paper) with frequency in parenthesis:\n\n*   Exceptional/abno"
+  },
+  {
+    "id": "grey_minimum_landing_zone",
+    "title": "Minimum Landing Zone",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Minimum Landing Zone (LZ) Area #1\n\n&lt;img&gt;Flashlight with light on&lt;/img&gt;\nWind Direction\n\n&lt;img&gt;Flashlight pointing down&lt;/img&gt;\n\n&lt;img&gt;Flashlight pointing up&lt;/img&gt;\n\n&lt;img&gt;Flashlight pointing left&lt;/img&gt;\n\n&lt;img&gt;Flashlight pointing right&lt;/img&gt;\n\n&lt;img&gt;LZ logo&lt;/img&gt;\n\nApproach\n\nAircraft Arrival\n*   Identify Scene and LZ Incident Command\n*   Establish radio communications prior to landing\n*   State Fire or State EMS are the default radio fr"
+  },
+  {
+    "id": "grey_do_not_resuscitate_guidelines",
+    "title": "Do Not Resuscitate Guidelines",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Do Not Resuscitate (DNR) Guidelines #1\n\nI. When to Start Resuscitation:\nAs soon as the absence of pulse and respiration is established.\n* For presumed medical cardiac arrest, refer to Adult Cardiac Arrest protocol, Red 9 or Pediatric Cardiac Arrest protocol, Red 18.\n* For traumatic cardiac arrest, refer to Termination of Resuscitation for Traumatic Cardiac Arrest protocol, Green 22.\n\nII. When Not to Start Resuscitation:\nA. All Patients:\n1. When irreversible signs of death, such as rigor mortis, "
+  },
+  {
+    "id": "grey_pre_hospital_management_of_hospice_patients",
+    "title": "Pre-hospital Management of Hospice Patients",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Pre-Hospital Management of Hospice Patients, #1\n\nEMS may be called to respond to patients on Hospice Care. This may occur because the patient (or family) was unable to reach a Hospice nurse/physician or the patient (or family) became anxious. In these circumstances, EMS clinicians should make every effort to reach a Hospice Provider and should remain with the patient until the Hospice Provider arrives. Comforting interventions (Grey 4) should be undertaken. Support family members.\n\nEMS clinician"
+  },
+  {
+    "id": "grey_death_situations_for_emergency_responders",
+    "title": "Death Situations for Emergency Responders",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Death Situations for Emergency Responders #1\n\nPREPARED JOINTLY BY: Attorney General, Office of Chief Medical Examiner, and Maine State Police.\n\nGENERAL AIM: Preservation of scene, including body as found, for investigative purposes within practical limits consistent with the role and responsibilities of emergency medical care givers.\n\nDeath Situation Guidelines\n\nI. Preserve life: While forensic guidelines emphasize that the scene should not be disturbed, the first and most important course of ac"
+  },
+  {
+    "id": "grey_maine_death_with_dignity_law",
+    "title": "Maine Death With Dignity Law",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Maine Death with Dignity Law\n\nPEARLS\nDeath with Dignity Law (Sec. 1. 22 MRS c. 418 ): The Maine Death with Dignity Act provides eligible Maine residents with terminal, incurable diseases that will, within reasonable medical judgment, result in death within six months, the option to be prescribed a dose of medication that, if taken, will hasten the end of their life.\n\nPatients should have a either a form that identifies their participation in the Maine Death with Dignity Program or a DNR/POLST fo"
+  },
+  {
+    "id": "grey_bariatric_patients",
+    "title": "Bariatric Patients",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Bariatric Patients\n\nThis protocol provides guidance for the triage, extrication, care and transport of bariatric patients. A bariatric patient exceeds 180 kg (400 lbs.) or possesses a body habitus that challenges the ability of a two-person crew to manage effectively. On scene time may be prolonged for bariatric patients who may require additional resources, personnel and equipment to safely evaluate, manage and transport. Goals include the timely and effective management of these patients while"
+  },
+  {
+    "id": "grey_mass_casualty_disasters_hazmat",
+    "title": "Mass Casualty / Disasters/Hazmat",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Mass Casualty/Disasters/HazMat #1\n\nGENERAL RESPONSIBILITY FOR DECEASED PERSONS: The Office of Chief Medical Examiner is responsible for deceased victims of mass disasters including identification and removal from the scene. The Office of Chief Medical Examiner (1-800-870-8744, restricted emergency call number) should be informed immediately of any multiple fatality situations.\n\n1.  BODIES SHOULD BE LEFT IN PLACE AT THE SCENE except when they must be moved to preserve them from destruction or whe"
+  },
+  {
+    "id": "grey_sexual_assault_victim",
+    "title": "Sexual Assault Victim",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Sexual Assault Victim\n\nALL LEVELS\n1. Treat any life-threatening emergency first and according to these protocols.\n2. Try to attend to maintenance of forensic evidence. Try not to cut through tears or stains in clothing. Do not cleanse any skin area more than necessary to provide immediate care.\n3. If the patient so desires and/or mandated reporting is indicated, police should be called if they have not already been notified.\n4. In cases of sexual abuse of a minor or disabled person (mandated rep"
+  },
+  {
+    "id": "grey_child_abuse_management_and_reporting",
+    "title": "Child Abuse Management and Reporting",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Child Abuse Management and Reporting #1\n\nCHILD ABUSE\n(Title 22 MRS, Chapter 1071, Subsection 4011-A)\n\nAll levels\n*   Child (a person who has not reached the age of 18 years) abuse and child neglect are sufficiently widespread to guarantee that virtually every EMS clinician will encounter them at least once during his/her career.\n*   It is estimated that approximately 2-3 million cases occur each year, or approximately 11 cases per every 1,000 children within the U.S. Each year at least 2,000 chi"
+  },
+  {
+    "id": "grey_adult_abuse_and_intoxicated_drivers",
+    "title": "Adult Abuse, and Intoxicated Drivers",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Adult Abuse, and Intoxicated Drivers\n\nADULT ABUSE\n(Title 22 MRS, Chapter 958-A, Subsection 3477)\n\n“Reasonable cause to suspect. The following persons while acting in a professional capacity…ambulance attendant, emergency medical technician or other licensed medical service provider, Unlicensed assistive personnel shall immediately report to the department when the person knows or has reasonable cause to suspect that an incapacitated or dependent adult has been or is likely to be abused, neglecte"
+  },
+  {
+    "id": "grey_transport_protocol",
+    "title": "Transport Protocol",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Transport Protocol #1\n\n\ngraph TD\n    A[EMS Clinician Assesses Patient] --> B[Patient Accepts Treatment/Transport?]\n    B -- YES --> C[Patient Transported]\n    B -- NO --> D[Decision-Making Capacity*?]\n    D -- YES --> E[Patient WITH Decision-Making Capacity* NOT Transported]\n    D -- NO --> F[Patient WITHOUT Decision-Making Capacity* Transported]\n\n\n\\*A patient without decision-making capacity would be one who has one or more of the following: an altered mental status or intoxicated, confused, de"
+  },
+  {
+    "id": "grey_protective_headgear_removal",
+    "title": "Protective Headgear Removal",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Protective Headgear Removal\n\nThe decision to remove protective headgear from an injured patient rests with the EMS clinician on scene unless a Maine licensed physician is on scene and takes responsibility for the patient. It is important to immobilize the patient in a neutral in-line position, regardless of whether or not you choose to remove the helmet. This requires that you evaluate each patient and determine if other equipment (e.g., shoulder pads) must be removed or if additional padding un"
+  },
+  {
+    "id": "grey_crime_scenes",
+    "title": "Crime Scenes",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Crime Scenes\n\nDO NOT enter an active shooter scene, or a scene in which an unsecured weapon is involved, until the scene is secured by law enforcement, unless trained and authorized to do so (such as in the context of a tactical response team or rescue task force). If encountering a possible crime scene and not previously dispatched, contact law enforcement.\n\nOnce a crime scene is deemed safe by law enforcement, initiate patient contact and medical care, if necessary.\n* Do not sacrifice patient "
+  },
+  {
+    "id": "grey_defibrillation_cardioversion_settings",
+    "title": "Defibrillation / Cardioversion Settings",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Defibrillation/Cardioversion Settings\n\nDEFIBRILLATION SETTINGS*\n\n\n  \n    \n      \n      Initial\n      Second\n      Third\n      Fourth\n      Subsequent\n    \n  \n  \n    \n      Adult\n      Per device recommendations* If unknown, use maximum\n      \n      \n      \n      Maximum available energy\n    \n    \n      Pediatric\n      2 J/kg\n      4 J/kg\n      6 J/kg\n      8 J/kg\n      Max 10 J/kg\n    \n  \n\n\n* Each device manufacturer recommends initial adult defibrillation settings. Please follow the recommendat"
+  },
+  {
+    "id": "grey_baby_safe_haven_laws",
+    "title": "Baby Safe Haven Laws",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Baby Safe Haven Laws Maine Safe Haven Laws: In Maine, a person may voluntarily deliver their baby not more than 31 days old to any safe haven provider with intent not to take back the newborn. The term “safe haven provider” as defined in 22 M.R.S. § 4018(1)(B) refers to a law enforcement officer; staff at a medical emergency room; a medical services provider (which includes Emergency Medical Services person); a hospital staff member at a hospital, or a fire fighter.\n\nProcedure:\n1. Examine baby a"
+  },
+  {
+    "id": "grey_safe_response_transport",
+    "title": "Safe Response & Transport",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Safe Response and Transport\n\n1.  Transporting services should develop response and transport (lights and siren) policies approved by the service medical director and developed in compliance with state law (Maine Statute 29-A-2054) and Maine EMS.\n2.  Utilization and appropriateness of lights and sirens should be included in service QA/QI plans\n3.  All EMS crashes and near misses should be reviewed at the service level with involvement of the service medical director\n4.  Drivers of ambulances shou"
+  },
+  {
+    "id": "grey_care_of_the_deaf_and_hard_of_hearing",
+    "title": "Care of the Deaf and Hard of Hearing",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Care of the Deaf and Hard of Hearing #1\n\nExcellent communication with patients is essential for EMS clinicians to meet their goals of patient care. Interpreter services are essential resources for communication with patients who do not speak the clinician's primary language. Visual interpreter services may not be immediately available for communication with deaf and hard of hearing, therefore refer to the following guidelines.\n\n&lt;img&gt;Hospital Logo&lt;/img&gt; 1.  Elicit information from the"
+  },
+  {
+    "id": "grey_care_of_the_visually_impaired_and_blind",
+    "title": "Care of the Visually Impaired and Blind",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Care of the Visually Impaired and Blind\n\nEMT/Advanced EMT/Paramedic\n\n1. Introduce yourself and announce to patient every time you enter or leave the environment of care\n2. Ensure the patient has access to mobility equipment (e.g., cane, guide dog) at all times.\n3. If assisting with ambulation, move slowly and guide the patient while describing potential obstacles (e.g., stairs, slopes, changes in flooring).\n4. Ensure the patient has access to personal technology (e.g., phone, smartwatch)\n5. Tell"
+  },
+  {
+    "id": "grey_maine_ems_medication_list",
+    "title": "Maine EMS Medication List",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Maine EMS Medication List\n\nThe following are medications currently approved for use by Maine EMS licensees - as authorized by the Maine EMS Protocols. This list may be altered through protocol revision.\n\nPrehospital Medications:\n\n*   Acetaminophen chewable tablets\n*   Acetaminophen IV\n*   Adenosine\n*   Albuterol\n*   Amiodarone\n*   Aspirin\n*   Atropine\n*   Calcium gluconate\n*   Ceftriaxone\n*   Cyanide poisoning kit contents\n*   Dexamethasone\n*   Dextrose (D₁₀, D₅₀)\n*   Diphenhydramine\n*   EPINEPH"
+  },
+  {
+    "id": "grey_telephone_radio_reference_contact_numbers",
+    "title": "Telephone / Radio Reference/ Contact Numbers",
+    "category": "grey",
+    "categoryName": "Operations",
+    "content": "Telephone/Radio Reference/Contact Numbers #1\n\n\n  \n    \n      \n      NAME\n      Radio Frequency\n      Phone Number\n    \n  \n  \n    \n      Hospital:\n      \n      \n      \n    \n    \n      Hospital:\n      \n      \n      \n    \n    \n      Hospital:\n      \n      \n      \n    \n    \n      Hospital:\n      \n      \n      \n    \n    \n      Hospital:\n      \n      \n      \n    \n    \n      Hospital:\n      \n      \n      \n    \n    \n      Dispatch:\n      \n      \n      \n    \n  \n\n\nState wide EMS Frequency 155.3850\n\nMaine "
+  }
+]

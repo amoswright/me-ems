@@ -1,0 +1,525 @@
+[
+  {
+    "id": "gold_allergy_anaphylaxis",
+    "title": "Allergy / Anaphylaxis",
+    "category": "gold",
+    "pages": [
+      {
+        "pageId": "gold_page_72",
+        "pageNumber": "Gold 1",
+        "jpgReference": "/page_jpg/072.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Allergy/Anaphylaxis #1",
+            "html": "<p># Allergy/Anaphylaxis #1</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "EMT",
+            "content": "1. Manage airway as appropriate, see Airway Algorithm, Blue 2\n2. If shock present, refer to Medical Shock protocol, Gold 14\n3. If anaphylaxis is identified, assist administration of patient's own EPINEPHrine auto-injector, administer an adult or pediatric (as applicable) auto-injector, OR provide EPINEPHrine through the Maine EMS Check and Inject program in the anterolateral thigh:\n    a. Adult: EPINEPHrine 0.3 mg IM [0.3 mL of 1 mg/mL] in anterolateral thigh, or\n    b. Pediatric dose of EPINEPHrine which is as follows: less than 25 kg, 0.15 mg IM [0.15 mL of 1 mg/mL], greater than 25 kg, 0.3 mg IM [0.3 mL of 1 mg/mL] in anterolateral thigh\n    c. Repeat **IM** EPINEPHrine doses every 5 min, as needed*\n    d. Notify OLMC of incoming critical patient.\n4. Request ALS, if available\n5. If wheezing persists 5 minutes after first dose of EPINEPHrine, refer to Respiratory Distress with Bronchospasm protocol, Blue 6, for administration of ipratropium bromide/albuterol.\n6. Consider local measures to prevent absorption of allergen",
+            "html": "<ol>\n<li>Manage airway as appropriate, see Airway Algorithm, <a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a></li>\n<li>If shock present, refer to Medical Shock protocol, <a href=\"/protocol/gold_medical_shock\" class=\"protocol-ref-link\">Gold 14</a></li>\n<li>If anaphylaxis is identified, assist administration of patient's own EPINEPHrine auto-injector, administer an adult or pediatric (as applicable) auto-injector, OR provide EPINEPHrine through the Maine EMS Check and Inject program in the anterolateral thigh:\n<ol type=\"a\">\n<li>Adult: EPINEPHrine 0.3 mg IM [0.3 mL of 1 mg/mL] in anterolateral thigh, or</li>\n<li>Pediatric dose of EPINEPHrine which is as follows: less than 25 kg, 0.15 mg IM [0.15 mL of 1 mg/mL], greater than 25 kg, 0.3 mg IM [0.3 mL of 1 mg/mL] in anterolateral thigh</li>\n<li>Repeat <strong>IM</strong> EPINEPHrine doses every 5 min, as needed*</li>\n<li>Notify OLMC of incoming critical patient.</li>\n</ol>\n</li>\n<li>Request ALS, if available</li>\n<li>If wheezing persists 5 minutes after first dose of EPINEPHrine, refer to Respiratory Distress with Bronchospasm protocol, <a href=\"/protocol/blue_respiratory_distress_with_bronchospasm\" class=\"protocol-ref-link\">Blue 6</a>, for administration of ipratropium bromide/albuterol.</li>\n<li>Consider local measures to prevent absorption of allergen</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT",
+            "content": "7. If anaphylaxis identified:\n    a. Adult: EPINEPHrine 0.3 mg IM [0.3 mL of 1 mg/mL] in anterolateral thigh, or\n    b. Pediatric dose of EPINEPHrine which is as follows: less than 25 kg, 0.15 mg IM [0.15 mL of 1 mg/mL], greater than 25 kg, 0.3 mg IM [0.3 mL of 1 mg/mL] IM in anterolateral thigh\n    c. Repeat **IM** EPINEPHrine doses every 5 min, as needed.\n    d. If patient requires repeated EPINEPHrine, request ALS.\n8. IV en route\n9. Cardiac monitor\n10. If shock present, administer fluid bolus\n11. For patients with minor symptoms only, or resolution of symptoms with a single dose of EPINEPHrine, the AEMT, in consultation with OLMC, may consider canceling ALS.",
+            "html": "<ol start=\"7\">\n<li>If anaphylaxis identified:\n<ol type=\"a\">\n<li>Adult: EPINEPHrine 0.3 mg IM [0.3 mL of 1 mg/mL] in anterolateral thigh, or</li>\n<li>Pediatric dose of EPINEPHrine which is as follows: less than 25 kg, 0.15 mg IM [0.15 mL of 1 mg/mL], greater than 25 kg, 0.3 mg IM [0.3 mL of 1 mg/mL] IM in anterolateral thigh</li>\n<li>Repeat <strong>IM</strong> EPINEPHrine doses every 5 min, as needed.</li>\n<li>If patient requires repeated EPINEPHrine, request ALS.</li>\n</ol>\n</li>\n<li>IV en route</li>\n<li>Cardiac monitor</li>\n<li>If shock present, administer fluid bolus</li>\n<li>For patients with minor symptoms only, or resolution of symptoms with a single dose of EPINEPHrine, the AEMT, in consultation with OLMC, may consider canceling ALS.</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PARAMEDIC",
+            "content": "12. Consider glucagon 1 mg IV q 5 minutes for patients taking beta-blockers and not responsive to EPINEPHrine\n13. Diphenhydramine (Benadryl)\n    a. Adult: 25-50 mg IV/IO/IM\n    b. Pediatric: 1-2 mg/kg IV/IO/IM (max single dose of 50 mg)\n14. Consider ONE of the following; repeat every 5 minutes, as needed\n    a. Albuterol 2.5 mg by nebulization;\n    b. 1 mL of 1 mg/mL EPINEPHrine nebulized with 2 mL of NS\n    c. 0.5 mL of 2.25% racemic EPINEPHrine solution nebulized with 2.5 mL NS\n\n(Continued)",
+            "html": "<ol start=\"12\">\n<li>Consider glucagon 1 mg IV q 5 minutes for patients taking beta-blockers and not responsive to EPINEPHrine</li>\n<li>Diphenhydramine (Benadryl)\n<ol type=\"a\">\n<li>Adult: 25-50 mg IV/IO/IM</li>\n<li>Pediatric: 1-2 mg/kg IV/IO/IM (max single dose of 50 mg)</li>\n</ol>\n</li>\n<li>Consider ONE of the following; repeat every 5 minutes, as needed\n<ol type=\"a\">\n<li>Albuterol 2.5 mg by nebulization;</li>\n<li>1 mL of 1 mg/mL EPINEPHrine nebulized with 2 mL of NS</li>\n<li>0.5 mL of 2.25% racemic EPINEPHrine solution nebulized with 2.5 mL NS</li>\n</li>\n</ol>\n</ol>\n<p>(Continued)</p>"
+          }
+        ]
+      },
+      {
+        "pageId": "gold_page_73",
+        "pageNumber": "Gold 2",
+        "jpgReference": "/page_jpg/073.jpg",
+        "isContinuation": true,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "PARAMEDIC",
+            "content": "# Allergy/Anaphylaxis #2\n\n(Continued from previous page)\n\n15. Repeat **IM EPINEPHrine** every 5 minutes, as needed.\n16. If patient suffers hemodynamic collapse OR does not improve OR worsens after 3 doses of **IM EPINEPHrine**, initiate **EPINEPHrine IV infusion**: **\n    Preparation - Add 1 mL (1 mg) EPINEPHrine 1 mg/mL to 250 mL bag NS or D₅W. This results in a 1 mg/250 mL = 4 mcg/mL mix.\n    Dose - Start at 0.05 mcg/kg/min. Titrate by 0.05 mcg/kg/min every 5 min. Titrate to desired effect which may include resolution of respiratory symptoms, SPB of > 90 mmHg and/or MAP > 65 mmHg.\n    Usual dose is 0.05-0.5 mcg/kg/min. Absolute maximum dose is 0.5 mcg/kg/min\n    This must be administered via a Maine EMS-approved medication pump.",
+            "html": "<p># Allergy/Anaphylaxis #2</p>\n<p>(Continued from previous page)</p>\n<ol start=\"15\">\n<li>Repeat <strong>IM EPINEPHrine</strong> every 5 minutes, as needed.</li>\n<li>If patient suffers hemodynamic collapse OR does not improve OR worsens after 3 doses of <strong>IM EPINEPHrine</strong>, initiate <strong>EPINEPHrine IV infusion</strong>: **</li>\n</ol>\n<p>    Preparation - Add 1 mL (1 mg) EPINEPHrine 1 mg/mL to 250 mL bag NS or D₅W. This results in a 1 mg/250 mL = 4 mcg/mL mix.</p>\n<p>    Dose - Start at 0.05 mcg/kg/min. Titrate by 0.05 mcg/kg/min every 5 min. Titrate to desired effect which may include resolution of respiratory symptoms, SPB of > 90 mmHg and/or MAP > 65 mmHg.</p>\n<p>    Usual dose is 0.05-0.5 mcg/kg/min. Absolute maximum dose is 0.5 mcg/kg/min</p>\n<p>    This must be administered via a Maine EMS-approved medication pump.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PEARLS",
+            "content": "*IM EPINEPHrine is the foundation of anaphylaxis treatment and should be administered every 5 minutes with nebulizers in between.*\n\n**Patients suffering from shock secondary to anaphylaxis are very ill and the care of these patients may be nuanced. Please consider the value of OLMC discussion for any questions or concerns regarding the management of these patients.**\n\nChildren with a known, recent exposure to common triggers of allergic reactions (e.g., peanuts, medications, bee stings) should be considered at risk for having an allergic reaction or anaphylaxis. &lt;img&gt;A teddy bear.&lt;/img&gt;\n\nChildren with asthma should be considered high risk for a severe reaction.\n\nAnaphylaxis in children should be treated for those exhibiting hypotension after exposure to a known allergen, respiratory compromise with acute onset of skin or mucosal involvement, or two or more of the following after exposure to a likely allergen: gastrointestinal symptoms, skin/mucosal involvement, respiratory compromise, or hypotension.\n\nSeverity should be differentiated between anaphylaxis and non-anaphylaxis (i.e. Allergic reaction only). Only patients with anaphylaxis (as defined in Gold 3) should receive EPINEPHrine. Evidence suggests that the incidence of anaphylaxis is under recognized. Please consider the definitions of anaphylaxis (on the following page) and treat all cases of anaphylaxis with EPINEPHrine.\n\nEvidence does not support the routine use of cardiac monitoring for patients who receive one dose of EPINEPHrine.",
+            "html": "<em>IM EPINEPHrine is the foundation of anaphylaxis treatment and should be administered every 5 minutes with nebulizers in between.</em>\n<strong>Patients suffering from shock secondary to anaphylaxis are very ill and the care of these patients may be nuanced. Please consider the value of OLMC discussion for any questions or concerns regarding the management of these patients.</strong>\n<p>Children with a known, recent exposure to common triggers of allergic reactions (e.g., peanuts, medications, bee stings) should be considered at risk for having an allergic reaction or anaphylaxis. </p>\n<p>Children with asthma should be considered high risk for a severe reaction.</p>\n<p>Anaphylaxis in children should be treated for those exhibiting hypotension after exposure to a known allergen, respiratory compromise with acute onset of skin or mucosal involvement, or two or more of the following after exposure to a likely allergen: gastrointestinal symptoms, skin/mucosal involvement, respiratory compromise, or hypotension.</p>\n<p>Severity should be differentiated between anaphylaxis and non-anaphylaxis (i.e. Allergic reaction only). Only patients with anaphylaxis (as defined in <a href=\"/protocol/gold_allergy_anaphylaxis\" class=\"protocol-ref-link\">Gold 3</a>) should receive EPINEPHrine. Evidence suggests that the incidence of anaphylaxis is under recognized. Please consider the definitions of anaphylaxis (on the following page) and treat all cases of anaphylaxis with EPINEPHrine.</p>\n<p>Evidence does not support the routine use of cardiac monitoring for patients who receive one dose of EPINEPHrine.</p>",
+            "pearlsTitle": "Allergy/Anaphylaxis"
+          }
+        ]
+      },
+      {
+        "pageId": "gold_page_74",
+        "pageNumber": "Gold 3",
+        "jpgReference": "/page_jpg/074.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Allergy/Anaphylaxis #3\n\nAnaphylaxis is highly likely when EITHER of the following criteria are met:\n\n1. Acute onset of illness (minutes to hours) with skin or mucosal involvement* AND either of the following:\n    a. Respiratory compromise**\n    b. Hypotension or evidence of end-organ dysfunction***\n\n2. Acute onset of illness (minutes to hours) after exposure to a likely allergen AND any two of the following:\n    a. Skin or mucosal changes*\n    b. Respiratory compromise**\n    c. Hypotension or evidence of end-organ dysfunction***\n    d. Persistent GI symptoms****\n\n*Skin or mucosal tissue changes include hives, pruritis, flushing, swelling of the lips/tongue/uvula, etc.\n\n**Respiratory compromise refers to dyspnea, wheezing, bronchospasm, stridor, hypoxia, etc.\n\n***Hypotension or evidence of end-organ dysfunction may include systolic BP of less than 90 mmHg (or greater than 30% decrease from baseline BP) in adults OR BP less than age-specific cut-off in pediatric patients, refer to Normal Pediatric Vital Signs, Pink 4; hypotonia; collapse; syncope, etc. &lt;img&gt;Bear&lt;/img&gt;\n\n****Abdominal pain, vomiting, diarrhea\n\n(Continued on next page)",
+            "html": "<p># Allergy/Anaphylaxis #3</p>\n<p>Anaphylaxis is highly likely when EITHER of the following criteria are met:</p>\n<ol>\n<li>Acute onset of illness (minutes to hours) with skin or mucosal involvement* AND either of the following:\n<ol type=\"a\">\n<li>Respiratory compromise**</li>\n<li>Hypotension or evidence of end-organ dysfunction***</li>\n</li>\n</ol>\n</ol>\n<ol start=\"2\">\n<li>Acute onset of illness (minutes to hours) after exposure to a likely allergen AND any two of the following:\n<ol type=\"a\">\n<li>Skin or mucosal changes*</li>\n<li>Respiratory compromise**</li>\n<li>Hypotension or evidence of end-organ dysfunction***</li>\n<li>Persistent GI symptoms****</li>\n</li>\n</ol>\n</ol>\n<p>*Skin or mucosal tissue changes include hives, pruritis, flushing, swelling of the lips/tongue/uvula, etc.</p>\n<p>**Respiratory compromise refers to dyspnea, wheezing, bronchospasm, stridor, hypoxia, etc.</p>\n<p>***Hypotension or evidence of end-organ dysfunction may include systolic BP of less than 90 mmHg (or greater than 30% decrease from baseline BP) in adults OR BP less than age-specific cut-off in pediatric patients, refer to Normal Pediatric Vital Signs, <a href=\"/protocol/pink_normal_pediatric_vital_signs\" class=\"protocol-ref-link\">Pink 4</a>; hypotonia; collapse; syncope, etc. </p>\n<p>****Abdominal pain, vomiting, diarrhea</p>\n<p>(Continued on next page)</p>"
+          }
+        ]
+      },
+      {
+        "pageId": "gold_page_75",
+        "pageNumber": "Gold 4",
+        "jpgReference": "/page_jpg/075.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Allergy/Anaphylaxis #4\n\nIV EPINEPHrine infusion drip, administered via a Maine EMS-approved medication pump, should be started for patients unresponsive to IM EPINEPHrine administration in either of the following settings:\n\n*   Cardiovascular collapse (hypotension with altered mental status, pallor, diaphoresis, or delayed capillary refill)\n    OR\n*   Hypotension that is unresponsive to a total of 60 mL/kg (3 x 20 mL/kg boluses) isotonic fluid boluses and repeat doses of IM EPINEPHrine\n\nEvidence does not support the prophylactic use of EPINEPHrine in the asymptomatic patient after exposure to a known allergen.\n\nChildren experiencing cutaneous signs of an allergic reaction with no systemic symptoms should be evaluated by a medical clinician.\n&lt;img&gt;A small blue teddy bear with a bandage on its head.&lt;/img&gt;\n\nChildren experiencing anaphylaxis in the prehospital setting who receive EPINEPHrine require EMS transport.",
+            "html": "<p># Allergy/Anaphylaxis #4</p>\n<p>IV EPINEPHrine infusion drip, administered via a Maine EMS-approved medication pump, should be started for patients unresponsive to IM EPINEPHrine administration in either of the following settings:</p>\n<ul>\n<li>Cardiovascular collapse (hypotension with altered mental status, pallor, diaphoresis, or delayed capillary refill)</li>\n</ul>\n<p>    OR</p>\n<ul>\n<li>Hypotension that is unresponsive to a total of 60 mL/kg (3 x 20 mL/kg boluses) isotonic fluid boluses and repeat doses of IM EPINEPHrine</li>\n</ul>\n<p>Evidence does not support the prophylactic use of EPINEPHrine in the asymptomatic patient after exposure to a known allergen.</p>\n<p>Children experiencing cutaneous signs of an allergic reaction with no systemic symptoms should be evaluated by a medical clinician.</p>\n<p>Children experiencing anaphylaxis in the prehospital setting who receive EPINEPHrine require EMS transport.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gold_altered_level_of_consciousness",
+    "title": "Altered Level of Consciousness",
+    "category": "gold",
+    "pages": [
+      {
+        "pageId": "gold_page_76",
+        "pageNumber": "Gold 5",
+        "jpgReference": "/page_jpg/076.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Altered Level of Consciousness\n\nAssess for trauma, drugs, diabetes, breath odor, needle tracks, medical alert tags, suspected seizure. A thorough history and physical exam is imperative. Bring any available medication lists and collateral information with patient to the hospital. Refer to appropriate protocol for specific suspected conditions.\n\nConsider SCENE SAFETY as there may be an environmental or toxicologic cause, especially if more than one patient has decreased level of consciousness.",
+            "html": "<p># Altered Level of Consciousness</p>\n<p>Assess for trauma, drugs, diabetes, breath odor, needle tracks, medical alert tags, suspected seizure. A thorough history and physical exam is imperative. Bring any available medication lists and collateral information with patient to the hospital. Refer to appropriate protocol for specific suspected conditions.</p>\n<p>Consider SCENE SAFETY as there may be an environmental or toxicologic cause, especially if more than one patient has decreased level of consciousness.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "EMT",
+            "content": "1. Immobilize spine, if indicated\n2. Manage airway as appropriate, see Airway Algorithm, Blue 2\n3. Request ALS, if available\n4. If shock present, refer to Medical Shock protocol, Gold 14\n5. Perform finger stick to measure blood glucose, if so trained. If blood glucose is less than 60 mg/dL, refer to Diabetic/Hypoglycemic Emergencies protocol, Gold 6\n6. If respirations less than 12 per minute AND narcotic overdose suspected, refer to Poisoning/Overdose protocol, Yellow 1\n    ***Never administer naloxone to a neonate***\n7. For patients who suffered syncope before their period of AMS, or who are still altered, obtain a 12-lead ECG, if available and so trained. Refer to Syncope protocol, Red 33.",
+            "html": "<ol>\n<li>Immobilize spine, if indicated</li>\n<li>Manage airway as appropriate, see Airway Algorithm, <a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a></li>\n<li>Request ALS, if available</li>\n<li>If shock present, refer to Medical Shock protocol, <a href=\"/protocol/gold_medical_shock\" class=\"protocol-ref-link\">Gold 14</a></li>\n<li>Perform finger stick to measure blood glucose, if so trained. If blood glucose is less than 60 mg/dL, refer to Diabetic/Hypoglycemic Emergencies protocol, <a href=\"/protocol/gold_diabetic_hypoglycemic_emergencies\" class=\"protocol-ref-link\">Gold 6</a></li>\n<li>If respirations less than 12 per minute AND narcotic overdose suspected, refer to Poisoning/Overdose protocol, <a href=\"/protocol/yellow_poisoning_overdose\" class=\"protocol-ref-link\">Yellow 1</a></li>\n</ol>\n    <strong><em>Never administer naloxone to a neonate</strong></em>\n<ol start=\"7\">\n<li>For patients who suffered syncope before their period of AMS, or who are still altered, obtain a 12-lead ECG, if available and so trained. Refer to Syncope protocol, <a href=\"/protocol/red_syncope\" class=\"protocol-ref-link\">Red 33</a>.</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "8. Establish IV en route\n9. Cardiac monitor\n\n## Differential Diagnosis of Altered Mental Status\n\n<table>\n<thead>\n<tr>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>A</td>\n<td>Alcohol (and other drugs), Acidosis (hyperglycemic coma/DKA)</td>\n</tr>\n<tr>\n<td>E</td>\n<td>Electrolyte abnormality, Endocrine problem, Epilepsy</td>\n</tr>\n<tr>\n<td>I</td>\n<td>Insulin (diabetes/hypoglycemic shock)</td>\n</tr>\n<tr>\n<td>O</td>\n<td>Oxygen (hypoxia), Overdose (or poisoning)</td>\n</tr>\n<tr>\n<td>U</td>\n<td>Uremia (renal failure/insufficiency)</td>\n</tr>\n<tr>\n<td>T</td>\n<td>Trauma, Temperature (hypothermia, heat stroke)</td>\n</tr>\n<tr>\n<td>I</td>\n<td>Infection (meningitis, encephalitis, sepsis)</td>\n</tr>\n<tr>\n<td>P</td>\n<td>Psychogenic</td>\n</tr>\n<tr>\n<td>S</td>\n<td>Stroke, Space occupying lesions, Seizure, Shock</td>\n</tr>\n</tbody>\n</table>",
+            "html": "<ol start=\"8\">\n<li>Establish IV en route</li>\n<li>Cardiac monitor</li>\n</ol>\n<p>## Differential Diagnosis of Altered Mental Status</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>A</td>\n<td>Alcohol (and other drugs), Acidosis (hyperglycemic coma/DKA)</td>\n</tr>\n<tr>\n<td>E</td>\n<td>Electrolyte abnormality, Endocrine problem, Epilepsy</td>\n</tr>\n<tr>\n<td>I</td>\n<td>Insulin (diabetes/hypoglycemic shock)</td>\n</tr>\n<tr>\n<td>O</td>\n<td>Oxygen (hypoxia), Overdose (or poisoning)</td>\n</tr>\n<tr>\n<td>U</td>\n<td>Uremia (renal failure/insufficiency)</td>\n</tr>\n<tr>\n<td>T</td>\n<td>Trauma, Temperature (hypothermia, heat stroke)</td>\n</tr>\n<tr>\n<td>I</td>\n<td>Infection (meningitis, encephalitis, sepsis)</td>\n</tr>\n<tr>\n<td>P</td>\n<td>Psychogenic</td>\n</tr>\n<tr>\n<td>S</td>\n<td>Stroke, Space occupying lesions, Seizure, Shock</td>\n</tr>\n</tbody>\n</table>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gold_diabetic_hypoglycemic_emergencies",
+    "title": "Diabetic/Hypoglycemic Emergencies",
+    "category": "gold",
+    "pages": [
+      {
+        "pageId": "gold_page_77",
+        "pageNumber": "Gold 6",
+        "jpgReference": "/page_jpg/077.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Diabetic/Hypoglycemic Emergencies #1",
+            "html": "<p># Diabetic/Hypoglycemic Emergencies #1</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "EMT",
+            "content": "1. Manage airway as appropriate, see Airway Algorithm, Blue 2\n2. Request ALS, if available\n3. If trained, perform finger stick to measure blood glucose\n    a. If blood glucose is less than **60 mg/dL**, AND PATIENT IS CONSCIOUS AND ABLE TO SWALLOW, give glucose (one tablet or tube) orally. Repeat, as needed, for clinical improvement.\n4. If unable to obtain a finger stick blood glucose, and patient is a known diabetic, has clinical signs of hypoglycemia AND IS CONSCIOUS AND ABLE TO SWALLOW, give glucose (one tablet or tube) orally. Repeat, as needed, for clinical improvement.\n\nOral glucose is to be administered as soon as possible if the patient IS CONSCIOUS, ABLE TO SWALLOW, AND PRESENTING WITH THE SIGNS/SYMPTOMS OF A DIABETIC EMERGENCY",
+            "html": "<ol>\n<li>Manage airway as appropriate, see Airway Algorithm, <a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a></li>\n<li>Request ALS, if available</li>\n<li>If trained, perform finger stick to measure blood glucose\n<ol type=\"a\">\n<li>If blood glucose is less than <strong>60 mg/dL</strong>, AND PATIENT IS CONSCIOUS AND ABLE TO SWALLOW, give glucose (one tablet or tube) orally. Repeat, as needed, for clinical improvement.</li>\n</ol>\n</li>\n<li>If unable to obtain a finger stick blood glucose, and patient is a known diabetic, has clinical signs of hypoglycemia AND IS CONSCIOUS AND ABLE TO SWALLOW, give glucose (one tablet or tube) orally. Repeat, as needed, for clinical improvement.</li>\n</ol>\n<p>Oral glucose is to be administered as soon as possible if the patient IS CONSCIOUS, ABLE TO SWALLOW, AND PRESENTING WITH THE SIGNS/SYMPTOMS OF A DIABETIC EMERGENCY</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT",
+            "content": "5. Establish IV en route\n6. If blood glucose is less than **60 mg/dL**:\n    a. And patient is conscious and able to swallow, give glucose (one tablet or tube) orally, otherwise,\n    b. If patient is 40 kg or more, administer dextrose 25 gm IV (50 mL of 50% solution or 250 mL of D₁₀W solution),\n    c. If under 40 kg give D₁₀W as per the following:\n\n<table>\n<thead>\n<tr>\n<th>Weight (Kg/Lbs)</th>\n<th>Volume to be infused</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3/6.6 (newborn)</td>\n<td>15 mL</td>\n</tr>\n<tr>\n<td>5/11</td>\n<td>25 mL</td>\n</tr>\n<tr>\n<td>10/22</td>\n<td>50 mL</td>\n</tr>\n<tr>\n<td>20/44</td>\n<td>100 mL</td>\n</tr>\n<tr>\n<td>30/66</td>\n<td>150 mL</td>\n</tr>\n<tr>\n<td>40/88</td>\n<td>200 mL</td>\n</tr>\n</tbody>\n</table>\n\nd. If IV unavailable, DO NOT PLACE IO. Administer glucagon at the following doses:\n    i. Adult and Pediatric patients 20 kg or greater: Glucagon 1 mg IM.\n    ii. Pediatric patients less than 20 kg: Glucagon 0.5 mg IM\n\n7. If blood glucose is greater than **300 mg/dL**, give NS fluid bolus\n8. Repeat glucose measurement every 5 minutes until hypoglycemia is resolved and for any concerns of recurrent hypoglycemia.\n9. Cardiac monitor",
+            "html": "<ol start=\"5\">\n<li>Establish IV en route</li>\n<li>If blood glucose is less than <strong>60 mg/dL</strong>:\n<ol type=\"a\">\n<li>And patient is conscious and able to swallow, give glucose (one tablet or tube) orally, otherwise,</li>\n<li>If patient is 40 kg or more, administer dextrose 25 gm IV (50 mL of 50% solution or 250 mL of D₁₀W solution),</li>\n<li>If under 40 kg give D₁₀W as per the following:</li>\n</li>\n</ol>\n</ol>\n<table>\n<thead>\n<tr>\n<th>Weight (Kg/Lbs)</th>\n<th>Volume to be infused</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3/6.6 (newborn)</td>\n<td>15 mL</td>\n</tr>\n<tr>\n<td>5/11</td>\n<td>25 mL</td>\n</tr>\n<tr>\n<td>10/22</td>\n<td>50 mL</td>\n</tr>\n<tr>\n<td>20/44</td>\n<td>100 mL</td>\n</tr>\n<tr>\n<td>30/66</td>\n<td>150 mL</td>\n</tr>\n<tr>\n<td>40/88</td>\n<td>200 mL</td>\n</tr>\n</tbody>\n</table>\n<ol type=\"a\">\n<li>If IV unavailable, DO NOT PLACE IO. Administer glucagon at the following doses:\n<ol type=\"i\">\n<li>Adult and Pediatric patients 20 kg or greater: Glucagon 1 mg IM.</li>\n<li>Pediatric patients less than 20 kg: Glucagon 0.5 mg IM</li>\n</li>\n</ol>\n</ol>\n<ol start=\"7\">\n<li>If blood glucose is greater than <strong>300 mg/dL</strong>, give NS fluid bolus</li>\n<li>Repeat glucose measurement every 5 minutes until hypoglycemia is resolved and for any concerns of recurrent hypoglycemia.</li>\n<li>Cardiac monitor</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PARAMEDIC",
+            "content": "10. Repeat oral glucose, IV dextrose or IM glucagon, if clinically indicated. If oral glucose is contraindicated, or oral glucose and IM glucagon are ineffective AND IV access cannot be established, consider placing an IO for administration of dextrose 25 gm (250 mL of D₁₀W)\n\n&lt;img&gt;Teddy bear&lt;/img&gt;\n&lt;img&gt;Teddy bear&lt;/img&gt;\n\n&lt;page_number&gt;Gold 6&lt;/page_number&gt;",
+            "html": "<ol start=\"10\">\n<li>Repeat oral glucose, IV dextrose or IM glucagon, if clinically indicated. If oral glucose is contraindicated, or oral glucose and IM glucagon are ineffective AND IV access cannot be established, consider placing an IO for administration of dextrose 25 gm (250 mL of D₁₀W)</li>\n</ol>\n<p></p>"
+          }
+        ]
+      },
+      {
+        "pageId": "gold_page_78",
+        "pageNumber": "Gold 7",
+        "jpgReference": "/page_jpg/078.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Diabetic/Hypoglycemic Emergencies #2",
+            "html": "<p># Diabetic/Hypoglycemic Emergencies #2</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PEARLS",
+            "content": "*   The definition of hypoglycemia has been changed from 80 mg/dL to 60 mg/dL based upon current literature which suggests most patients will experience adrenergic symptoms under 60 mg/dL and CNS symptoms under 50 mg/dL. If a patient's finger stick glucose measurement is above 60 mg/dL and hypoglycemia remains a concern, contact OLMC for treatment options.\n*   Goal of fluid bolus in hyperglycemia is to treat hypotension/signs of hypoperfusion as well as decrease blood glucose to less than 300 mg/dL.\n*   Hypoglycemic patients on sulfonylurea class medications [glipizide (Glucotrol), glyburide (Diabeta), glimepiride (Amaryl)] may have refractory hypoglycemia, therefore all require transport, glucose monitoring, and hospital evaluation.\n    *   A list of other anti-hyperglycemic agents include, but is not limited to the following: insulins; biguanides (metformin); alpha-glucosidase inhibitors (acarbose); dipeptidyl peptidase-4 inhibitors (saxagliptin, sitagliptin); incretin (GLP-1) mimics (dulaglutide, exenatide, liraglutide); meglitinides (repaglinide); ; SGLT-2 inhibitors (dapagliflozin, empagliflozin); and thiazolidinediones (pioglitazone)",
+            "html": "<ul>\n<li>The definition of hypoglycemia has been changed from 80 mg/dL to 60 mg/dL based upon current literature which suggests most patients will experience adrenergic symptoms under 60 mg/dL and CNS symptoms under 50 mg/dL. If a patient's finger stick glucose measurement is above 60 mg/dL and hypoglycemia remains a concern, contact OLMC for treatment options.</li>\n<li>Goal of fluid bolus in hyperglycemia is to treat hypotension/signs of hypoperfusion as well as decrease blood glucose to less than 300 mg/dL.</li>\n<li>Hypoglycemic patients on sulfonylurea class medications [glipizide (Glucotrol), glyburide (Diabeta), glimepiride (Amaryl)] may have refractory hypoglycemia, therefore all require transport, glucose monitoring, and hospital evaluation.\n<ul>\n<li>A list of other anti-hyperglycemic agents include, but is not limited to the following: insulins; biguanides (metformin); alpha-glucosidase inhibitors (acarbose); dipeptidyl peptidase-4 inhibitors (saxagliptin, sitagliptin); incretin (GLP-1) mimics (dulaglutide, exenatide, liraglutide); meglitinides (repaglinide); ; SGLT-2 inhibitors (dapagliflozin, empagliflozin); and thiazolidinediones (pioglitazone)</li>\n</ul>\n</li>\n</ul>",
+            "pearlsTitle": "Diabetes/Hypoglycemic Emergencies"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gold_seizure",
+    "title": "Seizure",
+    "category": "gold",
+    "pages": [
+      {
+        "pageId": "gold_page_79",
+        "pageNumber": "Gold 8",
+        "jpgReference": "/page_jpg/079.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Seizure #1",
+            "html": "<p># Seizure #1</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PEARLS",
+            "content": "**PEARLS for Seizures:** Most seizures are self-limited. Unless a specific underlying condition exists (e.g., diabetes with hypoglycemia, head injury), treatment of a seizure or multiple seizures with a total duration of less than 5 minutes should focus on patient protection and oxygenation.",
+            "html": "<strong>PEARLS for Seizures:</strong> Most seizures are self-limited. Unless a specific underlying condition exists (e.g., diabetes with hypoglycemia, head injury), treatment of a seizure or multiple seizures with a total duration of less than 5 minutes should focus on patient protection and oxygenation.",
+            "pearlsTitle": "Seizures"
+          },
+          {
+            "type": "content",
+            "providerLevel": "EMT",
+            "content": "1. Manage airway as appropriate, see Airway Algorithm, Blue 2\n2. Spinal immobilization as indicated. Refer to Spine Assessment & Management protocol, Green 3\n3. For head injury, refer to Head Trauma protocol, Green 8\n4. Left lateral recumbent position and protect patient from injury\n5. Request ALS, if available\n6. Perform finger stick to measure blood glucose, if so trained. If blood glucose is less than 60 mg/dL, refer to Diabetic/Hypoglycemic Emergencies protocol, Gold 6",
+            "html": "<ol>\n<li>Manage airway as appropriate, see Airway Algorithm, <a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a></li>\n<li>Spinal immobilization as indicated. Refer to Spine Assessment & Management protocol, <a href=\"/protocol/green_spine_assessment_management\" class=\"protocol-ref-link\">Green 3</a></li>\n<li>For head injury, refer to Head Trauma protocol, <a href=\"/protocol/green_head_trauma\" class=\"protocol-ref-link\">Green 8</a></li>\n<li>Left lateral recumbent position and protect patient from injury</li>\n<li>Request ALS, if available</li>\n<li>Perform finger stick to measure blood glucose, if so trained. If blood glucose is less than 60 mg/dL, refer to Diabetic/Hypoglycemic Emergencies protocol, <a href=\"/protocol/gold_diabetic_hypoglycemic_emergencies\" class=\"protocol-ref-link\">Gold 6</a></li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT",
+            "content": "7. Cardiac monitor\n8. Establish IV en route\n9. If shock present, refer to Medical Shock protocol, Gold 14",
+            "html": "<ol start=\"7\">\n<li>Cardiac monitor</li>\n<li>Establish IV en route</li>\n<li>If shock present, refer to Medical Shock protocol, <a href=\"/protocol/gold_medical_shock\" class=\"protocol-ref-link\">Gold 14</a></li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PARAMEDIC",
+            "content": "10. For patients visibly pregnant or less than 6 weeks postpartum who are seizing or post-ictal, skip to step 12.\n11. If the patient has a single seizure lasting greater than 5 minutes OR recurrent seizure activity without recovery/return to baseline between seizures, administer IM midazolam if no IV is established. If an IV is established, administer midazolam via the IV route\n    a. Intramuscular dosing –\n        i. Adult - midazolam 10 mg IM\n        ii. Pediatric - midazolam 0.2 mg/kg IM to MAX dose of 10 mg\n    b. Intravenous/Intraosseous dosing\n        i. Adult - midazolam 5 mg IV/IO\n        ii. Pediatric - midazolam 0.1 mg/kg IV/IO to a MAX dose of 5 mg\n    c. If seizure continues, repeat midazolam every 5 min until resolution of seizure, for a MAX cumulative total of: **Adult**: 20 mg IM or 15 mg IV/IO; **Pediatric** 0.6 mg/kg IM (20 mg), or 0.3 mg/kg IV/IO (15 mg)\n        i. Contact the hospital if additional midazolam is necessary",
+            "html": "<ol start=\"10\">\n<li>For patients visibly pregnant or less than 6 weeks postpartum who are seizing or post-ictal, skip to step 12.</li>\n<li>If the patient has a single seizure lasting greater than 5 minutes OR recurrent seizure activity without recovery/return to baseline between seizures, administer IM midazolam if no IV is established. If an IV is established, administer midazolam via the IV route\n<ol type=\"a\">\n<li>Intramuscular dosing –\n<ol type=\"i\">\n<li>Adult - midazolam 10 mg IM</li>\n<li>Pediatric - midazolam 0.2 mg/kg IM to MAX dose of 10 mg</li>\n</ol>\n</li>\n<li>Intravenous/Intraosseous dosing\n<ol type=\"i\">\n<li>Adult - midazolam 5 mg IV/IO</li>\n<li>Pediatric - midazolam 0.1 mg/kg IV/IO to a MAX dose of 5 mg</li>\n</ol>\n</li>\n<li>If seizure continues, repeat midazolam every 5 min until resolution of seizure, for a MAX cumulative total of: <strong>Adult</strong>: 20 mg IM or 15 mg IV/IO; <strong>Pediatric</strong> 0.6 mg/kg IM (20 mg), or 0.3 mg/kg IV/IO (15 mg)\n<ol type=\"i\">\n<li>Contact the hospital if additional midazolam is necessary</li>\n</li>\n</ol>\n</ol>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PEARLS",
+            "content": "**PEARLS for Persistent Seizures:** Patients requiring more than one dose of midazolam are potentially very ill and possibly in status epilepticus. Early hospital notification allows the hospital to prepare additional medications to care for the patient.",
+            "html": "<strong>PEARLS for Persistent Seizures:</strong> Patients requiring more than one dose of midazolam are potentially very ill and possibly in status epilepticus. Early hospital notification allows the hospital to prepare additional medications to care for the patient.",
+            "pearlsTitle": "Persistent Seizures"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PARAMEDIC",
+            "content": "ii. Monitor oxygenation and ventilation with O₂ saturation and end-tidal capnography, especially if providing repeated doses of midazolam\niii. Manage the patient’s airway as necessary, see Airway Algorithm, Blue 2\n\n(Continued)",
+            "html": "<ol type=\"i\">\n<li>Monitor oxygenation and ventilation with O₂ saturation and end-tidal capnography, especially if providing repeated doses of midazolam</li>\n<li>Manage the patient’s airway as necessary, see Airway Algorithm, <a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a></li>\n</ol>\n<p>(Continued)</p>"
+          }
+        ]
+      },
+      {
+        "pageId": "gold_page_80",
+        "pageNumber": "Gold 9",
+        "jpgReference": "/page_jpg/080.jpg",
+        "isContinuation": true,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "PARAMEDIC",
+            "content": "# Seizure #2\n\n(Continued from previous page)\n\n12. For patients visibly pregnant or less than 6 weeks postpartum who are seizing or post-ictal,\n    a. Magnesium sulfate 4 gm **IV/IO** over 15 minutes via medication pump\n        i. If IV/IO not available, in the actively seizing patient OR patient with recurrent seizure activity without recovery/return to baseline between seizures, magnesium sulfate 8 gm **IM** (4 gm in each buttock)\n    b. If **IV/IO/IM** magnesium sulfate was administered AND\n        i. Seizing stopped or patient was post-ictal, start magnesium sulfate infusion at 1 gm/hour via medication pump.\n        ii. Seizing continues, magnesium sulfate 2 gm **IV/IO** over 5 minutes via medication pump.\n            1. If seizing stops after this second **IV/IO** dose of magnesium sulfate start magnesium sulfate infusion at 1 gm/hour via medication pump.\n    c. If patient continues to seize, administer one of the following\n        i. Midazolam 10 mg IM, or\n        ii. Midazolam 5 mg IV/IO\n    d. If seizure continues, repeat midazolam every 5 min until resolution of seizure, for a MAX cumulative total of 20 mg **IM** or 15 mg **IV/IO**\n&lt;img&gt;Hospital Logo&lt;/img&gt;\n\n13. Contact OLMC for the following OPTIONS:\n    a. If unable to stop seizure activity, or if any therapy beyond these protocols is necessary\n&lt;img&gt;Hand Holding Phone Icon&lt;/img&gt;",
+            "html": "<p># Seizure #2</p>\n<p>(Continued from previous page)</p>\n<ol start=\"12\">\n<li>For patients visibly pregnant or less than 6 weeks postpartum who are seizing or post-ictal,\n<ol type=\"a\">\n<li>Magnesium sulfate 4 gm <strong>IV/IO</strong> over 15 minutes via medication pump\n<ol type=\"i\">\n<li>If IV/IO not available, in the actively seizing patient OR patient with recurrent seizure activity without recovery/return to baseline between seizures, magnesium sulfate 8 gm <strong>IM</strong> (4 gm in each buttock)</li>\n</ol>\n</li>\n<li>If <strong>IV/IO/IM</strong> magnesium sulfate was administered AND\n<ol type=\"i\">\n<li>Seizing stopped or patient was post-ictal, start magnesium sulfate infusion at 1 gm/hour via medication pump.</li>\n<li>Seizing continues, magnesium sulfate 2 gm <strong>IV/IO</strong> over 5 minutes via medication pump.</li>\n<ol>\n<li>If seizing stops after this second <strong>IV/IO</strong> dose of magnesium sulfate start magnesium sulfate infusion at 1 gm/hour via medication pump.</li>\n</ol>\n</li>\n</ol>\n<li>If patient continues to seize, administer one of the following\n<ol type=\"i\">\n<li>Midazolam 10 mg IM, or</li>\n<li>Midazolam 5 mg IV/IO</li>\n</ol>\n</li>\n<li>If seizure continues, repeat midazolam every 5 min until resolution of seizure, for a MAX cumulative total of 20 mg <strong>IM</strong> or 15 mg <strong>IV/IO</strong></li>\n</ol>\n</ol>\n<ol start=\"13\">\n<li>Contact OLMC for the following OPTIONS:\n<ol type=\"a\">\n<li>If unable to stop seizure activity, or if any therapy beyond these protocols is necessary</li>\n</li>\n</ol>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PEARLS",
+            "content": "**PEARLS for Seizures:**\n* First dose of midazolam should be given **IM** unless an IV has already been established; do not delay treatment to start an IV.\n* For a suspected eclamptic patient who is actively seizing, the first dose of magnesium should be given **IM** unless an IV has already been established; do not delay treatment to start an IV.\n* References for dosing of medications in seizures are in part from the article: *Silbergleit, et al. “Intramuscular versus Intravenous Therapy for Status Epilepticus”, New England Journal of Medicine, Feb 16, 2012, Vol. 366, No. 7.*\n* Contact OLMC for any patient requiring 3 or more doses of midazolam independent of the route provided.\n* For patients with Vagus Nerve Stimulator who are having repeated/continuous seizure activity, consider activation of the Vagus Nerve Stimulator, if not already attempted, by holding the patients hand-held magnet over the Vagus Nerve Stimulator.",
+            "html": "<strong>PEARLS for Seizures:</strong>\n<ul>\n<li>First dose of midazolam should be given <strong>IM</strong> unless an IV has already been established; do not delay treatment to start an IV.</li>\n<li>For a suspected eclamptic patient who is actively seizing, the first dose of magnesium should be given <strong>IM</strong> unless an IV has already been established; do not delay treatment to start an IV.</li>\n</ul>\n<em> References for dosing of medications in seizures are in part from the article: </em>Silbergleit, et al. “Intramuscular versus Intravenous Therapy for Status Epilepticus”, New England Journal of Medicine, Feb 16, 2012, Vol. 366, No. 7.*\n<ul>\n<li>Contact OLMC for any patient requiring 3 or more doses of midazolam independent of the route provided.</li>\n<li>For patients with Vagus Nerve Stimulator who are having repeated/continuous seizure activity, consider activation of the Vagus Nerve Stimulator, if not already attempted, by holding the patients hand-held magnet over the Vagus Nerve Stimulator.</li>\n</ul>",
+            "pearlsTitle": "Seizures"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gold_stroke",
+    "title": "Stroke",
+    "category": "gold",
+    "pages": [
+      {
+        "pageId": "gold_page_81",
+        "pageNumber": "Gold 10",
+        "jpgReference": "/page_jpg/081.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Stroke #1\n\nStroke should be suspected whenever a person **suddenly** develops new neurological symptoms or complaints. These most commonly are weakness or loss of sensation to one side of the face or limbs, abnormal speech (slurred or inappropriate words) or comprehension, loss of vision or double vision, dizziness, difficulty with coordination of the limbs or walking. Other symptoms that can be due to stroke include sudden dizziness/vertigo or nausea and vomiting, sudden confusion or alterations in mental status, and sudden onset severe headache for no obvious reason. Some of the most commonly used stroke screens (e.g., CPSS, FAST-ED) may not identify the **Posterior Circulation Stroke** which present as visual deficits, balance/coordination changes, dizziness or nausea and vomiting. However, Posterior Circulation Strokes require prompt treatment and should be evaluated for a stroke alert/activation. Medical Direction should be contacted if the patient presents with a negative initial stroke screen but clinical presentation is still concerning for a possible stroke.\n\nRefer to the next page for early hospital notification process for patients who are potential stroke patients.\nSee Altered Level of Consciousness protocol, Gold 5, if warranted.\nSee Diabetic/Hypoglycemic Emergencies protocol, Gold 6, if warranted.\n\n## Northern New England Stroke Screening Tool\n\nTime Last Known Well: (if patient awake with symptoms, last time known to be at baseline) ____________\n\nWitness Name and Best Contact Number: ____________ ( ) - ____________\n\n### Prehospital Stroke Scale Examination\n\nPlease note: Normal Abnormal\n\n**Facial Droop:** Have the patient smile and show teeth.\nNormal: Both sides of the face move equally well.\nAbnormal: One side of the face does not move as well as the other.\n☐ Normal ☐ Abnormal\n\n**Arm Drift:** Have the patient close their eyes and hold arms extended.\nNormal: Both arms move the same, or both arms don't move at all.\nAbnormal: One arm doesn't move, or one arm drifts down compared to the other.\n☐ Normal ☐ Abnormal\n\n**Speech:** Ask the patient to repeat a phrase such as \"You can't teach an old dog new tricks\".\nNormal: Patient says the words without slurring.\nAbnormal: Patient slurs words, says the wrong word, or is unable to speak.\n☐ Normal ☐ Abnormal\n\n**Blood Glucose:** ____________\n\n**YES** ☐ **NO** ☐\n\n**Stroke Alert Criteria - Please check Yes or No:**\n\n☐ ☐ Time from onset of symptoms is known to be less than 24 hours?\n☐ ☐ Blood glucose is or has been corrected to greater than 60 mg/dL?\n☐ ☐ Any abnormal finding on Prehospital Stroke Scale examination?\n☐ ☐ Deficit unlikely due to head trauma or other identifiable cause?\n\nStroke Alert Criteria - if YES to all criteria, contact receiving hospital and report a CODE STROKE.\n\nIf Patient Screens Positive for Stroke Based on Facial Droop, Arm Drift or Speech Abnormalities,\nProceed to Next Page for Large Vessel Occlusion Screening\n\nNorthern NE Protocol Group has taken extreme caution to ensure all information is accurate and in accordance with professional standards in effect at the time of publication. These protocols, policies, or procedures MAY NOT BE altered or modified.",
+            "html": "<p># Stroke #1</p>\n<p>Stroke should be suspected whenever a person <strong>suddenly</strong> develops new neurological symptoms or complaints. These most commonly are weakness or loss of sensation to one side of the face or limbs, abnormal speech (slurred or inappropriate words) or comprehension, loss of vision or double vision, dizziness, difficulty with coordination of the limbs or walking. Other symptoms that can be due to stroke include sudden dizziness/vertigo or nausea and vomiting, sudden confusion or alterations in mental status, and sudden onset severe headache for no obvious reason. Some of the most commonly used stroke screens (e.g., CPSS, FAST-ED) may not identify the <strong>Posterior Circulation Stroke</strong> which present as visual deficits, balance/coordination changes, dizziness or nausea and vomiting. However, Posterior Circulation Strokes require prompt treatment and should be evaluated for a stroke alert/activation. Medical Direction should be contacted if the patient presents with a negative initial stroke screen but clinical presentation is still concerning for a possible stroke.</p>\n<p>Refer to the next page for early hospital notification process for patients who are potential stroke patients.</p>\n<p>See Altered Level of Consciousness protocol, <a href=\"/protocol/gold_altered_level_of_consciousness\" class=\"protocol-ref-link\">Gold 5</a>, if warranted.</p>\n<p>See Diabetic/Hypoglycemic Emergencies protocol, <a href=\"/protocol/gold_diabetic_hypoglycemic_emergencies\" class=\"protocol-ref-link\">Gold 6</a>, if warranted.</p>\n<p>## Northern New England Stroke Screening Tool</p>\n<p>Time Last Known Well: (if patient awake with symptoms, last time known to be at baseline) ____________</p>\n<p>Witness Name and Best Contact Number: ____________ ( ) - ____________</p>\n<p>### Prehospital Stroke Scale Examination</p>\n<p>Please note: Normal Abnormal</p>\n<strong>Facial Droop:</strong> Have the patient smile and show teeth.\n<p>Normal: Both sides of the face move equally well.</p>\n<p>Abnormal: One side of the face does not move as well as the other.</p>\n<p>☐ Normal ☐ Abnormal</p>\n<strong>Arm Drift:</strong> Have the patient close their eyes and hold arms extended.\n<p>Normal: Both arms move the same, or both arms don't move at all.</p>\n<p>Abnormal: One arm doesn't move, or one arm drifts down compared to the other.</p>\n<p>☐ Normal ☐ Abnormal</p>\n<strong>Speech:</strong> Ask the patient to repeat a phrase such as \"You can't teach an old dog new tricks\".\n<p>Normal: Patient says the words without slurring.</p>\n<p>Abnormal: Patient slurs words, says the wrong word, or is unable to speak.</p>\n<p>☐ Normal ☐ Abnormal</p>\n<strong>Blood Glucose:</strong> ____________\n<strong>YES</strong> ☐ <strong>NO</strong> ☐\n<strong>Stroke Alert Criteria - Please check Yes or No:</strong>\n<p>☐ ☐ Time from onset of symptoms is known to be less than 24 hours?</p>\n<p>☐ ☐ Blood glucose is or has been corrected to greater than 60 mg/dL?</p>\n<p>☐ ☐ Any abnormal finding on Prehospital Stroke Scale examination?</p>\n<p>☐ ☐ Deficit unlikely due to head trauma or other identifiable cause?</p>\n<p>Stroke Alert Criteria - if YES to all criteria, contact receiving hospital and report a CODE STROKE.</p>\n<p>If Patient Screens Positive for Stroke Based on Facial Droop, Arm Drift or Speech Abnormalities,</p>\n<p>Proceed to Next Page for Large Vessel Occlusion Screening</p>\n<p>Northern NE Protocol Group has taken extreme caution to ensure all information is accurate and in accordance with professional standards in effect at the time of publication. These protocols, policies, or procedures MAY NOT BE altered or modified.</p>"
+          }
+        ]
+      },
+      {
+        "pageId": "gold_page_82",
+        "pageNumber": "Gold 11",
+        "jpgReference": "/page_jpg/082.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Stroke #2 - Large Vessel Occlusion Screening\n\nAll patients who screen positive for stroke by presence of facial droop, speech abnormalities, or drift/weakness of the upper extremity should be screened for Large Vessel Occlusive stroke. These specific types of strokes *may* benefit from therapies in addition to IV thrombolytics. Screening should be performed by all scopes of practice by using the Field Assessment Stroke Triage for Emergency Destination (FAST-ED) Screening Tool.\n\n<table>\n  <thead>\n    <tr>\n      <th></th>\n      <th></th>\n      <th>0</th>\n      <th>1</th>\n      <th>2</th>\n      <th>Score</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>F</td>\n      <td>Facial palsy<br>Ask the patient to smile</td>\n      <td>Normal or mild facial asymmetry</td>\n      <td>Obvious droop of one side of the mouth</td>\n      <td>N/A</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>A</td>\n      <td>Arm weakness<br>Extend the weak arm with palm facing down to 90° (if sitting) or 45° (if supine) and ask them to hold it there for 10 seconds</td>\n      <td>No drift down x 10 seconds</td>\n      <td>Drifts, but not all the way down</td>\n      <td>Drifts all the way down or no movement at all</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>S</td>\n      <td>Speech changes<br>Note spontaneous speech; ask the patient to name 3 common items; ask them to show you 2 fingers without demonstrating this visually to the patient</td>\n      <td>Normal speech</td>\n      <td>Impaired but comprehensible speech, and/or unable to name any of the items, and/or unable to follow the command</td>\n      <td>Incomprehensible speech and/or complete lack of understanding or mute</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>T</td>\n      <td>Time Last Known Well (LKW)*</td>\n      <td>N/A</td>\n      <td>N/A</td>\n      <td>N/A</td>\n      <td>Time LKW: ____________</td>\n    </tr>\n    <tr>\n      <td>E</td>\n      <td>Eye deviation<br>Observe the patients horizontal eye movements</td>\n      <td>Normal eye movements</td>\n      <td>Eyes tend to only move to one side</td>\n      <td>Eyes both forced over to one side</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>D</td>\n      <td>Denial/Neglect<br>Touch the patient on both arms at the same time and ask if they feel both sides; Show the patient their hand on the side where there are symptoms of weakness and ask them “Whose hand is this?”</td>\n      <td>Able to sense touch on both sides at the same time and recognizes the weak hand as their own</td>\n      <td>Unable to feel one side of the touch but can recognize their weak hand as their own</td>\n      <td>Unable to feel one side of touch and does not recognize their weak hand as their own</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">TOTAL SCORE</td>\n      <td></td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>\n\n\\*Time is documented for decision making purposes and is not scored.\nA score of greater than or equal to 4 has a sensitivity of 0.61 and a specificity of 0.89 for LVO (PPV 0.72)\n\n## Destination Support Guidance for Possible LVO Stroke Patients:\n\n<mermaid>\ngraph TD\n    subgraph Identification of Possible LVO\n        A[Prehospital Stroke Scale +] --> B{Positive LVO Screen}\n        C[FAST-ED greater than or equal to 4] --> B\n        D[FAST-ED less than 4] --> E[Negative LVO Screen]\n    end\n\n    subgraph Establish Thrombolytic Eligibility\n        B --> F{3thrombolytic?s (+) OR LKW greater than 3 hrs}\n        G[3thrombolytic?s (-) AND LKW less than 3 hrs] --> H[thrombolytic eligible]\n        F --> I[thrombolytic ineligible]\n        F --> J{Time added to TOTAL transport time}\n        J --> K[Less than 30 minutes]\n        J --> L[More than 30 minutes]\n    end\n\n    subgraph Establish Distance from Endovascular Capable Hospital\n        K --> M[Endovascular Center]\n        L --> N[Nearest Hospital (including Endovascular Center if this is the closest hospital)]\n    end\n\n    subgraph Destination\n        M --> O[Destination]\n        N --> O\n    end\n</mermaid>\n\n\"3thrombolytic?s\" refers to the thrombolytic checklist screening questions on Gold 12. If ALL are answered negative and time criteria are met, the patient is considered thrombolytic eligible. If ANY are answered positive, the patient is thrombolytic ineligible.\nLKW refers to the time the patient was Last Known Well and without the presenting stroke symptoms\n\n&lt;page_number&gt;Gold 11&lt;/page_number&gt;",
+            "html": "<p># Stroke #2 - Large Vessel Occlusion Screening</p>\n<p>All patients who screen positive for stroke by presence of facial droop, speech abnormalities, or drift/weakness of the upper extremity should be screened for Large Vessel Occlusive stroke. These specific types of strokes <em>may</em> benefit from therapies in addition to IV thrombolytics. Screening should be performed by all scopes of practice by using the Field Assessment Stroke Triage for Emergency Destination (FAST-ED) Screening Tool.</p>\n<table>\n  <thead>\n    <tr>\n      <th></th>\n      <th></th>\n      <th>0</th>\n      <th>1</th>\n      <th>2</th>\n      <th>Score</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>F</td>\n      <td>Facial palsy<br>Ask the patient to smile</td>\n      <td>Normal or mild facial asymmetry</td>\n      <td>Obvious droop of one side of the mouth</td>\n      <td>N/A</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>A</td>\n      <td>Arm weakness<br>Extend the weak arm with palm facing down to 90° (if sitting) or 45° (if supine) and ask them to hold it there for 10 seconds</td>\n      <td>No drift down x 10 seconds</td>\n      <td>Drifts, but not all the way down</td>\n      <td>Drifts all the way down or no movement at all</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>S</td>\n      <td>Speech changes<br>Note spontaneous speech; ask the patient to name 3 common items; ask them to show you 2 fingers without demonstrating this visually to the patient</td>\n      <td>Normal speech</td>\n      <td>Impaired but comprehensible speech, and/or unable to name any of the items, and/or unable to follow the command</td>\n      <td>Incomprehensible speech and/or complete lack of understanding or mute</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>T</td>\n      <td>Time Last Known Well (LKW)*</td>\n      <td>N/A</td>\n      <td>N/A</td>\n      <td>N/A</td>\n      <td>Time LKW: ____________</td>\n    </tr>\n    <tr>\n      <td>E</td>\n      <td>Eye deviation<br>Observe the patients horizontal eye movements</td>\n      <td>Normal eye movements</td>\n      <td>Eyes tend to only move to one side</td>\n      <td>Eyes both forced over to one side</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>D</td>\n      <td>Denial/Neglect<br>Touch the patient on both arms at the same time and ask if they feel both sides; Show the patient their hand on the side where there are symptoms of weakness and ask them “Whose hand is this?”</td>\n      <td>Able to sense touch on both sides at the same time and recognizes the weak hand as their own</td>\n      <td>Unable to feel one side of the touch but can recognize their weak hand as their own</td>\n      <td>Unable to feel one side of touch and does not recognize their weak hand as their own</td>\n      <td></td>\n    </tr>\n    <tr>\n      <td colspan=\"2\">TOTAL SCORE</td>\n      <td></td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>\n<p>\\*Time is documented for decision making purposes and is not scored.</p>\n<p>A score of greater than or equal to 4 has a sensitivity of 0.61 and a specificity of 0.89 for LVO (PPV 0.72)</p>\n<p>## Destination Support Guidance for Possible LVO Stroke Patients:</p>\n<mermaid>\ngraph TD\n    subgraph Identification of Possible LVO\n        A[Prehospital Stroke Scale +] --> B{Positive LVO Screen}\n        C[FAST-ED greater than or equal to 4] --> B\n        D[FAST-ED less than 4] --> E[Negative LVO Screen]\n    end\n\n    subgraph Establish Thrombolytic Eligibility\n        B --> F{3thrombolytic?s #40;+#41; OR LKW greater than 3 hrs}\n        G[3thrombolytic?s #40;-#41; AND LKW less than 3 hrs] --> H[thrombolytic eligible]\n        F --> I[thrombolytic ineligible]\n        F --> J{Time added to TOTAL transport time}\n        J --> K[Less than 30 minutes]\n        J --> L[More than 30 minutes]\n    end\n\n    subgraph Establish Distance from Endovascular Capable Hospital\n        K --> M[Endovascular Center]\n        L --> N[Nearest Hospital #40;including Endovascular Center if this is the closest hospital#41;]\n    end\n\n    subgraph Destination\n        M --> O[Destination]\n        N --> O\n    end\n</mermaid>\n<p>\"3thrombolytic?s\" refers to the thrombolytic checklist screening questions on <a href=\"/protocol/gold_stroke\" class=\"protocol-ref-link\">Gold 12</a>. If ALL are answered negative and time criteria are met, the patient is considered thrombolytic eligible. If ANY are answered positive, the patient is thrombolytic ineligible.</p>\n<p>LKW refers to the time the patient was Last Known Well and without the presenting stroke symptoms</p>\n<p></p>"
+          }
+        ]
+      },
+      {
+        "pageId": "gold_page_83",
+        "pageNumber": "Gold 12",
+        "jpgReference": "/page_jpg/083.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Acute Stroke #3\n## Stroke Checklist\n\nTime of symptom onset/Time Last Known Well: ____________\n\n<table>\n  <tr>\n    <td>Yes</td>\n    <td>No</td>\n  </tr>\n</table>\n\nHas the patient had any recent trauma, surgeries or procedures in the last 3 months?\n☐ ☐\nIf Yes, what was the procedure and when did it occur? Including:\n1) Severe head trauma within the past 3 months\n2) Intracranial or spinal surgery within the past 3 months\n3) Major non-cranial surgery or trauma within 14 days with uncontrollable bleeding (e.g., internal organs)\n\nHas the patient had any bleeding problems in the past?\n☐ ☐\nIf Yes, what was the bleeding problem and when did it occur?\nIncluding:\n1) History of spontaneous (non-traumatic) intracranial hemorrhage\n2) GI malignancy or GI bleed within in the past 21 days\n\n☐ ☐ Is the patient taking any anticoagulants, including oral or injectable medications?\nIf Yes, clarify what the medication is and when it was last administered. See below lists of common anticoagulants\n\nThis list represents a simplified approach to contraindications to thrombolytics and should be inquired of all patients with suspected stroke. These are important to hospital clinicians determining eligibility for thrombolytics AND when determining entry destination for possible LVO Strokes (referred to in the algorithm as \"3thrombolytics?s\")\n\nPlease present these findings to the Emergency Medicine staff at the receiving hospital. The patient's LKW and the answers to these questions are essential in determining the risks of severe bleeding complications if thrombolysis is administered. It is of critical importance to relay this information to the Emergency Medicine staff at the receiving hospital.",
+            "html": "<p># Acute Stroke #3</p>\n<p>## Stroke Checklist</p>\n<p>Time of symptom onset/Time Last Known Well: ____________</p>\n<table>\n  <tr>\n    <td>Yes</td>\n    <td>No</td>\n  </tr>\n</table>\n<p>Has the patient had any recent trauma, surgeries or procedures in the last 3 months?</p>\n<p>☐ ☐</p>\n<p>If Yes, what was the procedure and when did it occur? Including:</p>\n<p>1) Severe head trauma within the past 3 months</p>\n<p>2) Intracranial or spinal surgery within the past 3 months</p>\n<p>3) Major non-cranial surgery or trauma within 14 days with uncontrollable bleeding (e.g., internal organs)</p>\n<p>Has the patient had any bleeding problems in the past?</p>\n<p>☐ ☐</p>\n<p>If Yes, what was the bleeding problem and when did it occur?</p>\n<p>Including:</p>\n<p>1) History of spontaneous (non-traumatic) intracranial hemorrhage</p>\n<p>2) GI malignancy or GI bleed within in the past 21 days</p>\n<p>☐ ☐ Is the patient taking any anticoagulants, including oral or injectable medications?</p>\n<p>If Yes, clarify what the medication is and when it was last administered. See below lists of common anticoagulants</p>\n<p>This list represents a simplified approach to contraindications to thrombolytics and should be inquired of all patients with suspected stroke. These are important to hospital clinicians determining eligibility for thrombolytics AND when determining entry destination for possible LVO Strokes (referred to in the algorithm as \"3thrombolytics?s\")</p>\n<p>Please present these findings to the Emergency Medicine staff at the receiving hospital. The patient's LKW and the answers to these questions are essential in determining the risks of severe bleeding complications if thrombolysis is administered. It is of critical importance to relay this information to the Emergency Medicine staff at the receiving hospital.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PEARLS",
+            "content": "**PEARLS for Anticoagulants:**\nPatients may recognize their anticoagulants as \"blood thinners\". Inquire about traditional anticoagulants including warfarin (Coumadin or Jantoven) and heparin (IV/IM - including enoxaparin (Lovenox)) as well as other oral anticoagulants, including dabigatran (Pradaxa), rivaroxaban (Xarelto), apixaban (Eliquis), betrixaban (Bevyxxa) or edoxaban (Savaysa). Please note, medication manufacturers are producing new anticoagulants frequently. Please note all medications the patient identifies as an anticoagulant and pass on to receiving hospital staff.\n\nPlatelet inhibitors, such as aspirin, clopidogrel (Plavix), ticagrelor (Brilinta), and prasugrel (Effient) are **NOT** considered anticoagulants, but as with all medications, the receiving clinician should be made aware of their use.\n\nNorthern NE Protocol Group has taken extreme caution to ensure all information is accurate and in accordance with professional standards in effect at the time of publication. These protocols, policies, and procedures MAY NOT Be altered or modified.\n&lt;page_number&gt;Gold 12&lt;/page_number&gt;",
+            "html": "<strong>PEARLS for Anticoagulants:</strong>\n<p>Patients may recognize their anticoagulants as \"blood thinners\". Inquire about traditional anticoagulants including warfarin (Coumadin or Jantoven) and heparin (IV/IM - including enoxaparin (Lovenox)) as well as other oral anticoagulants, including dabigatran (Pradaxa), rivaroxaban (Xarelto), apixaban (Eliquis), betrixaban (Bevyxxa) or edoxaban (Savaysa). Please note, medication manufacturers are producing new anticoagulants frequently. Please note all medications the patient identifies as an anticoagulant and pass on to receiving hospital staff.</p>\n<p>Platelet inhibitors, such as aspirin, clopidogrel (Plavix), ticagrelor (Brilinta), and prasugrel (Effient) are <strong>NOT</strong> considered anticoagulants, but as with all medications, the receiving clinician should be made aware of their use.</p>\n<p>Northern NE Protocol Group has taken extreme caution to ensure all information is accurate and in accordance with professional standards in effect at the time of publication. These protocols, policies, and procedures MAY NOT Be altered or modified.</p>\n<p></p>",
+            "pearlsTitle": "Anticoagulants"
+          }
+        ]
+      },
+      {
+        "pageId": "gold_page_84",
+        "pageNumber": "Gold 13",
+        "jpgReference": "/page_jpg/084.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Stroke #4",
+            "html": "<p># Stroke #4</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "EMT",
+            "content": "1. Manage airway as appropriate, see Airway Algorithm, Blue 2\n2. Maintain O₂ saturation between 94 - 99%\n3. Elevate head of stretcher to 30 degrees (unless patient requires spinal motion restriction)\n4. Request ALS, if available. Do not delay transport for ALS intercept. When operationally and medically feasible, limit scene time to 10 minutes or less.\n5. Perform finger stick to measure blood glucose, if so trained. If blood glucose is less than 60 mg/dL, refer to Diabetic/Hypoglycemic Emergencies protocol, Gold 6\n6. As early as possible, alert the receiving hospital of a \"Code Stroke\"\n    a. Relay the following information:\n        i. Patient age and gender\n        ii. Identify the patient as a potential stroke patient\n        iii. The patient's neurologic deficits and the findings of the Cincinnati Prehospital Stoke Scale and FAST-ED Scale\n        iv. The \"Time Last Known Well\"\n        v. The patient's mental status\n        vi. The patient's vital signs and finger stick blood glucose results\n        vii. ETA\n7. Transport to the most appropriate facility based on regional resources\n8. If available and so trained, perform 12-lead ECG en route.",
+            "html": "<ol>\n<li>Manage airway as appropriate, see Airway Algorithm, <a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a></li>\n<li>Maintain O₂ saturation between 94 - 99%</li>\n<li>Elevate head of stretcher to 30 degrees (unless patient requires spinal motion restriction)</li>\n<li>Request ALS, if available. Do not delay transport for ALS intercept. When operationally and medically feasible, limit scene time to 10 minutes or less.</li>\n<li>Perform finger stick to measure blood glucose, if so trained. If blood glucose is less than 60 mg/dL, refer to Diabetic/Hypoglycemic Emergencies protocol, <a href=\"/protocol/gold_diabetic_hypoglycemic_emergencies\" class=\"protocol-ref-link\">Gold 6</a></li>\n<li>As early as possible, alert the receiving hospital of a \"Code Stroke\"\n<ol type=\"a\">\n<li>Relay the following information:\n<ol type=\"i\">\n<li>Patient age and gender</li>\n<li>Identify the patient as a potential stroke patient</li>\n<li>The patient's neurologic deficits and the findings of the Cincinnati Prehospital Stoke Scale and FAST-ED Scale</li>\n<li>The \"Time Last Known Well\"</li>\n<li>The patient's mental status</li>\n<li>The patient's vital signs and finger stick blood glucose results</li>\n<li>ETA</li>\n</ol>\n</li>\n</ol>\n<li>Transport to the most appropriate facility based on regional resources</li>\n<li>If available and so trained, perform 12-lead ECG en route.</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "9. Cardiac monitor\n10. IV en route\n11. Perform 12-lead ECG en route",
+            "html": "<ol start=\"9\">\n<li>Cardiac monitor</li>\n<li>IV en route</li>\n<li>Perform 12-lead ECG en route</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PEARLS",
+            "content": "**PEARLS for Stroke:**\n* Consider transporting a **witness**, family member or caregiver with the patient to verify the time of stroke symptoms onset. If the witness cannot come with you, obtain the witness' best phone number and relay to receiving hospital staff.\n* **Time Last Known Well** is the last time the patient was noted to be neurologically normal. If the patient was sleeping and wakes up with symptoms, time last known well is the last time the patient was seen to be normal. Check if the patient had gotten up and been at baseline during the night.\n* Consider **stroke mimics** including: migraine, hypoglycemia, seizures, intoxication, sepsis.\n* The management of an LVO stroke is a COMBINATION of rapid provision of thrombolytic AND endovascular therapies when a patient screens positive for an LVO stroke that is amenable for therapy. At present, BOTH therapies should be performed in as rapid as possible manner, highlighting the role of ALL hospitals in the care of stroke patients.\nThis protocol was developed in collaboration with the Northern New England Protocol Group.\n\nNorthern NE Protocol Group has taken extreme caution to ensure all information is accurate and in accordance with professional standards in effect at the time of publication. These protocols, policies, or procedures MAY NOT BE altered or modified.",
+            "html": "<strong>PEARLS for Stroke:</strong>\n<ul>\n<li>Consider transporting a <strong>witness</strong>, family member or caregiver with the patient to verify the time of stroke symptoms onset. If the witness cannot come with you, obtain the witness' best phone number and relay to receiving hospital staff.</li>\n<li><strong>Time Last Known Well</strong> is the last time the patient was noted to be neurologically normal. If the patient was sleeping and wakes up with symptoms, time last known well is the last time the patient was seen to be normal. Check if the patient had gotten up and been at baseline during the night.</li>\n<li>Consider <strong>stroke mimics</strong> including: migraine, hypoglycemia, seizures, intoxication, sepsis.</li>\n<li>The management of an LVO stroke is a COMBINATION of rapid provision of thrombolytic AND endovascular therapies when a patient screens positive for an LVO stroke that is amenable for therapy. At present, BOTH therapies should be performed in as rapid as possible manner, highlighting the role of ALL hospitals in the care of stroke patients.</li>\n</ul>\n<p>This protocol was developed in collaboration with the Northern New England Protocol Group.</p>\n<p>Northern NE Protocol Group has taken extreme caution to ensure all information is accurate and in accordance with professional standards in effect at the time of publication. These protocols, policies, or procedures MAY NOT BE altered or modified.</p>",
+            "pearlsTitle": "Stroke"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gold_medical_shock",
+    "title": "Medical Shock",
+    "category": "gold",
+    "pages": [
+      {
+        "pageId": "gold_page_85",
+        "pageNumber": "Gold 14",
+        "jpgReference": "/page_jpg/085.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Medical Shock #1\n\nSee Cardiogenic Shock protocol, **Red 32** if appropriate\nSee Hemorrhagic Shock protocol, **Green 13** if appropriate\nSee Allergy and Anaphylaxis protocol, **Gold 1** if appropriate\nSee Airway Algorithm, **Blue 2** if appropriate\n\n## IDENTIFICATION OF POSSIBLE SEPSIS\n\n*   Suspected infection? AND:\n*   Evidence of sepsis criteria? Includes **two or more** of the following:\n    *   Temperature less than 96.8°F (36°C) or greater than 101°F (38.3°C)\n    *   Heart rate greater than 90 bpm\n    *   Respiratory rate greater than 20 bpm\n    *   Evidence of hypotension:\n        *   **Adults:** systolic blood pressure less than 90 mmHg or Mean Arterial Pressure (MAP) less than 65 mmHg\n        *   **Pediatrics:** systolic BP less than age-appropriate cutoff, mottling, capillary refill less than one second (flash) or greater than 3 seconds (delayed)\n    *   New onset altered mental status OR increasing mental status change with previous altered mental status",
+            "html": "<p># Medical Shock #1</p>\n<p>See Cardiogenic Shock protocol, <strong><a href=\"/protocol/red_cardiogenic_shock\" class=\"protocol-ref-link\">Red 32</a></strong> if appropriate</p>\n<p>See Hemorrhagic Shock protocol, <strong><a href=\"/protocol/green_hemorrhagic_shock\" class=\"protocol-ref-link\">Green 13</a></strong> if appropriate</p>\n<p>See Allergy and Anaphylaxis protocol, <strong><a href=\"/protocol/gold_allergy_anaphylaxis\" class=\"protocol-ref-link\">Gold 1</a></strong> if appropriate</p>\n<p>See Airway Algorithm, <strong><a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a></strong> if appropriate</p>\n<p>## IDENTIFICATION OF POSSIBLE SEPSIS</p>\n<ul>\n<li>Suspected infection? AND:</li>\n<li>Evidence of sepsis criteria? Includes <strong>two or more</strong> of the following:\n<ul>\n<li>Temperature less than 96.8°F (36°C) or greater than 101°F (38.3°C)</li>\n<li>Heart rate greater than 90 bpm</li>\n<li>Respiratory rate greater than 20 bpm</li>\n<li>Evidence of hypotension:</li>\n<li><strong>Adults:</strong> systolic blood pressure less than 90 mmHg or Mean Arterial Pressure (MAP) less than 65 mmHg</li>\n<li><strong>Pediatrics:</strong> systolic BP less than age-appropriate cutoff, mottling, capillary refill less than one second (flash) or greater than 3 seconds (delayed)</li>\n<li>New onset altered mental status OR increasing mental status change with previous altered mental status</li>\n</ul>\n</li>\n</ul>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "EMT",
+            "content": "1. Attempt to identify cause\n    a. Hemorrhagic Shock, see Hemorrhagic Shock protocol, **Green 13**\n    b. Cardiogenic Shock, see Cardiogenic Shock protocol, **Red 32**\n    c. Anaphylactic Shock, see Allergy/Anaphylaxis protocol, **Gold 1**\n2. Manage airway as appropriate, see Airway Algorithm, **Blue 2**\n3. Request ALS, if available, and notify receiving hospital that the patient is a \"Code Sepsis.\" When available, ALS is valuable in these patients and allows for initiation of essential therapies, including resuscitation.\n4. Perform finger stick to measure blood glucose, if so trained\n    a. If blood glucose less than 60 mg/dL, refer to Diabetic/Hypoglycemic Emergencies protocol, **Gold 6**\n5. Transport",
+            "html": "<ol>\n<li>Attempt to identify cause\n<ol type=\"a\">\n<li>Hemorrhagic Shock, see Hemorrhagic Shock protocol, <strong><a href=\"/protocol/green_hemorrhagic_shock\" class=\"protocol-ref-link\">Green 13</a></strong></li>\n<li>Cardiogenic Shock, see Cardiogenic Shock protocol, <strong><a href=\"/protocol/red_cardiogenic_shock\" class=\"protocol-ref-link\">Red 32</a></strong></li>\n<li>Anaphylactic Shock, see Allergy/Anaphylaxis protocol, <strong><a href=\"/protocol/gold_allergy_anaphylaxis\" class=\"protocol-ref-link\">Gold 1</a></strong></li>\n</ol>\n</li>\n<li>Manage airway as appropriate, see Airway Algorithm, <strong><a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a></strong></li>\n<li>Request ALS, if available, and notify receiving hospital that the patient is a \"Code Sepsis.\" When available, ALS is valuable in these patients and allows for initiation of essential therapies, including resuscitation.</li>\n<li>Perform finger stick to measure blood glucose, if so trained\n<ol type=\"a\">\n<li>If blood glucose less than 60 mg/dL, refer to Diabetic/Hypoglycemic Emergencies protocol, <strong><a href=\"/protocol/gold_diabetic_hypoglycemic_emergencies\" class=\"protocol-ref-link\">Gold 6</a></strong></li>\n</ol>\n</li>\n<li>Transport</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT",
+            "content": "6. For Severe Sepsis\n    a. Assess for acute pulmonary edema. If present, refer to Cardiogenic Shock protocol, **Red 32**\n    b. Administer up to 30 mL/kg fluid bolus.\n    c. For patients with evidence of fluid overload or at risk for fluid overload, consider consultation with OLMC for different resuscitation volume goals.",
+            "html": "<ol start=\"6\">\n<li>For Severe Sepsis\n<ol type=\"a\">\n<li>Assess for acute pulmonary edema. If present, refer to Cardiogenic Shock protocol, <strong><a href=\"/protocol/red_cardiogenic_shock\" class=\"protocol-ref-link\">Red 32</a></strong></li>\n<li>Administer up to 30 mL/kg fluid bolus.</li>\n<li>For patients with evidence of fluid overload or at risk for fluid overload, consider consultation with OLMC for different resuscitation volume goals.</li>\n</li>\n</ol>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PEARLS",
+            "content": "**PEARLS for Sepsis:** Patients at risk for fluid overload include, but are not limited to, patients over 65 years of age, patients with a history of heart failure, patients on dialysis for renal failure. Such patients may benefit from smaller volumes of resuscitation and earlier initiation of pressors.",
+            "html": "<strong>PEARLS for Sepsis:</strong> Patients at risk for fluid overload include, but are not limited to, patients over 65 years of age, patients with a history of heart failure, patients on dialysis for renal failure. Such patients may benefit from smaller volumes of resuscitation and earlier initiation of pressors.",
+            "pearlsTitle": "Sepsis"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT",
+            "content": "d. Monitor closely during resuscitation. Goals of resuscitation in shock and sepsis are to treat hypotension and/or signs of hypoperfusion (Continued)\n\nNorthern NE Protocol Group has taken extreme caution to ensure all information is accurate and in accordance with professional standards in effect at the time of publication. These protocols, policies, or procedures MAY NOT BE altered or modified.",
+            "html": "<ol type=\"a\">\n<li>Monitor closely during resuscitation. Goals of resuscitation in shock and sepsis are to treat hypotension and/or signs of hypoperfusion (Continued)</li>\n</ol>\n<p>Northern NE Protocol Group has taken extreme caution to ensure all information is accurate and in accordance with professional standards in effect at the time of publication. These protocols, policies, or procedures MAY NOT BE altered or modified.</p>"
+          }
+        ]
+      },
+      {
+        "pageId": "gold_page_87",
+        "pageNumber": "Gold 16",
+        "jpgReference": "/page_jpg/087.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Medical Shock #3\n\nPediatric shock is well established before the appearance of classic signs and symptoms. The earliest signs and symptoms of pediatric shock include delayed capillary refill, alterations in mental status, rising pulse, and increasing respiratory rate. By the time blood pressure drops, circulatory collapse is near. Consider sepsis in certain high-risk clinical settings.\n\nHigh-risk features for invasive infection include malignancy, bone marrow or solid organ transplant, asplenia, presence of indwelling central line/catheter, or other situation with immune deficiency, compromise or suppression.\n\nPlease see below for pediatric specific findings & vital signs.\n&lt;img&gt;A blue teddy bear with a bandage on its head.&lt;/img&gt;\n\n**IDENTIFICATION OF POSSIBLE SEPSIS**\n*   Suspected Infection - YES\n*   Temperature greater than 101° F or less than 96.8° F (greater than 38.3° C or less than 36° C)\n*   Heart rate or respiratory rate greater than normal limit for age (NOTE: heart rate may not be elevated in a septic hypothermic patient) AND at least one of the following indications of altered organ function:\n    *   Altered mental status\n    *   Capillary refill time less than 1 second (flash) or greater than 3 seconds\n    *   Mottled cool extremities\n\nNote: Consider early contact with OLMC for suspected pediatric sepsis patients\n\n<table>\n  <thead>\n    <tr>\n      <th colspan=\"3\">Upper Limit of Pediatric HR & RR</th>\n    </tr>\n    <tr>\n      <th>Age</th>\n      <th>Heart Rate</th>\n      <th>Resp Rate</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>0 day - <1 mo</td>\n      <td>&gt; 205</td>\n      <td>&gt; 60</td>\n    </tr>\n    <tr>\n      <td>1 mo - <3 mo</td>\n      <td>&gt; 205</td>\n      <td>&gt; 60</td>\n    </tr>\n    <tr>\n      <td>3 mo - <1 y</td>\n      <td>&gt; 190</td>\n      <td>&gt; 60</td>\n    </tr>\n    <tr>\n      <td>1 y - <2 y</td>\n      <td>&gt; 190</td>\n      <td>&gt; 40</td>\n    </tr>\n    <tr>\n      <td>2 y - <4 y</td>\n      <td>&gt; 140</td>\n      <td>&gt; 40</td>\n    </tr>\n    <tr>\n      <td>4 y - <6 y</td>\n      <td>&gt; 140</td>\n      <td>&gt; 34</td>\n    </tr>\n    <tr>\n      <td>6 y - <10 y</td>\n      <td>&gt; 140</td>\n      <td>&gt; 30</td>\n    </tr>\n    <tr>\n      <td>10 y - <13 y</td>\n      <td>&gt; 100</td>\n      <td>&gt; 30</td>\n    </tr>\n    <tr>\n      <td>13 y or older</td>\n      <td>&gt; 100</td>\n      <td>&gt; 24</td>\n    </tr>\n  </tbody>\n</table>\n\n*American College of Pediatrics \"An Emergency Department Septic Shock Protocol and Care Guideline for Children Initiated at Triage\"",
+            "html": "<p># Medical Shock #3</p>\n<p>Pediatric shock is well established before the appearance of classic signs and symptoms. The earliest signs and symptoms of pediatric shock include delayed capillary refill, alterations in mental status, rising pulse, and increasing respiratory rate. By the time blood pressure drops, circulatory collapse is near. Consider sepsis in certain high-risk clinical settings.</p>\n<p>High-risk features for invasive infection include malignancy, bone marrow or solid organ transplant, asplenia, presence of indwelling central line/catheter, or other situation with immune deficiency, compromise or suppression.</p>\n<p>Please see below for pediatric specific findings & vital signs.</p>\n<strong>IDENTIFICATION OF POSSIBLE SEPSIS</strong>\n<ul>\n<li>Suspected Infection - YES</li>\n<li>Temperature greater than 101° F or less than 96.8° F (greater than 38.3° C or less than 36° C)</li>\n<li>Heart rate or respiratory rate greater than normal limit for age (NOTE: heart rate may not be elevated in a septic hypothermic patient) AND at least one of the following indications of altered organ function:\n<ul>\n<li>Altered mental status</li>\n<li>Capillary refill time less than 1 second (flash) or greater than 3 seconds</li>\n<li>Mottled cool extremities</li>\n</ul>\n</li>\n</ul>\n<p>Note: Consider early contact with OLMC for suspected pediatric sepsis patients</p>\n<table>\n  <thead>\n    <tr>\n      <th colspan=\"3\">Upper Limit of Pediatric HR & RR</th>\n    </tr>\n    <tr>\n      <th>Age</th>\n      <th>Heart Rate</th>\n      <th>Resp Rate</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>0 day - <1 mo</td>\n      <td>&gt; 205</td>\n      <td>&gt; 60</td>\n    </tr>\n    <tr>\n      <td>1 mo - <3 mo</td>\n      <td>&gt; 205</td>\n      <td>&gt; 60</td>\n    </tr>\n    <tr>\n      <td>3 mo - <1 y</td>\n      <td>&gt; 190</td>\n      <td>&gt; 60</td>\n    </tr>\n    <tr>\n      <td>1 y - <2 y</td>\n      <td>&gt; 190</td>\n      <td>&gt; 40</td>\n    </tr>\n    <tr>\n      <td>2 y - <4 y</td>\n      <td>&gt; 140</td>\n      <td>&gt; 40</td>\n    </tr>\n    <tr>\n      <td>4 y - <6 y</td>\n      <td>&gt; 140</td>\n      <td>&gt; 34</td>\n    </tr>\n    <tr>\n      <td>6 y - <10 y</td>\n      <td>&gt; 140</td>\n      <td>&gt; 30</td>\n    </tr>\n    <tr>\n      <td>10 y - <13 y</td>\n      <td>&gt; 100</td>\n      <td>&gt; 30</td>\n    </tr>\n    <tr>\n      <td>13 y or older</td>\n      <td>&gt; 100</td>\n      <td>&gt; 24</td>\n    </tr>\n  </tbody>\n</table>\n<p>*American College of Pediatrics \"An Emergency Department Septic Shock Protocol and Care Guideline for Children Initiated at Triage\"</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PEARLS",
+            "content": "**PEARLS for Medical Shock**\n*   Many pediatric patients with shock have associated hypoglycemia. Mortality is increased if this is not addressed. Also, the presenting symptoms of shock and those of hypoglycemia can be very similar.\n*   In children under the age 6, prompt IO placement after one failed IV attempt should be considered, since timely, successful IV placement in this age group is shown to be difficult.\n*   Patients in shock require frequent reassessment. The following physiologic parameters are appropriate endpoints for therapy: normalization of heart rate, capillary refill, mental status, resolution of existing hypotension and, if available, presence of urine output.\n&lt;img&gt;A blue teddy bear sitting up.&lt;/img&gt;",
+            "html": "<strong>PEARLS for Medical Shock</strong>\n<ul>\n<li>Many pediatric patients with shock have associated hypoglycemia. Mortality is increased if this is not addressed. Also, the presenting symptoms of shock and those of hypoglycemia can be very similar.</li>\n<li>In children under the age 6, prompt IO placement after one failed IV attempt should be considered, since timely, successful IV placement in this age group is shown to be difficult.</li>\n<li>Patients in shock require frequent reassessment. The following physiologic parameters are appropriate endpoints for therapy: normalization of heart rate, capillary refill, mental status, resolution of existing hypotension and, if available, presence of urine output.</li>\n</ul>",
+            "pearlsTitle": "Medical Shock"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gold_abdominal_pain",
+    "title": "Abdominal Pain",
+    "category": "gold",
+    "pages": [
+      {
+        "pageId": "gold_page_88",
+        "pageNumber": "Gold 17",
+        "jpgReference": "/page_jpg/088.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Abdominal Pain\n\nMany diseases cause abdominal pain. While it is almost impossible to diagnose the cause of abdominal pain in the EMS environment, it is important to be prepared for the patient to suddenly become very ill. If the patient is in shock, refer to the medical shock protocol.",
+            "html": "<p># Abdominal Pain</p>\n<p>Many diseases cause abdominal pain. While it is almost impossible to diagnose the cause of abdominal pain in the EMS environment, it is important to be prepared for the patient to suddenly become very ill. If the patient is in shock, refer to the medical shock protocol.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "EMT",
+            "content": "1. Manage airway as appropriate, see Airway Algorithm, Blue 2\n2. If evidence of shock, refer to the Medical Shock protocol, Gold 14\n3. If available and so trained, perform 12-lead ECG in patients with prior history of cardiac disease or risk factors for cardiac disease",
+            "html": "<ol>\n<li>Manage airway as appropriate, see Airway Algorithm, <a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a></li>\n<li>If evidence of shock, refer to the Medical Shock protocol, <a href=\"/protocol/gold_medical_shock\" class=\"protocol-ref-link\">Gold 14</a></li>\n<li>If available and so trained, perform 12-lead ECG in patients with prior history of cardiac disease or risk factors for cardiac disease</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT",
+            "content": "4. Establish IV\n5. If so trained, perform 12-lead ECG, under the following circumstances:\n    a. The patient has a history of cardiac disease or risk factors for cardiac disease,\n    or\n    b. Based on the clinician's discretion",
+            "html": "<ol start=\"4\">\n<li>Establish IV</li>\n<li>If so trained, perform 12-lead ECG, under the following circumstances:\n<ol type=\"a\">\n<li>The patient has a history of cardiac disease or risk factors for cardiac disease,</li>\n</li>\n</ol>\n</ol>\n<p>    or</p>\n<ol type=\"a\">\n<li>Based on the clinician's discretion</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PARAMEDIC",
+            "content": "6. Perform pain-rating score on 1-10 scale\n7. For non-traumatic abdominal pain in a stable patient with a normal level of consciousness:\n    a. Consider fentanyl 1 mcg/kg IV/IN for a MAX dose of 100 mcg\n        i. If repeated doses necessary, contact OLMC\n    b. For nausea or vomiting, refer to Nausea and Vomiting protocol, Gold 18",
+            "html": "<ol start=\"6\">\n<li>Perform pain-rating score on 1-10 scale</li>\n<li>For non-traumatic abdominal pain in a stable patient with a normal level of consciousness:\n<ol type=\"a\">\n<li>Consider fentanyl 1 mcg/kg IV/IN for a MAX dose of 100 mcg\n<ol type=\"i\">\n<li>If repeated doses necessary, contact OLMC</li>\n</ol>\n</li>\n<li>For nausea or vomiting, refer to Nausea and Vomiting protocol, <a href=\"/protocol/gold_nausea_and_vomiting\" class=\"protocol-ref-link\">Gold 18</a></li>\n</ol>\n</ol>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gold_nausea_and_vomiting",
+    "title": "Nausea and Vomiting",
+    "category": "gold",
+    "pages": [
+      {
+        "pageId": "gold_page_89",
+        "pageNumber": "Gold 18",
+        "jpgReference": "/page_jpg/089.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Nausea and Vomiting\n\nNausea and vomiting are symptoms of some other illness. Therefore, this is a supplemental protocol to be used in addition to other relevant protocols",
+            "html": "<p># Nausea and Vomiting</p>\n<p>Nausea and vomiting are symptoms of some other illness. Therefore, this is a supplemental protocol to be used in addition to other relevant protocols</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "EMT",
+            "content": "1. Manage airway as appropriate, see Airway Algorithm, Blue 2\n2. Transport in position of comfort, unless contraindicated\n3. If available and so trained, perform 12-lead ECG if the patient has a history of cardiac disease, risk factors for cardiac disease, or based on the EMS clinician's discretion.",
+            "html": "<ol>\n<li>Manage airway as appropriate, see Airway Algorithm, <a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a></li>\n<li>Transport in position of comfort, unless contraindicated</li>\n<li>If available and so trained, perform 12-lead ECG if the patient has a history of cardiac disease, risk factors for cardiac disease, or based on the EMS clinician's discretion.</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "4. Consider Ondansetron: (Remember: do not administer if patient has history of long QT syndrome)\n    a. Adults: administer ondansetron 4 mg ODT tablet PO, or ondansetron 4 mg IV/IM\n        i. May repeat once after 15 minutes, as needed.\n    b. Pediatric patients:\n        i. 6 months to less than 4 years old: ondansetron 2 mg IV/IM\n        ii. 4 years old and above: ondansetron 4 mg PO/IV/IM\n5. Consider IV access if active vomiting or for management of underlying cause\n6. Consider fluid bolus if actively vomiting\n&lt;img&gt;A teddy bear.&lt;/img&gt;\n7. Contact OLMC for dosage question, abnormal vital signs, or coincident drug use (including alcohol) by patient.\n&lt;img&gt;A hand holding a phone.&lt;/img&gt;",
+            "html": "<ol start=\"4\">\n<li>Consider Ondansetron: (Remember: do not administer if patient has history of long QT syndrome)\n<ol type=\"a\">\n<li>Adults: administer ondansetron 4 mg ODT tablet PO, or ondansetron 4 mg IV/IM\n<ol type=\"i\">\n<li>May repeat once after 15 minutes, as needed.</li>\n</ol>\n</li>\n<li>Pediatric patients:\n<ol type=\"i\">\n<li>6 months to less than 4 years old: ondansetron 2 mg IV/IM</li>\n<li>4 years old and above: ondansetron 4 mg PO/IV/IM</li>\n</ol>\n</li>\n</ol>\n<li>Consider IV access if active vomiting or for management of underlying cause</li>\n<li>Consider fluid bolus if actively vomiting</li>\n</ol>\n<ol start=\"7\">\n<li>Contact OLMC for dosage question, abnormal vital signs, or coincident drug use (including alcohol) by patient.</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PEARLS",
+            "content": "A small percentage of patients receiving ondansetron experience adverse cardiac reactions including QT prolongation. For this reason, patients should be questioned about preexisting QT prolongation, which is a contraindication to receiving ondansetron. In these conditions, patients SHOULD NOT receive ondansetron. There are also many medications which may cause a prolonged QT interval and ondansetron should be withheld in these cases. For more information on drugs that can cause QT prolongation, consider reading: https://www.uspharmacist.com/article/drug-induced-qt-prolongation",
+            "html": "<p>A small percentage of patients receiving ondansetron experience adverse cardiac reactions including QT prolongation. For this reason, patients should be questioned about preexisting QT prolongation, which is a contraindication to receiving ondansetron. In these conditions, patients SHOULD NOT receive ondansetron. There are also many medications which may cause a prolonged QT interval and ondansetron should be withheld in these cases. For more information on drugs that can cause QT prolongation, consider reading: https://www.uspharmacist.com/article/drug-induced-qt-prolongation</p>",
+            "pearlsTitle": "Management of Nausea and Vomiting:"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gold_fever",
+    "title": "Fever",
+    "category": "gold",
+    "pages": [
+      {
+        "pageId": "gold_page_90",
+        "pageNumber": "Gold 19",
+        "jpgReference": "/page_jpg/090.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Fever #1\n\nThis protocol applies to patients with measured temperatures greater than or equal to 101F (38.3C) who have NOT received any acetaminophen-containing medications in the past 6 hours, do NOT have underlying liver disease AND are NOT allergic to acetaminophen.",
+            "html": "<p># Fever #1</p>\n<p>This protocol applies to patients with measured temperatures greater than or equal to 101F (38.3C) who have NOT received any acetaminophen-containing medications in the past 6 hours, do NOT have underlying liver disease AND are NOT allergic to acetaminophen.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+            "content": "1.  If infection suspected, see Medical Shock protocol, Gold 14\n2.  Begin passive cooling by turning on fan/air conditioning in patient compartment and uncovering the patient.\n3.  If no contraindications to oral medications exist, for patients 5 years and older AND 20 pounds/9.4 kg or greater, consider:\n    a. Acetaminophen chewable tab, 10-15 mg/kg rounded to the nearest half tab (may be chewed or swallowed whole). MAX dose 1000 mg.\n4.  Monitor closely for development of hypothermia or other vital sign abnormalities\n\n<table>\n<thead>\n<tr>\n<th>Weight lbs/kgs</th>\n<th>Dose</th>\n<th>Number of 160 mg Chew tabs (double number for 80 mg tabs)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td colspan=\"3\">NOTE: Oral Acetaminophen is for children 5 years and older AND 20 lbs. and over</td>\n</tr>\n<tr>\n<td>20 – 26 lbs/9.4 – 12 kgs</td>\n<td>160 mg</td>\n<td>1 tab</td>\n</tr>\n<tr>\n<td>27 – 32 lbs/12.1 - 14.7 kgs</td>\n<td>200 mg</td>\n<td>1 tab</td>\n</tr>\n<tr>\n<td>32 – 38 lbs/14.8 - 17.3 kgs</td>\n<td>240 mg</td>\n<td>1.5 tabs</td>\n</tr>\n<tr>\n<td>38 - 44 lbs/17.4 – 20 kgs</td>\n<td>280 mg</td>\n<td>1.5 tabs</td>\n</tr>\n<tr>\n<td>44 – 50 lbs/20.1 - 22.7 kgs</td>\n<td>320 mg</td>\n<td>2 tabs</td>\n</tr>\n<tr>\n<td>50 – 56 lbs/22.8 - 25.3 kgs</td>\n<td>360 mg</td>\n<td>2 tabs</td>\n</tr>\n<tr>\n<td>56 – 65 lbs/25.4 - 29.3 kgs</td>\n<td>400 mg</td>\n<td>2.5 tabs</td>\n</tr>\n<tr>\n<td>65 – 76 lbs/29.4 - 34.7 kgs</td>\n<td>480 mg</td>\n<td>3 tabs</td>\n</tr>\n<tr>\n<td>76 – 89 lbs/34.8 - 40.3 kgs</td>\n<td>560 mg</td>\n<td>3.5 tabs</td>\n</tr>\n<tr>\n<td>89 – 120 lbs/40.4 – 55 kgs</td>\n<td>640 mg</td>\n<td>4 tabs</td>\n</tr>\n<tr>\n<td>121 lbs and up/ 55.1 kgs and up</td>\n<td>960 - 1000 mg</td>\n<td>6 tabs</td>\n</tr>\n</tbody>\n</table>\n\n**PEARLS**\nTemperature reliability is dependent on the method utilized. Rectal temperature is the most reliable, followed by oral and axillary routes. Temporal measurement of temperature has low reliability.",
+            "html": "<ol>\n<li>If infection suspected, see Medical Shock protocol, <a href=\"/protocol/gold_medical_shock\" class=\"protocol-ref-link\">Gold 14</a></li>\n<li>Begin passive cooling by turning on fan/air conditioning in patient compartment and uncovering the patient.</li>\n<li>If no contraindications to oral medications exist, for patients 5 years and older AND 20 pounds/9.4 kg or greater, consider:\n<ol type=\"a\">\n<li>Acetaminophen chewable tab, 10-15 mg/kg rounded to the nearest half tab (may be chewed or swallowed whole). MAX dose 1000 mg.</li>\n</ol>\n</li>\n<li>Monitor closely for development of hypothermia or other vital sign abnormalities</li>\n</ol>\n<table>\n<thead>\n<tr>\n<th>Weight lbs/kgs</th>\n<th>Dose</th>\n<th>Number of 160 mg Chew tabs (double number for 80 mg tabs)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td colspan=\"3\">NOTE: Oral Acetaminophen is for children 5 years and older AND 20 lbs. and over</td>\n</tr>\n<tr>\n<td>20 – 26 lbs/9.4 – 12 kgs</td>\n<td>160 mg</td>\n<td>1 tab</td>\n</tr>\n<tr>\n<td>27 – 32 lbs/12.1 - 14.7 kgs</td>\n<td>200 mg</td>\n<td>1 tab</td>\n</tr>\n<tr>\n<td>32 – 38 lbs/14.8 - 17.3 kgs</td>\n<td>240 mg</td>\n<td>1.5 tabs</td>\n</tr>\n<tr>\n<td>38 - 44 lbs/17.4 – 20 kgs</td>\n<td>280 mg</td>\n<td>1.5 tabs</td>\n</tr>\n<tr>\n<td>44 – 50 lbs/20.1 - 22.7 kgs</td>\n<td>320 mg</td>\n<td>2 tabs</td>\n</tr>\n<tr>\n<td>50 – 56 lbs/22.8 - 25.3 kgs</td>\n<td>360 mg</td>\n<td>2 tabs</td>\n</tr>\n<tr>\n<td>56 – 65 lbs/25.4 - 29.3 kgs</td>\n<td>400 mg</td>\n<td>2.5 tabs</td>\n</tr>\n<tr>\n<td>65 – 76 lbs/29.4 - 34.7 kgs</td>\n<td>480 mg</td>\n<td>3 tabs</td>\n</tr>\n<tr>\n<td>76 – 89 lbs/34.8 - 40.3 kgs</td>\n<td>560 mg</td>\n<td>3.5 tabs</td>\n</tr>\n<tr>\n<td>89 – 120 lbs/40.4 – 55 kgs</td>\n<td>640 mg</td>\n<td>4 tabs</td>\n</tr>\n<tr>\n<td>121 lbs and up/ 55.1 kgs and up</td>\n<td>960 - 1000 mg</td>\n<td>6 tabs</td>\n</tr>\n</tbody>\n</table>\n<strong>PEARLS</strong>\n<p>Temperature reliability is dependent on the method utilized. Rectal temperature is the most reliable, followed by oral and axillary routes. Temporal measurement of temperature has low reliability.</p>"
+          }
+        ]
+      }
+    ]
+  }
+]

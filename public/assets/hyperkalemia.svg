@@ -1,60 +1,184 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180" role="img" aria-label="ECG findings in hyperkalemia">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" role="img" aria-label="ECG findings in hyperkalemia">
   <defs>
-    <!-- ECG Grid Pattern -->
-    <pattern id="ecgGrid" x="0" y="0" width="5" height="5" patternUnits="userSpaceOnUse">
-      <rect width="5" height="5" fill="white"/>
-      <path d="M 5 0 L 0 0 0 5" fill="none" stroke="#ddd" stroke-width="0.5"/>
+    <!-- Fine ECG Grid Pattern (1mm squares) -->
+    <pattern id="fineGrid" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#fff"/>
+      <path d="M 4 0 L 0 0 0 4" fill="none" stroke="#e8b4b8" stroke-width="0.5"/>
     </pattern>
-    <pattern id="ecgGridBold" x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse">
-      <rect width="25" height="25" fill="url(#ecgGrid)"/>
-      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#ccc" stroke-width="1"/>
+    <!-- Bold ECG Grid Pattern (5mm squares) -->
+    <pattern id="boldGrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="url(#fineGrid)"/>
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#d88a8f" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <!-- Panel 1: Peaked T-Wave -->
+  <!-- Panel 1: Peaked T-Wave (tall and symmetric) -->
   <g id="panel1">
-    <rect x="5" y="5" width="140" height="90" fill="url(#ecgGridBold)" stroke="#999" stroke-width="1"/>
-    <!-- ECG trace: Peaked T-Wave -->
-    <path d="M 15,50 L 25,50 L 30,45 L 33,50 L 38,30 L 42,50 L 47,48 L 52,52 L 57,48 L 62,35 L 65,20 L 68,35 L 73,48 L 78,50 L 83,48 L 88,50 L 93,30 L 97,50 L 102,48 L 107,52 L 112,48 L 117,35 L 120,20 L 123,35 L 128,48 L 135,50"
-          fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- Label -->
-    <rect x="5" y="100" width="140" height="30" fill="#F4C430" stroke="#000" stroke-width="1"/>
-    <text x="75" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Peaked T-Wave</text>
-    <text x="75" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="9">(tall and symmetric)</text>
+    <!-- Grid background -->
+    <rect x="5" y="5" width="190" height="120" fill="url(#boldGrid)" stroke="#333" stroke-width="2"/>
+
+    <!-- ECG Waveform: Peaked T-Wave -->
+    <path d="M 15,65
+             L 25,65
+             L 28,62
+             L 32,65
+             L 35,40
+             L 38,72
+             L 42,65
+             L 48,65
+             L 52,65
+             L 56,65
+             L 60,25
+             L 64,65
+             L 68,65
+             L 75,65
+             L 78,62
+             L 82,65
+             L 85,40
+             L 88,72
+             L 92,65
+             L 98,65
+             L 102,65
+             L 106,65
+             L 110,25
+             L 114,65
+             L 118,65
+             L 125,65
+             L 128,62
+             L 132,65
+             L 135,40
+             L 138,72
+             L 142,65
+             L 148,65
+             L 152,65
+             L 156,65
+             L 160,25
+             L 164,65
+             L 168,65
+             L 175,65
+             L 178,62
+             L 182,65
+             L 185,40"
+          fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Yellow label box -->
+    <rect x="5" y="130" width="190" height="40" fill="#F4C430" stroke="#000" stroke-width="1.5"/>
+    <text x="100" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#000">Peaked T-Wave</text>
+    <text x="100" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#000">(tall and symmetric)</text>
   </g>
 
   <!-- Panel 2: Widened QRS -->
   <g id="panel2">
-    <rect x="155" y="5" width="140" height="90" fill="url(#ecgGridBold)" stroke="#999" stroke-width="1"/>
-    <!-- ECG trace: Widened QRS -->
-    <path d="M 165,50 L 175,50 L 180,48 L 185,30 L 195,50 L 200,48 L 205,52 L 210,48 L 215,35 L 218,30 L 221,35 L 226,48 L 231,50 L 236,48 L 241,50 L 246,30 L 256,50 L 261,48 L 266,52 L 271,48 L 276,35 L 279,30 L 282,35 L 287,48 L 292,50"
-          fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- Label -->
-    <rect x="155" y="100" width="140" height="30" fill="#F4C430" stroke="#000" stroke-width="1"/>
-    <text x="225" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Widened QRS</text>
+    <!-- Grid background -->
+    <rect x="205" y="5" width="190" height="120" fill="url(#boldGrid)" stroke="#333" stroke-width="2"/>
+
+    <!-- ECG Waveform: Widened QRS - broader QRS complexes -->
+    <path d="M 215,65
+             L 225,65
+             L 229,63
+             L 234,42
+             L 239,65
+             L 243,70
+             L 247,65
+             L 253,65
+             L 257,65
+             L 263,65
+             L 268,35
+             L 272,65
+             L 278,65
+             L 285,65
+             L 289,63
+             L 294,42
+             L 299,65
+             L 303,70
+             L 307,65
+             L 313,65
+             L 317,65
+             L 323,65
+             L 328,35
+             L 332,65
+             L 338,65
+             L 345,65
+             L 349,63
+             L 354,42
+             L 359,65
+             L 363,70
+             L 367,65
+             L 373,65
+             L 377,65
+             L 383,65"
+          fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Yellow label box -->
+    <rect x="205" y="130" width="190" height="40" fill="#F4C430" stroke="#000" stroke-width="1.5"/>
+    <text x="300" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#000">Widened QRS</text>
   </g>
 
-  <!-- Panel 3: Widened QRS and lengthened QT -->
+  <!-- Panel 3: Widened QRS and lengthened QT interval -->
   <g id="panel3">
-    <rect x="305" y="5" width="140" height="90" fill="url(#ecgGridBold)" stroke="#999" stroke-width="1"/>
-    <!-- ECG trace: Widened QRS and lengthened QT -->
-    <path d="M 315,50 L 325,50 L 330,48 L 335,30 L 345,50 L 350,48 L 357,52 L 365,50 L 372,48 L 377,35 L 380,30 L 383,35 L 388,48 L 393,50 L 398,48 L 403,50 L 408,30 L 418,50 L 423,48 L 430,52 L 437,50 L 442,48"
-          fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- Label -->
-    <rect x="305" y="100" width="140" height="30" fill="#F4C430" stroke="#000" stroke-width="1"/>
-    <text x="375" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Widened QRS and</text>
-    <text x="375" y="123" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold">lengthened QT interval</text>
+    <!-- Grid background -->
+    <rect x="405" y="5" width="190" height="120" fill="url(#boldGrid)" stroke="#333" stroke-width="2"/>
+
+    <!-- ECG Waveform: Widened QRS with lengthened QT - broader QRS + longer T wave -->
+    <path d="M 415,65
+             L 425,65
+             L 429,63
+             L 435,42
+             L 441,65
+             L 445,70
+             L 450,65
+             L 458,65
+             L 464,65
+             L 470,62
+             L 475,38
+             L 480,65
+             L 488,65
+             L 495,65
+             L 499,63
+             L 505,42
+             L 511,65
+             L 515,70
+             L 520,65
+             L 528,65
+             L 534,65
+             L 540,62
+             L 545,38
+             L 550,65
+             L 558,65
+             L 565,65
+             L 569,63
+             L 575,42
+             L 581,65
+             L 585,70"
+          fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Yellow label box -->
+    <rect x="405" y="130" width="190" height="40" fill="#F4C430" stroke="#000" stroke-width="1.5"/>
+    <text x="500" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">Widened QRS and</text>
+    <text x="500" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000">lengthened QT interval</text>
   </g>
 
-  <!-- Panel 4: Sine Wave Pattern (severe hyperkalemia) -->
+  <!-- Panel 4: Sine wave pattern (severe hyperkalemia) -->
   <g id="panel4">
-    <rect x="455" y="5" width="140" height="90" fill="url(#ecgGridBold)" stroke="#999" stroke-width="1"/>
-    <!-- ECG trace: Sine wave pattern -->
-    <path d="M 465,50 Q 475,30 485,50 Q 495,70 505,50 Q 515,30 525,50 Q 535,70 545,50 Q 555,30 565,50 Q 575,70 585,50"
-          fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- Label -->
-    <rect x="455" y="100" width="140" height="30" fill="#F4C430" stroke="#000" stroke-width="1"/>
-    <text x="525" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Sine wave pattern</text>
-    <text x="525" y="123" text-anchor="middle" font-family="Arial, sans-serif" font-size="9">(severe)</text>
+    <!-- Grid background -->
+    <rect x="605" y="5" width="190" height="120" fill="url(#boldGrid)" stroke="#333" stroke-width="2"/>
+
+    <!-- ECG Waveform: Sine wave - smooth undulating pattern -->
+    <path d="M 615,65
+             Q 625,45 635,65
+             Q 645,85 655,65
+             Q 665,45 675,65
+             Q 685,85 695,65
+             Q 705,45 715,65
+             Q 725,85 735,65
+             Q 745,45 755,65
+             Q 765,85 775,65
+             Q 785,45 790,65"
+          fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Yellow label box -->
+    <rect x="605" y="130" width="190" height="40" fill="#F4C430" stroke="#000" stroke-width="1.5"/>
+    <text x="700" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#000">Sine wave pattern</text>
+    <text x="700" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#000">(severe)</text>
   </g>
 </svg>

@@ -12,183 +12,186 @@
     </pattern>
   </defs>
 
-  <!-- Panel 1: Peaked T-Wave -->
+  <!-- Panel 1: Peaked T-Wave - traced from original -->
   <g id="panel1">
-    <!-- Grid background -->
     <rect x="5" y="5" width="190" height="120" fill="url(#boldGrid)" stroke="#333" stroke-width="2"/>
 
-    <!-- ECG Waveform: Normal QRS with peaked T-waves -->
+    <!-- Exact trace of Panel 1 waveform -->
     <path d="M 15,65
-             L 25,65
-             L 28,62
-             L 32,65
-             L 35,42
-             L 38,72
-             L 42,65
-             L 48,65
+             L 30,65
+             L 32,63
+             L 34,65
+             L 36,40
+             L 38,68
+             L 40,65
              L 52,65
-             L 56,65
-             L 60,25
-             L 64,65
+             L 54,64
+             L 56,63
+             L 60,20
+             L 64,63
+             L 66,64
              L 68,65
-             L 75,65
-             L 78,62
-             L 82,65
-             L 85,42
-             L 88,72
-             L 92,65
-             L 98,65
-             L 102,65
-             L 106,65
-             L 110,25
-             L 114,65
-             L 118,65
-             L 125,65
-             L 128,62
-             L 132,65
-             L 135,42
-             L 138,72
-             L 142,65
-             L 148,65
-             L 152,65
-             L 156,65
-             L 160,25
-             L 164,65
-             L 168,65
-             L 175,65
-             L 178,62
-             L 182,65
-             L 185,42"
-          fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+             L 85,65
+             L 87,63
+             L 89,65
+             L 91,40
+             L 93,68
+             L 95,65
+             L 107,65
+             L 109,64
+             L 111,63
+             L 115,20
+             L 119,63
+             L 121,64
+             L 123,65
+             L 140,65
+             L 142,63
+             L 144,65
+             L 146,40
+             L 148,68
+             L 150,65
+             L 162,65
+             L 164,64
+             L 166,63
+             L 170,20
+             L 174,63
+             L 176,64
+             L 178,65
+             L 190,65"
+          fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Yellow label box -->
     <rect x="5" y="130" width="190" height="40" fill="#F4C430" stroke="#000" stroke-width="1.5"/>
     <text x="100" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000">Peaked T-Wave</text>
     <text x="100" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#000">(tall and symmetric)</text>
   </g>
 
-  <!-- Panel 2: Widened QRS -->
+  <!-- Panel 2: Widened QRS - traced from original -->
   <g id="panel2">
-    <!-- Grid background -->
     <rect x="205" y="5" width="190" height="120" fill="url(#boldGrid)" stroke="#333" stroke-width="2"/>
 
-    <!-- ECG Waveform: Widened QRS complexes -->
+    <!-- Exact trace of Panel 2 waveform -->
     <path d="M 215,65
-             L 225,65
-             L 228,63
-             L 233,42
-             L 238,65
-             L 242,70
-             L 246,65
-             L 252,65
-             L 256,65
-             L 262,65
-             L 267,35
-             L 271,65
-             L 277,65
+             L 230,65
+             L 232,64
+             L 236,43
+             L 240,65
+             L 244,69
+             L 248,65
+             L 260,65
+             L 262,64
+             L 264,62
+             L 268,35
+             L 272,62
+             L 274,64
+             L 276,65
              L 285,65
-             L 288,63
-             L 293,42
-             L 298,65
-             L 302,70
-             L 306,65
-             L 312,65
-             L 316,65
-             L 322,65
-             L 327,35
+             L 287,64
+             L 291,43
+             L 295,65
+             L 299,69
+             L 303,65
+             L 315,65
+             L 317,64
+             L 319,62
+             L 323,35
+             L 327,62
+             L 329,64
              L 331,65
-             L 337,65
-             L 345,65
-             L 348,63
-             L 353,42
+             L 340,65
+             L 342,64
+             L 346,43
+             L 350,65
+             L 354,69
              L 358,65
-             L 362,70
-             L 366,65
-             L 372,65
-             L 376,65
-             L 382,65
-             L 387,35"
-          fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+             L 370,65
+             L 372,64
+             L 374,62
+             L 378,35
+             L 382,62
+             L 384,64
+             L 386,65
+             L 390,65"
+          fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Yellow label box -->
     <rect x="205" y="130" width="190" height="40" fill="#F4C430" stroke="#000" stroke-width="1.5"/>
     <text x="300" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000">Widened QRS</text>
   </g>
 
-  <!-- Panel 3: Widened QRS and lengthened QT (first example) -->
+  <!-- Panel 3: Widened QRS and lengthened QT (first example) - traced from original -->
   <g id="panel3">
-    <!-- Grid background -->
     <rect x="405" y="5" width="190" height="120" fill="url(#boldGrid)" stroke="#333" stroke-width="2"/>
 
-    <!-- ECG Waveform: Even wider QRS with longer QT interval -->
+    <!-- Exact trace of Panel 3 waveform -->
     <path d="M 415,65
-             L 425,65
-             L 428,63
-             L 434,40
-             L 440,65
-             L 445,72
-             L 450,65
-             L 458,65
+             L 430,65
+             L 432,64
+             L 437,42
+             L 442,65
+             L 447,70
+             L 452,65
              L 464,65
+             L 467,64
              L 470,62
-             L 475,38
-             L 480,65
-             L 488,65
-             L 495,65
-             L 498,63
-             L 504,40
-             L 510,65
-             L 515,72
-             L 520,65
-             L 528,65
+             L 474,38
+             L 478,62
+             L 481,64
+             L 484,65
+             L 500,65
+             L 502,64
+             L 507,42
+             L 512,65
+             L 517,70
+             L 522,65
              L 534,65
+             L 537,64
              L 540,62
-             L 545,38
-             L 550,65
-             L 558,65
-             L 565,65
-             L 568,63
-             L 574,40
-             L 580,65
-             L 585,72"
-          fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+             L 544,38
+             L 548,62
+             L 551,64
+             L 554,65
+             L 570,65
+             L 572,64
+             L 577,42
+             L 582,65
+             L 587,70
+             L 590,65"
+          fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
-  <!-- Panel 4: Widened QRS and lengthened QT (second example) -->
+  <!-- Panel 4: Widened QRS and lengthened QT (second example) - traced from original -->
   <g id="panel4">
-    <!-- Grid background -->
     <rect x="605" y="5" width="190" height="120" fill="url(#boldGrid)" stroke="#333" stroke-width="2"/>
 
-    <!-- ECG Waveform: Progressive widening with bizarre morphology -->
+    <!-- Exact trace of Panel 4 waveform -->
     <path d="M 615,65
-             L 625,65
-             L 628,63
-             L 635,35
-             L 642,65
-             L 648,75
-             L 655,65
-             L 663,65
-             L 670,62
-             L 675,40
-             L 680,65
-             L 688,65
-             L 695,65
-             L 698,63
-             L 705,35
-             L 712,65
-             L 718,75
-             L 725,65
-             L 733,65
-             L 740,62
-             L 745,40
-             L 750,65
-             L 758,65
-             L 765,65
-             L 768,63
-             L 775,35
-             L 782,65
-             L 788,75"
-          fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+             L 630,65
+             L 633,63
+             L 638,40
+             L 644,65
+             L 650,72
+             L 656,65
+             L 668,65
+             L 672,63
+             L 677,42
+             L 682,63
+             L 686,65
+             L 700,65
+             L 703,63
+             L 708,40
+             L 714,65
+             L 720,72
+             L 726,65
+             L 738,65
+             L 742,63
+             L 747,42
+             L 752,63
+             L 756,65
+             L 770,65
+             L 773,63
+             L 778,40
+             L 784,65
+             L 790,72"
+          fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
   <!-- Single yellow label box spanning panels 3 and 4 -->

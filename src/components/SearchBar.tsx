@@ -303,15 +303,23 @@ export function SearchBar({
                     </svg>
                     <span className="text-gray-900 dark:text-gray-100">{historyQuery}</span>
                   </div>
-                  <button
+                  <span
                     onClick={(e) => handleHistoryRemove(historyQuery, e)}
-                    className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 p-1"
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        handleHistoryRemove(historyQuery, e as any);
+                      }
+                    }}
+                    className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 p-1 cursor-pointer"
+                    role="button"
+                    tabIndex={0}
                     aria-label="Remove from history"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
-                  </button>
+                  </span>
                 </button>
               ))}
             </div>

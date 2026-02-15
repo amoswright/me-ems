@@ -164,6 +164,53 @@
             "html": "<p>## Management of Ventilation</p>\n<ol start=\"10\">\n<li>Adjust ventilatory rates to meet goal EtCO₂ levels between 35 and 45 mmHg, (target = 40 mmHg).</li>\n</ol>\n<ul>\n<li><strong>PEARL:</strong> This TBI guideline does not encourage any hyperventilation (as was encouraged in previous protocol updates) for impending cerebral herniation for the following reasons:\n<ul>\n<li>There is no evidence that hyperventilation improves patient outcomes.</li>\n<li>There is evidence that even mild hyperventilation harms TBI patients, even those with severe head injury</li>\n</ul>\n</li>\n</ul>\n<p>## Management of Hypotension/Blood Pressure</p>\n<ol start=\"11\">\n<li>In patients with any potential for TBI, initiate IV access to ensure maintenance of age-appropriate SBP.</li>\n<li><strong>PEDIATRICS - GOAL SBP defined below:</strong>\n<ol type=\"a\">\n<li>Hypotension is defined as SBP below the 5th percentile for age, estimated using the following guide:\n<ol type=\"i\">\n<li>Age 0-10 years: 70 mmHg + (age x 2)</li>\n<li>Age greater than 10 years: 90 mmHg (same as adolescents and adults)</li>\n<li>\"Rules of Thumb\" to remember:</li>\n<ol>\n<li>Infant = 70 mmHg</li>\n<li>5 year old = 80 mmHg</li>\n<li>10 years and older = 90 mmHg</li>\n</li>\n</ol>\n</ol>\n</ol>\n</ol>\n<p>(Continued)</p>\n<p></p>"
           }
         ]
+      },
+      {
+        "pageId": "green_page_101",
+        "pageNumber": "Green 10",
+        "jpgReference": "/page_jpg/101.jpg",
+        "isContinuation": true,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Head Trauma #3\n\n(Continued from Previous Page)",
+            "html": "<p># Head Trauma #3</p>\n<p>(Continued from Previous Page)</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "b. For SBP below goal for age, give 20 mL/kg IV bolus. May repeat x 2 up to a total of 60 mL/kg to achieve goal SBP. If needing the third bolus, please consult OLMC.\n\n13. ADOLESCENTS and ADULTS - Goal SBP = greater than 90 mmHg.\n    a. Initiate fluid resuscitation with an initial bolus of 1 liter for any SBP measurement less than 90 mmHg.\n    b. Continue IV fluid administration at a rate and volume sufficient to maintain SBP greater than 90 mmHg.\n\n14. For Nausea and Vomiting, refer to Nausea/Vomiting protocol, Gold 18. Please Note: IV/IO ondansetron is the preferred route for patients with moderate to severe head injuries.\n\n(Continued)",
+            "html": "<ol type=\"b\">\n<li>For SBP below goal for age, give 20 mL/kg IV bolus. May repeat x 2 up to a total of 60 mL/kg to achieve goal SBP. If needing the third bolus, please consult OLMC.</li>\n</ol>\n<ol start=\"13\">\n<li>ADOLESCENTS and ADULTS - Goal SBP = greater than 90 mmHg.\n<ol type=\"a\">\n<li>Initiate fluid resuscitation with an initial bolus of 1 liter for any SBP measurement less than 90 mmHg.</li>\n<li>Continue IV fluid administration at a rate and volume sufficient to maintain SBP greater than 90 mmHg.</li>\n</ol>\n</li>\n<li>For Nausea and Vomiting, refer to Nausea/Vomiting protocol, <a href=\"/protocol/gold_nausea_and_vomiting\" class=\"protocol-ref-link\">Gold 18</a>. Please Note: IV/IO ondansetron is the preferred route for patients with moderate to severe head injuries.</li>\n</ol>\n<p>(Continued)</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PEARLS",
+            "content": "**PEARLS for Management of Hypotension/Blood Pressure**\n\n* A single episode of SBP <90 mmHg is independently associated with at least a doubling of mortality. Repeated episodes of hypotension can increase the risk of dying by as much as eight times. Hypotension kills neurons!\n* In the context of Head Trauma, do not allow permissive hypotension below 90 mmHg (in adults) and do not wait for the patient to become hypotensive. If the SBP is dropping, or if there are any other signs of compensated shock such as increasing heart rate with decreasing SBP, begin aggressive treatment before the patient becomes hypotensive.\n* In TBI, treatment of acute hypertension is **NOT** recommended.\n* IV fluids should be restricted to a minimal \"keep open\" rate in patients with, SBP ≥ 100 mmHg (infants/young children) SBP ≥ 130 mmHg (older children/adolescents), and SBP ≥140 mmHg in adults.",
+            "html": "<strong>PEARLS for Management of Hypotension/Blood Pressure</strong>\n<ul>\n<li>A single episode of SBP <90 mmHg is independently associated with at least a doubling of mortality. Repeated episodes of hypotension can increase the risk of dying by as much as eight times. Hypotension kills neurons!</li>\n<li>In the context of Head Trauma, do not allow permissive hypotension below 90 mmHg (in adults) and do not wait for the patient to become hypotensive. If the SBP is dropping, or if there are any other signs of compensated shock such as increasing heart rate with decreasing SBP, begin aggressive treatment before the patient becomes hypotensive.</li>\n<li>In TBI, treatment of acute hypertension is <strong>NOT</strong> recommended.</li>\n<li>IV fluids should be restricted to a minimal \"keep open\" rate in patients with, SBP ≥ 100 mmHg (infants/young children) SBP ≥ 130 mmHg (older children/adolescents), and SBP ≥140 mmHg in adults.</li>\n</ul>",
+            "pearlsTitle": "Hypotension/Blood Pressure"
+          }
+        ]
+      },
+      {
+        "pageId": "green_page_102",
+        "pageNumber": "Green 11",
+        "jpgReference": "/page_jpg/102.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Head Trauma #4",
+            "html": "<p># Head Trauma #4</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "<mermaid>\ngraph TD\n    A[15 L/min O₂ for all head trauma patients<br>Monitor O₂, BP, HR every 3-5 min] --> B[Airway/Breathing]\n    A --> C[Circulation]\n    A --> D[Disability]\n    \n    B --> E{O₂ Sat less than 90%/or<br>hypoventilation despite<br>non-rebreather?}\n    E -- NO --> F[Continue monitoring<br>O₂ sat and airway<br>every 3-5 min]\n    E -- YES --> G[Basic airway<br>measures*]\n    \n    C --> H{Hypotension ** or Other<br>Signs of Shock?}\n    H -- NO --> I[Continue<br>monitoring<br>BP/HR every<br>3-5 min<br>Evaluate for<br>early signs of<br>shock]\n    H -- YES --> J[IV fluid bolus<br>Repeat IV fluid<br>bolus until<br>hypotension<br>resolves]\n    \n    D --> K[Document initial mental<br>status, GCS AND any<br>changes in mental status]\n    \n    F --> L{REEVALUATE}\n    L -- NO --> F\n    L -- YES --> M{O₂ Sat less<br>than 90%<br>despite basic<br>airway<br>measures?}\n    M -- NO --> F\n    M -- YES --> N[See Airway Algorithm - Blue 2<br>Avoid even MILD hyperventilation by using<br>Ventilation Rate Timer and<br>Pressure-Controlled BVM, if available<br>Carefully maintain goal ventilatory rates*<br>Target EtCO₂ to 40 mmHg range 35-45<br>mmHg]\n    \n    G --> F\n    J --> I\n</mermaid>\n\n* Goal Ventilation Rates:\nAge 0-2 years: 1 breath every 2-3 seconds (25 BPM)\nAge 3-14 years: 1 breath every 3 seconds (20 BPM)\nAge 15 years +: 1 breath every 6 seconds (10 BPM)\n\n** Identifying Hypotension in Children:\n\n| Age | Minimum SBP |\n|-----|-------------|\n| Newborn | 60 mmHg |\n| Age 0-2 years | 70 mmHg |\n| Age 3-9 | 70+ (age x 2) |\n| Age 10 years or greater | greater than 90 mmHg |\n\nGeneral Rules:\nNewborn: greater than 60 mmHg\n5 Year Old: greater than 80 mmHg\n10 years or greater: greater than 90 mmHg",
+            "html": "<mermaid>\ngraph TD\n    A[15 L/min O₂ for all head trauma patients<br>Monitor O₂, BP, HR every 3-5 min] --> B[Airway/Breathing]\n    A --> C[Circulation]\n    A --> D[Disability]\n    \n    B --> E{O₂ Sat less than 90%/or<br>hypoventilation despite<br>non-rebreather?}\n    E -- NO --> F[Continue monitoring<br>O₂ sat and airway<br>every 3-5 min]\n    E -- YES --> G[Basic airway<br>measures*]\n    \n    C --> H{Hypotension ** or Other<br>Signs of Shock?}\n    H -- NO --> I[Continue<br>monitoring<br>BP/HR every<br>3-5 min<br>Evaluate for<br>early signs of<br>shock]\n    H -- YES --> J[IV fluid bolus<br>Repeat IV fluid<br>bolus until<br>hypotension<br>resolves]\n    \n    D --> K[Document initial mental<br>status, GCS AND any<br>changes in mental status]\n    \n    F --> L{REEVALUATE}\n    L -- NO --> F\n    L -- YES --> M{O₂ Sat less<br>than 90%<br>despite basic<br>airway<br>measures?}\n    M -- NO --> F\n    M -- YES --> N[See Airway Algorithm - Blue 2<br>Avoid even MILD hyperventilation by using<br>Ventilation Rate Timer and<br>Pressure-Controlled BVM, if available<br>Carefully maintain goal ventilatory rates*<br>Target EtCO₂ to 40 mmHg range 35-45<br>mmHg]\n    \n    G --> F\n    J --> I\n</mermaid>\n<ul>\n<li>Goal Ventilation Rates:\nAge 0-2 years: 1 breath every 2-3 seconds (25 BPM)\nAge 3-14 years: 1 breath every 3 seconds (20 BPM)\nAge 15 years +: 1 breath every 6 seconds (10 BPM)</li>\n</ul>\n<p>** Identifying Hypotension in Children:</p>\n<table>\n  <tr>\n    <td>Newborn:</td>\n    <td>60 mmHg</td>\n  </tr>\n  <tr>\n    <td>Age 0-2 years:</td>\n    <td>70 mmHg</td>\n  </tr>\n  <tr>\n    <td>Age 3-9</td>\n    <td>70+ (age x 2)</td>\n  </tr>\n  <tr>\n    <td>Age 10 years or greater:</td>\n    <td>greater than 90 mmHg</td>\n  </tr>\n</table>\n<p>General Rules:\nNewborn: greater than 60 mmHg\n5 Year Old: greater than 80 mmHg\n10 years or greater: greater than 90 mmHg</p>"
+          }
+        ]
       }
     ]
   },

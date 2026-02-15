@@ -61,11 +61,12 @@ export function useSearch() {
         { name: 'categoryName', weight: 1 },
         { name: 'pageNumber', weight: 1 },
       ],
-      threshold: 0.4,
+      threshold: 0.3,
       includeScore: true,
       includeMatches: true,
-      minMatchCharLength: 2,
+      minMatchCharLength: 3,
       ignoreLocation: true,
+      distance: 100,
     });
   }, [searchIndex]);
 

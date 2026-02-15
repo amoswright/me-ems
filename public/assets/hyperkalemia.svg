@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180" role="img" aria-label="ECG findings in hyperkalemia">
+  <defs>
+    <!-- ECG Grid Pattern -->
+    <pattern id="ecgGrid" x="0" y="0" width="5" height="5" patternUnits="userSpaceOnUse">
+      <rect width="5" height="5" fill="white"/>
+      <path d="M 5 0 L 0 0 0 5" fill="none" stroke="#ddd" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="ecgGridBold" x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse">
+      <rect width="25" height="25" fill="url(#ecgGrid)"/>
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#ccc" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Panel 1: Peaked T-Wave -->
+  <g id="panel1">
+    <rect x="5" y="5" width="140" height="90" fill="url(#ecgGridBold)" stroke="#999" stroke-width="1"/>
+    <!-- ECG trace: Peaked T-Wave -->
+    <path d="M 15,50 L 25,50 L 30,45 L 33,50 L 38,30 L 42,50 L 47,48 L 52,52 L 57,48 L 62,35 L 65,20 L 68,35 L 73,48 L 78,50 L 83,48 L 88,50 L 93,30 L 97,50 L 102,48 L 107,52 L 112,48 L 117,35 L 120,20 L 123,35 L 128,48 L 135,50"
+          fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Label -->
+    <rect x="5" y="100" width="140" height="30" fill="#F4C430" stroke="#000" stroke-width="1"/>
+    <text x="75" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Peaked T-Wave</text>
+    <text x="75" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="9">(tall and symmetric)</text>
+  </g>
+
+  <!-- Panel 2: Widened QRS -->
+  <g id="panel2">
+    <rect x="155" y="5" width="140" height="90" fill="url(#ecgGridBold)" stroke="#999" stroke-width="1"/>
+    <!-- ECG trace: Widened QRS -->
+    <path d="M 165,50 L 175,50 L 180,48 L 185,30 L 195,50 L 200,48 L 205,52 L 210,48 L 215,35 L 218,30 L 221,35 L 226,48 L 231,50 L 236,48 L 241,50 L 246,30 L 256,50 L 261,48 L 266,52 L 271,48 L 276,35 L 279,30 L 282,35 L 287,48 L 292,50"
+          fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Label -->
+    <rect x="155" y="100" width="140" height="30" fill="#F4C430" stroke="#000" stroke-width="1"/>
+    <text x="225" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Widened QRS</text>
+  </g>
+
+  <!-- Panel 3: Widened QRS and lengthened QT -->
+  <g id="panel3">
+    <rect x="305" y="5" width="140" height="90" fill="url(#ecgGridBold)" stroke="#999" stroke-width="1"/>
+    <!-- ECG trace: Widened QRS and lengthened QT -->
+    <path d="M 315,50 L 325,50 L 330,48 L 335,30 L 345,50 L 350,48 L 357,52 L 365,50 L 372,48 L 377,35 L 380,30 L 383,35 L 388,48 L 393,50 L 398,48 L 403,50 L 408,30 L 418,50 L 423,48 L 430,52 L 437,50 L 442,48"
+          fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Label -->
+    <rect x="305" y="100" width="140" height="30" fill="#F4C430" stroke="#000" stroke-width="1"/>
+    <text x="375" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Widened QRS and</text>
+    <text x="375" y="123" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold">lengthened QT interval</text>
+  </g>
+
+  <!-- Panel 4: Sine Wave Pattern (severe hyperkalemia) -->
+  <g id="panel4">
+    <rect x="455" y="5" width="140" height="90" fill="url(#ecgGridBold)" stroke="#999" stroke-width="1"/>
+    <!-- ECG trace: Sine wave pattern -->
+    <path d="M 465,50 Q 475,30 485,50 Q 495,70 505,50 Q 515,30 525,50 Q 535,70 545,50 Q 555,30 565,50 Q 575,70 585,50"
+          fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Label -->
+    <rect x="455" y="100" width="140" height="30" fill="#F4C430" stroke="#000" stroke-width="1"/>
+    <text x="525" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Sine wave pattern</text>
+    <text x="525" y="123" text-anchor="middle" font-family="Arial, sans-serif" font-size="9">(severe)</text>
+  </g>
+</svg>

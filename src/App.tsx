@@ -3,6 +3,7 @@ import { Layout } from '@/components/Layout';
 import { HomePage } from '@/pages/HomePage';
 import { CategoryPage } from '@/pages/CategoryPage';
 import { ProtocolPage } from '@/pages/ProtocolPage';
+import { SearchPage } from '@/pages/SearchPage';
 import { NotFoundPage } from '@/pages/NotFoundPage';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="category/:categoryId" element={<CategoryPage />} />
           <Route path="protocol/:protocolId" element={<ProtocolPage />} />
+          <Route path="search" element={<SearchPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>

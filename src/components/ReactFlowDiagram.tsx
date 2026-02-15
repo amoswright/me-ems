@@ -3,11 +3,10 @@ import {
   ReactFlow,
   Background,
   Controls,
-  MiniMap,
   Handle,
   Position,
 } from '@xyflow/react';
-import type { Node, Edge, NodeProps } from '@xyflow/react';
+import type { NodeProps } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import { parseMermaidToFlow } from '@/utils/parseMermaidToFlow';
 
@@ -20,7 +19,7 @@ interface ReactFlowDiagramProps {
 
 // Custom node component for different shapes
 function CustomNode({ data }: NodeProps) {
-  const isDiamond = data.shape === 'diamond';
+  const isDiamond = (data as any).shape === 'diamond';
 
   // Hide the handle visuals but keep them functional
   const handleStyle = {
@@ -83,7 +82,7 @@ function CustomNode({ data }: NodeProps) {
             width: '100%',
           }}
         >
-          {data.label}
+          {(data as any).label}
         </div>
       </div>
     </>
@@ -154,7 +153,6 @@ export function ReactFlowDiagram({ content }: ReactFlowDiagramProps) {
           defaultEdgeOptions={{
             type: 'default',
             animated: false,
-            pathOptions: { curvature: 0.5 },
             markerEnd: {
               type: 'arrowclosed',
               color: '#60a5fa',
@@ -176,20 +174,10 @@ export function ReactFlowDiagram({ content }: ReactFlowDiagramProps) {
             labelBgPadding: [4, 12] as [number, number],
             labelBgBorderRadius: 4,
           }}
-          connectionLineType="default"
           connectionLineStyle={{ stroke: '#60a5fa', strokeWidth: 3 }}
         >
           <Background color="#aaa" gap={16} />
-          <Controls
-            showInteractive={false}
-            style={{
-              button: {
-                backgroundColor: '#ffffff',
-                border: '1px solid #e5e7eb',
-                color: '#1f2937'
-              }
-            }}
-          />
+          <Controls showInteractive={false} />
         </ReactFlow>
       </div>
     </div>

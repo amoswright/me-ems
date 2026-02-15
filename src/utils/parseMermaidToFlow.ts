@@ -243,12 +243,12 @@ function applyDagreLayout(nodes: Node[], edges: Edge[]): { nodes: Node[]; edges:
     };
 
     // Force specific nodes to top rank for better visibility
-    if (topRankLabels.includes(node.data.label)) {
+    if (topRankLabels.includes(String(node.data.label))) {
       console.log('📌 Setting rank 1 for:', node.data.label);
       nodeConfig.rank = 1;  // Top level
     }
     // Force specific nodes to a lower rank to make diagram narrower
-    else if (lowerRankLabels.includes(node.data.label)) {
+    else if (lowerRankLabels.includes(String(node.data.label))) {
       console.log('📌 Setting rank 4 for:', node.data.label);
       nodeConfig.rank = 4;  // Higher rank number = lower position in TB layout
     }

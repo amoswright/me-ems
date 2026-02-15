@@ -635,10 +635,42 @@
     "category": "red",
     "pages": [
       {
+        "pageId": "red_page_63",
+        "pageNumber": "Red 29",
+        "jpgReference": "/page_jpg/063.jpg",
+        "isContinuation": false,
+        "sections": [
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "# Adult Bradycardia #1\n\nAdults are considered bradycardic if HR is less than 50 beats/minute.\n\nConcerning signs or symptoms: hypotension, altered mental status, syncope/presyncope, chest pain, dyspnea, acute heart failure, signs of shock, or cyanosis/pallor:\n\nIf NO concerning signs or symptoms, then all levels (EMT/Advanced EMT/Paramedic) may do the following:\n1. O₂ as appropriate.\n2. Advanced EMT/Paramedic ONLY – consider fluid bolus.\n\nIf ANY concerning signs or symptoms, then:",
+            "html": "<p># Adult Bradycardia #1</p>\n<p>Adults are considered bradycardic if HR is less than 50 beats/minute.</p>\n<p>Concerning signs or symptoms: hypotension, altered mental status, syncope/presyncope, chest pain, dyspnea, acute heart failure, signs of shock, or cyanosis/pallor:</p>\n<p>If NO concerning signs or symptoms, then all levels (EMT/Advanced EMT/Paramedic) may do the following:</p>\n<ol>\n<li>O₂ as appropriate.</li>\n<li>Advanced EMT/Paramedic ONLY – consider fluid bolus.</li>\n</ol>\n<p>If ANY concerning signs or symptoms, then:</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "EMT",
+            "content": "1. O₂ as appropriate.\n2. Request ALS.\n3. Perform 12-lead ECG, if so trained.",
+            "html": "<ol>\n<li>O₂ as appropriate.</li>\n<li>Request ALS.</li>\n<li>Perform 12-lead ECG, if so trained.</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT",
+            "content": "4. IV en route and fluid bolus as required.\n5. Cardiac monitor, perform 12-lead ECG, if so trained.\n6. Request ALS.",
+            "html": "<ol start=\"4\">\n<li>IV en route and fluid bolus as required.</li>\n<li>Cardiac monitor, perform 12-lead ECG, if so trained.</li>\n<li>Request ALS.</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PARAMEDIC",
+            "content": "7. Atropine 1 mg IV/IO*; give in repeat doses every 3 - 5 minutes up to a maximum cumulative dose of 3 mg in the adult patient.\n8. Apply external pacer. Initiate transcutaneous pacing (TCP) for patients who do not respond to atropine; if serious signs or symptoms, do not delay TCP while awaiting IV/IO access or for atropine to take effect.\n    a. Consider premedicating with:\n        i. Midazolam 3 mg IV/IN/IO OR fentanyl 1 mcg/kg IV/IN/IO to a MAX first dose of 100 mcg.\n    b. Contact OLMC as soon as possible\n9. Check for capture frequently (every 2 minutes) by checking peripheral pulses, ensuring the pulse matches the paced rate.\n10. If continued signs or symptoms, consider:\n    a. Repeat atropine, or\n    b. EPINEPHrine IV infusion, which may typically be dosed the following way:\n        i. Preparation - Add 1mL (1mg) of EPINEPHrine [1mg/mL] to 250 mL bag NS. This results in a 1mg/250mL = 4 mcg/mL mix.\n        ii. Dose - Start at 0.05 mcg/kg/min. Titrate by 0.05 mcg/kg/min every 5 min min. Titrate to desired desired effect which may include resolution of bradycardia, SPB of > 90 mmHg and/or MAP > 65 mmHg. **Usual dose** is 0.05-0.5 mcg/kg/min. Absolute maximum dose is 0.5 mcg/kg/min\n    c. EPINEPHrine infusions must be administered via a Maine EMS-approved medication pump\n\n(Continued)\n\n&lt;page_number&gt;Red 29&lt;/page_number&gt;",
+            "html": "<ol start=\"7\">\n<li>Atropine 1 mg IV/IO*; give in repeat doses every 3 - 5 minutes up to a maximum cumulative dose of 3 mg in the adult patient.</li>\n<li>Apply external pacer. Initiate transcutaneous pacing (TCP) for patients who do not respond to atropine; if serious signs or symptoms, do not delay TCP while awaiting IV/IO access or for atropine to take effect.\n<ol type=\"a\">\n<li>Consider premedicating with:\n<ol type=\"i\">\n<li>Midazolam 3 mg IV/IN/IO OR fentanyl 1 mcg/kg IV/IN/IO to a MAX first dose of 100 mcg.</li>\n</ol>\n</li>\n<li>Contact OLMC as soon as possible</li>\n</ol>\n</li>\n<li>Check for capture frequently (every 2 minutes) by checking peripheral pulses, ensuring the pulse matches the paced rate.</li>\n<li>If continued signs or symptoms, consider:\n<ol type=\"a\">\n<li>Repeat atropine, or</li>\n<li>EPINEPHrine IV infusion, which may typically be dosed the following way:\n<ol type=\"i\">\n<li>Preparation - Add 1mL (1mg) of EPINEPHrine [1mg/mL] to 250 mL bag NS. This results in a 1mg/250mL = 4 mcg/mL mix.</li>\n<li>Dose - Start at 0.05 mcg/kg/min. Titrate by 0.05 mcg/kg/min every 5 min min. Titrate to desired desired effect which may include resolution of bradycardia, SPB of &gt; 90 mmHg and/or MAP &gt; 65 mmHg. <strong>Usual dose</strong> is 0.05-0.5 mcg/kg/min. Absolute maximum dose is 0.5 mcg/kg/min</li>\n</ol>\n</li>\n<li>EPINEPHrine infusions must be administered via a Maine EMS-approved medication pump</li>\n</ol>\n</li>\n</ol>\n<p>(Continued)</p>\n<p></p>"
+          }
+        ]
+      },
+      {
         "pageId": "red_page_64",
         "pageNumber": "Red 30",
         "jpgReference": "/page_jpg/064.jpg",
-        "isContinuation": false,
+        "isContinuation": true,
         "sections": [
           {
             "type": "content",

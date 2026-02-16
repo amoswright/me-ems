@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useSearch, useSearchHistory } from '../hooks/useSearch';
 import type { SearchResult } from '../hooks/useSearch';
+import { getContextSnippet, highlightMatches } from '../utils/searchUtils';
 
 interface SearchBarProps {
   placeholder?: string;
@@ -145,30 +146,6 @@ export function SearchBar({
     }
   };
 
-  const highlightMatch = (text: string, matches?: any[]) => {
-    if (!matches || matches.length === 0) {
-      return text;
-    }
-
-    // Simple highlighting - can be enhanced
-    const match = matches.find(m => m.key === 'title' || m.key === 'content');
-    if (!match) return text;
-
-    const indices = match.indices[0];
-    if (!indices) return text;
-
-    const [start, end] = indices;
-    return (
-      <>
-        {text.substring(0, start)}
-        <mark className="bg-yellow-200 dark:bg-yellow-600 font-semibold">
-          {text.substring(start, end + 1)}
-        </mark>
-        {text.substring(end + 1)}
-      </>
-    );
-  };
-
   const getCategoryBadgeColor = (category: string) => {
     const colorMap: Record<string, string> = {
       brown: 'bg-amber-700 text-white',
@@ -253,10 +230,10 @@ export function SearchBar({
                     <div className="flex items-start justify-between gap-2">
                       <div className="flex-1 min-w-0">
                         <div className="font-semibold text-gray-900 dark:text-gray-100 truncate">
-                          {highlightMatch(result.item.title, result.matches)}
+                          {highlightMatches(result.item.title, result.matches)}
                         </div>
                         <div className="text-sm text-gray-600 dark:text-gray-300 line-clamp-2 mt-1">
-                          {result.item.content}
+                          {getContextSnippet(result, 180)}
                         </div>
                         <div className="flex gap-2 mt-2">
                           <span

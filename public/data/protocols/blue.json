@@ -1,404 +1,1434 @@
 [
   {
-    "id": "blue_pre_intubation_checklist",
+    "id": "blue_001",
     "title": "Pre-Intubation Checklist",
     "category": "blue",
     "pages": [
       {
-        "pageId": "blue_page_20",
+        "pageId": "blue_001",
         "pageNumber": "Blue 1",
         "jpgReference": "/page_jpg/020.jpg",
         "isContinuation": false,
         "sections": [
           {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Pre-Intubation Checklist",
+            "html": "<h1>Pre-Intubation Checklist</h1>"
+          },
+          {
             "type": "content",
             "providerLevel": "ALL",
-            "content": "# Pre-Intubation Checklist\n\nThis is a checklist for consideration during intubation. The MDPB recognizes that clinical conditions may dictate the most appropriate sequence of steps during the intubation of patients.\n\n1.  **Airway adjuncts ready**\n    *   Suction\n    *   Oropharyngeal airway/ 2 nasopharyngeal airways\n    *   Nasal cannula for apneic oxygenation\n\n2.  **Intubation equipment ready**\n    *   Laryngoscope assembled and functional\n    *   ET tube ready with lubricant, bougie and syringe (Use of bougies on all intubation attempts with size 6.0 ETT and above is strongly encouraged)\n    *   Tube-securing device ready\n    *   Continuous end-tidal CO₂ monitor ready\n    *   OG Tube\n\n3.  **Back-up equipment ready**\n    *   Blind Insertion Airway Device (i.e. LMA ®, iLMA®, or King®) available\n    *   Consider surgical airway device\n\n4.  **Team ready**\n    *   Airway manager\n    *   BVM operator\n    *   Assistant\n\n5.  **Plan discussed**\n\n6.  **Patient ready**\n    *   Pre-oxygenation/de-nitrogenation\n    *   Vascular access\n    *   Patient positioning (unless contraindicated)\n        *   Ear-to-sternal-notch\n        *   30 degree head-of-bed elevation\n    *   Monitoring in place\n    *   Evaluate airway difficulty\n    *   Prep for surgical airway as needed\n\n7.  **Post-intubation medications ready**\n    *   Pain control:\n        *   fentanyl\n    *   Sedation\n        *   midazolam OR ketamine",
-            "html": "<p># Pre-Intubation Checklist</p>\n<p>This is a checklist for consideration during intubation. The MDPB recognizes that clinical conditions may dictate the most appropriate sequence of steps during the intubation of patients.</p>\n<ol>\n<li><strong>Airway adjuncts ready</strong></li>\n<ul>\n<li>Suction</li>\n<li>Oropharyngeal airway/ 2 nasopharyngeal airways</li>\n<li>Nasal cannula for apneic oxygenation</li>\n</ul>\n</li>\n</ol>\n<ol start=\"2\">\n<li><strong>Intubation equipment ready</strong></li>\n<ul>\n<li>Laryngoscope assembled and functional</li>\n<li>ET tube ready with lubricant, bougie and syringe (Use of bougies on all intubation attempts with size 6.0 ETT and above is strongly encouraged)</li>\n<li>Tube-securing device ready</li>\n<li>Continuous end-tidal CO₂ monitor ready</li>\n<li>OG Tube</li>\n</ul>\n</li>\n</ol>\n<ol start=\"3\">\n<li><strong>Back-up equipment ready</strong></li>\n<ul>\n<li>Blind Insertion Airway Device (i.e. LMA ®, iLMA®, or King®) available</li>\n<li>Consider surgical airway device</li>\n</ul>\n</li>\n</ol>\n<ol start=\"4\">\n<li><strong>Team ready</strong></li>\n<ul>\n<li>Airway manager</li>\n<li>BVM operator</li>\n<li>Assistant</li>\n</ul>\n</li>\n</ol>\n<ol start=\"5\">\n<li><strong>Plan discussed</strong></li>\n</ol>\n<ol start=\"6\">\n<li><strong>Patient ready</strong></li>\n<ul>\n<li>Pre-oxygenation/de-nitrogenation</li>\n<li>Vascular access</li>\n<li>Patient positioning (unless contraindicated)</li>\n<li>Ear-to-sternal-notch</li>\n<li>30 degree head-of-bed elevation</li>\n<li>Monitoring in place</li>\n<li>Evaluate airway difficulty</li>\n<li>Prep for surgical airway as needed</li>\n</ul>\n</li>\n</ol>\n<ol start=\"7\">\n<li><strong>Post-intubation medications ready</strong></li>\n<ul>\n<li>Pain control:</li>\n<li>fentanyl</li>\n<li>Sedation</li>\n<li>midazolam OR ketamine</li>\n</ul>\n</li>\n</ol>"
+            "content": "This is a checklist for consideration during intubation. The MDPB recognizes that clinical conditions may dictate the most appropriate sequence of steps during the intubation of patients.",
+            "html": "<p>This is a checklist for consideration during intubation. The MDPB recognizes that clinical conditions may dictate the most appropriate sequence of steps during the intubation of patients.</p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "ordered",
+              "startNumber": 1,
+              "items": [
+                {
+                  "content": "Airway adjuncts ready",
+                  "nestedList": {
+                    "type": "unordered",
+                    "items": [
+                      {
+                        "content": "Suction"
+                      },
+                      {
+                        "content": "Oropharyngeal airway/ 2 nasopharyngeal airways"
+                      },
+                      {
+                        "content": "Nasal cannula for apneic oxygenation"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": "Intubation equipment ready",
+                  "nestedList": {
+                    "type": "unordered",
+                    "items": [
+                      {
+                        "content": "Laryngoscope assembled and functional"
+                      },
+                      {
+                        "content": "ET tube ready with lubricant, bougie and syringe (Use of bougies on all intubation attempts with size 6.0 ETT and above is strongly encouraged)"
+                      },
+                      {
+                        "content": "Tube-securing device ready"
+                      },
+                      {
+                        "content": "Continuous end-tidal CO₂ monitor ready"
+                      },
+                      {
+                        "content": "OG Tube"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": "Back-up equipment ready",
+                  "nestedList": {
+                    "type": "unordered",
+                    "items": [
+                      {
+                        "content": "Blind Insertion Airway Device (i.e. LMA ®, iLMA®, or King®) available"
+                      },
+                      {
+                        "content": "Consider surgical airway device"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": "Team ready",
+                  "nestedList": {
+                    "type": "unordered",
+                    "items": [
+                      {
+                        "content": "Airway manager"
+                      },
+                      {
+                        "content": "BVM operator"
+                      },
+                      {
+                        "content": "Assistant"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": "Plan discussed"
+                },
+                {
+                  "content": "Patient ready",
+                  "nestedList": {
+                    "type": "unordered",
+                    "items": [
+                      {
+                        "content": "Pre-oxygenation/de-nitrogenation"
+                      },
+                      {
+                        "content": "Vascular access"
+                      },
+                      {
+                        "content": "Patient positioning (unless contraindicated)",
+                        "nestedList": {
+                          "type": "unordered",
+                          "items": [
+                            {
+                              "content": "Ear-to-sternal-notch"
+                            },
+                            {
+                              "content": "30 degree head-of-bed elevation"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "content": "Monitoring in place"
+                      },
+                      {
+                        "content": "Evaluate airway difficulty"
+                      },
+                      {
+                        "content": "Prep for surgical airway as needed"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": "Post-intubation medications ready",
+                  "nestedList": {
+                    "type": "unordered",
+                    "items": [
+                      {
+                        "content": "Pain control:",
+                        "nestedList": {
+                          "type": "unordered",
+                          "items": [
+                            {
+                              "content": "fentanyl"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "content": "Sedation",
+                        "nestedList": {
+                          "type": "unordered",
+                          "items": [
+                            {
+                              "content": "midazolam OR ketamine"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "html": "<ol>\n<li>\n<p><strong>Airway adjuncts ready</strong></p>\n<ul>\n<li>Suction</li>\n<li>Oropharyngeal airway/ 2 nasopharyngeal airways</li>\n<li>Nasal cannula for apneic oxygenation</li>\n</ul>\n</li>\n<li>\n<p><strong>Intubation equipment ready</strong></p>\n<ul>\n<li>Laryngoscope assembled and functional</li>\n<li>ET tube ready with lubricant, bougie and syringe (Use of bougies on all intubation attempts with size 6.0 ETT and above is strongly encouraged)</li>\n<li>Tube-securing device ready</li>\n<li>Continuous end-tidal CO₂ monitor ready</li>\n<li>OG Tube</li>\n</ul>\n</li>\n<li>\n<p><strong>Back-up equipment ready</strong></p>\n<ul>\n<li>Blind Insertion Airway Device (i.e. LMA ®, iLMA®, or King®) available</li>\n<li>Consider surgical airway device</li>\n</ul>\n</li>\n<li>\n<p><strong>Team ready</strong></p>\n<ul>\n<li>Airway manager</li>\n<li>BVM operator</li>\n<li>Assistant</li>\n</ul>\n</li>\n<li>\n<p><strong>Plan discussed</strong></p>\n</li>\n<li>\n<p><strong>Patient ready</strong></p>\n<ul>\n<li>Pre-oxygenation/de-nitrogenation</li>\n<li>Vascular access</li>\n<li>Patient positioning (unless contraindicated)\n<ul>\n<li>Ear-to-sternal-notch</li>\n<li>30 degree head-of-bed elevation</li>\n</ul>\n</li>\n<li>Monitoring in place</li>\n<li>Evaluate airway difficulty</li>\n<li>Prep for surgical airway as needed</li>\n</ul>\n</li>\n<li>\n<p><strong>Post-intubation medications ready</strong></p>\n<ul>\n<li>Pain control:\n<ul>\n<li>fentanyl</li>\n</ul>\n</li>\n<li>Sedation\n<ul>\n<li>midazolam OR ketamine</li>\n</ul>\n</li>\n</ul>\n</li>\n</ol>"
           }
         ]
       }
     ]
   },
   {
-    "id": "blue_airway_algorithm",
+    "id": "blue_002",
     "title": "Airway Algorithm",
     "category": "blue",
     "pages": [
       {
-        "pageId": "blue_page_21",
+        "pageId": "blue_002",
         "pageNumber": "Blue 2",
         "jpgReference": "/page_jpg/021.jpg",
         "isContinuation": false,
         "sections": [
           {
-            "type": "content",
+            "type": "header",
             "providerLevel": "ALL",
-            "content": "# Airway Algorithm\n\n<mermaid>\ngraph TD\n    A[All Clinicians Assess A,B,Cs including respiratory rate, effort, adequacy & Pulse Oximetry] -- Adequate --> B[Consider supplemental O₂ and Monitoring]\n    A -- Inadequate --> C[EMT Contact ALS BLS Measures First: Open Airway Oral and/or Nasal Airways, Suction as needed, Bag Valve Mask EMT #40;if available and trained#41; /AEMT/ Paramedic consider trial of CPAP in Adult]\n\n    C -- Obstruction --> D[All Clinicians Airway Obstruction Procedures Paramedic Direct Laryngoscopy]\n    D -- Unsuccessful --> E[Failed Intubation Algorithm, Blue 4]\n    D -- \"Successful\" ---> A\n\tG[Continue BVM or CPAP]\n\n    H[1.Continue monitoring 2.Capnography 3.Consider c-collar 4.Consider gastric tube to decompress the stomach #40;Paramedic only#41; 5.Contact receiving hospital]\n    H --> I[Paramedic Refer to Post-Intubation/BIAD Pain Control protocol, Blue 5]\n    C -- Unsuccessful --> J[AEMT/Paramedic Blind Insertion Airway Device or Paramedic Intubation]\n    J -- Unsuccessful --> L[Failed Intubation Algorithm, Blue 4]\n    J -- Successful --> H\n\n\tC -- \"Successful\" --> G\n\tG -- \"Becomes Inadequate\" --> C\n</mermaid>\n\n*   An intubation attempt is defined as passing a bougie or the endotracheal tube past the teeth or the endotracheal tube inserted into the nasal passage.\n*   Continuous capnography is **mandatory** for all patients with a BIAD or Endotracheal Tube; if prolonged use of BVM, consider use of capnography.\n*   The goal of airway management is adequate oxygenation, ventilation, and airway protection. If an effective airway is being maintained by BVM with an OPA and/or NPA(s), it is acceptable to continue with basic airway measures rather than BIAD or intubation.\n*   Consider addition of high-flow nasal cannula in addition to BVM/face-mask prior to intubation attempt if not meeting oxygenation goals. Keep in place during intubation attempt.\n*   The gastric tube may be connected to low suction (less than 80 mmHg).\n\n**Patients are more effectively ventilated with face-mask ventilation when:**\n1) A two-person ventilation technique is used\n2) EtCO₂ is used to guide ventilation\n3) Avoiding hypo- and hyperoxia\n4) Avoiding hypo- and hyperventilation\n5) Minimizing peak airway pressure\n6) When tolerated, both oral and nasal airways are placed\n**Face mask ventilation can be achieved with a transport vent if so trained (Adult only)**",
-            "html": "<p># Airway Algorithm</p>\n<mermaid>\ngraph TD\n    A[All Clinicians Assess A,B,Cs including respiratory rate, effort, adequacy & Pulse Oximetry] -- Adequate --> B[Consider supplemental O₂ and Monitoring]\n    A -- Inadequate --> C[EMT Contact ALS BLS Measures First: Open Airway Oral and/or Nasal Airways, Suction as needed, Bag Valve Mask EMT #40;if available and trained#41; /AEMT/ Paramedic consider trial of CPAP in Adult]\n\n    C -- Obstruction --> D[All Clinicians Airway Obstruction Procedures Paramedic Direct Laryngoscopy]\n    D -- Unsuccessful --> E[Failed Intubation Algorithm, Blue 4]\n    D -- \"Successful\" ---> A\n\tG[Continue BVM or CPAP]\n\n    H[1.Continue monitoring 2.Capnography 3.Consider c-collar 4.Consider gastric tube to decompress the stomach #40;Paramedic only#41; 5.Contact receiving hospital]\n    H --> I[Paramedic Refer to Post-Intubation/BIAD Pain Control protocol, Blue 5]\n    C -- Unsuccessful --> J[AEMT/Paramedic Blind Insertion Airway Device or Paramedic Intubation]\n    J -- Unsuccessful --> L[Failed Intubation Algorithm, Blue 4]\n    J -- Successful --> H\n\n\tC -- \"Successful\" --> G\n\tG -- \"Becomes Inadequate\" --> C\n</mermaid>\n<ul>\n<li>An intubation attempt is defined as passing a bougie or the endotracheal tube past the teeth or the endotracheal tube inserted into the nasal passage.</li>\n<li>Continuous capnography is <strong>mandatory</strong> for all patients with a BIAD or Endotracheal Tube; if prolonged use of BVM, consider use of capnography.</li>\n<li>The goal of airway management is adequate oxygenation, ventilation, and airway protection. If an effective airway is being maintained by BVM with an OPA and/or NPA(s), it is acceptable to continue with basic airway measures rather than BIAD or intubation.</li>\n<li>Consider addition of high-flow nasal cannula in addition to BVM/face-mask prior to intubation attempt if not meeting oxygenation goals. Keep in place during intubation attempt.</li>\n<li>The gastric tube may be connected to low suction (less than 80 mmHg).</li>\n</ul>\n<strong>Patients are more effectively ventilated with face-mask ventilation when:</strong>\n<p>1) A two-person ventilation technique is used</p>\n<p>2) EtCO₂ is used to guide ventilation</p>\n<p>3) Avoiding hypo- and hyperoxia</p>\n<p>4) Avoiding hypo- and hyperventilation</p>\n<p>5) Minimizing peak airway pressure</p>\n<p>6) When tolerated, both oral and nasal airways are placed</p>\n<strong>Face mask ventilation can be achieved with a transport vent if so trained (Adult only)</strong>"
+            "content": "Airway Algorithm",
+            "html": "<h1>Airway Algorithm</h1>"
+          },
+          {
+            "type": "mermaid",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "mermaid",
+              "code": "\ngraph TD\n    A[All CliniciansAssess A,B,Csincluding respiratory rate,effort, adequacy &Pulse Oximetry] -->|Adequate| B[Consider supplementalO₂ and Monitoring]\n    A -->|Inadequate| C[EMTContact ALSBLS Measures First:Open AirwayOral and/or Nasal Airways,Suction as needed,Bag Valve MaskEMT (if available andtrained) /AEMT/Paramedicconsider trial of CPAP inAdult]\n    C -- Obstruction --> D[All CliniciansAirway ObstructionProceduresParamedicDirect Laryngoscopy]\n    D -- Unsuccessful --> E[FailedIntubationAlgorithm,Blue 4]\n    D -- Successful --> F[Continue BVMor CPAP]\n    F -- Becomes Inadequate --> G[Continue BVMor CPAP]\n    G -- Successful --> H[1.Continue monitoring2.Capnography3.Consider c-collar4.Consider gastric tube todecompress the stomach(Paramedic only)5.Contact receiving hospital]\n    H --> I[ParamedicRefer to Post-Intubation/BIAD Pain Controlprotocol, Blue 5]\n    C -- Successful --> J[AEMT/ParamedicBlind InsertionAirway DeviceorParamedicIntubation]\n    J -- Unsuccessful --> E\n    J -- Successful --> H\n"
+            },
+            "html": "<mermaid>\ngraph TD\n    A[All Clinicians<br>Assess A,B,Cs<br>including respiratory rate,<br>effort, adequacy &amp;<br>Pulse Oximetry] --&gt;|Adequate| B[Consider supplemental<br>O₂ and Monitoring]\n    A --&gt;|Inadequate| C[EMT<br>Contact ALS<br>BLS Measures First:<br>Open Airway<br>Oral and/or Nasal Airways,<br>Suction as needed,<br>Bag Valve Mask<br>EMT (if available and<br>trained) /AEMT/<br>Paramedic<br>consider trial of CPAP in<br>Adult]\n    C -- Obstruction --&gt; D[All Clinicians<br>Airway Obstruction<br>Procedures<br>Paramedic<br>Direct Laryngoscopy]\n    D -- Unsuccessful --&gt; E[Failed<br>Intubation<br>Algorithm,<br>Blue 4]\n    D -- Successful --&gt; F[Continue BVM<br>or CPAP]\n    F -- Becomes Inadequate --&gt; G[Continue BVM<br>or CPAP]\n    G -- Successful --&gt; H[1.Continue monitoring<br>2.Capnography<br>3.Consider c-collar<br>4.Consider gastric tube to<br>decompress the stomach<br>(Paramedic only)<br>5.Contact receiving hospital]\n    H --&gt; I[Paramedic<br>Refer to Post-Intubation/BIAD Pain Control<br>protocol, Blue 5]\n    C -- Successful --&gt; J[AEMT/Paramedic<br>Blind Insertion<br>Airway Device<br>or<br>Paramedic<br>Intubation]\n    J -- Unsuccessful --&gt; E\n    J -- Successful --&gt; H\n</mermaid>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "unordered",
+              "items": [
+                {
+                  "content": "An intubation attempt is defined as passing a bougie or the endotracheal tube past the teeth or the endotracheal tube inserted into the nasal passage."
+                },
+                {
+                  "content": "Continuous capnography is mandatory for all patients with a BIAD or Endotracheal Tube; if prolonged use of BVM, consider use of capnography."
+                },
+                {
+                  "content": "The goal of airway management is adequate oxygenation, ventilation, and airway protection. If an effective airway is being maintained by BVM with an OPA and/or NPA(s), it is acceptable to continue with basic airway measures rather than BIAD or intubation."
+                },
+                {
+                  "content": "Consider addition of high-flow nasal cannula in addition to BVM/face-mask prior to intubation attempt if not meeting oxygenation goals. Keep in place during intubation attempt."
+                },
+                {
+                  "content": "The gastric tube may be connected to low suction (less than 80 mmHg)."
+                }
+              ]
+            },
+            "html": "<ul>\n<li>An intubation attempt is defined as passing a bougie or the endotracheal tube past the teeth or the endotracheal tube inserted into the nasal passage.</li>\n<li>Continuous capnography is <strong>mandatory</strong> for all patients with a BIAD or Endotracheal Tube; if prolonged use of BVM, consider use of capnography.</li>\n<li>The goal of airway management is adequate oxygenation, ventilation, and airway protection. If an effective airway is being maintained by BVM with an OPA and/or NPA(s), it is acceptable to continue with basic airway measures rather than BIAD or intubation.</li>\n<li>Consider addition of high-flow nasal cannula in addition to BVM/face-mask prior to intubation attempt if not meeting oxygenation goals. Keep in place during intubation attempt.</li>\n<li>The gastric tube may be connected to low suction (less than 80 mmHg).</li>\n</ul>"
           },
           {
             "type": "content",
-            "providerLevel": "PEARLS",
-            "content": "**PEARLS for Endotracheal Intubation**\n* Position the airway for best view of the cords – raise head to the sniffing position (i.e. earlobe in-line with sternal notch)\n* Preparation: (four cornerstones)\n    1) ET tube\n    2) Laryngoscope with backup blade\n    3) Suction\n    4) Use of Bougie on every attempt for ETT size 6 or greater is strongly recommended\n* Always have a back-up plan should the primary strategy fail*\n* When advanced airways are placed, secure the tube with either a commercial tube holder or tape, rather than held manually*",
-            "html": "<strong>PEARLS for Endotracheal Intubation</strong>\n<ul>\n<li>Position the airway for best view of the cords – raise head to the sniffing position (i.e. earlobe in-line with sternal notch)</li>\n<li>Preparation: (four cornerstones)</li>\n</ul>\n<p>    1) ET tube</p>\n<p>    2) Laryngoscope with backup blade</p>\n<p>    3) Suction</p>\n<p>    4) Use of Bougie on every attempt for ETT size 6 or greater is strongly recommended</p>\n<em> Always have a back-up plan should the primary strategy fail</em>\n<em> When advanced airways are placed, secure the tube with either a commercial tube holder or tape, rather than held manually</em>",
-            "pearlsTitle": "Endotracheal Intubation"
+            "providerLevel": "ALL",
+            "content": "Patients are more effectively ventilated with face-mask ventilation when:",
+            "html": "<p><strong>Patients are more effectively ventilated with face-mask ventilation when:</strong></p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "ordered",
+              "startNumber": 1,
+              "items": [
+                {
+                  "content": "A two-person ventilation technique is used"
+                },
+                {
+                  "content": "EtCO₂ is used to guide ventilation"
+                },
+                {
+                  "content": "Avoiding hypo- and hyperoxia"
+                },
+                {
+                  "content": "Avoiding hypo- and hyperventilation"
+                },
+                {
+                  "content": "Minimizing peak airway pressure"
+                },
+                {
+                  "content": "When tolerated, both oral and nasal airways are placed\nFace mask ventilation can be achieved with a transport vent if so trained (Adult only)"
+                }
+              ]
+            },
+            "html": "<ol>\n<li>A two-person ventilation technique is used</li>\n<li>EtCO₂ is used to guide ventilation</li>\n<li>Avoiding hypo- and hyperoxia</li>\n<li>Avoiding hypo- and hyperventilation</li>\n<li>Minimizing peak airway pressure</li>\n<li>When tolerated, both oral and nasal airways are placed<br>\n<strong>Face mask ventilation can be achieved with a transport vent if so trained (Adult only)</strong></li>\n</ol>"
+          },
+          {
+            "type": "pearls",
+            "providerLevel": "ALL",
+            "content": "PEARLS for Endotracheal Intubation",
+            "html": "<p><strong>PEARLS for Endotracheal Intubation</strong></p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "unordered",
+              "items": [
+                {
+                  "content": "Position the airway for best view of the cords – raise head to the sniffing position (i.e. earlobe in-line with sternal notch)"
+                },
+                {
+                  "content": "Preparation: (four cornerstones)",
+                  "nestedList": {
+                    "type": "ordered",
+                    "startNumber": 1,
+                    "items": [
+                      {
+                        "content": "ET tube"
+                      },
+                      {
+                        "content": "Laryngoscope with backup blade"
+                      },
+                      {
+                        "content": "Suction"
+                      },
+                      {
+                        "content": "Use of Bougie on every attempt for ETT size 6 or greater is strongly recommended"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": "Always have a back-up plan should the primary strategy fail*"
+                },
+                {
+                  "content": "When advanced airways are placed, secure the tube with either a commercial tube holder or tape, rather than held manually*"
+                }
+              ]
+            },
+            "html": "<ul>\n<li>Position the airway for best view of the cords – raise head to the sniffing position (i.e. earlobe in-line with sternal notch)</li>\n<li>Preparation: (four cornerstones)\n<ol>\n<li>ET tube</li>\n<li>Laryngoscope with backup blade</li>\n<li>Suction</li>\n<li>Use of Bougie on every attempt for ETT size 6 or greater is strongly recommended</li>\n</ol>\n</li>\n<li>Always have a back-up plan should the primary strategy fail*</li>\n<li>When advanced airways are placed, secure the tube with either a commercial tube holder or tape, rather than held manually*</li>\n</ul>"
           }
         ]
       }
     ]
   },
   {
-    "id": "blue_confirmation_and_monitoring_of_advanced_airways",
+    "id": "blue_003",
     "title": "Confirmation and Monitoring of Advanced Airways",
     "category": "blue",
     "pages": [
       {
-        "pageId": "blue_page_22",
+        "pageId": "blue_003",
         "pageNumber": "Blue 3",
         "jpgReference": "/page_jpg/022.jpg",
         "isContinuation": false,
         "sections": [
           {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Confirmation and Monitoring of Advanced Airways",
+            "html": "<h1>Confirmation and Monitoring of Advanced Airways</h1>"
+          },
+          {
+            "type": "mermaid",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "mermaid",
+              "code": "\ngraph TD\n    A[Place Advanced Airway] --> B[Confirm ETT or Blind Insertion Airway Device placement with continuous wave form capnography.* AND Confirm ETT and BIAD placement with physical exam, including absence of sounds over the epigastrum, presence of symmetric bilateral breath sounds, etc.]\n    B --> C[ETT/BIAD placement correct]\n    B --> D[ETT/BIAD placement uncertain or equivocal findings for confirmation]\n    B --> E[ETT/BIAD placement incorrect]\nC --> F[Secure ETT/BIAD in place]\nF --> G[Continue EtCO₂ monitoring en route to hospital and repeated evaluation of ETT/BIAD placement via breath sounds assessment]\nD --> H{Immediate direct visualization of ETT/BIAD through vocal cords?**}\nH -- Yes --> F\nH -- No --> I[Remove ETT/BIAD and ventilate via BVM]\nI --> J[Attempt correct ETT/BIAD placement or continue BVM ventilation]\n\n"
+            },
+            "html": "<mermaid>\ngraph TD\n    A[Place Advanced Airway] --&gt; B[Confirm ETT or Blind Insertion Airway Device placement with continuous wave form capnography.* AND Confirm ETT and BIAD placement with physical exam, including absence of sounds over the epigastrum, presence of symmetric bilateral breath sounds, etc.]\n    B --&gt; C[ETT/BIAD placement correct]\n    B --&gt; D[ETT/BIAD placement uncertain or equivocal findings for confirmation]\n    B --&gt; E[ETT/BIAD placement incorrect]\n<pre><code>C --&gt; F[Secure ETT/BIAD in place]\nF --&gt; G[Continue EtCO₂ monitoring en route to hospital and repeated evaluation of ETT/BIAD placement via breath sounds assessment]\n</code><p><code>D --&gt; H{Immediate direct visualization of ETT/BIAD through vocal cords?**}<br>\nH -- Yes --&gt; F<br>\nH -- No --&gt; I[Remove ETT/BIAD and ventilate via BVM]<br>\nI --&gt; J[Attempt correct ETT/BIAD placement or continue BVM ventilation]<br>\n</code></p></pre><br>\n</mermaid>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "unordered",
+              "items": [
+                {
+                  "content": "For cardiac arrest patients, consider placement of the ETT/BIAD as well as lack of pulmonary circulation in the interpretation of EtCO₂ findings."
+                }
+              ]
+            },
+            "html": "<ul>\n<li>For cardiac arrest patients, consider placement of the ETT/BIAD as well as lack of pulmonary circulation in the interpretation of EtCO₂ findings.</li>\n</ul>"
+          },
+          {
             "type": "content",
             "providerLevel": "ALL",
-            "content": "# Confirmation and Monitoring of Advanced Airways\n\n<mermaid>\ngraph TD\n    A[Place Advanced Airway] --> B[Confirm ETT or Blind Insertion Airway Device placement with continuous wave form capnography.* AND Confirm ETT and BIAD placement with physical exam, including absence of sounds over the epigastrum, presence of symmetric bilateral breath sounds, etc.]\n    B --> C[ETT/BIAD placement correct]\n    B --> D[ETT/BIAD placement uncertain or equivocal findings for confirmation]\n    B --> E[ETT/BIAD placement incorrect]\n\n    C --> F[Secure ETT/BIAD in place]\n    F --> G[Continue EtCO₂ monitoring en route to hospital and repeated evaluation of ETT/BIAD placement via breath sounds assessment]\n\n    D --> H{Immediate direct visualization of ETT/BIAD through vocal cords?**}\n    H -- Yes --> F\n    H -- No --> I[Remove ETT/BIAD and ventilate via BVM]\n    I --> J[Attempt correct ETT/BIAD placement or continue BVM ventilation]\n</mermaid>\n\n* For cardiac arrest patients, consider placement of the ETT/BIAD as well as lack of pulmonary circulation in the interpretation of EtCO₂ findings.\n\n** Nasotracheally-intubated patients should be assumed to have incorrect ETT/BIAD placement if findings of breath sounds or EtCO₂ results are uncertain or equivocal",
-            "html": "<p># Confirmation and Monitoring of Advanced Airways</p>\n<mermaid>\ngraph TD\n    A[Place Advanced Airway] --> B[Confirm ETT or Blind Insertion Airway Device placement with continuous wave form capnography.* AND Confirm ETT and BIAD placement with physical exam, including absence of sounds over the epigastrum, presence of symmetric bilateral breath sounds, etc.]\n    B --> C[ETT/BIAD placement correct]\n    B --> D[ETT/BIAD placement uncertain or equivocal findings for confirmation]\n    B --> E[ETT/BIAD placement incorrect]\n\n    C --> F[Secure ETT/BIAD in place]\n    F --> G[Continue EtCO₂ monitoring en route to hospital and repeated evaluation of ETT/BIAD placement via breath sounds assessment]\n\n    D --> H{Immediate direct visualization of ETT/BIAD through vocal cords?**}\n    H -- Yes --> F\n    H -- No --> I[Remove ETT/BIAD and ventilate via BVM]\n    I --> J[Attempt correct ETT/BIAD placement or continue BVM ventilation]\n</mermaid>\n<ul>\n<li>For cardiac arrest patients, consider placement of the ETT/BIAD as well as lack of pulmonary circulation in the interpretation of EtCO₂ findings.</li>\n</ul>\n<p>** Nasotracheally-intubated patients should be assumed to have incorrect ETT/BIAD placement if findings of breath sounds or EtCO₂ results are uncertain or equivocal</p>"
+            "content": "** Nasotracheally-intubated patients should be assumed to have incorrect ETT/BIAD placement if findings of breath sounds or EtCO₂ results are uncertain or equivocal",
+            "html": "<p>** Nasotracheally-intubated patients should be assumed to have incorrect ETT/BIAD placement if findings of breath sounds or EtCO₂ results are uncertain or equivocal</p>"
           }
         ]
       }
     ]
   },
   {
-    "id": "blue_failed_intubation_algorithm",
+    "id": "blue_004",
     "title": "Failed Intubation Algorithm",
     "category": "blue",
     "pages": [
       {
-        "pageId": "blue_page_23",
+        "pageId": "blue_004",
         "pageNumber": "Blue 4",
         "jpgReference": "/page_jpg/023.jpg",
         "isContinuation": false,
         "sections": [
           {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Failed Intubation Algorithm",
+            "html": "<h1>Failed Intubation Algorithm</h1>"
+          },
+          {
             "type": "content",
             "providerLevel": "ALL",
-            "content": "# Failed Intubation Algorithm\n\nA \"failed\" intubation or the \"can't intubate patient\" is defined as two (2) unsuccessful intubation attempts by the most proficient technician on scene OR anatomy inconsistent with intubation attempts.\n\nNO MORE THAN THREE (3) TOTAL ATTEMPTS PER PATIENT WITHOUT OLMC CONSULTATION.\n\n<mermaid>\ngraph TD\n    A[Adequate oxygenation and ventilation with BVM?] -->|Yes| B[Continue BVM]\n    A -->|No| C{Facial trauma or unrelieved obstruction?}\n    B --> D[If SPO₂ drops less than 90% or it becomes difficult to ventilate with BVM]\n    C -->|Yes| E[Paramedic Surgical airway, Blue 12]\n    C -->|No| F[Blind Insertion Airway Device]\n    D --> G[Notify OLMC or receiving hospital AS EARLY AS POSSIBLE regarding the patient's difficult airway]\n    E --> H[Ventilate, monitor for signs of adequacy including EtCO₂ and pulse oximetry]\n    F --> G\n    H --> I[Notify receiving hospital]\n</mermaid>\n\nContinuous pulse oximetry and EtCO₂ monitoring should be utilized in all patients with difficult airways or respiratory distress.\n\nFOR PEDIATRIC PATIENTS REQUIRING SURGICAL AIRWAY – Consider needle cricothyrotomy in patients less than 8 years old OR if physiologically young enough that surgical landmarks are NOT identifiable.\n\n🧸\n\n&lt;page_number&gt;Blue 4&lt;/page_number&gt;",
-            "html": "<p># Failed Intubation Algorithm</p>\n<p>A \"failed\" intubation or the \"can't intubate patient\" is defined as two (2) unsuccessful intubation attempts by the most proficient technician on scene OR anatomy inconsistent with intubation attempts.</p>\n<p>NO MORE THAN THREE (3) TOTAL ATTEMPTS PER PATIENT WITHOUT OLMC CONSULTATION.</p>\n<mermaid>\ngraph TD\n    A[Adequate oxygenation and ventilation with BVM?] -->|Yes| B[Continue BVM]\n    A -->|No| C{Facial trauma or unrelieved obstruction?}\n    B --> D[If SPO₂ drops less than 90% or it becomes difficult to ventilate with BVM]\n    C -->|Yes| E[Paramedic Surgical airway, Blue 12]\n    C -->|No| F[Blind Insertion Airway Device]\n    D --> G[Notify OLMC or receiving hospital AS EARLY AS POSSIBLE regarding the patient's difficult airway]\n    E --> H[Ventilate, monitor for signs of adequacy including EtCO₂ and pulse oximetry]\n    F --> G\n    H --> I[Notify receiving hospital]\n</mermaid>\n<p>Continuous pulse oximetry and EtCO₂ monitoring should be utilized in all patients with difficult airways or respiratory distress.</p>\n<p>FOR PEDIATRIC PATIENTS REQUIRING SURGICAL AIRWAY – Consider needle cricothyrotomy in patients less than 8 years old OR if physiologically young enough that surgical landmarks are NOT identifiable.</p>\n<p></p>"
+            "content": "A \"failed\" intubation or the \"can't intubate patient\" is defined as two (2) unsuccessful intubation attempts by the most proficient technician on scene OR anatomy inconsistent with intubation attempts.",
+            "html": "<p>A \"failed\" intubation or the \"can't intubate patient\" is defined as two (2) unsuccessful intubation attempts by the most proficient technician on scene OR anatomy inconsistent with intubation attempts.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "NO MORE THAN THREE (3) TOTAL ATTEMPTS PER PATIENT WITHOUT OLMC CONSULTATION.",
+            "html": "<p>NO MORE THAN THREE (3) TOTAL ATTEMPTS PER PATIENT WITHOUT OLMC CONSULTATION.</p>"
+          },
+          {
+            "type": "mermaid",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "mermaid",
+              "code": "\ngraph TD\n    A[Adequate oxygenation and ventilation with BVM?] -->|Yes| B[Continue BVM]\n    A -->|No| C{Facial trauma or unrelieved obstruction?}\n    B --> D[If SPO₂ drops less than 90% or it becomes difficult to ventilate with BVM]\n    C -->|Yes| E[Paramedic Surgical airway, Blue 12]\n    C -->|No| F[Blind Insertion Airway Device]\n    D --> G[Notify OLMC or receiving hospital AS EARLY AS POSSIBLE regarding the patient's difficult airway]\n    E --> H[Ventilate, monitor for signs of adequacy including EtCO₂ and pulse oximetry]\n    F --> G\n    H --> I[Notify receiving hospital]\n"
+            },
+            "html": "<mermaid>\ngraph TD\n    A[Adequate oxygenation and ventilation with BVM?] --&gt;|Yes| B[Continue BVM]\n    A --&gt;|No| C{Facial trauma or unrelieved obstruction?}\n    B --&gt; D[If SPO₂ drops less than 90% or it becomes difficult to ventilate with BVM]\n    C --&gt;|Yes| E[Paramedic Surgical airway, Blue 12]\n    C --&gt;|No| F[Blind Insertion Airway Device]\n    D --&gt; G[Notify OLMC or receiving hospital AS EARLY AS POSSIBLE regarding the patient's difficult airway]\n    E --&gt; H[Ventilate, monitor for signs of adequacy including EtCO₂ and pulse oximetry]\n    F --&gt; G\n    H --&gt; I[Notify receiving hospital]\n</mermaid>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "Continuous pulse oximetry and EtCO₂ monitoring should be utilized in all patients with difficult airways or respiratory distress.",
+            "html": "<p>Continuous pulse oximetry and EtCO₂ monitoring should be utilized in all patients with difficult airways or respiratory distress.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "FOR PEDIATRIC PATIENTS REQUIRING SURGICAL AIRWAY – Consider needle cricothyrotomy in patients less than 8 years old OR if physiologically young enough that surgical landmarks are NOT identifiable.",
+            "html": "<p>FOR PEDIATRIC PATIENTS REQUIRING SURGICAL AIRWAY – Consider needle cricothyrotomy in patients less than 8 years old OR if physiologically young enough that surgical landmarks are NOT identifiable.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "<img>A cartoon teddy bear.</img>",
+            "html": "<p>🧸</p>"
           }
         ]
       }
     ]
   },
   {
-    "id": "blue_post_intubation_biad_pain_control",
+    "id": "blue_005",
     "title": "Post Intubation / BIAD Pain Control",
     "category": "blue",
     "pages": [
       {
-        "pageId": "blue_page_24",
+        "pageId": "blue_005",
         "pageNumber": "Blue 5",
         "jpgReference": "/page_jpg/024.jpg",
         "isContinuation": false,
         "sections": [
           {
-            "type": "content",
+            "type": "header",
             "providerLevel": "ALL",
-            "content": "# Post-Intubation/BIAD Pain Control\n\nAll patients with an ETT or BIAD inserted who are **not** currently in cardiac arrest are at risk for pain, anxiety and self-extubation. Therefore, appropriate pain control and anxiolysis are required for all patients after placement of advanced airways. Signs of inadequate pain control/sedation include eye opening, coughing or gagging, sweating, tearing, new or worsening hypertension and/or tachycardia, tachypnea, or attempts to self-extubate.",
-            "html": "<p># Post-Intubation/BIAD Pain Control</p>\n<p>All patients with an ETT or BIAD inserted who are <strong>not</strong> currently in cardiac arrest are at risk for pain, anxiety and self-extubation. Therefore, appropriate pain control and anxiolysis are required for all patients after placement of advanced airways. Signs of inadequate pain control/sedation include eye opening, coughing or gagging, sweating, tearing, new or worsening hypertension and/or tachycardia, tachypnea, or attempts to self-extubate.</p>"
+            "content": "Post-Intubation/BIAD Pain Control",
+            "html": "<h1>Post-Intubation/BIAD Pain Control</h1>"
           },
           {
             "type": "content",
+            "providerLevel": "ALL",
+            "content": "All patients with an ETT or BIAD inserted who are not currently in cardiac arrest are at risk for pain, anxiety and self-extubation. Therefore, appropriate pain control and anxiolysis are required for all patients after placement of advanced airways. Signs of inadequate pain control/sedation include eye opening, coughing or gagging, sweating, tearing, new or worsening hypertension and/or tachycardia, tachypnea, or attempts to self-extubate.",
+            "html": "<p>All patients with an ETT or BIAD inserted who are <strong>not</strong> currently in cardiac arrest are at risk for pain, anxiety and self-extubation. Therefore, appropriate pain control and anxiolysis are required for all patients after placement of advanced airways. Signs of inadequate pain control/sedation include eye opening, coughing or gagging, sweating, tearing, new or worsening hypertension and/or tachycardia, tachypnea, or attempts to self-extubate.</p>"
+          },
+          {
+            "type": "header",
             "providerLevel": "EMT",
-            "content": "1. Minimize stimulation",
+            "content": "EMT",
+            "html": "<h2>EMT</h2>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "EMT",
+            "content": {
+              "type": "ordered",
+              "startNumber": 1,
+              "items": [
+                {
+                  "content": "Minimize stimulation"
+                }
+              ]
+            },
             "html": "<ol>\n<li>Minimize stimulation</li>\n</ol>"
           },
           {
-            "type": "content",
+            "type": "header",
             "providerLevel": "ADVANCED_EMT",
-            "content": "2. Place IV for anticipated medication administration.",
+            "content": "ADVANCED EMT",
+            "html": "<h2>ADVANCED EMT</h2>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ADVANCED_EMT",
+            "content": {
+              "type": "ordered",
+              "startNumber": 2,
+              "items": [
+                {
+                  "content": "Place IV for anticipated medication administration."
+                }
+              ]
+            },
             "html": "<ol start=\"2\">\n<li>Place IV for anticipated medication administration.</li>\n</ol>"
+          },
+          {
+            "type": "header",
+            "providerLevel": "PARAMEDIC",
+            "content": "PARAMEDIC",
+            "html": "<h2>PARAMEDIC</h2>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "PARAMEDIC",
+            "content": {
+              "type": "ordered",
+              "startNumber": 3,
+              "items": [
+                {
+                  "content": "Pain control\na. Adult & Pediatric: Fentanyl 0.5 - 1 mcg/kg IV/IO, may repeat every 15 minutes to a MAX cumulative dose of 5 mcg/kg.\n<img>Bear with bandage</img>"
+                },
+                {
+                  "content": "Anxiolysis - After adequate pain control, if the patient continues to have signs of inadequate sedation (including eye opening, coughing or gagging, sweating, tearing, new or worsening hypertension and/or tachycardia, tachypnea, or attempts to self-extubate) and the patient is NOT hypotensive, consider ONE of the following options:\na. Midazolam\ni. Adult: 0.5 - 2.5 mg IV/IO every 5 minutes, may repeat x 3 to a MAX cumulative dose of 5 mg OR 1-5 mg IM every 5 minutes, may repeat x 3 to a MAX cumulative dose of 10 mg.\nii. Pediatric:\n1. 6 months - 12 years: 0.05 mg/kg IV/IO, may repeat every 5 minutes to a MAX cumulative dose of 5 mg.\n2. 6 months - 12 years: 0.1 mg/kg IM (MAX single dose 5 mg), may repeat every 5 minutes to a maximum cumulative dose of 10 mg.\n<img>Bear with bandage</img>\n-OR-\nb. Ketamine (Adult ONLY)\ni. 0.2 mg/kg IV/IO, max single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via a pump. May repeat x 1 in 5 minutes.\nii. 0.4 mg/kg IM, max single dose 50 mg. May repeat x 1 in 10 minutes."
+                }
+              ]
+            },
+            "html": "<ol start=\"3\">\n<li>Pain control<br>\na. Adult &amp; Pediatric: Fentanyl 0.5 - 1 mcg/kg IV/IO, may repeat every 15 minutes to a MAX cumulative dose of 5 mcg/kg.<br>\n🧸</li>\n<li>Anxiolysis - After adequate pain control, if the patient continues to have signs of inadequate sedation (including eye opening, coughing or gagging, sweating, tearing, new or worsening hypertension and/or tachycardia, tachypnea, or attempts to self-extubate) and the patient is NOT hypotensive, consider ONE of the following options:<br>\na. Midazolam<br>\ni. Adult: 0.5 - 2.5 mg IV/IO every 5 minutes, may repeat x 3 to a MAX cumulative dose of 5 mg OR 1-5 mg IM every 5 minutes, may repeat x 3 to a MAX cumulative dose of 10 mg.<br>\nii. Pediatric:<br>\n1. 6 months - 12 years: 0.05 mg/kg IV/IO, may repeat every 5 minutes to a MAX cumulative dose of 5 mg.<br>\n2. 6 months - 12 years: 0.1 mg/kg IM (MAX single dose 5 mg), may repeat every 5 minutes to a maximum cumulative dose of 10 mg.<br>\n🧸<br>\n-OR-<br>\nb. Ketamine (Adult ONLY)<br>\ni. 0.2 mg/kg IV/IO, max single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via a pump. May repeat x 1 in 5 minutes.<br>\nii. 0.4 mg/kg IM, max single dose 50 mg. May repeat x 1 in 10 minutes.</li>\n</ol>"
           },
           {
             "type": "content",
             "providerLevel": "PARAMEDIC",
-            "content": "3. Pain control\n    a. Adult & Pediatric: Fentanyl 0.5 - 1 mcg/kg IV/IO, may repeat every 15 minutes to a MAX cumulative dose of 5 mcg/kg.\n    🧸\n        -OR-\n    b. Ketamine (Adult ONLY)\n        i. 0.2 mg/kg IV/IO, max single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via a pump. May repeat x 1 in 5 minutes.\n        ii. 0.4 mg/kg IM, max single dose 50 mg. May repeat x 1 in 10 minutes.\n\nIt is important to avoid hypotension in the critically ill patient, especially post cardiac arrest and head injury. Since anxiolytics (midazolam and ketamine) can cause significant hypotension, it is recommended to treat pain first and anxiolysis (if needed) second. Anxiolysis should be treated with either midazolam OR ketamine, not a combination of the two as this could cause profound hypotension.",
-            "html": "<ol start=\"3\">\n<li>Pain control\n<ol type=\"a\">\n<li>Adult & Pediatric: Fentanyl 0.5 - 1 mcg/kg IV/IO, may repeat every 15 minutes to a MAX cumulative dose of 5 mcg/kg.</li>\n</li>\n</ol>\n</ol>\n<ol start=\"4\">\n<li>Anxiolysis - After adequate pain control, if the patient continues to have signs of inadequate sedation (including eye opening, coughing or gagging, sweating, tearing, new or worsening hypertension and/or tachycardia, tachypnea, or attempts to self-extubate) and the patient is NOT hypotensive, consider ONE of the following options:\n<ol type=\"a\">\n<li>Midazolam\n<ol type=\"i\">\n<li>Adult: 0.5 - 2.5 mg IV/IO every 5 minutes, may repeat x 3 to a MAX cumulative dose of 5 mg OR 1-5 mg IM every 5 minutes, may repeat x 3 to a MAX cumulative dose of 10 mg.</li>\n<li>Pediatric:</li>\n<ol>\n<li>6 months - 12 years: 0.05 mg/kg IV/IO, may repeat every 5 minutes to a MAX cumulative dose of 5 mg.</li>\n<li>6 months - 12 years: 0.1 mg/kg IM (MAX single dose 5 mg), may repeat every 5 minutes to a maximum cumulative dose of 10 mg.</li>\n</li>\n</ol>\n</ol>\n</ol>\n</ol>\n<p>        -OR-</p>\n<ol type=\"a\">\n<li>Ketamine (Adult ONLY)\n<ol type=\"i\">\n<li>0.2 mg/kg IV/IO, max single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via a pump. May repeat x 1 in 5 minutes.</li>\n<li>0.4 mg/kg IM, max single dose 50 mg. May repeat x 1 in 10 minutes.</li>\n</li>\n</ol>\n</ol>\n<p>It is important to avoid hypotension in the critically ill patient, especially post cardiac arrest and head injury. Since anxiolytics (midazolam and ketamine) can cause significant hypotension, it is recommended to treat pain first and anxiolysis (if needed) second. Anxiolysis should be treated with either midazolam OR ketamine, not a combination of the two as this could cause profound hypotension.</p>"
+            "content": "It is important to avoid hypotension in the critically ill patient, especially post cardiac arrest and head injury. Since anxiolytics (midazolam and ketamine) can cause significant hypotension, it is recommended to treat pain first and anxiolysis (if needed) second. Anxiolysis should be treated with either midazolam OR ketamine, not a combination of the two as this could cause profound hypotension.",
+            "html": "<p>It is important to avoid hypotension in the critically ill patient, especially post cardiac arrest and head injury. Since anxiolytics (midazolam and ketamine) can cause significant hypotension, it is recommended to treat pain first and anxiolysis (if needed) second. Anxiolysis should be treated with either midazolam OR ketamine, not a combination of the two as this could cause profound hypotension.</p>"
           }
         ]
       }
     ]
   },
   {
-    "id": "blue_respiratory_distress_with_bronchospasm",
+    "id": "blue_006_blue_007_blue_008",
     "title": "Respiratory Distress with Bronchospasm",
     "category": "blue",
     "pages": [
       {
-        "pageId": "blue_page_25",
+        "pageId": "blue_006",
         "pageNumber": "Blue 6",
         "jpgReference": "/page_jpg/025.jpg",
-        "isContinuation": true,
+        "isContinuation": false,
         "sections": [
+          {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Respiratory Distress with Bronchospasm #1",
+            "html": "<h1>Respiratory Distress with Bronchospasm #1</h1>"
+          },
           {
             "type": "content",
             "providerLevel": "ALL",
-            "content": "# Respiratory Distress with Bronchospasm #1\n(COPD, Emphysema, Chronic Bronchitis, Asthma)\n\n**CAUTION: RESPIRATORY DISTRESS MAY BE DUE TO MULTIPLE OTHER CAUSES FOR WHICH OTHER TREATMENTS MAY BE INDICATED, INCLUDING THE FOLLOWING:**\n\nPulmonary Edema, see Blue 10\nAnaphylaxis, see Gold 1\nChest Trauma, see Green 7",
-            "html": "<p># Respiratory Distress with Bronchospasm #1</p>\n<p>(COPD, Emphysema, Chronic Bronchitis, Asthma)</p>\n<strong>CAUTION: RESPIRATORY DISTRESS MAY BE DUE TO MULTIPLE OTHER CAUSES FOR WHICH OTHER TREATMENTS MAY BE INDICATED, INCLUDING THE FOLLOWING:</strong>\n<p>Pulmonary Edema, see <a href=\"/protocol/blue_pulmonary_edema_without_shock_\" class=\"protocol-ref-link\">Blue 10</a></p>\n<p>Anaphylaxis, see <a href=\"/protocol/gold_allergy_anaphylaxis\" class=\"protocol-ref-link\">Gold 1</a></p>\n<p>Chest Trauma, see <a href=\"/protocol/green_chest_trauma\" class=\"protocol-ref-link\">Green 7</a></p>"
+            "content": "(COPD, Emphysema, Chronic Bronchitis, Asthma)",
+            "html": "<p>(COPD, Emphysema, Chronic Bronchitis, Asthma)</p>"
           },
           {
             "type": "content",
-            "providerLevel": "EMT_ADVANCED_EMT",
-            "content": "1. O₂ as appropriate.\n2. If needed, assist ventilation with positive pressure ventilation using 100% O₂.\n3. Request ALS. (see Definitions, Purple 1)\n4. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age with continued respiratory distress. Every 5 minutes, may repeat x 2 as needed for ongoing symptoms. 🧸\n5. For severe respiratory distress, EPINEPHrine:\n    1. Adult – EPINEPHrine 0.3 mg IM of 1mg/1mL every 20 minutes.\n    2. Pediatric - EPINEPHrine dose which is as follows: less than 25 kg, 0.15 mg IM [0.15 mL of 1mg/mL], greater than 25 kg, 0.3 mg IM [0.3 mL of 1mg/mL] in anterolateral thigh every 20 minutes. 🧸\n6. Consider CPAP* in patients greater than 18 yo if no improvement after three nebulizers.\n    *CPAP at the EMT level, only if available and so trained. CPAP should be initiated at 5 cm H₂O and titrated slowly (every 5 minutes), as needed. Do not exceed 10 cm H₂O. Recall that CPAP should never take the place of bronchodilatorsators and should be used only **after**, or in concert with, inhaled bronchodilatorsators in patients with acute bronchospasm. If CPAP is going to be used in the asthmatic, nebulizers must be administered simultaneously*.\n7. If CPAP is initiated, do the following:\n    a. Ensure ALS has been requested (see Definitions, Purple 1). ALS clinicians bring additional therapies to support the management of patients requiring CPAP.\n    b. Contact OLMC for the following treatment option:\n        i. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer every five minutes while the patient remains on CPAP. 📞",
-            "html": "<ol>\n<li>O₂ as appropriate.</li>\n<li>If needed, assist ventilation with positive pressure ventilation using 100% O₂.</li>\n<li>Request ALS. (see Definitions, <a href=\"/protocol/purple_definitions\" class=\"protocol-ref-link\">Purple 1</a>)</li>\n<li>Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age with continued respiratory distress. Every 5 minutes, may repeat x 2 as needed for ongoing symptoms. <protocol-icon name=\"Bear\"></protocol-icon></li>\n<li>For severe respiratory distress, EPINEPHrine:</li>\n<ol>\n<li>Adult – EPINEPHrine 0.3 mg IM of 1mg/1mL every 20 minutes.</li>\n<li>Pediatric - EPINEPHrine dose which is as follows: less than 25 kg, 0.15 mg IM [0.15 mL of 1mg/mL], greater than 25 kg, 0.3 mg IM [0.3 mL of 1mg/mL] in anterolateral thigh every 20 minutes. <protocol-icon name=\"Bear\"></protocol-icon></li>\n</ol>\n<li>Consider CPAP* in patients greater than 18 yo if no improvement after three nebulizers.</li>\n</ol>\n    <em>CPAP at the EMT level, only if available and so trained. CPAP should be initiated at 5 cm H₂O and titrated slowly (every 5 minutes), as needed. Do not exceed 10 cm H₂O. Recall that CPAP should never take the place of bronchodilatorsators and should be used only <strong>after</strong>, or in concert with, inhaled bronchodilatorsators in patients with acute bronchospasm. If CPAP is going to be used in the asthmatic, nebulizers must be administered simultaneously</em>.\n<ol start=\"7\">\n<li>If CPAP is initiated, do the following:\n<ol type=\"a\">\n<li>Ensure ALS has been requested (see Definitions, <a href=\"/protocol/purple_definitions\" class=\"protocol-ref-link\">Purple 1</a>). ALS clinicians bring additional therapies to support the management of patients requiring CPAP.</li>\n<li>Contact OLMC for the following treatment option:\n<ol type=\"i\">\n<li>Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer every five minutes while the patient remains on CPAP. <protocol-icon name=\"Phone\"></protocol-icon></li>\n</li>\n</ol>\n</ol>\n</ol>"
+            "providerLevel": "ALL",
+            "content": "CAUTION: RESPIRATORY DISTRESS MAY BE DUE TO MULTIPLE OTHER CAUSES FOR WHICH OTHER TREATMENTS MAY BE INDICATED, INCLUDING THE FOLLOWING:",
+            "html": "<p><strong>CAUTION: RESPIRATORY DISTRESS MAY BE DUE TO MULTIPLE OTHER CAUSES FOR WHICH OTHER TREATMENTS MAY BE INDICATED, INCLUDING THE FOLLOWING:</strong></p>"
           },
           {
             "type": "content",
-            "providerLevel": "ADVANCED_EMT",
-            "content": "8. Cardiac monitor\n9. Manage airway as needed, refer to Airway Algorithm, Blue 2.",
-            "html": "<ol start=\"8\">\n<li>Cardiac monitor</li>\n<li>Manage airway as needed, refer to Airway Algorithm, <a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a>.</li>\n</ol>"
+            "providerLevel": "ALL",
+            "content": "Pulmonary Edema, see Blue 10\nAnaphylaxis, see Gold 1\nChest Trauma, see Green 7",
+            "html": "<p>Pulmonary Edema, see Blue 10<br>\nAnaphylaxis, see Gold 1<br>\nChest Trauma, see Green 7</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "EMT/ADVANCED EMT",
+            "html": "<p><strong>EMT/ADVANCED EMT</strong></p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "ordered",
+              "startNumber": 1,
+              "items": [
+                {
+                  "content": "O₂ as appropriate."
+                },
+                {
+                  "content": "If needed, assist ventilation with positive pressure ventilation using 100% O₂."
+                },
+                {
+                  "content": "Request ALS. (see Definitions, Purple 1)"
+                },
+                {
+                  "content": "Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age with continued respiratory distress. Every 5 minutes, may repeat x 2 as needed for ongoing symptoms. <img>Bear</img>"
+                },
+                {
+                  "content": "For severe respiratory distress, EPINEPHrine:",
+                  "nestedList": {
+                    "type": "ordered",
+                    "startNumber": 1,
+                    "items": [
+                      {
+                        "content": "Adult – EPINEPHrine 0.3 mg IM of 1mg/1mL every 20 minutes."
+                      },
+                      {
+                        "content": "Pediatric - EPINEPHrine dose which is as follows: less than 25 kg, 0.15 mg IM [0.15 mL of 1mg/mL], greater than 25 kg, 0.3 mg IM [0.3 mL of 1mg/mL] in anterolateral thigh every 20 minutes. <img>Bear</img>"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": "Consider CPAP* in patients greater than 18 yo if no improvement after three nebulizers.\nCPAP at the EMT level, only if available and so trained. CPAP should be initiated at 5 cm H₂O and titrated slowly (every 5 minutes), as needed. Do not exceed 10 cm H₂O. Recall that CPAP should never take the place of bronchodilatorsators and should be used only after, or in concert with, inhaled bronchodilatorsators in patients with acute bronchospasm. If CPAP is going to be used in the asthmatic, nebulizers must be administered simultaneously."
+                },
+                {
+                  "content": "If CPAP is initiated, do the following:\na. Ensure ALS has been requested (see Definitions, Purple 1). ALS clinicians bring additional therapies to support the management of patients requiring CPAP.\nb. Contact OLMC for the following treatment option:\ni. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer every five minutes while the patient remains on CPAP. <img>Phone</img>\nADVANCED EMT"
+                },
+                {
+                  "content": "Cardiac monitor"
+                },
+                {
+                  "content": "Manage airway as needed, refer to Airway Algorithm, Blue 2."
+                }
+              ]
+            },
+            "html": "<ol>\n<li>O₂ as appropriate.</li>\n<li>If needed, assist ventilation with positive pressure ventilation using 100% O₂.</li>\n<li>Request ALS. (see Definitions, Purple 1)</li>\n<li>Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age with continued respiratory distress. Every 5 minutes, may repeat x 2 as needed for ongoing symptoms. 🧸</li>\n<li>For severe respiratory distress, EPINEPHrine:\n<ol>\n<li>Adult – EPINEPHrine 0.3 mg IM of 1mg/1mL every 20 minutes.</li>\n<li>Pediatric - EPINEPHrine dose which is as follows: less than 25 kg, 0.15 mg IM [0.15 mL of 1mg/mL], greater than 25 kg, 0.3 mg IM [0.3 mL of 1mg/mL] in anterolateral thigh every 20 minutes. 🧸</li>\n</ol>\n</li>\n<li>Consider CPAP* in patients greater than 18 yo if no improvement after three nebulizers.<br>\n<em>CPAP at the EMT level, only if available and so trained. CPAP should be initiated at 5 cm H₂O and titrated slowly (every 5 minutes), as needed. Do not exceed 10 cm H₂O. Recall that CPAP should never take the place of bronchodilatorsators and should be used only <strong>after</strong>, or in concert with, inhaled bronchodilatorsators in patients with acute bronchospasm. If CPAP is going to be used in the asthmatic, nebulizers must be administered simultaneously</em>.</li>\n<li>If CPAP is initiated, do the following:<br>\na. Ensure ALS has been requested (see Definitions, Purple 1). ALS clinicians bring additional therapies to support the management of patients requiring CPAP.<br>\nb. Contact OLMC for the following treatment option:<br>\ni. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer every five minutes while the patient remains on CPAP. 📞<br>\n<strong>ADVANCED EMT</strong></li>\n<li>Cardiac monitor</li>\n<li>Manage airway as needed, refer to Airway Algorithm, Blue 2.</li>\n</ol>"
+          },
+          {
+            "type": "header",
+            "providerLevel": "PARAMEDIC",
+            "content": "PARAMEDIC",
+            "html": "<h2>PARAMEDIC</h2>"
           },
           {
             "type": "content",
             "providerLevel": "PARAMEDIC",
-            "content": "10. Adult/Pediatric\n    a. Albuterol 2.5 mg by nebulization. May repeat 1 time; or\n    b. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age and in continued respiratory distress. May repeat every five minutes x 2. 🧸\n\n(continued)",
-            "html": "<ol start=\"10\">\n<li>Adult/Pediatric\n<ol type=\"a\">\n<li>Albuterol 2.5 mg by nebulization. May repeat 1 time; or</li>\n<li>Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age and in continued respiratory distress. May repeat every five minutes x 2. <protocol-icon name=\"Bear\"></protocol-icon></li>\n</li>\n</ol>\n</ol>\n<p>(continued)</p>"
+            "content": "10. Adult/Pediatric\na. Albuterol 2.5 mg by nebulization. May repeat 1 time; or\nb. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age and in continued respiratory distress. May repeat every five minutes x 2. <img>Bear</img>",
+            "html": "<p>10. Adult/Pediatric<br>\na. Albuterol 2.5 mg by nebulization. May repeat 1 time; or<br>\nb. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age and in continued respiratory distress. May repeat every five minutes x 2. 🧸</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PARAMEDIC",
+            "content": "(continued)",
+            "html": "<p>(continued)</p>"
           }
         ]
       },
       {
-        "pageId": "blue_page_26",
+        "pageId": "blue_007",
         "pageNumber": "Blue 7",
         "jpgReference": "/page_jpg/026.jpg",
         "isContinuation": true,
         "sections": [
           {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Respiratory Distress with Bronchospasm #2",
+            "html": "<h1>Respiratory Distress with Bronchospasm #2</h1>"
+          },
+          {
             "type": "content",
-            "providerLevel": "PARAMEDIC",
-            "content": "# Respiratory Distress with Bronchospasm #2\n(COPD, Emphysema, Chronic Bronchitis, Asthma)\n\n(Continued from previous page)\n\n11. Dexamethasone\n    a. Adult:\n        i. 16 mg PO x 1 if patient can tolerate oral medications, is not in overt respiratory distress, and is not requiring an airway management technique that obscures access to the mouth (e.g., O₂ mask or CPAP),\n        ii. 16 mg IV/IM/IO x 1, if the patient cannot tolerate oral medications, or has any of the above conditions.\n    b. Pediatric:\n        i. 0.6 mg/kg (single MAX dose of 16 mg) PO x 1, if patient can tolerate oral medications, is not in overt respiratory distress, and is not requiring an airway management technique that obscures access to the mouth (e.g., O₂ mask or CPAP), 🧸\n        ii. 0.6 mg/kg (single MAX dose of 16 mg) IV/IM/IO x 1, if the patient cannot tolerate oral medications, or has any of the above conditions.\n\n12. For patients not improving with the above measures, consider the following OPTIONS:\n    a. Repeated or continuous albuterol by nebulization or inhaler.\n    b. For patients in status asthmaticus:\n        i. EPINEPHrine\n            1. Adult: EPINEPHrine 0.3 mg IM of 1mg/1mL every 20 minutes. 🏥\n            2. Pediatric: EPINEPHrine dose which is as follows:\n                a. Less than 25 kg, 0.15 mg IM [0.15mL of 1mg/mL] in anterolateral thigh every 20 minutes,\n                b. Greater than 25 kg, 0.3 mg IM [0.3 mL of 1mg/mL] in anterolateral thigh every 20 minutes. 🧸\n        ii. Magnesium Sulfate\n            1. Adult: Magnesium Sulfate 2 grams IV/IO, diluted in 50-100 mL of IVF (D₅W preferred), over 15 minutes, delivered via medication pump.\n            2. Pediatric: Magnesium Sulfate 50 mg/kg IV/IO with a MAX dose of 2 grams, diluted in 50-100 mL of IVF (D₅W preferred), over 15 minutes, delivered via medication pump. 🧸\n\n*Asthmatic patients:*\nAirway management of asthmatic patients is primarily pharmacological, not mechanical. Therefore, the focus should be on taking those actions that enable the clinician to provide inhaled bronchodilatorsators and, in patients with severe bronchospasm, obtain rapid IV or IO access, administer IV dexamethasone, IV magnesium, and consider IM EPINEPHrine. Due to the pathophysiology of asthma, positive pressure ventilation (facemask, BIAD, or endotracheal intubation) rarely, if ever, is an effective treatment without pharmacological intervention. Therefore, unless the patient is apneic, provide supplemental oxygen via non-rebreather and focus on providing pharmacological interventions. CPAP, with the lowest PEEP setting possible, is a last resort and a bridge to intubation. Specifically, if CPAP is going to be used in the asthmatic, continuous nebs must be administered simultaneously and the clinician must be prepared to proceed with advanced airway management.\n\n&lt;page_number&gt;Blue 7&lt;/page_number&gt;",
-            "html": "<p># Respiratory Distress with Bronchospasm #2</p>\n<p>(COPD, Emphysema, Chronic Bronchitis, Asthma)</p>\n<p>(Continued from previous page)</p>\n<ol start=\"11\">\n<li>Dexamethasone\n<ol type=\"a\">\n<li>Adult:\n<ol type=\"i\">\n<li>16 mg PO x 1 if patient can tolerate oral medications, is not in overt respiratory distress, and is not requiring an airway management technique that obscures access to the mouth (e.g., O₂ mask or CPAP),</li>\n<li>16 mg IV/IM/IO x 1, if the patient cannot tolerate oral medications, or has any of the above conditions.</li>\n</ol>\n</li>\n<li>Pediatric:\n<ol type=\"i\">\n<li>0.6 mg/kg (single MAX dose of 16 mg) PO x 1, if patient can tolerate oral medications, is not in overt respiratory distress, and is not requiring an airway management technique that obscures access to the mouth (e.g., O₂ mask or CPAP), <protocol-icon name=\"Bear\"></protocol-icon></li>\n<li>0.6 mg/kg (single MAX dose of 16 mg) IV/IM/IO x 1, if the patient cannot tolerate oral medications, or has any of the above conditions.</li>\n</li>\n</ol>\n</ol>\n</ol>\n<ol start=\"12\">\n<li>For patients not improving with the above measures, consider the following OPTIONS:\n<ol type=\"a\">\n<li>Repeated or continuous albuterol by nebulization or inhaler.</li>\n<li>For patients in status asthmaticus:\n<ol type=\"i\">\n<li>EPINEPHrine</li>\n<ol>\n<li>Adult: EPINEPHrine 0.3 mg IM of 1mg/1mL every 20 minutes. <protocol-icon name=\"Hospital\"></protocol-icon></li>\n<li>Pediatric: EPINEPHrine dose which is as follows:\n<ol type=\"a\">\n<li>Less than 25 kg, 0.15 mg IM [0.15mL of 1mg/mL] in anterolateral thigh every 20 minutes,</li>\n<li>Greater than 25 kg, 0.3 mg IM [0.3 mL of 1mg/mL] in anterolateral thigh every 20 minutes. <protocol-icon name=\"Bear\"></protocol-icon></li>\n</ol>\n</li>\n</ol>\n<li>Magnesium Sulfate</li>\n<ol>\n<li>Adult: Magnesium Sulfate 2 grams IV/IO, diluted in 50-100 mL of IVF (D₅W preferred), over 15 minutes, delivered via medication pump.</li>\n<li>Pediatric: Magnesium Sulfate 50 mg/kg IV/IO with a MAX dose of 2 grams, diluted in 50-100 mL of IVF (D₅W preferred), over 15 minutes, delivered via medication pump. <protocol-icon name=\"Bear\"></protocol-icon></li>\n</ol>\n</ol>\n</ol>\n</ol>\n<em>Asthmatic patients:</em>\n<p>Airway management of asthmatic patients is primarily pharmacological, not mechanical. Therefore, the focus should be on taking those actions that enable the clinician to provide inhaled bronchodilatorsators and, in patients with severe bronchospasm, obtain rapid IV or IO access, administer IV dexamethasone, IV magnesium, and consider IM EPINEPHrine. Due to the pathophysiology of asthma, positive pressure ventilation (facemask, BIAD, or endotracheal intubation) rarely, if ever, is an effective treatment without pharmacological intervention. Therefore, unless the patient is apneic, provide supplemental oxygen via non-rebreather and focus on providing pharmacological interventions. CPAP, with the lowest PEEP setting possible, is a last resort and a bridge to intubation. Specifically, if CPAP is going to be used in the asthmatic, continuous nebs must be administered simultaneously and the clinician must be prepared to proceed with advanced airway management.</p>\n<p></p>"
+            "providerLevel": "ALL",
+            "content": "(COPD, Emphysema, Chronic Bronchitis, Asthma)",
+            "html": "<p>(COPD, Emphysema, Chronic Bronchitis, Asthma)</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "(Continued from previous page)",
+            "html": "<p>(Continued from previous page)</p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "ordered",
+              "startNumber": 11,
+              "items": [
+                {
+                  "content": "Dexamethasone\na. Adult:\ni. 16 mg PO x 1 if patient can tolerate oral medications, is not in overt respiratory distress, and is not requiring an airway management technique that obscures access to the mouth (e.g., O₂ mask or CPAP),\nii. 16 mg IV/IM/IO x 1, if the patient cannot tolerate oral medications, or has any of the above conditions.\nb. Pediatric:\ni. 0.6 mg/kg (single MAX dose of 16 mg) PO x 1, if patient can tolerate oral medications, is not in overt respiratory distress, and is not requiring an airway management technique that obscures access to the mouth (e.g., O₂ mask or CPAP), <img>Bear</img>\nii. 0.6 mg/kg (single MAX dose of 16 mg) IV/IM/IO x 1, if the patient cannot tolerate oral medications, or has any of the above conditions."
+                },
+                {
+                  "content": "For patients not improving with the above measures, consider the following OPTIONS:\na. Repeated or continuous albuterol by nebulization or inhaler.\nb. For patients in status asthmaticus:\ni. EPINEPHrine\n1. Adult: EPINEPHrine 0.3 mg IM of 1mg/1mL every 20 minutes. <img>Hospital</img>\n2. Pediatric: EPINEPHrine dose which is as follows:\na. Less than 25 kg, 0.15 mg IM [0.15mL of 1mg/mL] in anterolateral thigh every 20 minutes,\nb. Greater than 25 kg, 0.3 mg IM [0.3 mL of 1mg/mL] in anterolateral thigh every 20 minutes. <img>Bear</img>\nii. Magnesium Sulfate\n1. Adult: Magnesium Sulfate 2 grams IV/IO, diluted in 50-100 mL of IVF (D₅W preferred), over 15 minutes, delivered via medication pump.\n2. Pediatric: Magnesium Sulfate 50 mg/kg IV/IO with a MAX dose of 2 grams, diluted in 50-100 mL of IVF (D₅W preferred), over 15 minutes, delivered via medication pump. <img>Bear</img>"
+                }
+              ]
+            },
+            "html": "<ol start=\"11\">\n<li>\n<p>Dexamethasone<br>\na. Adult:<br>\ni. 16 mg PO x 1 if patient can tolerate oral medications, is not in overt respiratory distress, and is not requiring an airway management technique that obscures access to the mouth (e.g., O₂ mask or CPAP),<br>\nii. 16 mg IV/IM/IO x 1, if the patient cannot tolerate oral medications, or has any of the above conditions.<br>\nb. Pediatric:<br>\ni. 0.6 mg/kg (single MAX dose of 16 mg) PO x 1, if patient can tolerate oral medications, is not in overt respiratory distress, and is not requiring an airway management technique that obscures access to the mouth (e.g., O₂ mask or CPAP), 🧸<br>\nii. 0.6 mg/kg (single MAX dose of 16 mg) IV/IM/IO x 1, if the patient cannot tolerate oral medications, or has any of the above conditions.</p>\n</li>\n<li>\n<p>For patients not improving with the above measures, consider the following OPTIONS:<br>\na. Repeated or continuous albuterol by nebulization or inhaler.<br>\nb. For patients in status asthmaticus:<br>\ni. EPINEPHrine<br>\n1. Adult: EPINEPHrine 0.3 mg IM of 1mg/1mL every 20 minutes. 🏥<br>\n2. Pediatric: EPINEPHrine dose which is as follows:<br>\na. Less than 25 kg, 0.15 mg IM [0.15mL of 1mg/mL] in anterolateral thigh every 20 minutes,<br>\nb. Greater than 25 kg, 0.3 mg IM [0.3 mL of 1mg/mL] in anterolateral thigh every 20 minutes. 🧸<br>\nii. Magnesium Sulfate<br>\n1. Adult: Magnesium Sulfate 2 grams IV/IO, diluted in 50-100 mL of IVF (D₅W preferred), over 15 minutes, delivered via medication pump.<br>\n2. Pediatric: Magnesium Sulfate 50 mg/kg IV/IO with a MAX dose of 2 grams, diluted in 50-100 mL of IVF (D₅W preferred), over 15 minutes, delivered via medication pump. 🧸</p>\n</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "Asthmatic patients:\nAirway management of asthmatic patients is primarily pharmacological, not mechanical. Therefore, the focus should be on taking those actions that enable the clinician to provide inhaled bronchodilatorsators and, in patients with severe bronchospasm, obtain rapid IV or IO access, administer IV dexamethasone, IV magnesium, and consider IM EPINEPHrine. Due to the pathophysiology of asthma, positive pressure ventilation (facemask, BIAD, or endotracheal intubation) rarely, if ever, is an effective treatment without pharmacological intervention. Therefore, unless the patient is apneic, provide supplemental oxygen via non-rebreather and focus on providing pharmacological interventions. CPAP, with the lowest PEEP setting possible, is a last resort and a bridge to intubation. Specifically, if CPAP is going to be used in the asthmatic, continuous nebs must be administered simultaneously and the clinician must be prepared to proceed with advanced airway management.",
+            "html": "<p><em>Asthmatic patients:</em><br>\nAirway management of asthmatic patients is primarily pharmacological, not mechanical. Therefore, the focus should be on taking those actions that enable the clinician to provide inhaled bronchodilatorsators and, in patients with severe bronchospasm, obtain rapid IV or IO access, administer IV dexamethasone, IV magnesium, and consider IM EPINEPHrine. Due to the pathophysiology of asthma, positive pressure ventilation (facemask, BIAD, or endotracheal intubation) rarely, if ever, is an effective treatment without pharmacological intervention. Therefore, unless the patient is apneic, provide supplemental oxygen via non-rebreather and focus on providing pharmacological interventions. CPAP, with the lowest PEEP setting possible, is a last resort and a bridge to intubation. Specifically, if CPAP is going to be used in the asthmatic, continuous nebs must be administered simultaneously and the clinician must be prepared to proceed with advanced airway management.</p>"
           }
         ]
       },
       {
-        "pageId": "blue_page_27",
+        "pageId": "blue_008",
         "pageNumber": "Blue 8",
         "jpgReference": "/page_jpg/027.jpg",
         "isContinuation": false,
         "sections": [
           {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Respiratory Distress with Bronchospasm #3 (COPD, Emphysema, Chronic Bronchitis, Asthma)",
+            "html": "<h1>Respiratory Distress with Bronchospasm #3 (COPD, Emphysema, Chronic Bronchitis, Asthma)</h1>"
+          },
+          {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Pediatric Considerations:",
+            "html": "<h2>Pediatric Considerations:</h2>"
+          },
+          {
             "type": "content",
             "providerLevel": "ALL",
-            "content": "# Respiratory Distress with Bronchospasm #3 (COPD, Emphysema, Chronic Bronchitis, Asthma)\n\n## Pediatric Considerations:\n🧸\n\nWheezing in the child less than 2 years old is very commonly due to bronchiolitis. Bronchiolitis is a self-limited viral illness of the bronchioles, marked by edema but not smooth muscle contraction. Bronchiolitis is the most common cause of wheezing in children under the age of 2. The treatment goals are to maintain oxygenation and hydration and to monitor for apnea and respiratory distress. Because the etiology is different than asthma, the treatment options are also very different. Patients suffering from bronchiolitis **do not always benefit from inhaled albuterol**, though a trial is appropriate. They also **do not benefit from steroids**. Instead, provide oxygen to ensure O₂ sats greater than or equal to 90% and nasal suctioning with bulb syringe. In patients who fail these measures, consider alternate diagnosis, including stridor/croup and refer to the Pediatric Respiratory Distress with Inspiratory Stridor protocol, Pink 2. Monitor for apnea or respiratory distress and, if encountered, manage the patient's airway as indicated per Airway Algorithm, Blue 2.\n\nPrehospital clinicians should consider patient age, diagnosis, transport time, clinician experience, and effectiveness of ongoing bag-valve-mask ventilation in considering whether to continue with bag-valve-mask ventilation versus proceeding to further airway management procedures. Bag-valve-mask ventilation has been shown to be equivalent to endotracheal ventilation in pediatric patients in most situations with short transport times. If suspected opiate overdose, refer to the Poisoning/Overdose protocol, Yellow 1.",
-            "html": "<p># Respiratory Distress with Bronchospasm #3 (COPD, Emphysema, Chronic Bronchitis, Asthma)</p>\n<p>## Pediatric Considerations:</p>\n<p>Wheezing in the child less than 2 years old is very commonly due to bronchiolitis. Bronchiolitis is a self-limited viral illness of the bronchioles, marked by edema but not smooth muscle contraction. Bronchiolitis is the most common cause of wheezing in children under the age of 2. The treatment goals are to maintain oxygenation and hydration and to monitor for apnea and respiratory distress. Because the etiology is different than asthma, the treatment options are also very different. Patients suffering from bronchiolitis <strong>do not always benefit from inhaled albuterol</strong>, though a trial is appropriate. They also <strong>do not benefit from steroids</strong>. Instead, provide oxygen to ensure O₂ sats greater than or equal to 90% and nasal suctioning with bulb syringe. In patients who fail these measures, consider alternate diagnosis, including stridor/croup and refer to the Pediatric Respiratory Distress with Inspiratory Stridor protocol, <a href=\"/protocol/pink_pediatric_respiratory_distress_with_inspiratory_stridor\" class=\"protocol-ref-link\">Pink 2</a>. Monitor for apnea or respiratory distress and, if encountered, manage the patient's airway as indicated per Airway Algorithm, <a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a>.</p>\n<p>Prehospital clinicians should consider patient age, diagnosis, transport time, clinician experience, and effectiveness of ongoing bag-valve-mask ventilation in considering whether to continue with bag-valve-mask ventilation versus proceeding to further airway management procedures. Bag-valve-mask ventilation has been shown to be equivalent to endotracheal ventilation in pediatric patients in most situations with short transport times. If suspected opiate overdose, refer to the Poisoning/Overdose protocol, <a href=\"/protocol/yellow_poisoning_overdose\" class=\"protocol-ref-link\">Yellow 1</a>.</p>"
+            "content": "<img>A teddy bear wearing a bandage.</img>",
+            "html": "<p>🧸</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "Wheezing in the child less than 2 years old is very commonly due to bronchiolitis. Bronchiolitis is a self-limited viral illness of the bronchioles, marked by edema but not smooth muscle contraction. Bronchiolitis is the most common cause of wheezing in children under the age of 2. The treatment goals are to maintain oxygenation and hydration and to monitor for apnea and respiratory distress. Because the etiology is different than asthma, the treatment options are also very different. Patients suffering from bronchiolitis do not always benefit from inhaled albuterol, though a trial is appropriate. They also do not benefit from steroids. Instead, provide oxygen to ensure O₂ sats greater than or equal to 90% and nasal suctioning with bulb syringe. In patients who fail these measures, consider alternate diagnosis, including stridor/croup and refer to the Pediatric Respiratory Distress with Inspiratory Stridor protocol, Pink 2. Monitor for apnea or respiratory distress and, if encountered, manage the patient's airway as indicated per Airway Algorithm, Blue 2.",
+            "html": "<p>Wheezing in the child less than 2 years old is very commonly due to bronchiolitis. Bronchiolitis is a self-limited viral illness of the bronchioles, marked by edema but not smooth muscle contraction. Bronchiolitis is the most common cause of wheezing in children under the age of 2. The treatment goals are to maintain oxygenation and hydration and to monitor for apnea and respiratory distress. Because the etiology is different than asthma, the treatment options are also very different. Patients suffering from bronchiolitis do not always benefit from inhaled albuterol, though a trial is appropriate. They also do not benefit from steroids. Instead, provide oxygen to ensure O₂ sats greater than or equal to 90% and nasal suctioning with bulb syringe. In patients who fail these measures, consider alternate diagnosis, including stridor/croup and refer to the Pediatric Respiratory Distress with Inspiratory Stridor protocol, Pink 2. Monitor for apnea or respiratory distress and, if encountered, manage the patient's airway as indicated per Airway Algorithm, Blue 2.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "Prehospital clinicians should consider patient age, diagnosis, transport time, clinician experience, and effectiveness of ongoing bag-valve-mask ventilation in considering whether to continue with bag-valve-mask ventilation versus proceeding to further airway management procedures. Bag-valve-mask ventilation has been shown to be equivalent to endotracheal ventilation in pediatric patients in most situations with short transport times. If suspected opiate overdose, refer to the Poisoning/Overdose protocol, Yellow 1.",
+            "html": "<p>Prehospital clinicians should consider patient age, diagnosis, transport time, clinician experience, and effectiveness of ongoing bag-valve-mask ventilation in considering whether to continue with bag-valve-mask ventilation versus proceeding to further airway management procedures. Bag-valve-mask ventilation has been shown to be equivalent to endotracheal ventilation in pediatric patients in most situations with short transport times. If suspected opiate overdose, refer to the Poisoning/Overdose protocol, Yellow 1.</p>"
           }
         ]
       }
     ]
   },
   {
-    "id": "blue_anxiolysis_in_cpap",
+    "id": "blue_009",
     "title": "Anxiolysis in CPAP",
     "category": "blue",
     "pages": [
       {
-        "pageId": "blue_page_28",
+        "pageId": "blue_009",
         "pageNumber": "Blue 9",
         "jpgReference": "/page_jpg/028.jpg",
         "isContinuation": false,
         "sections": [
           {
-            "type": "content",
+            "type": "header",
             "providerLevel": "ALL",
-            "content": "# Anxiolysis in CPAP\n\nAdult patients with respiratory failure who are unable to oxygenate and ventilate often require CPAP. These patients may be combative and unable to tolerate CPAP either due to their hypoxia or anxiety.",
-            "html": "<p># Anxiolysis in CPAP</p>\n<p>Adult patients with respiratory failure who are unable to oxygenate and ventilate often require CPAP. These patients may be combative and unable to tolerate CPAP either due to their hypoxia or anxiety.</p>"
+            "content": "Anxiolysis in CPAP",
+            "html": "<h1>Anxiolysis in CPAP</h1>"
           },
           {
             "type": "content",
-            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
-            "content": "1. Attempt coaching.",
+            "providerLevel": "ALL",
+            "content": "Adult patients with respiratory failure who are unable to oxygenate and ventilate often require CPAP. These patients may be combative and unable to tolerate CPAP either due to their hypoxia or anxiety.",
+            "html": "<p>Adult patients with respiratory failure who are unable to oxygenate and ventilate often require CPAP. These patients may be combative and unable to tolerate CPAP either due to their hypoxia or anxiety.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "EMT/ADVANCED EMT/PARAMEDIC",
+            "html": "<p><strong>EMT/ADVANCED EMT/PARAMEDIC</strong></p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "ordered",
+              "startNumber": 1,
+              "items": [
+                {
+                  "content": "Attempt coaching."
+                }
+              ]
+            },
             "html": "<ol>\n<li>Attempt coaching.</li>\n</ol>"
           },
           {
             "type": "content",
-            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
-            "content": "2. If CPAP causing nausea and bloating, consider ondansetron, see Nausea and Vomiting protocol, Gold 18.",
-            "html": "<ol start=\"2\">\n<li>If CPAP causing nausea and bloating, consider ondansetron, see Nausea and Vomiting protocol, <a href=\"/protocol/gold_nausea_and_vomiting\" class=\"protocol-ref-link\">Gold 18</a>.</li>\n</ol>"
+            "providerLevel": "ALL",
+            "content": "ADVANCED EMT/PARAMEDIC\n2. If CPAP causing nausea and bloating, consider ondansetron, see Nausea and Vomiting protocol, Gold 18.",
+            "html": "<p><strong>ADVANCED EMT/PARAMEDIC</strong><br>\n2. If CPAP causing nausea and bloating, consider ondansetron, see Nausea and Vomiting protocol, Gold 18.</p>"
+          },
+          {
+            "type": "header",
+            "providerLevel": "PARAMEDIC",
+            "content": "PARAMEDIC",
+            "html": "<h2>PARAMEDIC</h2>"
           },
           {
             "type": "content",
             "providerLevel": "PARAMEDIC",
-            "content": "3. If unable to achieve sufficient anxiolysis to tolerate CPAP with coaching, contact OLMC for ONE of the following anxiolytics:\n\na. **Midazolam**\n    i. 0.5 - 2.5 mg IV/IO every 5 minutes, may repeat x 3 to a MAX cumulative dose of 5 mg.\n    ii. 1-5 mg IM every 5 minutes, may repeat x 3 to a MAX cumulative dose of 10 mg.\n\n    -OR-\n\nb. **Ketamine**\n    i. 0.2 mg/kg IV/IO, MAX single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via a pump. May repeat x 1 in 5 minutes.\n    ii. 0.4 mg/kg IM, MAX single dose 50 mg. May repeat x 1 in 10 minutes.",
-            "html": "<ol start=\"3\">\n<li>If unable to achieve sufficient anxiolysis to tolerate CPAP with coaching, contact OLMC for ONE of the following anxiolytics:</li>\n</ol>\n<ol type=\"a\">\n<li><strong>Midazolam</strong>\n<ol type=\"i\">\n<li>0.5 - 2.5 mg IV/IO every 5 minutes, may repeat x 3 to a MAX cumulative dose of 5 mg.</li>\n<li>1-5 mg IM every 5 minutes, may repeat x 3 to a MAX cumulative dose of 10 mg.</li>\n</li>\n</ol>\n</ol>\n<p>    -OR-</p>\n<ol type=\"a\">\n<li><strong>Ketamine</strong>\n<ol type=\"i\">\n<li>0.2 mg/kg IV/IO, MAX single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via a pump. May repeat x 1 in 5 minutes.</li>\n<li>0.4 mg/kg IM, MAX single dose 50 mg. May repeat x 1 in 10 minutes.</li>\n</li>\n</ol>\n</ol>"
+            "content": "3. If unable to achieve sufficient anxiolysis to tolerate CPAP with coaching, contact OLMC for ONE of the following anxiolytics:",
+            "html": "<p>3. If unable to achieve sufficient anxiolysis to tolerate CPAP with coaching, contact OLMC for ONE of the following anxiolytics:</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PARAMEDIC",
+            "content": "a. Midazolam\ni. 0.5 - 2.5 mg IV/IO every 5 minutes, may repeat x 3 to a MAX cumulative dose of 5 mg.\nii. 1-5 mg IM every 5 minutes, may repeat x 3 to a MAX cumulative dose of 10 mg.",
+            "html": "<p>a. <strong>Midazolam</strong><br>\ni. 0.5 - 2.5 mg IV/IO every 5 minutes, may repeat x 3 to a MAX cumulative dose of 5 mg.<br>\nii. 1-5 mg IM every 5 minutes, may repeat x 3 to a MAX cumulative dose of 10 mg.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PARAMEDIC",
+            "content": "b. Ketamine\ni. 0.2 mg/kg IV/IO, MAX single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via a pump. May repeat x 1 in 5 minutes.\nii. 0.4 mg/kg IM, MAX single dose 50 mg. May repeat x 1 in 10 minutes.",
+            "html": "<p>b. <strong>Ketamine</strong><br>\ni. 0.2 mg/kg IV/IO, MAX single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via a pump. May repeat x 1 in 5 minutes.<br>\nii. 0.4 mg/kg IM, MAX single dose 50 mg. May repeat x 1 in 10 minutes.</p>"
           }
         ]
       }
     ]
   },
   {
-    "id": "blue_pulmonary_edema_without_shock_",
+    "id": "blue_010",
     "title": "Pulmonary Edema (without shock)",
     "category": "blue",
     "pages": [
       {
-        "pageId": "blue_page_29",
+        "pageId": "blue_010",
         "pageNumber": "Blue 10",
         "jpgReference": "/page_jpg/029.jpg",
         "isContinuation": false,
         "sections": [
           {
-            "type": "content",
+            "type": "header",
             "providerLevel": "ALL",
-            "content": "# Pulmonary Edema (without shock)\n\nAvoid nitroglycerin in any patient who has used a phosphodiesterase inhibitor within the past 48 hours. Examples are: sildenafil (Viagra, Revatio), vardenafil (Levitra, Staxyn), tadalafil (Cialis, Adcirca) which are used for erectile dysfunction and pulmonary hypertension. Contact OLMC for options in patients who have taken such medicines.\n\nIf initial systolic BP is less than 100 mmHg, refer to Cardiogenic Shock protocol, Red 32.",
-            "html": "<p># Pulmonary Edema (without shock)</p>\n<p>Avoid nitroglycerin in any patient who has used a phosphodiesterase inhibitor within the past 48 hours. Examples are: sildenafil (Viagra, Revatio), vardenafil (Levitra, Staxyn), tadalafil (Cialis, Adcirca) which are used for erectile dysfunction and pulmonary hypertension. Contact OLMC for options in patients who have taken such medicines.</p>\n<p>If initial systolic BP is less than 100 mmHg, refer to Cardiogenic Shock protocol, <a href=\"/protocol/red_cardiogenic_shock\" class=\"protocol-ref-link\">Red 32</a>.</p>"
+            "content": "Pulmonary Edema (without shock)",
+            "html": "<h1>Pulmonary Edema (without shock)</h1>"
           },
           {
             "type": "content",
+            "providerLevel": "ALL",
+            "content": "Avoid nitroglycerin in any patient who has used a phosphodiesterase inhibitor within the past 48 hours. Examples are: sildenafil (Viagra, Revatio), vardenafil (Levitra, Staxyn), tadalafil (Cialis, Adcirca) which are used for erectile dysfunction and pulmonary hypertension. Contact OLMC for options in patients who have taken such medicines.",
+            "html": "<p>Avoid nitroglycerin in any patient who has used a phosphodiesterase inhibitor within the past 48 hours. Examples are: sildenafil (Viagra, Revatio), vardenafil (Levitra, Staxyn), tadalafil (Cialis, Adcirca) which are used for erectile dysfunction and pulmonary hypertension. Contact OLMC for options in patients who have taken such medicines.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "If initial systolic BP is less than 100 mmHg, refer to Cardiogenic Shock protocol, Red 32.",
+            "html": "<p>If initial systolic BP is less than 100 mmHg, refer to Cardiogenic Shock protocol, Red 32.</p>"
+          },
+          {
+            "type": "header",
             "providerLevel": "EMT",
-            "content": "1. O₂ as appropriate. Assist ventilations (PPV) if needed.\n2. Assess for shock.\n3. If BP greater than 100 mmHg, place in sitting position.\n4. Request ALS.\n5. If available, and so trained, consider trial of CPAP.\n6. Obtain 12-lead ECG, if available and so trained.",
+            "content": "EMT",
+            "html": "<h2>EMT</h2>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "EMT",
+            "content": {
+              "type": "ordered",
+              "startNumber": 1,
+              "items": [
+                {
+                  "content": "O₂ as appropriate. Assist ventilations (PPV) if needed."
+                },
+                {
+                  "content": "Assess for shock."
+                },
+                {
+                  "content": "If BP greater than 100 mmHg, place in sitting position."
+                },
+                {
+                  "content": "Request ALS."
+                },
+                {
+                  "content": "If available, and so trained, consider trial of CPAP."
+                },
+                {
+                  "content": "Obtain 12-lead ECG, if available and so trained."
+                }
+              ]
+            },
             "html": "<ol>\n<li>O₂ as appropriate. Assist ventilations (PPV) if needed.</li>\n<li>Assess for shock.</li>\n<li>If BP greater than 100 mmHg, place in sitting position.</li>\n<li>Request ALS.</li>\n<li>If available, and so trained, consider trial of CPAP.</li>\n<li>Obtain 12-lead ECG, if available and so trained.</li>\n</ol>"
+          },
+          {
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT",
+            "content": "ADVANCED EMT",
+            "html": "<h2>ADVANCED EMT</h2>"
           },
           {
             "type": "content",
             "providerLevel": "ADVANCED_EMT",
-            "content": "7. Cardiac monitor and 12-lead ECG.\n8. Establish IV en route.\n9. Manage airway as needed, refer to Airway Algorithm, Blue 2.\n\n10. Contact OLMC for administration of nitroglycerin 0.4 mg tab or 1 spray sublingual (SL). Repeat nitroglycerin at 2-minute intervals if systolic BP greater than 100 mmHg. After initiation of SL nitroglycerin, may place 1 inch of nitroglycerin ointment 2% to the chest wall if BP greater than 100 mmHg and remove nitroglycerin ointment 2% if BP less than 100 mmHg. If the patient has had nitroglycerin before and no IV is established, and systolic BP is greater than 100 mmHg, then it is OK to give nitroglycerin.\n\n11. Consider use of CPAP",
-            "html": "<ol start=\"7\">\n<li>Cardiac monitor and 12-lead ECG.</li>\n<li>Establish IV en route.</li>\n<li>Manage airway as needed, refer to Airway Algorithm, <a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a>.</li>\n</ol>\n<ol start=\"10\">\n<li>Contact OLMC for administration of nitroglycerin 0.4 mg tab or 1 spray sublingual (SL). Repeat nitroglycerin at 2-minute intervals if systolic BP greater than 100 mmHg. After initiation of SL nitroglycerin, may place 1 inch of nitroglycerin ointment 2% to the chest wall if BP greater than 100 mmHg and remove nitroglycerin ointment 2% if BP less than 100 mmHg. If the patient has had nitroglycerin before and no IV is established, and systolic BP is greater than 100 mmHg, then it is OK to give nitroglycerin.</li>\n</ol>\n<ol start=\"11\">\n<li>Consider use of CPAP</li>\n</ol>"
+            "content": "7. Cardiac monitor and 12-lead ECG.\n8. Establish IV en route.\n9. Manage airway as needed, refer to Airway Algorithm, Blue 2.",
+            "html": "<p>7. Cardiac monitor and 12-lead ECG.<br>\n8. Establish IV en route.<br>\n9. Manage airway as needed, refer to Airway Algorithm, Blue 2.</p>"
           },
           {
-            "type": "content",
+            "type": "list",
+            "providerLevel": "ADVANCED_EMT",
+            "content": {
+              "type": "ordered",
+              "startNumber": 10,
+              "items": [
+                {
+                  "content": "Contact OLMC for administration of nitroglycerin 0.4 mg tab or 1 spray sublingual (SL). Repeat nitroglycerin at 2-minute intervals if systolic BP greater than 100 mmHg. After initiation of SL nitroglycerin, may place 1 inch of nitroglycerin ointment 2% to the chest wall if BP greater than 100 mmHg and remove nitroglycerin ointment 2% if BP less than 100 mmHg. If the patient has had nitroglycerin before and no IV is established, and systolic BP is greater than 100 mmHg, then it is OK to give nitroglycerin."
+                },
+                {
+                  "content": "Consider use of CPAP"
+                }
+              ]
+            },
+            "html": "<ol start=\"10\">\n<li>\n<p>Contact OLMC for administration of nitroglycerin 0.4 mg tab or 1 spray sublingual (SL). Repeat nitroglycerin at 2-minute intervals if systolic BP greater than 100 mmHg. After initiation of SL nitroglycerin, may place 1 inch of nitroglycerin ointment 2% to the chest wall if BP greater than 100 mmHg and remove nitroglycerin ointment 2% if BP less than 100 mmHg. If the patient has had nitroglycerin before and no IV is established, and systolic BP is greater than 100 mmHg, then it is OK to give nitroglycerin.</p>\n</li>\n<li>\n<p>Consider use of CPAP</p>\n</li>\n</ol>"
+          },
+          {
+            "type": "header",
             "providerLevel": "PARAMEDIC",
-            "content": "12. Paramedic may perform all treatments above without medical control.\n\n13. Contact OLMC if above measures are not working.\n\n&lt;page_number&gt;Blue 10&lt;/page_number&gt;",
-            "html": "<ol start=\"12\">\n<li>Paramedic may perform all treatments above without medical control.</li>\n</ol>\n<ol start=\"13\">\n<li>Contact OLMC if above measures are not working.</li>\n</ol>\n<p></p>"
+            "content": "PARAMEDIC",
+            "html": "<h2>PARAMEDIC</h2>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "PARAMEDIC",
+            "content": {
+              "type": "ordered",
+              "startNumber": 12,
+              "items": [
+                {
+                  "content": "Paramedic may perform all treatments above without medical control."
+                },
+                {
+                  "content": "Contact OLMC if above measures are not working."
+                }
+              ]
+            },
+            "html": "<ol start=\"12\">\n<li>\n<p>Paramedic may perform all treatments above without medical control.</p>\n</li>\n<li>\n<p>Contact OLMC if above measures are not working.</p>\n</li>\n</ol>"
           }
         ]
       }
     ]
   },
   {
-    "id": "blue_pulmonary_hypertension_complications",
+    "id": "blue_011",
     "title": "Pulmonary Hypertension Complications",
     "category": "blue",
     "pages": [
       {
-        "pageId": "blue_page_30",
+        "pageId": "blue_011",
         "pageNumber": "Blue 11",
         "jpgReference": "/page_jpg/030.jpg",
         "isContinuation": false,
         "sections": [
           {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Pulmonary Hypertension Complications",
+            "html": "<h1>Pulmonary Hypertension Complications</h1>"
+          },
+          {
             "type": "content",
             "providerLevel": "ALL",
-            "content": "# Pulmonary Hypertension Complications\n\nThere are increasing numbers of patients being treated for pulmonary hypertension throughout the state of Maine. Pulmonary hypertension is a disease in which a patient's pulmonary arterial pressures are elevated and can be due to multiple factors, including heart disease, chronic lung disease, or thromboembolic disease. Additionally, in some cases of pulmonary hypertension, the etiology is uncertain. Patients manifest with multiple clinical symptoms, including dyspnea, chest pain and syncope. Pulmonary hypertension is NOT a disease that will be diagnosed in the prehospital setting. Increasingly, patients are being treated for the disease with medications that cause pulmonary vascular vasodilation, such as treprostinil (Remodulin).",
-            "html": "<p># Pulmonary Hypertension Complications</p>\n<p>There are increasing numbers of patients being treated for pulmonary hypertension throughout the state of Maine. Pulmonary hypertension is a disease in which a patient's pulmonary arterial pressures are elevated and can be due to multiple factors, including heart disease, chronic lung disease, or thromboembolic disease. Additionally, in some cases of pulmonary hypertension, the etiology is uncertain. Patients manifest with multiple clinical symptoms, including dyspnea, chest pain and syncope. Pulmonary hypertension is NOT a disease that will be diagnosed in the prehospital setting. Increasingly, patients are being treated for the disease with medications that cause pulmonary vascular vasodilation, such as treprostinil (Remodulin).</p>"
+            "content": "There are increasing numbers of patients being treated for pulmonary hypertension throughout the state of Maine. Pulmonary hypertension is a disease in which a patient's pulmonary arterial pressures are elevated and can be due to multiple factors, including heart disease, chronic lung disease, or thromboembolic disease. Additionally, in some cases of pulmonary hypertension, the etiology is uncertain. Patients manifest with multiple clinical symptoms, including dyspnea, chest pain and syncope. Pulmonary hypertension is NOT a disease that will be diagnosed in the prehospital setting. Increasingly, patients are being treated for the disease with medications that cause pulmonary vascular vasodilation, such as treprostinil (Remodulin).",
+            "html": "<p>There are increasing numbers of patients being treated for pulmonary hypertension throughout the state of Maine. Pulmonary hypertension is a disease in which a patient's pulmonary arterial pressures are elevated and can be due to multiple factors, including heart disease, chronic lung disease, or thromboembolic disease. Additionally, in some cases of pulmonary hypertension, the etiology is uncertain. Patients manifest with multiple clinical symptoms, including dyspnea, chest pain and syncope. Pulmonary hypertension is NOT a disease that will be diagnosed in the prehospital setting. Increasingly, patients are being treated for the disease with medications that cause pulmonary vascular vasodilation, such as treprostinil (Remodulin).</p>"
+          },
+          {
+            "type": "header",
+            "providerLevel": "EMT",
+            "content": "EMT",
+            "html": "<h2>EMT</h2>"
           },
           {
             "type": "content",
             "providerLevel": "EMT",
-            "content": "**Transport Destination**\nPreferably, patients suffering from pulmonary hypertension who are treated by a specialist should be transported to the hospital managing their disease for ALL emergencies whenever feasible or operationally reasonable. If operational circumstances or the patient's needs dictate otherwise, please transport to the closest reasonable facility. Please consult OLMC for any questions.",
-            "html": "<strong>Transport Destination</strong>\n<p>Preferably, patients suffering from pulmonary hypertension who are treated by a specialist should be transported to the hospital managing their disease for ALL emergencies whenever feasible or operationally reasonable. If operational circumstances or the patient's needs dictate otherwise, please transport to the closest reasonable facility. Please consult OLMC for any questions.</p>"
+            "content": "Transport Destination\nPreferably, patients suffering from pulmonary hypertension who are treated by a specialist should be transported to the hospital managing their disease for ALL emergencies whenever feasible or operationally reasonable. If operational circumstances or the patient's needs dictate otherwise, please transport to the closest reasonable facility. Please consult OLMC for any questions.",
+            "html": "<p><strong>Transport Destination</strong><br>\nPreferably, patients suffering from pulmonary hypertension who are treated by a specialist should be transported to the hospital managing their disease for ALL emergencies whenever feasible or operationally reasonable. If operational circumstances or the patient's needs dictate otherwise, please transport to the closest reasonable facility. Please consult OLMC for any questions.</p>"
+          },
+          {
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT",
+            "content": "ADVANCED EMT",
+            "html": "<h2>ADVANCED EMT</h2>"
           },
           {
             "type": "content",
             "providerLevel": "ADVANCED_EMT",
-            "content": "**Medication Interruption**\nTreprostinil (Remodulin) and other medications used to treat pulmonary hypertension are provided by central access, typically through a pump. Patients are often treated with both IV and oral medications. Disruptions of the patient's IV medications can lead to increased symptoms. Most medication interruptions are NOT related to the pump, but rather the patient's central line and loss of access.\nIn the case of interruptions of IV medication due to loss of central access:\n1. Establish peripheral access.",
-            "html": "<strong>Medication Interruption</strong>\n<p>Treprostinil (Remodulin) and other medications used to treat pulmonary hypertension are provided by central access, typically through a pump. Patients are often treated with both IV and oral medications. Disruptions of the patient's IV medications can lead to increased symptoms. Most medication interruptions are NOT related to the pump, but rather the patient's central line and loss of access.</p>\n<p>In the case of interruptions of IV medication due to loss of central access:</p>\n<ol>\n<li>Establish peripheral access.</li>\n</ol>"
+            "content": "Medication Interruption\nTreprostinil (Remodulin) and other medications used to treat pulmonary hypertension are provided by central access, typically through a pump. Patients are often treated with both IV and oral medications. Disruptions of the patient's IV medications can lead to increased symptoms. Most medication interruptions are NOT related to the pump, but rather the patient's central line and loss of access.\nIn the case of interruptions of IV medication due to loss of central access:",
+            "html": "<p><strong>Medication Interruption</strong><br>\nTreprostinil (Remodulin) and other medications used to treat pulmonary hypertension are provided by central access, typically through a pump. Patients are often treated with both IV and oral medications. Disruptions of the patient's IV medications can lead to increased symptoms. Most medication interruptions are NOT related to the pump, but rather the patient's central line and loss of access.<br>\nIn the case of interruptions of IV medication due to loss of central access:</p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ADVANCED_EMT",
+            "content": {
+              "type": "ordered",
+              "startNumber": 1,
+              "items": [
+                {
+                  "content": "Establish peripheral access."
+                }
+              ]
+            },
+            "html": "<ol>\n<li>Establish peripheral access.</li>\n</ol>"
+          },
+          {
+            "type": "header",
+            "providerLevel": "PARAMEDIC",
+            "content": "PARAMEDIC",
+            "html": "<h2>PARAMEDIC</h2>"
           },
           {
             "type": "content",
             "providerLevel": "PARAMEDIC",
             "content": "2. Verify the patient's medication and dose.\n3. Re-initiate the patient's medication through the newly-established peripheral access.\n4. Consider the transport destination suggestions as listed above.",
-            "html": "<ol start=\"2\">\n<li>Verify the patient's medication and dose.</li>\n<li>Re-initiate the patient's medication through the newly-established peripheral access.</li>\n<li>Consider the transport destination suggestions as listed above.</li>\n</ol>"
+            "html": "<p>2. Verify the patient's medication and dose.<br>\n3. Re-initiate the patient's medication through the newly-established peripheral access.<br>\n4. Consider the transport destination suggestions as listed above.</p>"
+          },
+          {
+            "type": "pearls",
+            "providerLevel": "ALL",
+            "content": "PEARLS FOR PULMONARY HYPERTENSION COMPLICATIONS",
+            "html": "<p><strong>PEARLS FOR PULMONARY HYPERTENSION COMPLICATIONS</strong></p>"
           },
           {
             "type": "content",
-            "providerLevel": "PEARLS",
-            "content": "**PEARLS FOR PULMONARY HYPERTENSION COMPLICATIONS**\n\nMost medications used to treat pulmonary hypertension have a high pH and if left running through a peripheral line too long (greater than 4 hours) may cause peripheral vein phlebitis and sclerosis. Please document the time the medication was initiated through the peripheral line and alert treating Emergency staff.\n\nFor any questions, please contact On-Line Medical Control.\n\n&lt;page_number&gt;Blue 11&lt;/page_number&gt;",
-            "html": "<strong>PEARLS FOR PULMONARY HYPERTENSION COMPLICATIONS</strong>\n<p>Most medications used to treat pulmonary hypertension have a high pH and if left running through a peripheral line too long (greater than 4 hours) may cause peripheral vein phlebitis and sclerosis. Please document the time the medication was initiated through the peripheral line and alert treating Emergency staff.</p>\n<p>For any questions, please contact On-Line Medical Control.</p>\n<p></p>",
-            "pearlsTitle": "PULMONARY HYPERTENSION COMPLICATIONS"
+            "providerLevel": "PARAMEDIC",
+            "content": "Most medications used to treat pulmonary hypertension have a high pH and if left running through a peripheral line too long (greater than 4 hours) may cause peripheral vein phlebitis and sclerosis. Please document the time the medication was initiated through the peripheral line and alert treating Emergency staff.",
+            "html": "<p>Most medications used to treat pulmonary hypertension have a high pH and if left running through a peripheral line too long (greater than 4 hours) may cause peripheral vein phlebitis and sclerosis. Please document the time the medication was initiated through the peripheral line and alert treating Emergency staff.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "PARAMEDIC",
+            "content": "For any questions, please contact On-Line Medical Control.",
+            "html": "<p>For any questions, please contact On-Line Medical Control.</p>"
           }
         ]
       }
     ]
   },
   {
-    "id": "blue_surgical_cricothyrotomy",
+    "id": "blue_012_blue_013",
     "title": "Surgical Cricothyrotomy",
     "category": "blue",
     "pages": [
       {
-        "pageId": "blue_page_31",
+        "pageId": "blue_012",
         "pageNumber": "Blue 12",
         "jpgReference": "/page_jpg/031.jpg",
-        "isContinuation": true,
+        "isContinuation": false,
         "sections": [
+          {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Surgical Cricothyrotomy #1",
+            "html": "<h1>Surgical Cricothyrotomy #1</h1>"
+          },
           {
             "type": "content",
             "providerLevel": "ALL",
-            "content": "# Surgical Cricothyrotomy #1\n\nThe following protocol is an effort to maintain awareness of a procedure that occurs rarely in the Maine EMS system. Ultimately, this procedure should be practiced on a regular basis to maintain proficiency. PLEASE NOTE, this protocol describes a generally acceptable open cricothyrotomy and will differ from services that employ percutaneous kits. The inclusion of this protocol DOES NOT mandate that all clinicians use this exact procedural description. Clinicians should employ the procedure they are trained, practiced and most comfortable with. This protocol is one of multiple acceptable means to perform this procedure. Regardless of the procedure type, it is essential that Maine EMS paramedics are familiar with the available supplies and materials.\n\nThe primary indication for surgical cricothyrotomy is failure to maintain the airway (including oxygenation, ventilation, and protection) through other, less invasive means in a patient 8 years or older with palpable landmarks. In the Maine EMS experience, this has occurred predominantly in trauma cases with disruption of the face and normal airway anatomy and in choking patients. Even in some dramatic facial injuries, the airway may be adequately managed by sitting the patient up and leaning forward, as long as the other injury patterns allow.\n\nMaterials/Equipment for Surgical Cricothyrotomy\n1. Cuffed tracheostomy tube or 6.0 - 7.0 ETT\n2. Tracheal hook or bougie\n3. Trousseau dilator (if available)\n4. Syringe to inflate cuff\n5. Scalpel (No. 11 blade)\n6. Umbilical tape or other means to secure tracheostomy tube or ETT\n7. 4x4 gauze\n\n[Diagram: Surgical cricothyrotomy anatomy showing thyroid cartilage, cricothyroid membrane, and cricoid cartilage]\n\n(continued)",
-            "html": "<p># Surgical Cricothyrotomy #1</p>\n<p>The following protocol is an effort to maintain awareness of a procedure that occurs rarely in the Maine EMS system. Ultimately, this procedure should be practiced on a regular basis to maintain proficiency. PLEASE NOTE, this protocol describes a generally acceptable open cricothyrotomy and will differ from services that employ percutaneous kits. The inclusion of this protocol DOES NOT mandate that all clinicians use this exact procedural description. Clinicians should employ the procedure they are trained, practiced and most comfortable with. This protocol is one of multiple acceptable means to perform this procedure. Regardless of the procedure type, it is essential that Maine EMS paramedics are familiar with the available supplies and materials.</p>\n<p>The primary indication for surgical cricothyrotomy is failure to maintain the airway (including oxygenation, ventilation, and protection) through other, less invasive means in a patient 8 years or older with palpable landmarks. In the Maine EMS experience, this has occurred predominantly in trauma cases with disruption of the face and normal airway anatomy and in choking patients. Even in some dramatic facial injuries, the airway may be adequately managed by sitting the patient up and leaning forward, as long as the other injury patterns allow.</p>\n<p>Materials/Equipment for Surgical Cricothyrotomy</p>\n<ol>\n<li>Cuffed tracheostomy tube or 6.0 - 7.0 ETT</li>\n<li>Tracheal hook or bougie</li>\n<li>Trousseau dilator (if available)</li>\n<li>Syringe to inflate cuff</li>\n<li>Scalpel (No. 11 blade)</li>\n<li>Umbilical tape or other means to secure tracheostomy tube or ETT</li>\n<li>4x4 gauze</li>\n</ol>\n<p>(continued)</p>"
+            "content": "The following protocol is an effort to maintain awareness of a procedure that occurs rarely in the Maine EMS system. Ultimately, this procedure should be practiced on a regular basis to maintain proficiency. PLEASE NOTE, this protocol describes a generally acceptable open cricothyrotomy and will differ from services that employ percutaneous kits. The inclusion of this protocol DOES NOT mandate that all clinicians use this exact procedural description. Clinicians should employ the procedure they are trained, practiced and most comfortable with. This protocol is one of multiple acceptable means to perform this procedure. Regardless of the procedure type, it is essential that Maine EMS paramedics are familiar with the available supplies and materials.",
+            "html": "<p>The following protocol is an effort to maintain awareness of a procedure that occurs rarely in the Maine EMS system. Ultimately, this procedure should be practiced on a regular basis to maintain proficiency. PLEASE NOTE, this protocol describes a generally acceptable open cricothyrotomy and will differ from services that employ percutaneous kits. The inclusion of this protocol DOES NOT mandate that all clinicians use this exact procedural description. Clinicians should employ the procedure they are trained, practiced and most comfortable with. This protocol is one of multiple acceptable means to perform this procedure. Regardless of the procedure type, it is essential that Maine EMS paramedics are familiar with the available supplies and materials.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "The primary indication for surgical cricothyrotomy is failure to maintain the airway (including oxygenation, ventilation, and protection) through other, less invasive means in a patient 8 years or older with palpable landmarks. In the Maine EMS experience, this has occurred predominantly in trauma cases with disruption of the face and normal airway anatomy and in choking patients. Even in some dramatic facial injuries, the airway may be adequately managed by sitting the patient up and leaning forward, as long as the other injury patterns allow.",
+            "html": "<p>The primary indication for surgical cricothyrotomy is failure to maintain the airway (including oxygenation, ventilation, and protection) through other, less invasive means in a patient 8 years or older with palpable landmarks. In the Maine EMS experience, this has occurred predominantly in trauma cases with disruption of the face and normal airway anatomy and in choking patients. Even in some dramatic facial injuries, the airway may be adequately managed by sitting the patient up and leaning forward, as long as the other injury patterns allow.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "Materials/Equipment for Surgical Cricothyrotomy",
+            "html": "<p>Materials/Equipment for Surgical Cricothyrotomy</p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "ordered",
+              "startNumber": 1,
+              "items": [
+                {
+                  "content": "Cuffed tracheostomy tube or 6.0 - 7.0 ETT"
+                },
+                {
+                  "content": "Tracheal hook or bougie"
+                },
+                {
+                  "content": "Trousseau dilator (if available)"
+                },
+                {
+                  "content": "Syringe to inflate cuff"
+                },
+                {
+                  "content": "Scalpel (No. 11 blade)"
+                },
+                {
+                  "content": "Umbilical tape or other means to secure tracheostomy tube or ETT"
+                },
+                {
+                  "content": "4x4 gauze"
+                }
+              ]
+            },
+            "html": "<ol>\n<li>Cuffed tracheostomy tube or 6.0 - 7.0 ETT</li>\n<li>Tracheal hook or bougie</li>\n<li>Trousseau dilator (if available)</li>\n<li>Syringe to inflate cuff</li>\n<li>Scalpel (No. 11 blade)</li>\n<li>Umbilical tape or other means to secure tracheostomy tube or ETT</li>\n<li>4x4 gauze</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "<img>Diagram showing the neck with red lines indicating incision points, labeled \"Start Incision here\", \"Thyroid Cartilage\", \"Cricothyroid membrane\", and \"Cricoid cartilage\".</img>\n<img>Diagram showing a cross-section of the neck, highlighting \"Thyroid cartilage\", \"Cricothyroid membrane\", and \"Cricoid cartilage\".</img>",
+            "html": "<p>[Diagram: Diagram showing the neck with red lines indicating incision points, labeled \"Start Incision here\", \"Thyroid Cartilage\", \"Cricothyroid membrane\", and \"Cricoid cartilage\".]<br>\n[Diagram: Diagram showing a cross-section of the neck, highlighting \"Thyroid cartilage\", \"Cricothyroid membrane\", and \"Cricoid cartilage\".]</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "(continued)",
+            "html": "<p>(continued)</p>"
           }
         ]
       },
       {
-        "pageId": "blue_page_32",
+        "pageId": "blue_013",
         "pageNumber": "Blue 13",
         "jpgReference": "/page_jpg/032.jpg",
         "isContinuation": true,
         "sections": [
           {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Surgical Cricothyrotomy #2",
+            "html": "<h1>Surgical Cricothyrotomy #2</h1>"
+          },
+          {
             "type": "content",
             "providerLevel": "ALL",
-            "content": "# Surgical Cricothyrotomy #2\n\n(Continued from previous page)\n\n**Procedure:**\n1. Extend the neck when possible to ensure best access to the trachea. Swab/cleanse the area.\n2. Immobilize the trachea with your non-dominant thumb and middle finger while palpating the cricothyroid membrane with your non-dominant index finger. NOTE: The cricothyroid membrane is immediately **BELOW** the thyroid cartilage.\n3. Make a 3 - 5 cm **vertical** incision over the cricothyroid membrane through the skin and subcutaneous tissues. NOTE: Severe bleeding is possible with this procedure and may occur at this or the following steps. Be prepared to suction and provide direct pressure to control bleeding.\n4. Palpate the membrane through the incision to confirm anatomy.\n5. Make a small (1 cm or less) incision **horizontally** through the cricothyroid membrane.\n6. Insert the tracheal hook or bougie in the opening of the membrane and rotate toward the head while maintaining hold of the thyroid cartilage with your non-dominant hand.\n7. If Trousseau dilator available, insert into the incision site and spread vertical then rotate 90 degrees until the dilator is parallel with the neck.\n8. Insert the cuffed tracheostomy tube or ETT tube into the incision site. Advance until the flanges rest on the skin of the neck (when using tracheostomy tube).\n9. Carefully remove the dilator (if used), tracheal hook and obturator of the tracheostomy tube.\n10. Inflate the balloon of the tracheostomy tube/ETT.\n11. Ventilate and confirm position by physical exam and EtCO₂.\n12. Secure the tube in place.\n13. Dress incision site.\n\n[Diagram: Surgical Cricothyrotomy #2 Procedure]\n\n&lt;page_number&gt;Blue 13&lt;/page_number&gt;",
-            "html": "<p># Surgical Cricothyrotomy #2</p>\n<p>(Continued from previous page)</p>\n<strong>Procedure:</strong>\n<ol>\n<li>Extend the neck when possible to ensure best access to the trachea. Swab/cleanse the area.</li>\n<li>Immobilize the trachea with your non-dominant thumb and middle finger while palpating the cricothyroid membrane with your non-dominant index finger. NOTE: The cricothyroid membrane is immediately <strong>BELOW</strong> the thyroid cartilage.</li>\n<li>Make a 3 - 5 cm <strong>vertical</strong> incision over the cricothyroid membrane through the skin and subcutaneous tissues. NOTE: Severe bleeding is possible with this procedure and may occur at this or the following steps. Be prepared to suction and provide direct pressure to control bleeding.</li>\n<li>Palpate the membrane through the incision to confirm anatomy.</li>\n<li>Make a small (1 cm or less) incision <strong>horizontally</strong> through the cricothyroid membrane.</li>\n<li>Insert the tracheal hook or bougie in the opening of the membrane and rotate toward the head while maintaining hold of the thyroid cartilage with your non-dominant hand.</li>\n<li>If Trousseau dilator available, insert into the incision site and spread vertical then rotate 90 degrees until the dilator is parallel with the neck.</li>\n<li>Insert the cuffed tracheostomy tube or ETT tube into the incision site. Advance until the flanges rest on the skin of the neck (when using tracheostomy tube).</li>\n<li>Carefully remove the dilator (if used), tracheal hook and obturator of the tracheostomy tube.</li>\n<li>Inflate the balloon of the tracheostomy tube/ETT.</li>\n<li>Ventilate and confirm position by physical exam and EtCO₂.</li>\n<li>Secure the tube in place.</li>\n<li>Dress incision site.</li>\n</ol>\n<p></p>"
+            "content": "(Continued from previous page)",
+            "html": "<p>(Continued from previous page)</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "Procedure:",
+            "html": "<p><strong>Procedure:</strong></p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "ordered",
+              "startNumber": 1,
+              "items": [
+                {
+                  "content": "Extend the neck when possible to ensure best access to the trachea. Swab/cleanse the area."
+                },
+                {
+                  "content": "Immobilize the trachea with your non-dominant thumb and middle finger while palpating the cricothyroid membrane with your non-dominant index finger. NOTE: The cricothyroid membrane is immediately BELOW the thyroid cartilage."
+                },
+                {
+                  "content": "Make a 3 - 5 cm vertical incision over the cricothyroid membrane through the skin and subcutaneous tissues. NOTE: Severe bleeding is possible with this procedure and may occur at this or the following steps. Be prepared to suction and provide direct pressure to control bleeding."
+                },
+                {
+                  "content": "Palpate the membrane through the incision to confirm anatomy."
+                },
+                {
+                  "content": "Make a small (1 cm or less) incision horizontally through the cricothyroid membrane."
+                },
+                {
+                  "content": "Insert the tracheal hook or bougie in the opening of the membrane and rotate toward the head while maintaining hold of the thyroid cartilage with your non-dominant hand."
+                },
+                {
+                  "content": "If Trousseau dilator available, insert into the incision site and spread vertical then rotate 90 degrees until the dilator is parallel with the neck."
+                },
+                {
+                  "content": "Insert the cuffed tracheostomy tube or ETT tube into the incision site. Advance until the flanges rest on the skin of the neck (when using tracheostomy tube)."
+                },
+                {
+                  "content": "Carefully remove the dilator (if used), tracheal hook and obturator of the tracheostomy tube."
+                },
+                {
+                  "content": "Inflate the balloon of the tracheostomy tube/ETT."
+                },
+                {
+                  "content": "Ventilate and confirm position by physical exam and EtCO₂."
+                },
+                {
+                  "content": "Secure the tube in place."
+                },
+                {
+                  "content": "Dress incision site."
+                }
+              ]
+            },
+            "html": "<ol>\n<li>Extend the neck when possible to ensure best access to the trachea. Swab/cleanse the area.</li>\n<li>Immobilize the trachea with your non-dominant thumb and middle finger while palpating the cricothyroid membrane with your non-dominant index finger. NOTE: The cricothyroid membrane is immediately <strong>BELOW</strong> the thyroid cartilage.</li>\n<li>Make a 3 - 5 cm <strong>vertical</strong> incision over the cricothyroid membrane through the skin and subcutaneous tissues. NOTE: Severe bleeding is possible with this procedure and may occur at this or the following steps. Be prepared to suction and provide direct pressure to control bleeding.</li>\n<li>Palpate the membrane through the incision to confirm anatomy.</li>\n<li>Make a small (1 cm or less) incision <strong>horizontally</strong> through the cricothyroid membrane.</li>\n<li>Insert the tracheal hook or bougie in the opening of the membrane and rotate toward the head while maintaining hold of the thyroid cartilage with your non-dominant hand.</li>\n<li>If Trousseau dilator available, insert into the incision site and spread vertical then rotate 90 degrees until the dilator is parallel with the neck.</li>\n<li>Insert the cuffed tracheostomy tube or ETT tube into the incision site. Advance until the flanges rest on the skin of the neck (when using tracheostomy tube).</li>\n<li>Carefully remove the dilator (if used), tracheal hook and obturator of the tracheostomy tube.</li>\n<li>Inflate the balloon of the tracheostomy tube/ETT.</li>\n<li>Ventilate and confirm position by physical exam and EtCO₂.</li>\n<li>Secure the tube in place.</li>\n<li>Dress incision site.</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "<img>Surgical Cricothyrotomy #2 Procedure</img>",
+            "html": "<p>[Diagram: Surgical Cricothyrotomy #2 Procedure]</p>"
           }
         ]
       }
     ]
   },
   {
-    "id": "blue_tracheostomy_care",
+    "id": "blue_014_blue_015",
     "title": "Tracheostomy Care",
     "category": "blue",
     "pages": [
       {
-        "pageId": "blue_page_33",
+        "pageId": "blue_014",
         "pageNumber": "Blue 14",
         "jpgReference": "/page_jpg/033.jpg",
-        "isContinuation": false,
+        "isContinuation": true,
         "sections": [
           {
-            "type": "content",
+            "type": "header",
             "providerLevel": "ALL",
-            "content": "# Tracheostomy Care #1\n\n**Indication:**\nAn adult or pediatric patient with an established tracheostomy with signs of respiratory distress or failure.\n🧸\n\n**Procedure:**\n1. Consult the patient's caregiver for assistance.\n2. Assess the tracheostomy tube looking for easily reversible causes of distress, including detached oxygen source, plugging, etc.\n3. Administer high-flow O₂ over the tracheostomy via non-rebreather mask or blow by.\n4. If patient's respiratory distress continues, assist ventilation using a bag-valve-mask to the tracheostomy tube.\n5. Suction the tracheostomy tube if unable to ventilate with BVM, coarse upper airway sounds or if respiratory distress continues despite BVM ventilation:\n    a. Use the patient's suctioning supplies or a tube that is no more than 1/2 the diameter of the tracheostomy tube.\n    b. Use no more than **80 mmHg** suction pressure in **pediatric patients** and **150 mmHg** in **adults**.\n    c. If tracheostomy tube has a cannula, remove it prior to suctioning.\n    d. Determine the proper suction catheter depth by measuring the obturator. If no obturator is available, insert the suction catheter 2-3 inches into the tracheostomy tube. DO NOT force the suction catheter into the tracheostomy tube.\n    e. Pre-oxygenate when possible for 30-60 seconds then insert the suction catheter to the desired depth. Apply suctioning while removing the catheter. Gently rotate the catheter while withdrawing. This should take 10 - 15 seconds.\n6. Consider using 2 - 3 mL of saline or nebulized saline to help loosen thick secretions\n7. If respiratory distress continues, consider likely cause and reference appropriate protocol.\n\nIn the case of an adult or pediatric patient with established tracheostomy tube (greater than 1-2 weeks old), in respiratory distress or failure in which the above measures have not succeeded in improving respiratory status, consider replacing the tracheostomy tube. This protocol may also be appropriate for patients with dislodged tracheostomy tubes.\n(Continued)",
-            "html": "<p># Tracheostomy Care #1</p>\n<strong>Indication:</strong>\n<p>An adult or pediatric patient with an established tracheostomy with signs of respiratory distress or failure.</p>\n<strong>Procedure:</strong>\n<ol>\n<li>Consult the patient's caregiver for assistance.</li>\n<li>Assess the tracheostomy tube looking for easily reversible causes of distress, including detached oxygen source, plugging, etc.</li>\n<li>Administer high-flow O₂ over the tracheostomy via non-rebreather mask or blow by.</li>\n<li>If patient's respiratory distress continues, assist ventilation using a bag-valve-mask to the tracheostomy tube.</li>\n<li>Suction the tracheostomy tube if unable to ventilate with BVM, coarse upper airway sounds or if respiratory distress continues despite BVM ventilation:\n<ol type=\"a\">\n<li>Use the patient's suctioning supplies or a tube that is no more than 1/2 the diameter of the tracheostomy tube.</li>\n<li>Use no more than <strong>80 mmHg</strong> suction pressure in <strong>pediatric patients</strong> and <strong>150 mmHg</strong> in <strong>adults</strong>.</li>\n<li>If tracheostomy tube has a cannula, remove it prior to suctioning.</li>\n<li>Determine the proper suction catheter depth by measuring the obturator. If no obturator is available, insert the suction catheter 2-3 inches into the tracheostomy tube. DO NOT force the suction catheter into the tracheostomy tube.</li>\n<li>Pre-oxygenate when possible for 30-60 seconds then insert the suction catheter to the desired depth. Apply suctioning while removing the catheter. Gently rotate the catheter while withdrawing. This should take 10 - 15 seconds.</li>\n</ol>\n</li>\n<li>Consider using 2 - 3 mL of saline or nebulized saline to help loosen thick secretions</li>\n<li>If respiratory distress continues, consider likely cause and reference appropriate protocol.</li>\n</ol>\n<p>In the case of an adult or pediatric patient with established tracheostomy tube (greater than 1-2 weeks old), in respiratory distress or failure in which the above measures have not succeeded in improving respiratory status, consider replacing the tracheostomy tube. This protocol may also be appropriate for patients with dislodged tracheostomy tubes.</p>\n<p>(Continued)</p>"
+            "content": "Tracheostomy Care #1",
+            "html": "<h1>Tracheostomy Care #1</h1>"
           },
           {
             "type": "content",
-            "providerLevel": "PEARLS",
-            "content": "**PEARLS FOR TRACHEOSTOMY CARE**\nThere are many types of tracheostomy tubes on the market. One of the most common types is the Shiley. These tracheostomy tubes have an inner and outer cannula. **PLEASE NOTE:** only the inner cannula has a 15 mm adapter that will fit a BVM, the outer cannula will not. The inner cannula MUST be in place to ventilate the patient.\n\nANY bleeding from the tracheostomy site should be evaluated emergently. Follow the Hemorrhage/Hemorrhagic Shock protocols, Green 12-15, AND, in the case of severe hemorrhage from the tracheostomy site, hyperinflate the tracheostomy cuff with 50 mL of air, in an effort to tamponade the bleeding vessel. Inflate slowly, to prevent cuff rupture. Depending on the make and model of the tube, inflating the entire 50 mL may not be possible.\n\n&lt;page_number&gt;Blue 14&lt;/page_number&gt;",
-            "html": "<strong>PEARLS FOR TRACHEOSTOMY CARE</strong>\n<p>There are many types of tracheostomy tubes on the market. One of the most common types is the Shiley. These tracheostomy tubes have an inner and outer cannula. <strong>PLEASE NOTE:</strong> only the inner cannula has a 15 mm adapter that will fit a BVM, the outer cannula will not. The inner cannula MUST be in place to ventilate the patient.</p>\n<p>ANY bleeding from the tracheostomy site should be evaluated emergently. Follow the Hemorrhage/Hemorrhagic Shock protocols, <a href=\"/protocol/green_hemorrhage\" class=\"protocol-ref-link\">Green 12-15</a>, AND, in the case of severe hemorrhage from the tracheostomy site, hyperinflate the tracheostomy cuff with 50 mL of air, in an effort to tamponade the bleeding vessel. Inflate slowly, to prevent cuff rupture. Depending on the make and model of the tube, inflating the entire 50 mL may not be possible.</p>\n<p></p>",
-            "pearlsTitle": "TRACHEOSTOMY CARE"
+            "providerLevel": "ALL",
+            "content": "Indication:\nAn adult or pediatric patient with an established tracheostomy with signs of respiratory distress or failure.\n<img>A small teddy bear icon.</img>",
+            "html": "<p><strong>Indication:</strong><br>\nAn adult or pediatric patient with an established tracheostomy with signs of respiratory distress or failure.<br>\n🧸</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "Procedure:",
+            "html": "<p><strong>Procedure:</strong></p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "ordered",
+              "startNumber": 1,
+              "items": [
+                {
+                  "content": "Consult the patient's caregiver for assistance."
+                },
+                {
+                  "content": "Assess the tracheostomy tube looking for easily reversible causes of distress, including detached oxygen source, plugging, etc."
+                },
+                {
+                  "content": "Administer high-flow O₂ over the tracheostomy via non-rebreather mask or blow by."
+                },
+                {
+                  "content": "If patient's respiratory distress continues, assist ventilation using a bag-valve-mask to the tracheostomy tube."
+                },
+                {
+                  "content": "Suction the tracheostomy tube if unable to ventilate with BVM, coarse upper airway sounds or if respiratory distress continues despite BVM ventilation:\na. Use the patient's suctioning supplies or a tube that is no more than 1/2 the diameter of the tracheostomy tube.\nb. Use no more than 80 mmHg suction pressure in pediatric patients and 150 mmHg in adults.\nc. If tracheostomy tube has a cannula, remove it prior to suctioning.\nd. Determine the proper suction catheter depth by measuring the obturator. If no obturator is available, insert the suction catheter 2-3 inches into the tracheostomy tube. DO NOT force the suction catheter into the tracheostomy tube.\ne. Pre-oxygenate when possible for 30-60 seconds then insert the suction catheter to the desired depth. Apply suctioning while removing the catheter. Gently rotate the catheter while withdrawing. This should take 10 - 15 seconds."
+                },
+                {
+                  "content": "Consider using 2 - 3 mL of saline or nebulized saline to help loosen thick secretions"
+                },
+                {
+                  "content": "If respiratory distress continues, consider likely cause and reference appropriate protocol."
+                }
+              ]
+            },
+            "html": "<ol>\n<li>Consult the patient's caregiver for assistance.</li>\n<li>Assess the tracheostomy tube looking for easily reversible causes of distress, including detached oxygen source, plugging, etc.</li>\n<li>Administer high-flow O₂ over the tracheostomy via non-rebreather mask or blow by.</li>\n<li>If patient's respiratory distress continues, assist ventilation using a bag-valve-mask to the tracheostomy tube.</li>\n<li>Suction the tracheostomy tube if unable to ventilate with BVM, coarse upper airway sounds or if respiratory distress continues despite BVM ventilation:<br>\na. Use the patient's suctioning supplies or a tube that is no more than 1/2 the diameter of the tracheostomy tube.<br>\nb. Use no more than <strong>80 mmHg</strong> suction pressure in <strong>pediatric patients</strong> and <strong>150 mmHg</strong> in <strong>adults</strong>.<br>\nc. If tracheostomy tube has a cannula, remove it prior to suctioning.<br>\nd. Determine the proper suction catheter depth by measuring the obturator. If no obturator is available, insert the suction catheter 2-3 inches into the tracheostomy tube. DO NOT force the suction catheter into the tracheostomy tube.<br>\ne. Pre-oxygenate when possible for 30-60 seconds then insert the suction catheter to the desired depth. Apply suctioning while removing the catheter. Gently rotate the catheter while withdrawing. This should take 10 - 15 seconds.</li>\n<li>Consider using 2 - 3 mL of saline or nebulized saline to help loosen thick secretions</li>\n<li>If respiratory distress continues, consider likely cause and reference appropriate protocol.</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "In the case of an adult or pediatric patient with established tracheostomy tube (greater than 1-2 weeks old), in respiratory distress or failure in which the above measures have not succeeded in improving respiratory status, consider replacing the tracheostomy tube. This protocol may also be appropriate for patients with dislodged tracheostomy tubes.\n(Continued)",
+            "html": "<p>In the case of an adult or pediatric patient with established tracheostomy tube (greater than 1-2 weeks old), in respiratory distress or failure in which the above measures have not succeeded in improving respiratory status, consider replacing the tracheostomy tube. This protocol may also be appropriate for patients with dislodged tracheostomy tubes.<br>\n(Continued)</p>"
+          },
+          {
+            "type": "pearls",
+            "providerLevel": "ALL",
+            "content": "PEARLS FOR TRACHEOSTOMY CARE\nThere are many types of tracheostomy tubes on the market. One of the most common types is the Shiley. These tracheostomy tubes have an inner and outer cannula. PLEASE NOTE: only the inner cannula has a 15 mm adapter that will fit a BVM, the outer cannula will not. The inner cannula MUST be in place to ventilate the patient.",
+            "html": "<p><strong>PEARLS FOR TRACHEOSTOMY CARE</strong><br>\nThere are many types of tracheostomy tubes on the market. One of the most common types is the Shiley. These tracheostomy tubes have an inner and outer cannula. <strong>PLEASE NOTE:</strong> only the inner cannula has a 15 mm adapter that will fit a BVM, the outer cannula will not. The inner cannula MUST be in place to ventilate the patient.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "ANY bleeding from the tracheostomy site should be evaluated emergently. Follow the Hemorrhage/Hemorrhagic Shock protocols, Green 12-15, AND, in the case of severe hemorrhage from the tracheostomy site, hyperinflate the tracheostomy cuff with 50 mL of air, in an effort to tamponade the bleeding vessel. Inflate slowly, to prevent cuff rupture. Depending on the make and model of the tube, inflating the entire 50 mL may not be possible.",
+            "html": "<p>ANY bleeding from the tracheostomy site should be evaluated emergently. Follow the Hemorrhage/Hemorrhagic Shock protocols, Green 12-15, AND, in the case of severe hemorrhage from the tracheostomy site, hyperinflate the tracheostomy cuff with 50 mL of air, in an effort to tamponade the bleeding vessel. Inflate slowly, to prevent cuff rupture. Depending on the make and model of the tube, inflating the entire 50 mL may not be possible.</p>"
           }
         ]
       },
       {
-        "pageId": "blue_page_34",
+        "pageId": "blue_015",
         "pageNumber": "Blue 15",
         "jpgReference": "/page_jpg/034.jpg",
         "isContinuation": false,
         "sections": [
           {
-            "type": "content",
+            "type": "header",
             "providerLevel": "ALL",
-            "content": "# Tracheostomy Care #2\n\n**Indication for Tracheostomy Replacement:**\nAn adult or pediatric patient with an established tracheostomy (greater than 2 weeks old) with signs of respiratory distress or failure that have not improved with measures listed on the previous page. Also, for patients dislodged tracheostomy. If tracheostomy tube is less than 2 weeks old, refer to **Blue 2** and attempt to secure airway from above.\n\n**Necessary Equipment:**\n*   Replacement tracheostomy tube, if available (from the patient or care giver)\n*   If no replacement tracheostomy tube is available, an ETT of similar internal diameter (see below)\n*   If possible, water-based lubricant jelly\n\n**Procedure:**\n1.  Place the patient on high-flow O₂ and monitor.\n2.  Place patient in a semi-recumbent position with the neck slightly extended.\n3.  Remove old stoma dressing and clean the site.\n4.  Lubricate the new tracheostomy tube or replacement ETT.\n5.  Deflate the old tracheostomy tube's balloon and remove during exhalation.\n6.  Using the replacement tracheostomy tube's obturator, insert the replacement tube at a 90 degree angle to the cervical axis.\n7.  Next, gently advance the replacement tracheostomy tube in a fluid fashion, using the natural curvature of the tube until the flange is flush against the neck.\n8.  Remove the obturator if using a replacement tracheostomy tube and insert the hollow internal cannula.\n9.  If using an ETT as replacement, remove the old tracheostomy tube as described above, insert a bougie into the stoma directed downward. Slowly advance the lubricated ETT into the stoma. RECALL, when using an ETT as replacement, it need only be advanced a few centimeters into the stoma. Consider shortening the ETT by cutting the tube AFTER the takeoff for the balloon inflation.\n10. Inflate the cuff of the replacement tracheostomy tube or ETT.\n11. Secure the device to the patient's neck.\n\n<table>\n<thead>\n<tr>\n<th>Portex Cuffed D.I.C. Tracheostomy Tubes</th>\n<th>Shiley Tracheostomy Tubes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Portex Tube Size (mm) and Color</td>\n<td>Internal Diameter (mm) / ETT Equivalent</td>\n<td>Shiley Tube Size</td>\n<td>Internal Diameter (mm) / ETT Equivalent</td>\n</tr>\n<tr>\n<td>3.0</td>\n<td>3.0 / 3.0-3.5</td>\n<td>3.0 (NEO or PED)</td>\n<td>3.0 / 3.0-3.5</td>\n</tr>\n<tr>\n<td>3.5</td>\n<td>3.5 / 3.5-4.0</td>\n<td>3.5 (NEO or PED)</td>\n<td>3.5 / 3.5-4.0</td>\n</tr>\n<tr>\n<td>4.0</td>\n<td>4.0 / 4.0-4.5</td>\n<td>4.0 (NEO or PED)</td>\n<td>4.0 / 4.0-4.5</td>\n</tr>\n<tr>\n<td>5.0</td>\n<td>5.0 / 5.0</td>\n<td>4.5 (NEO or PED)</td>\n<td>4.5 / 4.5-5.0</td>\n</tr>\n<tr>\n<td>6.0 (orange)</td>\n<td>6.0 / 6.0</td>\n<td>5.0 (NEO or PED)</td>\n<td>5.0 / 5.0</td>\n</tr>\n<tr>\n<td>7.0 (green)</td>\n<td>7.0 / 7.0</td>\n<td>6</td>\n<td>6.4 / 6.0-7.0</td>\n</tr>\n<tr>\n<td>8.0 (white)</td>\n<td>8.0 / 8.0</td>\n<td>8</td>\n<td>7.6 / 7.0-8.0</td>\n</tr>\n<tr>\n<td>9.0 (blue)</td>\n<td>9.0 / 9.0</td>\n<td>10</td>\n<td>8.9 / 9.0</td>\n</tr>\n<tr>\n<td>10.0 (yellow)</td>\n<td>10.0 / 10.0</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>",
-            "html": "<p># Tracheostomy Care #2</p>\n<strong>Indication for Tracheostomy Replacement:</strong>\n<p>An adult or pediatric patient with an established tracheostomy (greater than 2 weeks old) with signs of respiratory distress or failure that have not improved with measures listed on the previous page. Also, for patients dislodged tracheostomy. If tracheostomy tube is less than 2 weeks old, refer to <strong><a href=\"/protocol/blue_airway_algorithm\" class=\"protocol-ref-link\">Blue 2</a></strong> and attempt to secure airway from above.</p>\n<strong>Necessary Equipment:</strong>\n<ul>\n<li>Replacement tracheostomy tube, if available (from the patient or care giver)</li>\n<li>If no replacement tracheostomy tube is available, an ETT of similar internal diameter (see below)</li>\n<li>If possible, water-based lubricant jelly</li>\n</ul>\n<strong>Procedure:</strong>\n<ol>\n<li>Place the patient on high-flow O₂ and monitor.</li>\n<li>Place patient in a semi-recumbent position with the neck slightly extended.</li>\n<li>Remove old stoma dressing and clean the site.</li>\n<li>Lubricate the new tracheostomy tube or replacement ETT.</li>\n<li>Deflate the old tracheostomy tube's balloon and remove during exhalation.</li>\n<li>Using the replacement tracheostomy tube's obturator, insert the replacement tube at a 90 degree angle to the cervical axis.</li>\n<li>Next, gently advance the replacement tracheostomy tube in a fluid fashion, using the natural curvature of the tube until the flange is flush against the neck.</li>\n<li>Remove the obturator if using a replacement tracheostomy tube and insert the hollow internal cannula.</li>\n<li>If using an ETT as replacement, remove the old tracheostomy tube as described above, insert a bougie into the stoma directed downward. Slowly advance the lubricated ETT into the stoma. RECALL, when using an ETT as replacement, it need only be advanced a few centimeters into the stoma. Consider shortening the ETT by cutting the tube AFTER the takeoff for the balloon inflation.</li>\n<li>Inflate the cuff of the replacement tracheostomy tube or ETT.</li>\n<li>Secure the device to the patient's neck.</li>\n</ol>\n<table>\n<thead>\n<tr>\n<th>Portex Cuffed D.I.C. Tracheostomy Tubes</th>\n<th>Shiley Tracheostomy Tubes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Portex Tube Size (mm) and Color</td>\n<td>Internal Diameter (mm) / ETT Equivalent</td>\n<td>Shiley Tube Size</td>\n<td>Internal Diameter (mm) / ETT Equivalent</td>\n</tr>\n<tr>\n<td>3.0</td>\n<td>3.0 / 3.0-3.5</td>\n<td>3.0 (NEO or PED)</td>\n<td>3.0 / 3.0-3.5</td>\n</tr>\n<tr>\n<td>3.5</td>\n<td>3.5 / 3.5-4.0</td>\n<td>3.5 (NEO or PED)</td>\n<td>3.5 / 3.5-4.0</td>\n</tr>\n<tr>\n<td>4.0</td>\n<td>4.0 / 4.0-4.5</td>\n<td>4.0 (NEO or PED)</td>\n<td>4.0 / 4.0-4.5</td>\n</tr>\n<tr>\n<td>5.0</td>\n<td>5.0 / 5.0</td>\n<td>4.5 (NEO or PED)</td>\n<td>4.5 / 4.5-5.0</td>\n</tr>\n<tr>\n<td>6.0 (orange)</td>\n<td>6.0 / 6.0</td>\n<td>5.0 (NEO or PED)</td>\n<td>5.0 / 5.0</td>\n</tr>\n<tr>\n<td>7.0 (green)</td>\n<td>7.0 / 7.0</td>\n<td>6</td>\n<td>6.4 / 6.0-7.0</td>\n</tr>\n<tr>\n<td>8.0 (white)</td>\n<td>8.0 / 8.0</td>\n<td>8</td>\n<td>7.6 / 7.0-8.0</td>\n</tr>\n<tr>\n<td>9.0 (blue)</td>\n<td>9.0 / 9.0</td>\n<td>10</td>\n<td>8.9 / 9.0</td>\n</tr>\n<tr>\n<td>10.0 (yellow)</td>\n<td>10.0 / 10.0</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+            "content": "Tracheostomy Care #2",
+            "html": "<h1>Tracheostomy Care #2</h1>"
           },
           {
             "type": "content",
-            "providerLevel": "PEARLS",
-            "content": "**PEARLS FOR TRACHEOSTOMY CARE**\nPlease Note - the internal diameter of an ETT is designated by the tube name - i.e. 6.0 tube has a 6.0 mm internal diameter. If the tracheostomy is less than 2 weeks old, the tract is immature and there is risk of creating a false lumen if attempts to replace or change the tracheostomy are made.\n\n&lt;page_number&gt;Blue 15&lt;/page_number&gt;",
-            "html": "<strong>PEARLS FOR TRACHEOSTOMY CARE</strong>\n<p>Please Note - the internal diameter of an ETT is designated by the tube name - i.e. 6.0 tube has a 6.0 mm internal diameter. If the tracheostomy is less than 2 weeks old, the tract is immature and there is risk of creating a false lumen if attempts to replace or change the tracheostomy are made.</p>\n<p></p>",
-            "pearlsTitle": "TRACHEOSTOMY CARE"
+            "providerLevel": "ALL",
+            "content": "Indication for Tracheostomy Replacement:\nAn adult or pediatric patient with an established tracheostomy (greater than 2 weeks old) with signs of respiratory distress or failure that have not improved with measures listed on the previous page. Also, for patients dislodged tracheostomy. If tracheostomy tube is less than 2 weeks old, refer to Blue 2 and attempt to secure airway from above.",
+            "html": "<p><strong>Indication for Tracheostomy Replacement:</strong><br>\nAn adult or pediatric patient with an established tracheostomy (greater than 2 weeks old) with signs of respiratory distress or failure that have not improved with measures listed on the previous page. Also, for patients dislodged tracheostomy. If tracheostomy tube is less than 2 weeks old, refer to <strong>Blue 2</strong> and attempt to secure airway from above.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "Necessary Equipment:",
+            "html": "<p><strong>Necessary Equipment:</strong></p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "unordered",
+              "items": [
+                {
+                  "content": "Replacement tracheostomy tube, if available (from the patient or care giver)"
+                },
+                {
+                  "content": "If no replacement tracheostomy tube is available, an ETT of similar internal diameter (see below)"
+                },
+                {
+                  "content": "If possible, water-based lubricant jelly"
+                }
+              ]
+            },
+            "html": "<ul>\n<li>Replacement tracheostomy tube, if available (from the patient or care giver)</li>\n<li>If no replacement tracheostomy tube is available, an ETT of similar internal diameter (see below)</li>\n<li>If possible, water-based lubricant jelly</li>\n</ul>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "Procedure:",
+            "html": "<p><strong>Procedure:</strong></p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "ordered",
+              "startNumber": 1,
+              "items": [
+                {
+                  "content": "Place the patient on high-flow O₂ and monitor."
+                },
+                {
+                  "content": "Place patient in a semi-recumbent position with the neck slightly extended."
+                },
+                {
+                  "content": "Remove old stoma dressing and clean the site."
+                },
+                {
+                  "content": "Lubricate the new tracheostomy tube or replacement ETT."
+                },
+                {
+                  "content": "Deflate the old tracheostomy tube's balloon and remove during exhalation."
+                },
+                {
+                  "content": "Using the replacement tracheostomy tube's obturator, insert the replacement tube at a 90 degree angle to the cervical axis."
+                },
+                {
+                  "content": "Next, gently advance the replacement tracheostomy tube in a fluid fashion, using the natural curvature of the tube until the flange is flush against the neck."
+                },
+                {
+                  "content": "Remove the obturator if using a replacement tracheostomy tube and insert the hollow internal cannula."
+                },
+                {
+                  "content": "If using an ETT as replacement, remove the old tracheostomy tube as described above, insert a bougie into the stoma directed downward. Slowly advance the lubricated ETT into the stoma. RECALL, when using an ETT as replacement, it need only be advanced a few centimeters into the stoma. Consider shortening the ETT by cutting the tube AFTER the takeoff for the balloon inflation."
+                },
+                {
+                  "content": "Inflate the cuff of the replacement tracheostomy tube or ETT."
+                },
+                {
+                  "content": "Secure the device to the patient's neck."
+                }
+              ]
+            },
+            "html": "<ol>\n<li>Place the patient on high-flow O₂ and monitor.</li>\n<li>Place patient in a semi-recumbent position with the neck slightly extended.</li>\n<li>Remove old stoma dressing and clean the site.</li>\n<li>Lubricate the new tracheostomy tube or replacement ETT.</li>\n<li>Deflate the old tracheostomy tube's balloon and remove during exhalation.</li>\n<li>Using the replacement tracheostomy tube's obturator, insert the replacement tube at a 90 degree angle to the cervical axis.</li>\n<li>Next, gently advance the replacement tracheostomy tube in a fluid fashion, using the natural curvature of the tube until the flange is flush against the neck.</li>\n<li>Remove the obturator if using a replacement tracheostomy tube and insert the hollow internal cannula.</li>\n<li>If using an ETT as replacement, remove the old tracheostomy tube as described above, insert a bougie into the stoma directed downward. Slowly advance the lubricated ETT into the stoma. RECALL, when using an ETT as replacement, it need only be advanced a few centimeters into the stoma. Consider shortening the ETT by cutting the tube AFTER the takeoff for the balloon inflation.</li>\n<li>Inflate the cuff of the replacement tracheostomy tube or ETT.</li>\n<li>Secure the device to the patient's neck.</li>\n</ol>"
+          },
+          {
+            "type": "table",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "table",
+              "headers": [
+                "Portex Cuffed D.I.C. Tracheostomy Tubes",
+                "Shiley Tracheostomy Tubes"
+              ],
+              "rows": [
+                [
+                  "Portex Tube Size (mm) and Color",
+                  "Internal Diameter (mm) / ETT Equivalent",
+                  "Shiley Tube Size",
+                  "Internal Diameter (mm) / ETT Equivalent"
+                ],
+                [
+                  "3.0",
+                  "3.0 / 3.0-3.5",
+                  "3.0 (NEO or PED)",
+                  "3.0 / 3.0-3.5"
+                ],
+                [
+                  "3.5",
+                  "3.5 / 3.5-4.0",
+                  "3.5 (NEO or PED)",
+                  "3.5 / 3.5-4.0"
+                ],
+                [
+                  "4.0",
+                  "4.0 / 4.0-4.5",
+                  "4.0 (NEO or PED)",
+                  "4.0 / 4.0-4.5"
+                ],
+                [
+                  "5.0",
+                  "5.0 / 5.0",
+                  "4.5 (NEO or PED)",
+                  "4.5 / 4.5-5.0"
+                ],
+                [
+                  "6.0 (orange)",
+                  "6.0 / 6.0",
+                  "5.0 (NEO or PED)",
+                  "5.0 / 5.0"
+                ],
+                [
+                  "7.0 (green)",
+                  "7.0 / 7.0",
+                  "6",
+                  "6.4 / 6.0-7.0"
+                ],
+                [
+                  "8.0 (white)",
+                  "8.0 / 8.0",
+                  "8",
+                  "7.6 / 7.0-8.0"
+                ],
+                [
+                  "9.0 (blue)",
+                  "9.0 / 9.0",
+                  "10",
+                  "8.9 / 9.0"
+                ],
+                [
+                  "10.0 (yellow)",
+                  "10.0 / 10.0",
+                  "",
+                  ""
+                ]
+              ]
+            },
+            "html": "<table>\n<thead>\n<tr>\n<th>Portex Cuffed D.I.C. Tracheostomy Tubes</th>\n<th>Shiley Tracheostomy Tubes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Portex Tube Size (mm) and Color</td>\n<td>Internal Diameter (mm) / ETT Equivalent</td>\n<td>Shiley Tube Size</td>\n<td>Internal Diameter (mm) / ETT Equivalent</td>\n</tr>\n<tr>\n<td>3.0</td>\n<td>3.0 / 3.0-3.5</td>\n<td>3.0 (NEO or PED)</td>\n<td>3.0 / 3.0-3.5</td>\n</tr>\n<tr>\n<td>3.5</td>\n<td>3.5 / 3.5-4.0</td>\n<td>3.5 (NEO or PED)</td>\n<td>3.5 / 3.5-4.0</td>\n</tr>\n<tr>\n<td>4.0</td>\n<td>4.0 / 4.0-4.5</td>\n<td>4.0 (NEO or PED)</td>\n<td>4.0 / 4.0-4.5</td>\n</tr>\n<tr>\n<td>5.0</td>\n<td>5.0 / 5.0</td>\n<td>4.5 (NEO or PED)</td>\n<td>4.5 / 4.5-5.0</td>\n</tr>\n<tr>\n<td>6.0 (orange)</td>\n<td>6.0 / 6.0</td>\n<td>5.0 (NEO or PED)</td>\n<td>5.0 / 5.0</td>\n</tr>\n<tr>\n<td>7.0 (green)</td>\n<td>7.0 / 7.0</td>\n<td>6</td>\n<td>6.4 / 6.0-7.0</td>\n</tr>\n<tr>\n<td>8.0 (white)</td>\n<td>8.0 / 8.0</td>\n<td>8</td>\n<td>7.6 / 7.0-8.0</td>\n</tr>\n<tr>\n<td>9.0 (blue)</td>\n<td>9.0 / 9.0</td>\n<td>10</td>\n<td>8.9 / 9.0</td>\n</tr>\n<tr>\n<td>10.0 (yellow)</td>\n<td>10.0 / 10.0</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>"
+          },
+          {
+            "type": "pearls",
+            "providerLevel": "ALL",
+            "content": "PEARLS FOR TRACHEOSTOMY CARE\nPlease Note - the internal diameter of an ETT is designated by the tube name - i.e. 6.0 tube has a 6.0 mm internal diameter. If the tracheostomy is less than 2 weeks old, the tract is immature and there is risk of creating a false lumen if attempts to replace or change the tracheostomy are made.",
+            "html": "<p><strong>PEARLS FOR TRACHEOSTOMY CARE</strong><br>\nPlease Note - the internal diameter of an ETT is designated by the tube name - i.e. 6.0 tube has a 6.0 mm internal diameter. If the tracheostomy is less than 2 weeks old, the tract is immature and there is risk of creating a false lumen if attempts to replace or change the tracheostomy are made.</p>"
           }
         ]
       }

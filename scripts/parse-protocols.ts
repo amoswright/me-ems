@@ -139,7 +139,8 @@ function extractJpgPageNumber(href: string): number {
 
 // Helper: Extract protocol page number from page_number tag
 function extractProtocolPageNumber(html: string): string {
-  const match = html.match(/<page_number>(.*?)<\/page_number>/);
+  // Match both HTML-encoded and raw versions
+  const match = html.match(/(?:&lt;|<)page_number(?:&gt;|>)(.*?)(?:&lt;|<)\/page_number(?:&gt;|>)/);
   return match ? match[1].trim() : '';
 }
 
@@ -217,7 +218,13 @@ function parseTableOfContents(htmlContent: string): TableOfContents {
       const jpgLink = links[1];
 
       const htmlFile = protocolLink.getAttribute('href') || '';
-      const jpgFile = jpgLink.getAttribute('href') || '';
+      let jpgFile = jpgLink.getAttribute('href') || '';
+
+      // Fix JPG path: convert /src/assets/pages_jpg/XXX.jpg to /page_jpg/XXX.jpg
+      if (jpgFile.includes('/src/assets/pages_jpg/')) {
+        jpgFile = jpgFile.replace('/src/assets/pages_jpg/', '/page_jpg/');
+      }
+
       const protocolPageNumber = protocolLink.textContent || '';
 
       // Extract protocol title (everything before the first comma)
@@ -334,7 +341,7 @@ function parseTableData(element: Element): TableData {
 }
 
 // Parse individual protocol HTML file
-function parseProtocolHTML(htmlPath: string, pageId: string): ProtocolPage | null {
+function parseProtocolHTML(htmlPath: string, pageId: string, jpgFile?: string): ProtocolPage | null {
   if (!existsSync(htmlPath)) {
     console.warn(`  File not found: ${htmlPath}`);
     return null;
@@ -354,12 +361,14 @@ function parseProtocolHTML(htmlPath: string, pageId: string): ProtocolPage | nul
   // Extract page number
   const pageNumber = extractProtocolPageNumber(htmlContent);
 
-  // Extract JPG reference from footer
-  let jpgReference = '';
-  const links = document.querySelectorAll('a[href*="jpg"]');
-  if (links.length > 0) {
-    const lastLink = links[links.length - 1];
-    jpgReference = lastLink.getAttribute('href') || '';
+  // Use provided jpgFile or try to extract from HTML
+  let jpgReference = jpgFile || '';
+  if (!jpgReference) {
+    const links = document.querySelectorAll('a[href*="jpg"]');
+    if (links.length > 0) {
+      const lastLink = links[links.length - 1];
+      jpgReference = lastLink.getAttribute('href') || '';
+    }
   }
 
   // Process all body children
@@ -446,6 +455,45 @@ function parseProtocolHTML(htmlPath: string, pageId: string): ProtocolPage | nul
     // Regular content paragraphs
     if (tagName === 'p') {
       const text = element.textContent || '';
+
+      // Check if this paragraph is a provider level header (e.g., <p><strong>EMT</strong></p>)
+      const firstChild = element.firstElementChild;
+      if (firstChild && firstChild.tagName.toLowerCase() === 'strong') {
+        const strongText = firstChild.textContent?.trim() || '';
+        const detectedLevel = extractProviderLevel(strongText);
+
+        // If the strong tag ONLY contains provider level text (no extra content after)
+        // then treat this as a provider level header
+        if (detectedLevel !== 'ALL' && strongText.match(/^(EMT|ADVANCED EMT|PARAMEDIC)$/i)) {
+          currentProviderLevel = detectedLevel;
+
+          // Create header section with just the provider level text
+          sections.push({
+            type: 'header',
+            providerLevel: currentProviderLevel,
+            content: strongText,
+            html: `<h2>${strongText}</h2>` // Simple header HTML without the extra content
+          });
+
+          // Check if there's additional content after the <strong> tag
+          // If so, create a separate content section for it
+          const remainingText = text.substring(strongText.length).trim();
+          if (remainingText) {
+            // Remove the <strong> tag from the HTML and keep the rest
+            const contentHtml = element.innerHTML.replace(/<strong>[^<]+<\/strong>\s*(<br\s*\/?>\s*)?/i, '');
+            if (contentHtml.trim()) {
+              sections.push({
+                type: 'content',
+                providerLevel: currentProviderLevel,
+                content: remainingText,
+                html: `<p>${contentHtml}</p>`
+              });
+            }
+          }
+          return;
+        }
+      }
+
       // Skip empty paragraphs and footer links
       if (text.trim() && !text.includes('Back to TOC') && !text.startsWith('(Back to TOC)')) {
         sections.push({
@@ -567,7 +615,7 @@ async function parseAllProtocols() {
 
       for (const pageRef of protocolRef.pages) {
         const htmlPath = path.join(SOURCE_DIR, pageRef.htmlFile);
-        const page = parseProtocolHTML(htmlPath, pageRef.pageId);
+        const page = parseProtocolHTML(htmlPath, pageRef.pageId, pageRef.jpgFile);
 
         if (page) {
           pages.push(page);

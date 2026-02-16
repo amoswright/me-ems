@@ -1,90 +1,367 @@
 [
   {
-    "id": "brown_foreword",
-    "title": "Foreword",
+    "id": "brown_001",
+    "title": "Page Brown 1",
     "category": "brown",
     "pages": [
       {
-        "pageId": "brown_page_6",
-        "pageNumber": "Brown 1",
+        "pageId": "brown_001",
+        "pageNumber": "2",
         "jpgReference": "/page_jpg/006.jpg",
         "isContinuation": false,
         "sections": [
           {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Foreword",
+            "html": "<h1>Foreword</h1>"
+          },
+          {
             "type": "content",
             "providerLevel": "ALL",
-            "content": "# Foreword\n\nThese protocols were developed for the following reasons:\n1. To provide the EMS clinician with a quick field reference, and\n2. To develop written standards of care which are consistent throughout the State of Maine\n\nUsers of these protocols are expected to have more detailed knowledge of basic patient management principles found in EMS textbooks and literature appropriate to the EMS clinician's level of training and licensure.\n\n*EMS clinicians are encouraged to contact OLMC in any situation in which advice is needed, including unexpected changes in patient presentations, not only in situations as directed by these written protocols.*\n\nTo use these protocols as they are intended, it is necessary to know the philosophy, treatment principles, and definitions which guided the physicians and other EMS clinicians who drafted these protocols:\n\n*   **Treatment should very RARELY delay transport!** This is especially true for trauma patients, patients with chest pain, and patients with suspected stroke. IVs should be started en route except in those situations where treatment at the scene is in the patient's best interest, such as shock, prolonged extrication, or a cardiac patient when full ACLS care is available. Delays in transport should be discussed with OLMC.\n*   **Inability to establish voice contact with OLMC:** There are rare situations where the patient is unstable and delay in treatment threatens the patient's life or limb. If, after good faith attempts, the EMS clinician cannot contact OLMC, then the EMS clinician is authorized to use any appropriate treatment protocols as if they were standing orders. In such cases, treatments must still be consistent with the EMS clinician's training and licensure. Continue attempts to contact OLMC and document these attempts on the patient run record.\n*   **Transports and transfers:** During transports and transfers, ambulance crews will follow these MEMS protocols, including use of only those medications and procedures for which they are trained and authorized by protocol.\n*   **Hospital destination choice:** If a patient needs care which the ambulance crew, in consultation with OLMC, believes cannot be provided at the most accessible hospital, the patient will be transported to the nearest facility capable of providing that care upon the patient's arrival. If, with OLMC consultation, a patient is believed to be too unstable to survive such a diversion, then the patient will be transported to the most accessible hospital with an emergency department. Diversion is also non-binding, and if a patient insists or if the crew deems that bypass is not in the patient's best interest, then going to a hospital \"on diversion\" is appropriate. If OLMC contact is not possible, the ambulance crew is authorized to make this determination. OLMC cannot legally refuse these patients.\n\n&lt;page_number&gt;2&lt;/page_number&gt;\nBrown 1",
-            "html": "<p># Foreword</p>\n<p>These protocols were developed for the following reasons:</p>\n<ol>\n<li>To provide the EMS clinician with a quick field reference, and</li>\n<li>To develop written standards of care which are consistent throughout the State of Maine</li>\n</ol>\n<p>Users of these protocols are expected to have more detailed knowledge of basic patient management principles found in EMS textbooks and literature appropriate to the EMS clinician's level of training and licensure.</p>\n<em>EMS clinicians are encouraged to contact OLMC in any situation in which advice is needed, including unexpected changes in patient presentations, not only in situations as directed by these written protocols.</em>\n<p>To use these protocols as they are intended, it is necessary to know the philosophy, treatment principles, and definitions which guided the physicians and other EMS clinicians who drafted these protocols:</p>\n<ul>\n<li><strong>Treatment should very RARELY delay transport!</strong> This is especially true for trauma patients, patients with chest pain, and patients with suspected stroke. IVs should be started en route except in those situations where treatment at the scene is in the patient's best interest, such as shock, prolonged extrication, or a cardiac patient when full ACLS care is available. Delays in transport should be discussed with OLMC.</li>\n<li><strong>Inability to establish voice contact with OLMC:</strong> There are rare situations where the patient is unstable and delay in treatment threatens the patient's life or limb. If, after good faith attempts, the EMS clinician cannot contact OLMC, then the EMS clinician is authorized to use any appropriate treatment protocols as if they were standing orders. In such cases, treatments must still be consistent with the EMS clinician's training and licensure. Continue attempts to contact OLMC and document these attempts on the patient run record.</li>\n<li><strong>Transports and transfers:</strong> During transports and transfers, ambulance crews will follow these MEMS protocols, including use of only those medications and procedures for which they are trained and authorized by protocol.</li>\n<li><strong>Hospital destination choice:</strong> If a patient needs care which the ambulance crew, in consultation with OLMC, believes cannot be provided at the most accessible hospital, the patient will be transported to the nearest facility capable of providing that care upon the patient's arrival. If, with OLMC consultation, a patient is believed to be too unstable to survive such a diversion, then the patient will be transported to the most accessible hospital with an emergency department. Diversion is also non-binding, and if a patient insists or if the crew deems that bypass is not in the patient's best interest, then going to a hospital \"on diversion\" is appropriate. If OLMC contact is not possible, the ambulance crew is authorized to make this determination. OLMC cannot legally refuse these patients.</li>\n</ul>\n<p></p>\n<p><a href=\"/protocol/brown_foreword\" class=\"protocol-ref-link\">Brown 1</a></p>"
+            "content": "These protocols were developed for the following reasons:",
+            "html": "<p>These protocols were developed for the following reasons:</p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "ordered",
+              "startNumber": 1,
+              "items": [
+                {
+                  "content": "To provide the EMS clinician with a quick field reference, and"
+                },
+                {
+                  "content": "To develop written standards of care which are consistent throughout the State of Maine"
+                }
+              ]
+            },
+            "html": "<ol>\n<li>To provide the EMS clinician with a quick field reference, and</li>\n<li>To develop written standards of care which are consistent throughout the State of Maine</li>\n</ol>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "Users of these protocols are expected to have more detailed knowledge of basic patient management principles found in EMS textbooks and literature appropriate to the EMS clinician's level of training and licensure.",
+            "html": "<p>Users of these protocols are expected to have more detailed knowledge of basic patient management principles found in EMS textbooks and literature appropriate to the EMS clinician's level of training and licensure.</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "EMS clinicians are encouraged to contact OLMC in any situation in which advice is needed, including unexpected changes in patient presentations, not only in situations as directed by these written protocols.",
+            "html": "<p><em>EMS clinicians are encouraged to contact OLMC in any situation in which advice is needed, including unexpected changes in patient presentations, not only in situations as directed by these written protocols.</em></p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ALL",
+            "content": "To use these protocols as they are intended, it is necessary to know the philosophy, treatment principles, and definitions which guided the physicians and other EMS clinicians who drafted these protocols:",
+            "html": "<p>To use these protocols as they are intended, it is necessary to know the philosophy, treatment principles, and definitions which guided the physicians and other EMS clinicians who drafted these protocols:</p>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "unordered",
+              "items": [
+                {
+                  "content": "Treatment should very RARELY delay transport! This is especially true for trauma patients, patients with chest pain, and patients with suspected stroke. IVs should be started en route except in those situations where treatment at the scene is in the patient's best interest, such as shock, prolonged extrication, or a cardiac patient when full ACLS care is available. Delays in transport should be discussed with OLMC."
+                },
+                {
+                  "content": "Inability to establish voice contact with OLMC: There are rare situations where the patient is unstable and delay in treatment threatens the patient's life or limb. If, after good faith attempts, the EMS clinician cannot contact OLMC, then the EMS clinician is authorized to use any appropriate treatment protocols as if they were standing orders. In such cases, treatments must still be consistent with the EMS clinician's training and licensure. Continue attempts to contact OLMC and document these attempts on the patient run record."
+                },
+                {
+                  "content": "Transports and transfers: During transports and transfers, ambulance crews will follow these MEMS protocols, including use of only those medications and procedures for which they are trained and authorized by protocol."
+                },
+                {
+                  "content": "Hospital destination choice: If a patient needs care which the ambulance crew, in consultation with OLMC, believes cannot be provided at the most accessible hospital, the patient will be transported to the nearest facility capable of providing that care upon the patient's arrival. If, with OLMC consultation, a patient is believed to be too unstable to survive such a diversion, then the patient will be transported to the most accessible hospital with an emergency department. Diversion is also non-binding, and if a patient insists or if the crew deems that bypass is not in the patient's best interest, then going to a hospital \"on diversion\" is appropriate. If OLMC contact is not possible, the ambulance crew is authorized to make this determination. OLMC cannot legally refuse these patients."
+                }
+              ]
+            },
+            "html": "<ul>\n<li><strong>Treatment should very RARELY delay transport!</strong> This is especially true for trauma patients, patients with chest pain, and patients with suspected stroke. IVs should be started en route except in those situations where treatment at the scene is in the patient's best interest, such as shock, prolonged extrication, or a cardiac patient when full ACLS care is available. Delays in transport should be discussed with OLMC.</li>\n<li><strong>Inability to establish voice contact with OLMC:</strong> There are rare situations where the patient is unstable and delay in treatment threatens the patient's life or limb. If, after good faith attempts, the EMS clinician cannot contact OLMC, then the EMS clinician is authorized to use any appropriate treatment protocols as if they were standing orders. In such cases, treatments must still be consistent with the EMS clinician's training and licensure. Continue attempts to contact OLMC and document these attempts on the patient run record.</li>\n<li><strong>Transports and transfers:</strong> During transports and transfers, ambulance crews will follow these MEMS protocols, including use of only those medications and procedures for which they are trained and authorized by protocol.</li>\n<li><strong>Hospital destination choice:</strong> If a patient needs care which the ambulance crew, in consultation with OLMC, believes cannot be provided at the most accessible hospital, the patient will be transported to the nearest facility capable of providing that care upon the patient's arrival. If, with OLMC consultation, a patient is believed to be too unstable to survive such a diversion, then the patient will be transported to the most accessible hospital with an emergency department. Diversion is also non-binding, and if a patient insists or if the crew deems that bypass is not in the patient's best interest, then going to a hospital \"on diversion\" is appropriate. If OLMC contact is not possible, the ambulance crew is authorized to make this determination. OLMC cannot legally refuse these patients.</li>\n</ul>"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "brown_002",
+    "title": "Page Brown 2",
+    "category": "brown",
+    "pages": [
       {
-        "pageId": "brown_page_7",
-        "pageNumber": "Brown 2",
+        "pageId": "brown_002",
+        "pageNumber": "3",
         "jpgReference": "/page_jpg/007.jpg",
         "isContinuation": false,
         "sections": [
           {
-            "type": "content",
+            "type": "header",
             "providerLevel": "ALL",
-            "content": "# Foreword\n\n*   **Regional destination:** Each region has the authority to develop protocols which designate the appropriate destination for patients transported from the scene. Any such protocol should be patient-centric and created exclusively to offer patients emergent care only available at selected regional sites. Examples of such protocols include the Maine EMS Trauma Triage Protocols, the Stroke Protocols, regional destination protocols such as the STEMI/ACS protocols, as well as others.\n\n*   **Paramedics and AEMTs** are expected to perform all duties in their listed scope of practice as well as those of the prior scopes of practice in the appropriate logical order. Treatments/medications should be given in the order specified. However, the MDPB recognizes that often treatments are delivered simultaneously and more than one protocol may be used. OLMC or ALS clinicians may request treatments/medications out of sequence for medical reasons.\n\n*   **MEMS patient/run record** will be legible and thoroughly completed for each call or for each patient when more than one patient is involved in a call. This document is our legacy of patient care and holds valuable information for hospital clinicians. This information is essential to patient care and safety. Services must provide a patient care document before leaving the hospital. In MOST circumstances, this document will be a completed copy of the patient run report unless they are utilizing a Maine EMS-approved electronic reporting program that automates delivery of the report to the hospital upon clinician completion/posting. This report must be completed within a time frame that allows receiving healthcare providers to use the information during patient evaluation. In rare circumstances, when it is not possible to complete the electronic patient care record or the Maine EMS-approved electronic reporting program record, before leaving the hospital, services may provide the hospital with a Maine EMS-approved, one page, patient care summary. THIS DOCUMENT DOES NOT REPLACE THE COMPLETED RUN REPORT. These documents may become part of the patient’s hospital record and, in an effort to ensure excellent patient care, all information on this written summary must reflect the information in the electronic run report. Services must still complete the electronic patient care report and make the report available to the hospital as soon as possible and within the time frame required by Maine EMS Rules and Regulations.\n\n*   **Quality Assurance:** All EMS clinicians and services must be in compliance with the Regional and State Quality Improvement Program to the satisfaction of the Regional Medical Director.\n\n*   **Assuming and Reassessing care already provided:** EMS clinicians who will be assuming the responsibility for patient care will also be responsible for assessing the care provided before their arrival, and for all subsequent care after they arrive up to and including their level of training and licensure. If an EMS clinician has not been trained in a particular treatment listed at their level, or if that treatment is not within the EMS clinician’s scope of practice, the clinician may not perform the treatment.\n\n&lt;page_number&gt;3&lt;/page_number&gt;\nBrown 2",
-            "html": "<p># Foreword</p>\n<ul>\n<li><strong>Regional destination:</strong> Each region has the authority to develop protocols which designate the appropriate destination for patients transported from the scene. Any such protocol should be patient-centric and created exclusively to offer patients emergent care only available at selected regional sites. Examples of such protocols include the Maine EMS Trauma Triage Protocols, the Stroke Protocols, regional destination protocols such as the STEMI/ACS protocols, as well as others.</li>\n</ul>\n<ul>\n<li><strong>Paramedics and AEMTs</strong> are expected to perform all duties in their listed scope of practice as well as those of the prior scopes of practice in the appropriate logical order. Treatments/medications should be given in the order specified. However, the MDPB recognizes that often treatments are delivered simultaneously and more than one protocol may be used. OLMC or ALS clinicians may request treatments/medications out of sequence for medical reasons.</li>\n</ul>\n<ul>\n<li><strong>MEMS patient/run record</strong> will be legible and thoroughly completed for each call or for each patient when more than one patient is involved in a call. This document is our legacy of patient care and holds valuable information for hospital clinicians. This information is essential to patient care and safety. Services must provide a patient care document before leaving the hospital. In MOST circumstances, this document will be a completed copy of the patient run report unless they are utilizing a Maine EMS-approved electronic reporting program that automates delivery of the report to the hospital upon clinician completion/posting. This report must be completed within a time frame that allows receiving healthcare providers to use the information during patient evaluation. In rare circumstances, when it is not possible to complete the electronic patient care record or the Maine EMS-approved electronic reporting program record, before leaving the hospital, services may provide the hospital with a Maine EMS-approved, one page, patient care summary. THIS DOCUMENT DOES NOT REPLACE THE COMPLETED RUN REPORT. These documents may become part of the patient’s hospital record and, in an effort to ensure excellent patient care, all information on this written summary must reflect the information in the electronic run report. Services must still complete the electronic patient care report and make the report available to the hospital as soon as possible and within the time frame required by Maine EMS Rules and Regulations.</li>\n</ul>\n<ul>\n<li><strong>Quality Assurance:</strong> All EMS clinicians and services must be in compliance with the Regional and State Quality Improvement Program to the satisfaction of the Regional Medical Director.</li>\n</ul>\n<ul>\n<li><strong>Assuming and Reassessing care already provided:</strong> EMS clinicians who will be assuming the responsibility for patient care will also be responsible for assessing the care provided before their arrival, and for all subsequent care after they arrive up to and including their level of training and licensure. If an EMS clinician has not been trained in a particular treatment listed at their level, or if that treatment is not within the EMS clinician’s scope of practice, the clinician may not perform the treatment.</li>\n</ul>\n<p></p>\n<p><a href=\"/protocol/brown_foreword\" class=\"protocol-ref-link\">Brown 2</a></p>"
+            "content": "Foreword",
+            "html": "<h1>Foreword</h1>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "unordered",
+              "items": [
+                {
+                  "content": "Regional destination: Each region has the authority to develop protocols which designate the appropriate destination for patients transported from the scene. Any such protocol should be patient-centric and created exclusively to offer patients emergent care only available at selected regional sites. Examples of such protocols include the Maine EMS Trauma Triage Protocols, the Stroke Protocols, regional destination protocols such as the STEMI/ACS protocols, as well as others."
+                },
+                {
+                  "content": "Paramedics and AEMTs are expected to perform all duties in their listed scope of practice as well as those of the prior scopes of practice in the appropriate logical order. Treatments/medications should be given in the order specified. However, the MDPB recognizes that often treatments are delivered simultaneously and more than one protocol may be used. OLMC or ALS clinicians may request treatments/medications out of sequence for medical reasons."
+                },
+                {
+                  "content": "MEMS patient/run record will be legible and thoroughly completed for each call or for each patient when more than one patient is involved in a call. This document is our legacy of patient care and holds valuable information for hospital clinicians. This information is essential to patient care and safety. Services must provide a patient care document before leaving the hospital. In MOST circumstances, this document will be a completed copy of the patient run report unless they are utilizing a Maine EMS-approved electronic reporting program that automates delivery of the report to the hospital upon clinician completion/posting. This report must be completed within a time frame that allows receiving healthcare providers to use the information during patient evaluation. In rare circumstances, when it is not possible to complete the electronic patient care record or the Maine EMS-approved electronic reporting program record, before leaving the hospital, services may provide the hospital with a Maine EMS-approved, one page, patient care summary. THIS DOCUMENT DOES NOT REPLACE THE COMPLETED RUN REPORT. These documents may become part of the patient’s hospital record and, in an effort to ensure excellent patient care, all information on this written summary must reflect the information in the electronic run report. Services must still complete the electronic patient care report and make the report available to the hospital as soon as possible and within the time frame required by Maine EMS Rules and Regulations."
+                },
+                {
+                  "content": "Quality Assurance: All EMS clinicians and services must be in compliance with the Regional and State Quality Improvement Program to the satisfaction of the Regional Medical Director."
+                },
+                {
+                  "content": "Assuming and Reassessing care already provided: EMS clinicians who will be assuming the responsibility for patient care will also be responsible for assessing the care provided before their arrival, and for all subsequent care after they arrive up to and including their level of training and licensure. If an EMS clinician has not been trained in a particular treatment listed at their level, or if that treatment is not within the EMS clinician’s scope of practice, the clinician may not perform the treatment."
+                }
+              ]
+            },
+            "html": "<ul>\n<li>\n<p><strong>Regional destination:</strong> Each region has the authority to develop protocols which designate the appropriate destination for patients transported from the scene. Any such protocol should be patient-centric and created exclusively to offer patients emergent care only available at selected regional sites. Examples of such protocols include the Maine EMS Trauma Triage Protocols, the Stroke Protocols, regional destination protocols such as the STEMI/ACS protocols, as well as others.</p>\n</li>\n<li>\n<p><strong>Paramedics and AEMTs</strong> are expected to perform all duties in their listed scope of practice as well as those of the prior scopes of practice in the appropriate logical order. Treatments/medications should be given in the order specified. However, the MDPB recognizes that often treatments are delivered simultaneously and more than one protocol may be used. OLMC or ALS clinicians may request treatments/medications out of sequence for medical reasons.</p>\n</li>\n<li>\n<p><strong>MEMS patient/run record</strong> will be legible and thoroughly completed for each call or for each patient when more than one patient is involved in a call. This document is our legacy of patient care and holds valuable information for hospital clinicians. This information is essential to patient care and safety. Services must provide a patient care document before leaving the hospital. In MOST circumstances, this document will be a completed copy of the patient run report unless they are utilizing a Maine EMS-approved electronic reporting program that automates delivery of the report to the hospital upon clinician completion/posting. This report must be completed within a time frame that allows receiving healthcare providers to use the information during patient evaluation. In rare circumstances, when it is not possible to complete the electronic patient care record or the Maine EMS-approved electronic reporting program record, before leaving the hospital, services may provide the hospital with a Maine EMS-approved, one page, patient care summary. THIS DOCUMENT DOES NOT REPLACE THE COMPLETED RUN REPORT. These documents may become part of the patient’s hospital record and, in an effort to ensure excellent patient care, all information on this written summary must reflect the information in the electronic run report. Services must still complete the electronic patient care report and make the report available to the hospital as soon as possible and within the time frame required by Maine EMS Rules and Regulations.</p>\n</li>\n<li>\n<p><strong>Quality Assurance:</strong> All EMS clinicians and services must be in compliance with the Regional and State Quality Improvement Program to the satisfaction of the Regional Medical Director.</p>\n</li>\n<li>\n<p><strong>Assuming and Reassessing care already provided:</strong> EMS clinicians who will be assuming the responsibility for patient care will also be responsible for assessing the care provided before their arrival, and for all subsequent care after they arrive up to and including their level of training and licensure. If an EMS clinician has not been trained in a particular treatment listed at their level, or if that treatment is not within the EMS clinician’s scope of practice, the clinician may not perform the treatment.</p>\n</li>\n</ul>"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "brown_003",
+    "title": "Page Brown 3",
+    "category": "brown",
+    "pages": [
       {
-        "pageId": "brown_page_8",
-        "pageNumber": "Brown 3",
+        "pageId": "brown_003",
+        "pageNumber": "4",
         "jpgReference": "/page_jpg/008.jpg",
         "isContinuation": false,
         "sections": [
           {
-            "type": "content",
+            "type": "header",
             "providerLevel": "ALL",
-            "content": "# Foreword\n\n*   If there is a Paramedic on scene that is willing to:\n    *   a. Accompany the AEMT on the call, and\n    *   b. Accept responsibility for the AEMT's actions\n    Then the Paramedic may direct the AEMT to administer medications that are within the AEMT's scope of practice. This may be accomplished without contacting OLMC as long as the medication administration would not require OLMC for the Paramedic. If the Paramedic is unwilling to accept the above responsibilities, then the AEMT must contact OLMC before administering any medications.\n\n*   Carbon monoxide monitors: Carbon monoxide monitors may be used for informational purposes only. Treatment and transport decisions may not be made solely on the basis of CO readings from these monitors as they may report falsely low levels.\n\n*   Medical Control permission: If a treatment is listed as requiring Medical Control permission at one level and is listed again without requiring OLMC permission at a higher level, the higher-level EMT need not seek OLMC permission.\n\n*   Deviation from protocols: These protocols represent a consensus of the MDPB. In unusual situations, OLMC may deviate from these protocols if done in the patient's best interest. The deviation in care ordered must be within the scope of practice, training and skill of the EMS clinician. The reasons for deviating from these protocols must be documented in the patient's chart. Under such circumstances, if the ALS clinician agrees, the ALS clinician will verify and will comply with OLMC orders, will fully document the deviation on the patient run record, and will not consider the care rendered to be an emergency medical treatment to be routinely repeated.\n\n*   Arrival of officially dispatched EMS personnel: Once EMS personnel have arrived on the scene, they may interact with other medical personnel on the scene who are not part of the organized EMS system responses in the following manner:\n\n    *   **Maine EMS licensees not affiliated with one of the responding services may only provide care within their scope of practice with the approval of the ambulance crew-member in charge of the call.**\n    *   The patient's own physician, physician assistant, or nurse practitioner may direct care as long as they remain with the patient (in their absence, direction of care is subject only to these protocols and OLMC). You may assist this person within the scope of your practice and these protocols. Only a physician, physician assistant, or independent nurse practitioner authorized to offer OLMC by their hospital may give orders outside of the MEMS protocols. Questions in this regard should be resolved by OLMC. You may show this person **Black 1**, the “Non-EMS System Medical Interveners” protocol to assist with your explanation.\n\n&lt;page_number&gt;4&lt;/page_number&gt;\nBrown 3",
-            "html": "<p># Foreword</p>\n<ul>\n<li>If there is a Paramedic on scene that is willing to:\n<ul>\n<li>a. Accompany the AEMT on the call, and</li>\n<li>b. Accept responsibility for the AEMT's actions</li>\n</ul>\n</li>\n</ul>\n<p>    Then the Paramedic may direct the AEMT to administer medications that are within the AEMT's scope of practice. This may be accomplished without contacting OLMC as long as the medication administration would not require OLMC for the Paramedic. If the Paramedic is unwilling to accept the above responsibilities, then the AEMT must contact OLMC before administering any medications.</p>\n<ul>\n<li>Carbon monoxide monitors: Carbon monoxide monitors may be used for informational purposes only. Treatment and transport decisions may not be made solely on the basis of CO readings from these monitors as they may report falsely low levels.</li>\n</ul>\n<ul>\n<li>Medical Control permission: If a treatment is listed as requiring Medical Control permission at one level and is listed again without requiring OLMC permission at a higher level, the higher-level EMT need not seek OLMC permission.</li>\n</ul>\n<ul>\n<li>Deviation from protocols: These protocols represent a consensus of the MDPB. In unusual situations, OLMC may deviate from these protocols if done in the patient's best interest. The deviation in care ordered must be within the scope of practice, training and skill of the EMS clinician. The reasons for deviating from these protocols must be documented in the patient's chart. Under such circumstances, if the ALS clinician agrees, the ALS clinician will verify and will comply with OLMC orders, will fully document the deviation on the patient run record, and will not consider the care rendered to be an emergency medical treatment to be routinely repeated.</li>\n</ul>\n<ul>\n<li>Arrival of officially dispatched EMS personnel: Once EMS personnel have arrived on the scene, they may interact with other medical personnel on the scene who are not part of the organized EMS system responses in the following manner:</li>\n</ul>\n<ul>\n<li><strong>Maine EMS licensees not affiliated with one of the responding services may only provide care within their scope of practice with the approval of the ambulance crew-member in charge of the call.</strong></li>\n<li>The patient's own physician, physician assistant, or nurse practitioner may direct care as long as they remain with the patient (in their absence, direction of care is subject only to these protocols and OLMC). You may assist this person within the scope of your practice and these protocols. Only a physician, physician assistant, or independent nurse practitioner authorized to offer OLMC by their hospital may give orders outside of the MEMS protocols. Questions in this regard should be resolved by OLMC. You may show this person <strong>Black 1</strong>, the “Non-EMS System Medical Interveners” protocol to assist with your explanation.</li>\n</ul>\n</li>\n<p></p>\n<p><a href=\"/protocol/brown_foreword\" class=\"protocol-ref-link\">Brown 3</a></p>"
+            "content": "Foreword",
+            "html": "<h1>Foreword</h1>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "unordered",
+              "items": [
+                {
+                  "content": "If there is a Paramedic on scene that is willing to:",
+                  "nestedList": {
+                    "type": "unordered",
+                    "items": [
+                      {
+                        "content": "a. Accompany the AEMT on the call, and"
+                      },
+                      {
+                        "content": "b. Accept responsibility for the AEMT's actions\nThen the Paramedic may direct the AEMT to administer medications that are within the AEMT's scope of practice. This may be accomplished without contacting OLMC as long as the medication administration would not require OLMC for the Paramedic. If the Paramedic is unwilling to accept the above responsibilities, then the AEMT must contact OLMC before administering any medications."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "content": "Carbon monoxide monitors: Carbon monoxide monitors may be used for informational purposes only. Treatment and transport decisions may not be made solely on the basis of CO readings from these monitors as they may report falsely low levels."
+                },
+                {
+                  "content": "Medical Control permission: If a treatment is listed as requiring Medical Control permission at one level and is listed again without requiring OLMC permission at a higher level, the higher-level EMT need not seek OLMC permission."
+                },
+                {
+                  "content": "Deviation from protocols: These protocols represent a consensus of the MDPB. In unusual situations, OLMC may deviate from these protocols if done in the patient's best interest. The deviation in care ordered must be within the scope of practice, training and skill of the EMS clinician. The reasons for deviating from these protocols must be documented in the patient's chart. Under such circumstances, if the ALS clinician agrees, the ALS clinician will verify and will comply with OLMC orders, will fully document the deviation on the patient run record, and will not consider the care rendered to be an emergency medical treatment to be routinely repeated."
+                },
+                {
+                  "content": "Arrival of officially dispatched EMS personnel: Once EMS personnel have arrived on the scene, they may interact with other medical personnel on the scene who are not part of the organized EMS system responses in the following manner:",
+                  "nestedList": {
+                    "type": "unordered",
+                    "items": [
+                      {
+                        "content": "Maine EMS licensees not affiliated with one of the responding services may only provide care within their scope of practice with the approval of the ambulance crew-member in charge of the call."
+                      },
+                      {
+                        "content": "The patient's own physician, physician assistant, or nurse practitioner may direct care as long as they remain with the patient (in their absence, direction of care is subject only to these protocols and OLMC). You may assist this person within the scope of your practice and these protocols. Only a physician, physician assistant, or independent nurse practitioner authorized to offer OLMC by their hospital may give orders outside of the MEMS protocols. Questions in this regard should be resolved by OLMC. You may show this person Black 1, the “Non-EMS System Medical Interveners” protocol to assist with your explanation."
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "html": "<ul>\n<li>\n<p>If there is a Paramedic on scene that is willing to:</p>\n<ul>\n<li>a. Accompany the AEMT on the call, and</li>\n<li>b. Accept responsibility for the AEMT's actions<br>\nThen the Paramedic may direct the AEMT to administer medications that are within the AEMT's scope of practice. This may be accomplished without contacting OLMC as long as the medication administration would not require OLMC for the Paramedic. If the Paramedic is unwilling to accept the above responsibilities, then the AEMT must contact OLMC before administering any medications.</li>\n</ul>\n</li>\n<li>\n<p>Carbon monoxide monitors: Carbon monoxide monitors may be used for informational purposes only. Treatment and transport decisions may not be made solely on the basis of CO readings from these monitors as they may report falsely low levels.</p>\n</li>\n<li>\n<p>Medical Control permission: If a treatment is listed as requiring Medical Control permission at one level and is listed again without requiring OLMC permission at a higher level, the higher-level EMT need not seek OLMC permission.</p>\n</li>\n<li>\n<p>Deviation from protocols: These protocols represent a consensus of the MDPB. In unusual situations, OLMC may deviate from these protocols if done in the patient's best interest. The deviation in care ordered must be within the scope of practice, training and skill of the EMS clinician. The reasons for deviating from these protocols must be documented in the patient's chart. Under such circumstances, if the ALS clinician agrees, the ALS clinician will verify and will comply with OLMC orders, will fully document the deviation on the patient run record, and will not consider the care rendered to be an emergency medical treatment to be routinely repeated.</p>\n</li>\n<li>\n<p>Arrival of officially dispatched EMS personnel: Once EMS personnel have arrived on the scene, they may interact with other medical personnel on the scene who are not part of the organized EMS system responses in the following manner:</p>\n<ul>\n<li><strong>Maine EMS licensees not affiliated with one of the responding services may only provide care within their scope of practice with the approval of the ambulance crew-member in charge of the call.</strong></li>\n<li>The patient's own physician, physician assistant, or nurse practitioner may direct care as long as they remain with the patient (in their absence, direction of care is subject only to these protocols and OLMC). You may assist this person within the scope of your practice and these protocols. Only a physician, physician assistant, or independent nurse practitioner authorized to offer OLMC by their hospital may give orders outside of the MEMS protocols. Questions in this regard should be resolved by OLMC. You may show this person <strong>Black 1</strong>, the “Non-EMS System Medical Interveners” protocol to assist with your explanation.</li>\n</ul>\n</li>\n</ul>"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "brown_004",
+    "title": "Page Brown 4",
+    "category": "brown",
+    "pages": [
       {
-        "pageId": "brown_page_9",
-        "pageNumber": "Brown 4",
+        "pageId": "brown_004",
+        "pageNumber": "5",
         "jpgReference": "/page_jpg/009.jpg",
         "isContinuation": false,
         "sections": [
           {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Foreword",
+            "html": "<h1>Foreword</h1>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "unordered",
+              "items": [
+                {
+                  "content": "Other unsolicited medical interveners must be Maine-licensed physicians, nurses, nurse practitioners or physician assistants whose assistance you request. The Black 1 “Non-EMS System Medical Interveners” protocol describes this, and should be shown to such interveners."
+                },
+                {
+                  "content": "Other healthcare clinicians in the home: Other healthcare clinicians in the home attending the patient (i.e. R.N., L.P.N., C.N.A., Nurse Midwife, Hospice Nurse, etc.) are a valuable source of information and assistance. Any aid or treatment they wish to give must be authorized by OLMC. Any dispute over treatment or transport should be resolved by OLMC."
+                },
+                {
+                  "content": "Home healthcare devices and appliances: Patients may have devices and appliances (drains, ports, LVADs, insulin pumps, etc.) with which they are routinely discharged home. Patients (or their licensed care clinicians or previously instructed family members), are expected to maintain them on their own. These devices have some risks associated with them, but are generally considered safe in the home environment. As such, EMS clinicians are not restricted in the care or transfer of these patients based solely on the presence of these devices or appliances. If an issue arises where there is unfamiliarity with or any questions concerning these devices (which cannot be immediately resolved by the patient or caregivers), refer to OLMC."
+                },
+                {
+                  "content": "Graduates with a current certification from a Maine EMS-approved wilderness EMT course may apply the principles of care taught in that course with the approval of the service Medical Director and when patient arrival at a definitive care setting will be more than 2 hours."
+                },
+                {
+                  "content": "Repeated Treatment: Unless otherwise indicated, any treatment included in these protocols may be repeated after reassessment and with OLMC permission."
+                },
+                {
+                  "content": "Oxygen supplementation will be by nasal cannula or non-rebreather mask as appropriate."
+                },
+                {
+                  "content": "Patient Sign-Offs: There exist three origins for patient sign-offs:",
+                  "nestedList": {
+                    "type": "unordered",
+                    "items": [
+                      {
+                        "content": "a. A patient refuses transport and the clinician agrees transport is not warranted"
+                      },
+                      {
+                        "content": "b. The patient refuses transport but the clinician does not feel this is safe"
+                      },
+                      {
+                        "content": "c. The patient requests transport but the clinician refuses (this final example is called an EMS System-initiated sign-off)"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "html": "<ul>\n<li>\n<p><strong>Other unsolicited medical interveners</strong> must be Maine-licensed physicians, nurses, nurse practitioners or physician assistants whose assistance you request. The Black 1 “Non-EMS System Medical Interveners” protocol describes this, and should be shown to such interveners.</p>\n</li>\n<li>\n<p><strong>Other healthcare clinicians in the home:</strong> Other healthcare clinicians in the home attending the patient (i.e. R.N., L.P.N., C.N.A., Nurse Midwife, Hospice Nurse, etc.) are a valuable source of information and assistance. Any aid or treatment they wish to give must be authorized by OLMC. Any dispute over treatment or transport should be resolved by OLMC.</p>\n</li>\n<li>\n<p><strong>Home healthcare devices and appliances:</strong> Patients may have devices and appliances (drains, ports, LVADs, insulin pumps, etc.) with which they are routinely discharged home. Patients (or their licensed care clinicians or previously instructed family members), are expected to maintain them on their own. These devices have some risks associated with them, but are generally considered safe in the home environment. As such, EMS clinicians are not restricted in the care or transfer of these patients based solely on the presence of these devices or appliances. If an issue arises where there is unfamiliarity with or any questions concerning these devices (which cannot be immediately resolved by the patient or caregivers), refer to OLMC.</p>\n</li>\n<li>\n<p><strong>Graduates with a current certification from a Maine EMS-approved wilderness EMT course</strong> may apply the principles of care taught in that course with the approval of the service Medical Director and when patient arrival at a definitive care setting will be more than 2 hours.</p>\n</li>\n<li>\n<p><strong>Repeated Treatment:</strong> Unless otherwise indicated, any treatment included in these protocols may be repeated after reassessment and with OLMC permission.</p>\n</li>\n<li>\n<p><strong>Oxygen supplementation</strong> will be by nasal cannula or non-rebreather mask as appropriate.</p>\n</li>\n<li>\n<p><strong>Patient Sign-Offs:</strong> There exist three origins for patient sign-offs:</p>\n<ul>\n<li>a. A patient refuses transport and the clinician agrees transport is not warranted</li>\n<li>b. The patient refuses transport but the clinician does not feel this is safe</li>\n<li>c. The patient requests transport but the clinician refuses (this final example is called an EMS System-initiated sign-off)</li>\n</ul>\n</li>\n</ul>"
+          },
+          {
             "type": "content",
             "providerLevel": "ALL",
-            "content": "# Foreword\n\n*   **Other unsolicited medical interveners** must be Maine-licensed physicians, nurses, nurse practitioners or physician assistants whose assistance you request. The Black 1 “Non-EMS System Medical Interveners” protocol describes this, and should be shown to such interveners.\n\n*   **Other healthcare clinicians in the home:** Other healthcare clinicians in the home attending the patient (i.e. R.N., L.P.N., C.N.A., Nurse Midwife, Hospice Nurse, etc.) are a valuable source of information and assistance. Any aid or treatment they wish to give must be authorized by OLMC. Any dispute over treatment or transport should be resolved by OLMC.\n\n*   **Home healthcare devices and appliances:** Patients may have devices and appliances (drains, ports, LVADs, insulin pumps, etc.) with which they are routinely discharged home. Patients (or their licensed care clinicians or previously instructed family members), are expected to maintain them on their own. These devices have some risks associated with them, but are generally considered safe in the home environment. As such, EMS clinicians are not restricted in the care or transfer of these patients based solely on the presence of these devices or appliances. If an issue arises where there is unfamiliarity with or any questions concerning these devices (which cannot be immediately resolved by the patient or caregivers), refer to OLMC.\n\n*   **Graduates with a current certification from a Maine EMS-approved wilderness EMT course** may apply the principles of care taught in that course with the approval of the service Medical Director and when patient arrival at a definitive care setting will be more than 2 hours.\n\n*   **Repeated Treatment:** Unless otherwise indicated, any treatment included in these protocols may be repeated after reassessment and with OLMC permission.\n\n*   **Oxygen supplementation** will be by nasal cannula or non-rebreather mask as appropriate.\n\n*   **Patient Sign-Offs:** There exist three origins for patient sign-offs:\n    *   a. A patient refuses transport and the clinician agrees transport is not warranted\n    *   b. The patient refuses transport but the clinician does not feel this is safe\n    *   c. The patient requests transport but the clinician refuses (this final example is called an EMS System-initiated sign-off)\n\nPatient-initiated sign-offs should only be considered in patients with decision-making capacity and resources available to care for themselves and when non-transport is considered safe. These sign-offs do not require discussion with On-Line Medical Control. Situations in which the patient requests sign-off but the EMS clinician deems it inappropriate, please refer to OLMC. **EMS System-initiated patient sign-offs (i.e. when the patient requests transfer but the EMS clinician refuses) are tremendously risky interactions and are not permissible.** These sign-offs must be approved by OLMC and the service is expected to review all of these events through the service’s quality assurance mechanism. Patient care reports must be completed for all of these interactions.\n\n&lt;page_number&gt;5&lt;/page_number&gt;\nBrown 4",
-            "html": "<p># Foreword</p>\n<ul>\n<li><strong>Other unsolicited medical interveners</strong> must be Maine-licensed physicians, nurses, nurse practitioners or physician assistants whose assistance you request. The Black 1 “Non-EMS System Medical Interveners” protocol describes this, and should be shown to such interveners.</li>\n</ul>\n<ul>\n<li><strong>Other healthcare clinicians in the home:</strong> Other healthcare clinicians in the home attending the patient (i.e. R.N., L.P.N., C.N.A., Nurse Midwife, Hospice Nurse, etc.) are a valuable source of information and assistance. Any aid or treatment they wish to give must be authorized by OLMC. Any dispute over treatment or transport should be resolved by OLMC.</li>\n</ul>\n<ul>\n<li><strong>Home healthcare devices and appliances:</strong> Patients may have devices and appliances (drains, ports, LVADs, insulin pumps, etc.) with which they are routinely discharged home. Patients (or their licensed care clinicians or previously instructed family members), are expected to maintain them on their own. These devices have some risks associated with them, but are generally considered safe in the home environment. As such, EMS clinicians are not restricted in the care or transfer of these patients based solely on the presence of these devices or appliances. If an issue arises where there is unfamiliarity with or any questions concerning these devices (which cannot be immediately resolved by the patient or caregivers), refer to OLMC.</li>\n</ul>\n<ul>\n<li><strong>Graduates with a current certification from a Maine EMS-approved wilderness EMT course</strong> may apply the principles of care taught in that course with the approval of the service Medical Director and when patient arrival at a definitive care setting will be more than 2 hours.</li>\n</ul>\n<ul>\n<li><strong>Repeated Treatment:</strong> Unless otherwise indicated, any treatment included in these protocols may be repeated after reassessment and with OLMC permission.</li>\n</ul>\n<ul>\n<li><strong>Oxygen supplementation</strong> will be by nasal cannula or non-rebreather mask as appropriate.</li>\n</ul>\n<ul>\n<li><strong>Patient Sign-Offs:</strong> There exist three origins for patient sign-offs:\n<ul>\n<li>a. A patient refuses transport and the clinician agrees transport is not warranted</li>\n<li>b. The patient refuses transport but the clinician does not feel this is safe</li>\n<li>c. The patient requests transport but the clinician refuses (this final example is called an EMS System-initiated sign-off)</li>\n</ul>\n</li>\n</ul>\n<p>Patient-initiated sign-offs should only be considered in patients with decision-making capacity and resources available to care for themselves and when non-transport is considered safe. These sign-offs do not require discussion with On-Line Medical Control. Situations in which the patient requests sign-off but the EMS clinician deems it inappropriate, please refer to OLMC. <strong>EMS System-initiated patient sign-offs (i.e. when the patient requests transfer but the EMS clinician refuses) are tremendously risky interactions and are not permissible.</strong> These sign-offs must be approved by OLMC and the service is expected to review all of these events through the service’s quality assurance mechanism. Patient care reports must be completed for all of these interactions.</p>\n<p></p>\n<p><a href=\"/protocol/brown_foreword\" class=\"protocol-ref-link\">Brown 4</a></p>"
+            "content": "Patient-initiated sign-offs should only be considered in patients with decision-making capacity and resources available to care for themselves and when non-transport is considered safe. These sign-offs do not require discussion with On-Line Medical Control. Situations in which the patient requests sign-off but the EMS clinician deems it inappropriate, please refer to OLMC. EMS System-initiated patient sign-offs (i.e. when the patient requests transfer but the EMS clinician refuses) are tremendously risky interactions and are not permissible. These sign-offs must be approved by OLMC and the service is expected to review all of these events through the service’s quality assurance mechanism. Patient care reports must be completed for all of these interactions.",
+            "html": "<p>Patient-initiated sign-offs should only be considered in patients with decision-making capacity and resources available to care for themselves and when non-transport is considered safe. These sign-offs do not require discussion with On-Line Medical Control. Situations in which the patient requests sign-off but the EMS clinician deems it inappropriate, please refer to OLMC. <strong>EMS System-initiated patient sign-offs (i.e. when the patient requests transfer but the EMS clinician refuses) are tremendously risky interactions and are not permissible.</strong> These sign-offs must be approved by OLMC and the service is expected to review all of these events through the service’s quality assurance mechanism. Patient care reports must be completed for all of these interactions.</p>"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "brown_005",
+    "title": "Page Brown 5",
+    "category": "brown",
+    "pages": [
       {
-        "pageId": "brown_page_10",
-        "pageNumber": "Brown 5",
+        "pageId": "brown_005",
+        "pageNumber": "6",
         "jpgReference": "/page_jpg/010.jpg",
         "isContinuation": false,
         "sections": [
           {
-            "type": "content",
+            "type": "header",
             "providerLevel": "ALL",
-            "content": "# Foreword\n\n*   **Vital Signs:** The MDPB believes that vital signs are essential pieces of information to be acquired on all patients. In addition, the MDPB believes that vital signs should be trended on all patients. In most cases, vital sign trending should occur every 5-10 minutes, based on the patient's clinical status and other operational considerations.\n\n*   **Transfer of Care** When transferring care of a patient, an on-duty EMS clinician must ensure the receiving caregiver is licensed at an equal or higher level unless the patient's condition and reasonably anticipated complications can be effectively managed by a lower-level clinician's scope of practice. However, a patient who receives interventions at a higher level on scene shall only have care transferred to the same or higher-level clinician.\n\n*   **Maine EMS Special Circumstance Protocols:** Maine EMS protocols are intended to address the vast majority of medical emergencies encountered by an EMS clinician. While intended to be comprehensive, certain patients exist with rare medical conditions that require highly specialized emergent care. In such situations, Maine EMS has created the \"Special Circumstance Protocols\". These are prearranged medical protocols specialized to individual patients, suggested by the patient's medical clinician and ratified by the MDPB. Patients will present with a \"Maine EMS Special Circumstance Protocol Form\" that outlines the patient's individual protocol and is signed by the patient's physician, the patient or their guardian, the local EMS service chief, the Regional Medical Director, and the State of Maine EMS Medical Director. These Special Circumstance Protocols should be made known to local EMS services and clinicians. In cases of question or uncertainty regarding the nature of the protocol, please refer to OLMC.\n\n*   During transport, patients should be secured to the stretcher utilizing both lateral and shoulder straps. For Pediatric patient guidance, refer to Pediatric Transport Protocol, Pink 7 - 8.\n\n*   Vagus Nerve Stimulators (VNS) are implanted devices that are used to treat refractory partial seizures by stimulating the vagus nerve. They are not currently approved to treat generalized seizures. The exact mechanism is unclear, but the devices provide continuous on-off cycles of vagal stimulation to prevent seizures. Patients with a VNS typically have a magnet that they can use to trigger an additional 30 second stimulation period when they feel a seizure coming on or when they are having a seizure. Caregivers are typically trained to assist with the magnet. In the event no one is available who is trained to use the magnet, the EMS clinician at any level may assist the patient if the patient can confirm that the device is a VNS and after the EMS clinician consults with OLMC.\n\n*   In the critically ill patient, vascular access may be difficult to obtain. The decision on which technique to use first, IV versus IO, is based on the assessment and judgment of the clinician. Ultimately, an IV is the superior form of vascular access but the IO is appropriate for the initial resuscitation of the critically ill patient if, in the clinician's judgment, attempts to obtain IV access would lead to an unreasonable delay in initiating fluid resuscitation.\n\n&lt;page_number&gt;6&lt;/page_number&gt;\nBrown 5",
-            "html": "<p># Foreword</p>\n<ul>\n<li><strong>Vital Signs:</strong> The MDPB believes that vital signs are essential pieces of information to be acquired on all patients. In addition, the MDPB believes that vital signs should be trended on all patients. In most cases, vital sign trending should occur every 5-10 minutes, based on the patient's clinical status and other operational considerations.</li>\n</ul>\n<ul>\n<li><strong>Transfer of Care</strong> When transferring care of a patient, an on-duty EMS clinician must ensure the receiving caregiver is licensed at an equal or higher level unless the patient's condition and reasonably anticipated complications can be effectively managed by a lower-level clinician's scope of practice. However, a patient who receives interventions at a higher level on scene shall only have care transferred to the same or higher-level clinician.</li>\n</ul>\n<ul>\n<li><strong>Maine EMS Special Circumstance Protocols:</strong> Maine EMS protocols are intended to address the vast majority of medical emergencies encountered by an EMS clinician. While intended to be comprehensive, certain patients exist with rare medical conditions that require highly specialized emergent care. In such situations, Maine EMS has created the \"Special Circumstance Protocols\". These are prearranged medical protocols specialized to individual patients, suggested by the patient's medical clinician and ratified by the MDPB. Patients will present with a \"Maine EMS Special Circumstance Protocol Form\" that outlines the patient's individual protocol and is signed by the patient's physician, the patient or their guardian, the local EMS service chief, the Regional Medical Director, and the State of Maine EMS Medical Director. These Special Circumstance Protocols should be made known to local EMS services and clinicians. In cases of question or uncertainty regarding the nature of the protocol, please refer to OLMC.</li>\n</ul>\n<ul>\n<li>During transport, patients should be secured to the stretcher utilizing both lateral and shoulder straps. For Pediatric patient guidance, refer to Pediatric Transport Protocol, <a href=\"/protocol/pink_pediatric_transportation\" class=\"protocol-ref-link\">Pink 7 - 8</a>.</li>\n</ul>\n<ul>\n<li>Vagus Nerve Stimulators (VNS) are implanted devices that are used to treat refractory partial seizures by stimulating the vagus nerve. They are not currently approved to treat generalized seizures. The exact mechanism is unclear, but the devices provide continuous on-off cycles of vagal stimulation to prevent seizures. Patients with a VNS typically have a magnet that they can use to trigger an additional 30 second stimulation period when they feel a seizure coming on or when they are having a seizure. Caregivers are typically trained to assist with the magnet. In the event no one is available who is trained to use the magnet, the EMS clinician at any level may assist the patient if the patient can confirm that the device is a VNS and after the EMS clinician consults with OLMC.</li>\n</ul>\n<ul>\n<li>In the critically ill patient, vascular access may be difficult to obtain. The decision on which technique to use first, IV versus IO, is based on the assessment and judgment of the clinician. Ultimately, an IV is the superior form of vascular access but the IO is appropriate for the initial resuscitation of the critically ill patient if, in the clinician's judgment, attempts to obtain IV access would lead to an unreasonable delay in initiating fluid resuscitation.</li>\n</ul>\n<p></p>\n<p><a href=\"/protocol/brown_foreword\" class=\"protocol-ref-link\">Brown 5</a></p>"
+            "content": "Foreword",
+            "html": "<h1>Foreword</h1>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "unordered",
+              "items": [
+                {
+                  "content": "Vital Signs: The MDPB believes that vital signs are essential pieces of information to be acquired on all patients. In addition, the MDPB believes that vital signs should be trended on all patients. In most cases, vital sign trending should occur every 5-10 minutes, based on the patient's clinical status and other operational considerations."
+                },
+                {
+                  "content": "Transfer of Care When transferring care of a patient, an on-duty EMS clinician must ensure the receiving caregiver is licensed at an equal or higher level unless the patient's condition and reasonably anticipated complications can be effectively managed by a lower-level clinician's scope of practice. However, a patient who receives interventions at a higher level on scene shall only have care transferred to the same or higher-level clinician."
+                },
+                {
+                  "content": "Maine EMS Special Circumstance Protocols: Maine EMS protocols are intended to address the vast majority of medical emergencies encountered by an EMS clinician. While intended to be comprehensive, certain patients exist with rare medical conditions that require highly specialized emergent care. In such situations, Maine EMS has created the \"Special Circumstance Protocols\". These are prearranged medical protocols specialized to individual patients, suggested by the patient's medical clinician and ratified by the MDPB. Patients will present with a \"Maine EMS Special Circumstance Protocol Form\" that outlines the patient's individual protocol and is signed by the patient's physician, the patient or their guardian, the local EMS service chief, the Regional Medical Director, and the State of Maine EMS Medical Director. These Special Circumstance Protocols should be made known to local EMS services and clinicians. In cases of question or uncertainty regarding the nature of the protocol, please refer to OLMC."
+                },
+                {
+                  "content": "During transport, patients should be secured to the stretcher utilizing both lateral and shoulder straps. For Pediatric patient guidance, refer to Pediatric Transport Protocol, Pink 7 - 8."
+                },
+                {
+                  "content": "Vagus Nerve Stimulators (VNS) are implanted devices that are used to treat refractory partial seizures by stimulating the vagus nerve. They are not currently approved to treat generalized seizures. The exact mechanism is unclear, but the devices provide continuous on-off cycles of vagal stimulation to prevent seizures. Patients with a VNS typically have a magnet that they can use to trigger an additional 30 second stimulation period when they feel a seizure coming on or when they are having a seizure. Caregivers are typically trained to assist with the magnet. In the event no one is available who is trained to use the magnet, the EMS clinician at any level may assist the patient if the patient can confirm that the device is a VNS and after the EMS clinician consults with OLMC."
+                },
+                {
+                  "content": "In the critically ill patient, vascular access may be difficult to obtain. The decision on which technique to use first, IV versus IO, is based on the assessment and judgment of the clinician. Ultimately, an IV is the superior form of vascular access but the IO is appropriate for the initial resuscitation of the critically ill patient if, in the clinician's judgment, attempts to obtain IV access would lead to an unreasonable delay in initiating fluid resuscitation."
+                }
+              ]
+            },
+            "html": "<ul>\n<li>\n<p><strong>Vital Signs:</strong> The MDPB believes that vital signs are essential pieces of information to be acquired on all patients. In addition, the MDPB believes that vital signs should be trended on all patients. In most cases, vital sign trending should occur every 5-10 minutes, based on the patient's clinical status and other operational considerations.</p>\n</li>\n<li>\n<p><strong>Transfer of Care</strong> When transferring care of a patient, an on-duty EMS clinician must ensure the receiving caregiver is licensed at an equal or higher level unless the patient's condition and reasonably anticipated complications can be effectively managed by a lower-level clinician's scope of practice. However, a patient who receives interventions at a higher level on scene shall only have care transferred to the same or higher-level clinician.</p>\n</li>\n<li>\n<p><strong>Maine EMS Special Circumstance Protocols:</strong> Maine EMS protocols are intended to address the vast majority of medical emergencies encountered by an EMS clinician. While intended to be comprehensive, certain patients exist with rare medical conditions that require highly specialized emergent care. In such situations, Maine EMS has created the \"Special Circumstance Protocols\". These are prearranged medical protocols specialized to individual patients, suggested by the patient's medical clinician and ratified by the MDPB. Patients will present with a \"Maine EMS Special Circumstance Protocol Form\" that outlines the patient's individual protocol and is signed by the patient's physician, the patient or their guardian, the local EMS service chief, the Regional Medical Director, and the State of Maine EMS Medical Director. These Special Circumstance Protocols should be made known to local EMS services and clinicians. In cases of question or uncertainty regarding the nature of the protocol, please refer to OLMC.</p>\n</li>\n<li>\n<p>During transport, patients should be secured to the stretcher utilizing both lateral and shoulder straps. For Pediatric patient guidance, refer to Pediatric Transport Protocol, Pink 7 - 8.</p>\n</li>\n<li>\n<p>Vagus Nerve Stimulators (VNS) are implanted devices that are used to treat refractory partial seizures by stimulating the vagus nerve. They are not currently approved to treat generalized seizures. The exact mechanism is unclear, but the devices provide continuous on-off cycles of vagal stimulation to prevent seizures. Patients with a VNS typically have a magnet that they can use to trigger an additional 30 second stimulation period when they feel a seizure coming on or when they are having a seizure. Caregivers are typically trained to assist with the magnet. In the event no one is available who is trained to use the magnet, the EMS clinician at any level may assist the patient if the patient can confirm that the device is a VNS and after the EMS clinician consults with OLMC.</p>\n</li>\n<li>\n<p>In the critically ill patient, vascular access may be difficult to obtain. The decision on which technique to use first, IV versus IO, is based on the assessment and judgment of the clinician. Ultimately, an IV is the superior form of vascular access but the IO is appropriate for the initial resuscitation of the critically ill patient if, in the clinician's judgment, attempts to obtain IV access would lead to an unreasonable delay in initiating fluid resuscitation.</p>\n</li>\n</ul>"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "brown_006",
+    "title": "Page Brown 6",
+    "category": "brown",
+    "pages": [
       {
-        "pageId": "brown_page_11",
-        "pageNumber": "Brown 6",
+        "pageId": "brown_006",
+        "pageNumber": "7",
         "jpgReference": "/page_jpg/011.jpg",
         "isContinuation": false,
         "sections": [
           {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "Foreword",
+            "html": "<h1>Foreword</h1>"
+          },
+          {
+            "type": "list",
+            "providerLevel": "ALL",
+            "content": {
+              "type": "unordered",
+              "items": [
+                {
+                  "content": "Option to Cancel ALS policy: If the patient meets the protocol-specific cancellation criteria, the EMT and AEMT, in consultation with OLMC, may determine that it is appropriate to cancel the ALS response based on transport time, patient co-morbidities, and any other applicable factors."
+                },
+                {
+                  "content": "All equipment referenced in these protocols must be “Maine EMS-Approved.” In addition, it is expected that all clinicians will be appropriately trained before using any piece of equipment, device, or technique."
+                }
+              ]
+            },
+            "html": "<ul>\n<li>\n<p><strong>Option to Cancel ALS policy:</strong> If the patient meets the protocol-specific cancellation criteria, the EMT and AEMT, in consultation with OLMC, may determine that it is appropriate to cancel the ALS response based on transport time, patient co-morbidities, and any other applicable factors.</p>\n</li>\n<li>\n<p><strong>All equipment</strong> referenced in these protocols must be “Maine EMS-Approved.” In addition, it is expected that all clinicians will be appropriately trained before using any piece of equipment, device, or technique.</p>\n</li>\n</ul>"
+          },
+          {
+            "type": "header",
+            "providerLevel": "ALL",
+            "content": "TASER PROBES",
+            "html": "<h2>TASER PROBES</h2>"
+          },
+          {
             "type": "content",
             "providerLevel": "ALL",
-            "content": "# Foreword\n\n*   **Option to Cancel ALS policy:** If the patient meets the protocol-specific cancellation criteria, the EMT and AEMT, in consultation with OLMC, may determine that it is appropriate to cancel the ALS response based on transport time, patient co-morbidities, and any other applicable factors.\n\n*   **All equipment** referenced in these protocols must be “Maine EMS-Approved.” In addition, it is expected that all clinicians will be appropriately trained before using any piece of equipment, device, or technique.\n\n## TASER PROBES\n\nThe use of a TASER does not automatically necessitate an EMS response or involvement. In assessing such patients, be cognizant of the potential for underlying metabolic dysfunction. TASER probes may be removed from the subject by the deploying officer. Probes that are embedded in a sensitive area (e.g., face, neck, breast, and genital area) may need to be removed by medical personnel. In these cases, the subject should be transported to the hospital for examination and removal of the probes by medical personnel at the hospital. Other adverse effects, (e.g., respiratory difficulty, seizures, etc.) should be treated, as appropriate, by the applicable protocol(s).\n\n&lt;page_number&gt;7&lt;/page_number&gt;\nBrown 6",
-            "html": "<p># Foreword</p>\n<ul>\n<li><strong>Option to Cancel ALS policy:</strong> If the patient meets the protocol-specific cancellation criteria, the EMT and AEMT, in consultation with OLMC, may determine that it is appropriate to cancel the ALS response based on transport time, patient co-morbidities, and any other applicable factors.</li>\n</ul>\n<ul>\n<li><strong>All equipment</strong> referenced in these protocols must be “Maine EMS-Approved.” In addition, it is expected that all clinicians will be appropriately trained before using any piece of equipment, device, or technique.</li>\n</ul>\n<p>## TASER PROBES</p>\n<p>The use of a TASER does not automatically necessitate an EMS response or involvement. In assessing such patients, be cognizant of the potential for underlying metabolic dysfunction. TASER probes may be removed from the subject by the deploying officer. Probes that are embedded in a sensitive area (e.g., face, neck, breast, and genital area) may need to be removed by medical personnel. In these cases, the subject should be transported to the hospital for examination and removal of the probes by medical personnel at the hospital. Other adverse effects, (e.g., respiratory difficulty, seizures, etc.) should be treated, as appropriate, by the applicable protocol(s).</p>\n<p></p>\n<p><a href=\"/protocol/brown_foreword\" class=\"protocol-ref-link\">Brown 6</a></p>"
+            "content": "The use of a TASER does not automatically necessitate an EMS response or involvement. In assessing such patients, be cognizant of the potential for underlying metabolic dysfunction. TASER probes may be removed from the subject by the deploying officer. Probes that are embedded in a sensitive area (e.g., face, neck, breast, and genital area) may need to be removed by medical personnel. In these cases, the subject should be transported to the hospital for examination and removal of the probes by medical personnel at the hospital. Other adverse effects, (e.g., respiratory difficulty, seizures, etc.) should be treated, as appropriate, by the applicable protocol(s).",
+            "html": "<p>The use of a TASER does not automatically necessitate an EMS response or involvement. In assessing such patients, be cognizant of the potential for underlying metabolic dysfunction. TASER probes may be removed from the subject by the deploying officer. Probes that are embedded in a sensitive area (e.g., face, neck, breast, and genital area) may need to be removed by medical personnel. In these cases, the subject should be transported to the hospital for examination and removal of the probes by medical personnel at the hospital. Other adverse effects, (e.g., respiratory difficulty, seizures, etc.) should be treated, as appropriate, by the applicable protocol(s).</p>"
           }
         ]
       }

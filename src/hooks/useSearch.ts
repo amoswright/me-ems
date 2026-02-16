@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
-import Fuse from 'fuse.js';
+import Fuse, { type FuseResultMatch } from 'fuse.js';
 
 export interface SearchIndexItem {
   id: string;
@@ -17,7 +17,7 @@ export interface SearchIndexItem {
 export interface SearchResult {
   item: SearchIndexItem;
   score: number;
-  matches?: Fuse.FuseResultMatch[];
+  matches?: readonly FuseResultMatch[];
 }
 
 export interface SearchFilters {
@@ -61,12 +61,11 @@ export function useSearch() {
         { name: 'categoryName', weight: 1 },
         { name: 'pageNumber', weight: 1 },
       ],
-      threshold: 0.25,
+      threshold: 0.15,
       includeScore: true,
       includeMatches: true,
-      minMatchCharLength: 3,
-      ignoreLocation: false,
-      distance: 150,
+      minMatchCharLength: 4,
+      ignoreLocation: true,
       findAllMatches: true,
     });
   }, [searchIndex]);

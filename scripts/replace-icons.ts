@@ -56,13 +56,13 @@ const iconReplacements: Record<string, string> = {
 // Complex patterns that need special handling
 const complexReplacements: Array<{ pattern: RegExp; replacement: string }> = [
   // All bear/teddy bear variants (with any additional descriptors) - must be very broad
-  { pattern: /&lt;img&gt;(?:A\s+)?(?:small\s+)?(?:blue\s+)?(?:cartoon\s+)?(?:[Bb]ear|[Tt]eddy\s+bear)(?:\s+icon)?(?:\s+illustration)?(?:\s+sitting\s+up)?(?:\s+with\s+[^<.]+)?(?:\s+on\s+its\s+head)?\.?&lt;\/img&gt;/g, replacement: '🧸' },
+  { pattern: /&lt;img&gt;(?:A\s+)?(?:small\s+)?(?:blue\s+)?(?:cartoon\s+)?(?:[Bb]ear|[Tt]eddy\s+[Bb]ear)(?:\s+[Ii]con)?(?:\s+illustration)?(?:\s+sitting\s+up)?(?:\s+wearing\s+[^<]+)?(?:\s+with\s+[^<]+)?(?:\s+on\s+its\s+head)?\.?&lt;\/img&gt;/g, replacement: '🧸' },
 
   // Hospital variants
   { pattern: /&lt;img&gt;[Hh]ospital(?:\s+[Ii]con)?(?:\s+[Ll]ogo)?(?:\s+building)?(?:\s+icon)?\.?&lt;\/img&gt;/g, replacement: '🏥' },
 
-  // Phone variants
-  { pattern: /&lt;img&gt;(?:A\s+hand\s+holding\s+a\s+)?[Pp]hone(?:\s+icon)?(?:\s+keypad)?\.?&lt;\/img&gt;/g, replacement: '📞' },
+  // Phone variants (including Smartphone)
+  { pattern: /&lt;img&gt;(?:A\s+hand\s+holding\s+a\s+)?(?:[Pp]hone|[Ss]martphone)(?:\s+icon)?(?:\s+keypad)?\.?&lt;\/img&gt;/g, replacement: '📞' },
   { pattern: /&lt;img&gt;(?:Hand\s+Holding\s+)?[Pp]hone(?:\s+[Ii]con)?\.?&lt;\/img&gt;/g, replacement: '📞' },
 
   // Keep complex diagrams as descriptive text
@@ -134,6 +134,11 @@ const complexReplacements: Array<{ pattern: RegExp; replacement: string }> = [
   { pattern: /&lt;img&gt;What happened icon&lt;\/img&gt;/g, replacement: '❓' },
   { pattern: /&lt;img&gt;Cold icon&lt;\/img&gt;/g, replacement: '🥶' },
   { pattern: /&lt;img&gt;Numbness icon&lt;\/img&gt;/g, replacement: '🫥' },
+  { pattern: /&lt;img&gt;Paper (?:with|&amp;) [Pp]en icon&lt;\/img&gt;/g, replacement: '📝' },
+  { pattern: /&lt;img&gt;Hospital Bed Icon&lt;\/img&gt;/gi, replacement: '🏥' },
+  { pattern: /&lt;img&gt;Touch for YES icon \(thumbs up\)&lt;\/img&gt;/g, replacement: '👍' },
+  { pattern: /&lt;img&gt;Touch for NO icon \(thumbs down\)&lt;\/img&gt;/g, replacement: '👎' },
+  { pattern: /&lt;img&gt;Man lying down with legs raised&lt;\/img&gt;/g, replacement: '[Position: Supine with legs raised]' },
 
   // Documents/logos (keep as text)
   { pattern: /&lt;img&gt;Will\/DNR icon&lt;\/img&gt;/g, replacement: '[DNR Document]' },

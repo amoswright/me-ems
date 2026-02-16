@@ -3,6 +3,7 @@ import { useSearchParams, Link } from 'react-router-dom';
 import { useSearch } from '../hooks/useSearch';
 import type { SearchResult, SearchFilters } from '../hooks/useSearch';
 import { SearchBar } from '../components/SearchBar';
+import { getContextSnippet, highlightMatches } from '../utils/searchUtils';
 
 const CATEGORY_OPTIONS = [
   { value: '', label: 'All Categories' },
@@ -197,10 +198,10 @@ export function SearchPage() {
                     <div className="flex items-start justify-between gap-4">
                       <div className="flex-1 min-w-0">
                         <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                          {result.item.title}
+                          {highlightMatches(result.item.title, result.matches)}
                         </h3>
                         <p className="text-gray-600 dark:text-gray-300 line-clamp-3 mb-3">
-                          {result.item.content}
+                          {getContextSnippet(result, 250)}
                         </p>
                         <div className="flex flex-wrap gap-2">
                           <span

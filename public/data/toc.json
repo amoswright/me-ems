@@ -1,5 +1,4 @@
 {
-  "title": "Maine EMS Protocols 2025",
   "categories": [
     {
       "id": "brown",
@@ -8,9 +7,82 @@
       "color": "#8B4513",
       "protocols": [
         {
-          "id": "brown_foreword",
-          "title": "Foreword",
-          "pageCount": 6
+          "id": "brown_001",
+          "title": "Page Brown 1",
+          "pages": [
+            {
+              "pageId": "brown_001",
+              "htmlFile": "brown_001.html",
+              "jpgFile": "/page_jpg/006.jpg",
+              "jpgPageNumber": 6,
+              "protocolPageNumber": "Brown 1"
+            }
+          ]
+        },
+        {
+          "id": "brown_002",
+          "title": "Page Brown 2",
+          "pages": [
+            {
+              "pageId": "brown_002",
+              "htmlFile": "brown_002.html",
+              "jpgFile": "/page_jpg/007.jpg",
+              "jpgPageNumber": 7,
+              "protocolPageNumber": "Brown 2"
+            }
+          ]
+        },
+        {
+          "id": "brown_003",
+          "title": "Page Brown 3",
+          "pages": [
+            {
+              "pageId": "brown_003",
+              "htmlFile": "brown_003.html",
+              "jpgFile": "/page_jpg/008.jpg",
+              "jpgPageNumber": 8,
+              "protocolPageNumber": "Brown 3"
+            }
+          ]
+        },
+        {
+          "id": "brown_004",
+          "title": "Page Brown 4",
+          "pages": [
+            {
+              "pageId": "brown_004",
+              "htmlFile": "brown_004.html",
+              "jpgFile": "/page_jpg/009.jpg",
+              "jpgPageNumber": 9,
+              "protocolPageNumber": "Brown 4"
+            }
+          ]
+        },
+        {
+          "id": "brown_005",
+          "title": "Page Brown 5",
+          "pages": [
+            {
+              "pageId": "brown_005",
+              "htmlFile": "brown_005.html",
+              "jpgFile": "/page_jpg/010.jpg",
+              "jpgPageNumber": 10,
+              "protocolPageNumber": "Brown 5"
+            }
+          ]
+        },
+        {
+          "id": "brown_006",
+          "title": "Page Brown 6",
+          "pages": [
+            {
+              "pageId": "brown_006",
+              "htmlFile": "brown_006.html",
+              "jpgFile": "/page_jpg/011.jpg",
+              "jpgPageNumber": 11,
+              "protocolPageNumber": "Brown 6"
+            }
+          ]
         }
       ]
     },
@@ -21,9 +93,108 @@
       "color": "#800080",
       "protocols": [
         {
-          "id": "purple_definitions",
-          "title": "Definitions",
-          "pageCount": 8
+          "id": "purple_001",
+          "title": "Page Purple 1",
+          "pages": [
+            {
+              "pageId": "purple_001",
+              "htmlFile": "purple_001.html",
+              "jpgFile": "/page_jpg/012.jpg",
+              "jpgPageNumber": 12,
+              "protocolPageNumber": "Purple 1"
+            }
+          ]
+        },
+        {
+          "id": "purple_002",
+          "title": "Page Purple 2",
+          "pages": [
+            {
+              "pageId": "purple_002",
+              "htmlFile": "purple_002.html",
+              "jpgFile": "/page_jpg/013.jpg",
+              "jpgPageNumber": 13,
+              "protocolPageNumber": "Purple 2"
+            }
+          ]
+        },
+        {
+          "id": "purple_003",
+          "title": "Page Purple 3",
+          "pages": [
+            {
+              "pageId": "purple_003",
+              "htmlFile": "purple_003.html",
+              "jpgFile": "/page_jpg/014.jpg",
+              "jpgPageNumber": 14,
+              "protocolPageNumber": "Purple 3"
+            }
+          ]
+        },
+        {
+          "id": "purple_004",
+          "title": "Page Purple 4",
+          "pages": [
+            {
+              "pageId": "purple_004",
+              "htmlFile": "purple_004.html",
+              "jpgFile": "/page_jpg/015.jpg",
+              "jpgPageNumber": 15,
+              "protocolPageNumber": "Purple 4"
+            }
+          ]
+        },
+        {
+          "id": "purple_005",
+          "title": "Page Purple 5",
+          "pages": [
+            {
+              "pageId": "purple_005",
+              "htmlFile": "purple_005.html",
+              "jpgFile": "/page_jpg/016.jpg",
+              "jpgPageNumber": 16,
+              "protocolPageNumber": "Purple 5"
+            }
+          ]
+        },
+        {
+          "id": "purple_006",
+          "title": "Page Purple 6",
+          "pages": [
+            {
+              "pageId": "purple_006",
+              "htmlFile": "purple_006.html",
+              "jpgFile": "/page_jpg/017.jpg",
+              "jpgPageNumber": 17,
+              "protocolPageNumber": "Purple 6"
+            }
+          ]
+        },
+        {
+          "id": "purple_007",
+          "title": "Page Purple 7",
+          "pages": [
+            {
+              "pageId": "purple_007",
+              "htmlFile": "purple_007.html",
+              "jpgFile": "/page_jpg/018.jpg",
+              "jpgPageNumber": 18,
+              "protocolPageNumber": "Purple 7"
+            }
+          ]
+        },
+        {
+          "id": "purple_008",
+          "title": "Page Purple 8",
+          "pages": [
+            {
+              "pageId": "purple_008",
+              "htmlFile": "purple_008.html",
+              "jpgFile": "/page_jpg/019.jpg",
+              "jpgPageNumber": 19,
+              "protocolPageNumber": "Purple 8"
+            }
+          ]
         }
       ]
     },
@@ -34,59 +205,175 @@
       "color": "#0066CC",
       "protocols": [
         {
-          "id": "blue_pre_intubation_checklist",
+          "id": "blue_001",
           "title": "Pre-Intubation Checklist",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "blue_001",
+              "htmlFile": "blue_001.html",
+              "jpgFile": "/page_jpg/020.jpg",
+              "jpgPageNumber": 20,
+              "protocolPageNumber": "Blue 1"
+            }
+          ]
         },
         {
-          "id": "blue_airway_algorithm",
+          "id": "blue_002",
           "title": "Airway Algorithm",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "blue_002",
+              "htmlFile": "blue_002.html",
+              "jpgFile": "/page_jpg/021.jpg",
+              "jpgPageNumber": 21,
+              "protocolPageNumber": "Blue 2"
+            }
+          ]
         },
         {
-          "id": "blue_confirmation_and_monitoring_of_advanced_airways",
+          "id": "blue_003",
           "title": "Confirmation and Monitoring of Advanced Airways",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "blue_003",
+              "htmlFile": "blue_003.html",
+              "jpgFile": "/page_jpg/022.jpg",
+              "jpgPageNumber": 22,
+              "protocolPageNumber": "Blue 3"
+            }
+          ]
         },
         {
-          "id": "blue_failed_intubation_algorithm",
+          "id": "blue_004",
           "title": "Failed Intubation Algorithm",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "blue_004",
+              "htmlFile": "blue_004.html",
+              "jpgFile": "/page_jpg/023.jpg",
+              "jpgPageNumber": 23,
+              "protocolPageNumber": "Blue 4"
+            }
+          ]
         },
         {
-          "id": "blue_post_intubation_biad_pain_control",
+          "id": "blue_005",
           "title": "Post Intubation / BIAD Pain Control",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "blue_005",
+              "htmlFile": "blue_005.html",
+              "jpgFile": "/page_jpg/024.jpg",
+              "jpgPageNumber": 24,
+              "protocolPageNumber": "Blue 5"
+            }
+          ]
         },
         {
-          "id": "blue_respiratory_distress_with_bronchospasm",
+          "id": "blue_006_blue_007_blue_008",
           "title": "Respiratory Distress with Bronchospasm",
-          "pageCount": 3
+          "pages": [
+            {
+              "pageId": "blue_006",
+              "htmlFile": "blue_006.html",
+              "jpgFile": "/page_jpg/025.jpg",
+              "jpgPageNumber": 25,
+              "protocolPageNumber": "Blue 6"
+            },
+            {
+              "pageId": "blue_007",
+              "htmlFile": "blue_007.html",
+              "jpgFile": "/page_jpg/026.jpg",
+              "jpgPageNumber": 26,
+              "protocolPageNumber": "Blue 7"
+            },
+            {
+              "pageId": "blue_008",
+              "htmlFile": "blue_008.html",
+              "jpgFile": "/page_jpg/027.jpg",
+              "jpgPageNumber": 27,
+              "protocolPageNumber": "Blue 8"
+            }
+          ]
         },
         {
-          "id": "blue_anxiolysis_in_cpap",
+          "id": "blue_009",
           "title": "Anxiolysis in CPAP",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "blue_009",
+              "htmlFile": "blue_009.html",
+              "jpgFile": "/page_jpg/028.jpg",
+              "jpgPageNumber": 28,
+              "protocolPageNumber": "Blue 9"
+            }
+          ]
         },
         {
-          "id": "blue_pulmonary_edema_without_shock_",
+          "id": "blue_010",
           "title": "Pulmonary Edema (without shock)",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "blue_010",
+              "htmlFile": "blue_010.html",
+              "jpgFile": "/page_jpg/029.jpg",
+              "jpgPageNumber": 29,
+              "protocolPageNumber": "Blue 10"
+            }
+          ]
         },
         {
-          "id": "blue_pulmonary_hypertension_complications",
+          "id": "blue_011",
           "title": "Pulmonary Hypertension Complications",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "blue_011",
+              "htmlFile": "blue_011.html",
+              "jpgFile": "/page_jpg/030.jpg",
+              "jpgPageNumber": 30,
+              "protocolPageNumber": "Blue 11"
+            }
+          ]
         },
         {
-          "id": "blue_surgical_cricothyrotomy",
+          "id": "blue_012_blue_013",
           "title": "Surgical Cricothyrotomy",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "blue_012",
+              "htmlFile": "blue_012.html",
+              "jpgFile": "/page_jpg/031.jpg",
+              "jpgPageNumber": 31,
+              "protocolPageNumber": "Blue 12"
+            },
+            {
+              "pageId": "blue_013",
+              "htmlFile": "blue_013.html",
+              "jpgFile": "/page_jpg/032.jpg",
+              "jpgPageNumber": 32,
+              "protocolPageNumber": "Blue 13"
+            }
+          ]
         },
         {
-          "id": "blue_tracheostomy_care",
+          "id": "blue_014_blue_015",
           "title": "Tracheostomy Care",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "blue_014",
+              "htmlFile": "blue_014.html",
+              "jpgFile": "/page_jpg/033.jpg",
+              "jpgPageNumber": 33,
+              "protocolPageNumber": "Blue 14"
+            },
+            {
+              "pageId": "blue_015",
+              "htmlFile": "blue_015.html",
+              "jpgFile": "/page_jpg/034.jpg",
+              "jpgPageNumber": 34,
+              "protocolPageNumber": "Blue 15"
+            }
+          ]
         }
       ]
     },
@@ -97,507 +384,1687 @@
       "color": "#DC143C",
       "protocols": [
         {
-          "id": "red_chest_pain_general",
+          "id": "red_001",
           "title": "Chest Pain - General",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "red_001",
+              "htmlFile": "red_001.html",
+              "jpgFile": "/page_jpg/035.jpg",
+              "jpgPageNumber": 35,
+              "protocolPageNumber": "Red 1"
+            }
+          ]
         },
         {
-          "id": "red_chest_pain_suspected_cardiac_origin_stemi_criteria",
+          "id": "red_002_red_003_red_004",
           "title": "Chest Pain - Suspected Cardiac Origin / STEMI Criteria",
-          "pageCount": 3
+          "pages": [
+            {
+              "pageId": "red_002",
+              "htmlFile": "red_002.html",
+              "jpgFile": "/page_jpg/036.jpg",
+              "jpgPageNumber": 36,
+              "protocolPageNumber": "Red 2"
+            },
+            {
+              "pageId": "red_003",
+              "htmlFile": "red_003.html",
+              "jpgFile": "/page_jpg/037.jpg",
+              "jpgPageNumber": 37,
+              "protocolPageNumber": "Red 3"
+            },
+            {
+              "pageId": "red_004",
+              "htmlFile": "red_004.html",
+              "jpgFile": "/page_jpg/038.jpg",
+              "jpgPageNumber": 38,
+              "protocolPageNumber": "Red 4"
+            }
+          ]
         },
         {
-          "id": "red_guidelines_to_the_prehospital_use_of_12_lead_ecgs_by_the_als_clinician",
+          "id": "red_005",
           "title": "Guidelines to the Prehospital Use of 12-Lead ECGs by the ALS Clinician",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "red_005",
+              "htmlFile": "red_005.html",
+              "jpgFile": "/page_jpg/039.jpg",
+              "jpgPageNumber": 39,
+              "protocolPageNumber": "Red 5"
+            }
+          ]
         },
         {
-          "id": "red_chest_pain_fibrinolytic_checklist",
+          "id": "red_006",
           "title": "Chest Pain - Fibrinolytic Checklist",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "red_006",
+              "htmlFile": "red_006.html",
+              "jpgFile": "/page_jpg/040.jpg",
+              "jpgPageNumber": 40,
+              "protocolPageNumber": "Red 6"
+            }
+          ]
         },
         {
-          "id": "red_chest_pain_uncertain_etiology",
+          "id": "red_007",
           "title": "Chest Pain - Uncertain Etiology",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "red_007",
+              "htmlFile": "red_007.html",
+              "jpgFile": "/page_jpg/041.jpg",
+              "jpgPageNumber": 41,
+              "protocolPageNumber": "Red 7"
+            }
+          ]
         },
         {
-          "id": "red_cardiac_arrest_overview",
+          "id": "red_008",
           "title": "Cardiac Arrest Overview",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "red_008",
+              "htmlFile": "red_008.html",
+              "jpgFile": "/page_jpg/042.jpg",
+              "jpgPageNumber": 42,
+              "protocolPageNumber": "Red 8"
+            }
+          ]
         },
         {
-          "id": "red_adult_cardiac_arrest",
+          "id": "red_009_red_010_red_011_red_012",
           "title": "Adult Cardiac Arrest",
-          "pageCount": 4
+          "pages": [
+            {
+              "pageId": "red_009",
+              "htmlFile": "red_009.html",
+              "jpgFile": "/page_jpg/043.jpg",
+              "jpgPageNumber": 43,
+              "protocolPageNumber": "Red 9-12"
+            },
+            {
+              "pageId": "red_010",
+              "htmlFile": "red_010.html",
+              "jpgFile": "/page_jpg/044.jpg",
+              "jpgPageNumber": 44,
+              "protocolPageNumber": "Red 10"
+            },
+            {
+              "pageId": "red_011",
+              "htmlFile": "red_011.html",
+              "jpgFile": "/page_jpg/045.jpg",
+              "jpgPageNumber": 45,
+              "protocolPageNumber": "Red 11"
+            },
+            {
+              "pageId": "red_012",
+              "htmlFile": "red_012.html",
+              "jpgFile": "/page_jpg/046.jpg",
+              "jpgPageNumber": 46,
+              "protocolPageNumber": "Red 12"
+            }
+          ]
         },
         {
-          "id": "red_refractory_vf_vt",
-          "title": "Refractory VF / VT",
-          "pageCount": 1
+          "id": "red_013",
+          "title": "Refractory VF/VT",
+          "pages": [
+            {
+              "pageId": "red_013",
+              "htmlFile": "red_013.html",
+              "jpgFile": "/page_jpg/047.jpg",
+              "jpgPageNumber": 47,
+              "protocolPageNumber": "Red 13"
+            }
+          ]
         },
         {
-          "id": "red_termination_of_resuscitation",
+          "id": "red_014_red_015",
           "title": "Termination of Resuscitation",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "red_014",
+              "htmlFile": "red_014.html",
+              "jpgFile": "/page_jpg/048.jpg",
+              "jpgPageNumber": 48,
+              "protocolPageNumber": "Red 14"
+            },
+            {
+              "pageId": "red_015",
+              "htmlFile": "red_015.html",
+              "jpgFile": "/page_jpg/049.jpg",
+              "jpgPageNumber": 49,
+              "protocolPageNumber": "Red 15"
+            }
+          ]
         },
         {
-          "id": "red_adult_post_resuscitation_care_amp_checklist",
-          "title": "Adult Post-Resuscitation Care &amp; Checklist",
-          "pageCount": 2
+          "id": "red_016_red_017",
+          "title": "Adult Post-Resuscitation Care & Checklist",
+          "pages": [
+            {
+              "pageId": "red_016",
+              "htmlFile": "red_016.html",
+              "jpgFile": "/page_jpg/050.jpg",
+              "jpgPageNumber": 50,
+              "protocolPageNumber": "Red 16"
+            },
+            {
+              "pageId": "red_017",
+              "htmlFile": "red_017.html",
+              "jpgFile": "/page_jpg/051.jpg",
+              "jpgPageNumber": 51,
+              "protocolPageNumber": "Red 17"
+            }
+          ]
         },
         {
-          "id": "red_pediatric_cardiac_arrest",
+          "id": "red_018_red_019_red_020",
           "title": "Pediatric Cardiac Arrest",
-          "pageCount": 3
+          "pages": [
+            {
+              "pageId": "red_018",
+              "htmlFile": "red_018.html",
+              "jpgFile": "/page_jpg/052.jpg",
+              "jpgPageNumber": 52,
+              "protocolPageNumber": "Red 18"
+            },
+            {
+              "pageId": "red_019",
+              "htmlFile": "red_019.html",
+              "jpgFile": "/page_jpg/053.jpg",
+              "jpgPageNumber": 53,
+              "protocolPageNumber": "Red 19"
+            },
+            {
+              "pageId": "red_020",
+              "htmlFile": "red_020.html",
+              "jpgFile": "/page_jpg/054.jpg",
+              "jpgPageNumber": 54,
+              "protocolPageNumber": "Red 20"
+            }
+          ]
         },
         {
-          "id": "red_pediatric_post_resuscitation_care",
+          "id": "red_021",
           "title": "Pediatric Post-Resuscitation Care",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "red_021",
+              "htmlFile": "red_021.html",
+              "jpgFile": "/page_jpg/055.jpg",
+              "jpgPageNumber": 55,
+              "protocolPageNumber": "Red 21"
+            }
+          ]
         },
         {
-          "id": "red_pediatric_cardiac_arrest_medications_and_dosages",
+          "id": "red_022",
           "title": "Pediatric Cardiac Arrest Medications and Dosages",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "red_022",
+              "htmlFile": "red_022.html",
+              "jpgFile": "/page_jpg/056.jpg",
+              "jpgPageNumber": 56,
+              "protocolPageNumber": "Red 22"
+            }
+          ]
         },
         {
-          "id": "red_adult_tachycardia",
+          "id": "red_023_red_024_red_025",
           "title": "Adult Tachycardia",
-          "pageCount": 3
+          "pages": [
+            {
+              "pageId": "red_023",
+              "htmlFile": "red_023.html",
+              "jpgFile": "/page_jpg/057.jpg",
+              "jpgPageNumber": 57,
+              "protocolPageNumber": "Red 23"
+            },
+            {
+              "pageId": "red_024",
+              "htmlFile": "red_024.html",
+              "jpgFile": "/page_jpg/058.jpg",
+              "jpgPageNumber": 58,
+              "protocolPageNumber": "Red 24"
+            },
+            {
+              "pageId": "red_025",
+              "htmlFile": "red_025.html",
+              "jpgFile": "/page_jpg/059.jpg",
+              "jpgPageNumber": 59,
+              "protocolPageNumber": "Red 25"
+            }
+          ]
         },
         {
-          "id": "red_pediatric_tachycardia",
+          "id": "red_026_red_027_red_028",
           "title": "Pediatric Tachycardia",
-          "pageCount": 3
+          "pages": [
+            {
+              "pageId": "red_026",
+              "htmlFile": "red_026.html",
+              "jpgFile": "/page_jpg/060.jpg",
+              "jpgPageNumber": 60,
+              "protocolPageNumber": "Red 26"
+            },
+            {
+              "pageId": "red_027",
+              "htmlFile": "red_027.html",
+              "jpgFile": "/page_jpg/061.jpg",
+              "jpgPageNumber": 61,
+              "protocolPageNumber": "Red 27"
+            },
+            {
+              "pageId": "red_028",
+              "htmlFile": "red_028.html",
+              "jpgFile": "/page_jpg/062.jpg",
+              "jpgPageNumber": 62,
+              "protocolPageNumber": "Red 28"
+            }
+          ]
         },
         {
-          "id": "red_adult_bradycardia",
+          "id": "red_029_red_030",
           "title": "Adult Bradycardia",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "red_029",
+              "htmlFile": "red_029.html",
+              "jpgFile": "/page_jpg/063.jpg",
+              "jpgPageNumber": 63,
+              "protocolPageNumber": "Red 29"
+            },
+            {
+              "pageId": "red_030",
+              "htmlFile": "red_030.html",
+              "jpgFile": "/page_jpg/064.jpg",
+              "jpgPageNumber": 64,
+              "protocolPageNumber": "Red 30"
+            }
+          ]
         },
         {
-          "id": "red_pediatric_bradycardia",
+          "id": "red_031",
           "title": "Pediatric Bradycardia",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "red_031",
+              "htmlFile": "red_031.html",
+              "jpgFile": "/page_jpg/065.jpg",
+              "jpgPageNumber": 65,
+              "protocolPageNumber": "Red 31"
+            }
+          ]
         },
         {
-          "id": "red_cardiogenic_shock",
+          "id": "red_032",
           "title": "Cardiogenic Shock",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "red_032",
+              "htmlFile": "red_032.html",
+              "jpgFile": "/page_jpg/066.jpg",
+              "jpgPageNumber": 66,
+              "protocolPageNumber": "Red 32"
+            }
+          ]
         },
         {
-          "id": "red_syncope",
+          "id": "red_033",
           "title": "Syncope",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "red_033",
+              "htmlFile": "red_033.html",
+              "jpgFile": "/page_jpg/067.jpg",
+              "jpgPageNumber": 67,
+              "protocolPageNumber": "Red 33"
+            }
+          ]
         },
         {
-          "id": "red_ventricular_assist_devices",
+          "id": "red_034_red_035",
           "title": "Ventricular Assist Devices",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "red_034",
+              "htmlFile": "red_034.html",
+              "jpgFile": "/page_jpg/068.jpg",
+              "jpgPageNumber": 68,
+              "protocolPageNumber": "Red 34"
+            },
+            {
+              "pageId": "red_035",
+              "htmlFile": "red_035.html",
+              "jpgFile": "/page_jpg/069.jpg",
+              "jpgPageNumber": 69,
+              "protocolPageNumber": "Red 35"
+            }
+          ]
         },
         {
-          "id": "red_hyperkalemia",
+          "id": "red_036_red_037",
           "title": "Hyperkalemia",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "red_036",
+              "htmlFile": "red_036.html",
+              "jpgFile": "/page_jpg/070.jpg",
+              "jpgPageNumber": 70,
+              "protocolPageNumber": "Red 36"
+            },
+            {
+              "pageId": "red_037",
+              "htmlFile": "red_037.html",
+              "jpgFile": "/page_jpg/071.jpg",
+              "jpgPageNumber": 71,
+              "protocolPageNumber": "Red 37"
+            }
+          ]
         }
       ]
     },
     {
       "id": "gold",
-      "name": "General Medical",
-      "displayName": "Gold - General Medical",
-      "color": "#DAA520",
+      "name": "General medical",
+      "displayName": "General medical - Gold",
+      "color": "#FFB800",
       "protocols": [
         {
-          "id": "gold_allergy_anaphylaxis",
+          "id": "gold_001_gold_002_gold_003_gold_004",
           "title": "Allergy / Anaphylaxis",
-          "pageCount": 4
+          "pages": [
+            {
+              "pageId": "gold_001",
+              "htmlFile": "gold_001.html",
+              "jpgFile": "/page_jpg/072.jpg",
+              "jpgPageNumber": 72,
+              "protocolPageNumber": "Gold 1"
+            },
+            {
+              "pageId": "gold_002",
+              "htmlFile": "gold_002.html",
+              "jpgFile": "/page_jpg/073.jpg",
+              "jpgPageNumber": 73,
+              "protocolPageNumber": "Gold 2"
+            },
+            {
+              "pageId": "gold_003",
+              "htmlFile": "gold_003.html",
+              "jpgFile": "/page_jpg/074.jpg",
+              "jpgPageNumber": 74,
+              "protocolPageNumber": "Gold 3"
+            },
+            {
+              "pageId": "gold_004",
+              "htmlFile": "gold_004.html",
+              "jpgFile": "/page_jpg/075.jpg",
+              "jpgPageNumber": 75,
+              "protocolPageNumber": "Gold 4"
+            }
+          ]
         },
         {
-          "id": "gold_altered_level_of_consciousness",
+          "id": "gold_005",
           "title": "Altered Level of Consciousness",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "gold_005",
+              "htmlFile": "gold_005.html",
+              "jpgFile": "/page_jpg/076.jpg",
+              "jpgPageNumber": 76,
+              "protocolPageNumber": "Gold 5"
+            }
+          ]
         },
         {
-          "id": "gold_diabetic_hypoglycemic_emergencies",
+          "id": "gold_006_gold_007",
           "title": "Diabetic/Hypoglycemic Emergencies",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "gold_006",
+              "htmlFile": "gold_006.html",
+              "jpgFile": "/page_jpg/077.jpg",
+              "jpgPageNumber": 77,
+              "protocolPageNumber": "Gold 6"
+            },
+            {
+              "pageId": "gold_007",
+              "htmlFile": "gold_007.html",
+              "jpgFile": "/page_jpg/078.jpg",
+              "jpgPageNumber": 78,
+              "protocolPageNumber": "Gold 7"
+            }
+          ]
         },
         {
-          "id": "gold_seizure",
+          "id": "gold_008_gold_009",
           "title": "Seizure",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "gold_008",
+              "htmlFile": "gold_008.html",
+              "jpgFile": "/page_jpg/079.jpg",
+              "jpgPageNumber": 79,
+              "protocolPageNumber": "Gold 8"
+            },
+            {
+              "pageId": "gold_009",
+              "htmlFile": "gold_009.html",
+              "jpgFile": "/page_jpg/080.jpg",
+              "jpgPageNumber": 80,
+              "protocolPageNumber": "Gold 9"
+            }
+          ]
         },
         {
-          "id": "gold_stroke",
+          "id": "gold_010_gold_011_gold_012_gold_013",
           "title": "Stroke",
-          "pageCount": 4
+          "pages": [
+            {
+              "pageId": "gold_010",
+              "htmlFile": "gold_010.html",
+              "jpgFile": "/page_jpg/081.jpg",
+              "jpgPageNumber": 81,
+              "protocolPageNumber": "Gold 10"
+            },
+            {
+              "pageId": "gold_011",
+              "htmlFile": "gold_011.html",
+              "jpgFile": "/page_jpg/082.jpg",
+              "jpgPageNumber": 82,
+              "protocolPageNumber": "Gold 11"
+            },
+            {
+              "pageId": "gold_012",
+              "htmlFile": "gold_012.html",
+              "jpgFile": "/page_jpg/083.jpg",
+              "jpgPageNumber": 83,
+              "protocolPageNumber": "Gold 12"
+            },
+            {
+              "pageId": "gold_013",
+              "htmlFile": "gold_013.html",
+              "jpgFile": "/page_jpg/084.jpg",
+              "jpgPageNumber": 84,
+              "protocolPageNumber": "Gold 13"
+            }
+          ]
         },
         {
-          "id": "gold_medical_shock",
+          "id": "gold_014_gold_015_gold_016",
           "title": "Medical Shock",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "gold_014",
+              "htmlFile": "gold_014.html",
+              "jpgFile": "/page_jpg/085.jpg",
+              "jpgPageNumber": 85,
+              "protocolPageNumber": "Gold 14"
+            },
+            {
+              "pageId": "gold_015",
+              "htmlFile": "gold_015.html",
+              "jpgFile": "/page_jpg/086.jpg",
+              "jpgPageNumber": 86,
+              "protocolPageNumber": "Gold 15"
+            },
+            {
+              "pageId": "gold_016",
+              "htmlFile": "gold_016.html",
+              "jpgFile": "/page_jpg/087.jpg",
+              "jpgPageNumber": 87,
+              "protocolPageNumber": "Gold 17"
+            }
+          ]
         },
         {
-          "id": "gold_abdominal_pain",
+          "id": "gold_017",
           "title": "Abdominal Pain",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "gold_017",
+              "htmlFile": "gold_017.html",
+              "jpgFile": "/page_jpg/088.jpg",
+              "jpgPageNumber": 88,
+              "protocolPageNumber": "Gold 17"
+            }
+          ]
         },
         {
-          "id": "gold_nausea_and_vomiting",
+          "id": "gold_018",
           "title": "Nausea and Vomiting",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "gold_018",
+              "htmlFile": "gold_018.html",
+              "jpgFile": "/page_jpg/089.jpg",
+              "jpgPageNumber": 89,
+              "protocolPageNumber": "Gold 18"
+            }
+          ]
         },
         {
-          "id": "gold_fever",
+          "id": "gold_019_gold_020",
           "title": "Fever",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "gold_019",
+              "htmlFile": "gold_019.html",
+              "jpgFile": "/page_jpg/090.jpg",
+              "jpgPageNumber": 90,
+              "protocolPageNumber": "Gold 19"
+            },
+            {
+              "pageId": "gold_020",
+              "htmlFile": "gold_020.html",
+              "jpgFile": "/page_jpg/091.jpg",
+              "jpgPageNumber": 91,
+              "protocolPageNumber": "Gold 20"
+            }
+          ]
         }
       ]
     },
     {
       "id": "green",
-      "name": "Trauma",
-      "displayName": "Green - Trauma",
-      "color": "#228B22",
+      "name": "Green",
+      "displayName": "Trauma - Green",
+      "color": "#00AA00",
       "protocols": [
         {
-          "id": "green_trauma_triage",
+          "id": "green_001_green_002",
           "title": "Trauma Triage",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "green_001",
+              "htmlFile": "green_001.html",
+              "jpgFile": "/page_jpg/092.jpg",
+              "jpgPageNumber": 92,
+              "protocolPageNumber": "Green 1"
+            },
+            {
+              "pageId": "green_002",
+              "htmlFile": "green_002.html",
+              "jpgFile": "/page_jpg/093.jpg",
+              "jpgPageNumber": 93,
+              "protocolPageNumber": "Green 2"
+            }
+          ]
         },
         {
-          "id": "green_spine_assessment_management",
+          "id": "green_003_green_004_green_005",
           "title": "Spine Assessment & Management",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "green_003",
+              "htmlFile": "green_003.html",
+              "jpgFile": "/page_jpg/094.jpg",
+              "jpgPageNumber": 94,
+              "protocolPageNumber": "Green 3"
+            },
+            {
+              "pageId": "green_004",
+              "htmlFile": "green_004.html",
+              "jpgFile": "/page_jpg/095.jpg",
+              "jpgPageNumber": 95,
+              "protocolPageNumber": "Green 4"
+            },
+            {
+              "pageId": "green_005",
+              "htmlFile": "green_005.html",
+              "jpgFile": "/page_jpg/096.jpg",
+              "jpgPageNumber": 96,
+              "protocolPageNumber": "Green 5"
+            }
+          ]
         },
         {
-          "id": "green_chest_trauma",
+          "id": "green_006",
+          "title": "Glasgow Coma Scale",
+          "pages": [
+            {
+              "pageId": "green_006",
+              "htmlFile": "green_006.html",
+              "jpgFile": "/page_jpg/097.jpg",
+              "jpgPageNumber": 97,
+              "protocolPageNumber": "Green 6"
+            }
+          ]
+        },
+        {
+          "id": "green_007",
           "title": "Chest Trauma",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "green_007",
+              "htmlFile": "green_007.html",
+              "jpgFile": "/page_jpg/098.jpg",
+              "jpgPageNumber": 98,
+              "protocolPageNumber": "Green 7"
+            }
+          ]
         },
         {
-          "id": "green_head_trauma",
+          "id": "green_008_green_009_green_010_green_011",
           "title": "Head Trauma",
-          "pageCount": 4
+          "pages": [
+            {
+              "pageId": "green_008",
+              "htmlFile": "green_008.html",
+              "jpgFile": "/page_jpg/099.jpg",
+              "jpgPageNumber": 99,
+              "protocolPageNumber": "Green 8"
+            },
+            {
+              "pageId": "green_009",
+              "htmlFile": "green_009.html",
+              "jpgFile": "/page_jpg/100.jpg",
+              "jpgPageNumber": 100,
+              "protocolPageNumber": "Green 9"
+            },
+            {
+              "pageId": "green_010",
+              "htmlFile": "green_010.html",
+              "jpgFile": "/page_jpg/101.jpg",
+              "jpgPageNumber": 101,
+              "protocolPageNumber": "Green 10"
+            },
+            {
+              "pageId": "green_011",
+              "htmlFile": "green_011.html",
+              "jpgFile": "/page_jpg/102.jpg",
+              "jpgPageNumber": 102,
+              "protocolPageNumber": "Green 11"
+            }
+          ]
         },
         {
-          "id": "green_hemorrhage",
+          "id": "green_012",
           "title": "Hemorrhage",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "green_012",
+              "htmlFile": "green_012.html",
+              "jpgFile": "/page_jpg/103.jpg",
+              "jpgPageNumber": 103,
+              "protocolPageNumber": "Green 12"
+            }
+          ]
         },
         {
-          "id": "green_hemorrhagic_shock",
+          "id": "green_013_green_014_green_015",
           "title": "Hemorrhagic Shock",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "green_013",
+              "htmlFile": "green_013.html",
+              "jpgFile": "/page_jpg/104.jpg",
+              "jpgPageNumber": 104,
+              "protocolPageNumber": "Green 13"
+            },
+            {
+              "pageId": "green_014",
+              "htmlFile": "green_014.html",
+              "jpgFile": "/page_jpg/105.jpg",
+              "jpgPageNumber": 105,
+              "protocolPageNumber": "Green 14"
+            },
+            {
+              "pageId": "green_015",
+              "htmlFile": "green_015.html",
+              "jpgFile": "/page_jpg/106.jpg",
+              "jpgPageNumber": 106,
+              "protocolPageNumber": "Green 15"
+            }
+          ]
         },
         {
-          "id": "green_burn",
+          "id": "green_016_green_017",
           "title": "Burn",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "green_016",
+              "htmlFile": "green_016.html",
+              "jpgFile": "/page_jpg/107.jpg",
+              "jpgPageNumber": 107,
+              "protocolPageNumber": "Green 16"
+            },
+            {
+              "pageId": "green_017",
+              "htmlFile": "green_017.html",
+              "jpgFile": "/page_jpg/108.jpg",
+              "jpgPageNumber": 108,
+              "protocolPageNumber": "Green 17"
+            }
+          ]
         },
         {
-          "id": "green_universal_pain_management",
+          "id": "green_018_green_019_green_020_green_021",
           "title": "Universal Pain Management",
-          "pageCount": 3
+          "pages": [
+            {
+              "pageId": "green_018",
+              "htmlFile": "green_018.html",
+              "jpgFile": "/page_jpg/109.jpg",
+              "jpgPageNumber": 109,
+              "protocolPageNumber": "Green 18"
+            },
+            {
+              "pageId": "green_019",
+              "htmlFile": "green_019.html",
+              "jpgFile": "/page_jpg/110.jpg",
+              "jpgPageNumber": 110,
+              "protocolPageNumber": "Green 19"
+            },
+            {
+              "pageId": "green_020",
+              "htmlFile": "green_020.html",
+              "jpgFile": "/page_jpg/111.jpg",
+              "jpgPageNumber": 111,
+              "protocolPageNumber": "Green 20"
+            },
+            {
+              "pageId": "green_021",
+              "htmlFile": "green_021.html",
+              "jpgFile": "/page_jpg/112.jpg",
+              "jpgPageNumber": 112,
+              "protocolPageNumber": "Green 21"
+            }
+          ]
         },
         {
-          "id": "green_termination_of_resuscitation_for_traumatic_cardiac_arrest",
+          "id": "green_022",
           "title": "Termination of Resuscitation for Traumatic Cardiac Arrest",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "green_022",
+              "htmlFile": "green_022.html",
+              "jpgFile": "/page_jpg/113.jpg",
+              "jpgPageNumber": 113,
+              "protocolPageNumber": "Green 22"
+            }
+          ]
         },
         {
-          "id": "green_crush_injury",
+          "id": "green_023",
           "title": "Crush Injury",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "green_023",
+              "htmlFile": "green_023.html",
+              "jpgFile": "/page_jpg/114.jpg",
+              "jpgPageNumber": 114,
+              "protocolPageNumber": "Green 23"
+            }
+          ]
         },
         {
-          "id": "green_facial_dental_injury",
+          "id": "green_024",
           "title": "Facial / Dental Injury",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "green_024",
+              "htmlFile": "green_024.html",
+              "jpgFile": "/page_jpg/115.jpg",
+              "jpgPageNumber": 115,
+              "protocolPageNumber": "Green 24"
+            }
+          ]
         },
         {
-          "id": "green_ophthalmology",
+          "id": "green_025",
           "title": "Ophthalmology",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "green_025",
+              "htmlFile": "green_025.html",
+              "jpgFile": "/page_jpg/116.jpg",
+              "jpgPageNumber": 116,
+              "protocolPageNumber": "Green 25"
+            }
+          ]
         },
         {
-          "id": "green_open_fractures",
+          "id": "green_026",
           "title": "Open Fractures",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "green_026",
+              "htmlFile": "green_026.html",
+              "jpgFile": "/page_jpg/117.jpg",
+              "jpgPageNumber": 117,
+              "protocolPageNumber": "Green 26"
+            }
+          ]
         },
         {
-          "id": "green_strangulation",
+          "id": "green_027",
           "title": "Strangulation",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "green_027",
+              "htmlFile": "green_027.html",
+              "jpgFile": "/page_jpg/118.jpg",
+              "jpgPageNumber": 118,
+              "protocolPageNumber": "Green 27"
+            }
+          ]
         }
       ]
     },
     {
       "id": "yellow",
-      "name": "Toxicologic",
-      "displayName": "Yellow - Toxicologic",
+      "name": "Toxicologic and Environmental",
+      "displayName": "Toxicologic and Environmental - Yellow",
       "color": "#FFD700",
       "protocols": [
         {
-          "id": "yellow_poisoning_overdose",
-          "title": "Poisoning / Overdose",
-          "pageCount": 3
+          "id": "yellow_001_yellow_002_yellow_003",
+          "title": "Poisoning/Overdose",
+          "pages": [
+            {
+              "pageId": "yellow_001",
+              "htmlFile": "yellow_001.html",
+              "jpgFile": "/page_jpg/119.jpg",
+              "jpgPageNumber": 119,
+              "protocolPageNumber": "Yellow 1"
+            },
+            {
+              "pageId": "yellow_002",
+              "htmlFile": "yellow_002.html",
+              "jpgFile": "/page_jpg/120.jpg",
+              "jpgPageNumber": 120,
+              "protocolPageNumber": "Yellow 2"
+            },
+            {
+              "pageId": "yellow_003",
+              "htmlFile": "yellow_003.html",
+              "jpgFile": "/page_jpg/121.jpg",
+              "jpgPageNumber": 121,
+              "protocolPageNumber": "Yellow 3"
+            }
+          ]
         },
         {
-          "id": "yellow_naloxone_dispensation",
+          "id": "yellow_004",
           "title": "Naloxone Dispensation",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "yellow_004",
+              "htmlFile": "yellow_004.html",
+              "jpgFile": "/page_jpg/122.jpg",
+              "jpgPageNumber": 122,
+              "protocolPageNumber": "Yellow 4"
+            }
+          ]
         },
         {
-          "id": "yellow_alcohol_intoxication_severe_alcohol_withdrawal",
+          "id": "yellow_005_yellow_006",
           "title": "Alcohol Intoxication / Severe Alcohol Withdrawal",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "yellow_005",
+              "htmlFile": "yellow_005.html",
+              "jpgFile": "/page_jpg/123.jpg",
+              "jpgPageNumber": 123,
+              "protocolPageNumber": "Yellow 5"
+            },
+            {
+              "pageId": "yellow_006",
+              "htmlFile": "yellow_006.html",
+              "jpgFile": "/page_jpg/124.jpg",
+              "jpgPageNumber": 124,
+              "protocolPageNumber": "Yellow 6"
+            }
+          ]
         },
         {
-          "id": "yellow_nerve_agent_organophosphate_carbamate_poisoning",
-          "title": "Nerve Agent / Organophosphate / Carbamate Poisoning",
-          "pageCount": 1
+          "id": "yellow_007",
+          "title": "Nerve Agent/Organophosphate / Carbamate Poisoning",
+          "pages": [
+            {
+              "pageId": "yellow_007",
+              "htmlFile": "yellow_007.html",
+              "jpgFile": "/page_jpg/125.jpg",
+              "jpgPageNumber": 125,
+              "protocolPageNumber": "Yellow 7"
+            }
+          ]
         },
         {
-          "id": "yellow_cyanide_co_exposure",
+          "id": "yellow_008_yellow_009",
           "title": "Cyanide / CO Exposure",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "yellow_008",
+              "htmlFile": "yellow_008.html",
+              "jpgFile": "/page_jpg/126.jpg",
+              "jpgPageNumber": 126,
+              "protocolPageNumber": "Yellow 8"
+            },
+            {
+              "pageId": "yellow_009",
+              "htmlFile": "yellow_009.html",
+              "jpgFile": "/page_jpg/127.jpg",
+              "jpgPageNumber": 127,
+              "protocolPageNumber": "Yellow 9"
+            }
+          ]
         },
         {
-          "id": "yellow_radiation_injuries",
+          "id": "yellow_010",
           "title": "Radiation Injuries",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "yellow_010",
+              "htmlFile": "yellow_010.html",
+              "jpgFile": "/page_jpg/128.jpg",
+              "jpgPageNumber": 128,
+              "protocolPageNumber": "Yellow 10"
+            }
+          ]
         },
         {
-          "id": "yellow_severe_hypothermia_with_signs_of_life",
+          "id": "yellow_011",
           "title": "Severe Hypothermia WITH Signs of Life",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "yellow_011",
+              "htmlFile": "yellow_011.html",
+              "jpgFile": "/page_jpg/129.jpg",
+              "jpgPageNumber": 129,
+              "protocolPageNumber": "Yellow 11"
+            }
+          ]
         },
         {
-          "id": "yellow_severe_hypothermia_without_signs_of_life",
+          "id": "yellow_012",
           "title": "Severe Hypothermia WITHOUT Signs of Life",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "yellow_012",
+              "htmlFile": "yellow_012.html",
+              "jpgFile": "/page_jpg/130.jpg",
+              "jpgPageNumber": 130,
+              "protocolPageNumber": "Yellow 12"
+            }
+          ]
         },
         {
-          "id": "yellow_hyperthermia_heat_exhaustion_heat_stroke",
+          "id": "yellow_013_yellow_014",
           "title": "Hyperthermia - Heat Exhaustion / Heat Stroke",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "yellow_013",
+              "htmlFile": "yellow_013.html",
+              "jpgFile": "/page_jpg/131.jpg",
+              "jpgPageNumber": 131,
+              "protocolPageNumber": "Yellow 13"
+            },
+            {
+              "pageId": "yellow_014",
+              "htmlFile": "yellow_014.html",
+              "jpgFile": "/page_jpg/132.jpg",
+              "jpgPageNumber": 132,
+              "protocolPageNumber": "Yellow 14"
+            }
+          ]
         },
         {
-          "id": "yellow_drowning_submersion_injuries",
+          "id": "yellow_015",
           "title": "Drowning/Submersion Injuries",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "yellow_015",
+              "htmlFile": "yellow_015.html",
+              "jpgFile": "/page_jpg/133.jpg",
+              "jpgPageNumber": 133,
+              "protocolPageNumber": "Yellow 15"
+            }
+          ]
         }
       ]
     },
     {
       "id": "lavender",
-      "name": "Obstetric",
-      "displayName": "Lavender - Obstetric",
-      "color": "#E6E6FA",
+      "name": "Lavender",
+      "displayName": "Obstetric - Lavender",
+      "color": "#9966CC",
       "protocols": [
         {
-          "id": "lavender_obstetric_emergencies",
+          "id": "lavender_001",
           "title": "Obstetric Emergencies",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "lavender_001",
+              "htmlFile": "lavender_001.html",
+              "jpgFile": "/page_jpg/134.jpg",
+              "jpgPageNumber": 134,
+              "protocolPageNumber": "Lavender 1"
+            }
+          ]
         },
         {
-          "id": "lavender_child_birth",
+          "id": "lavender_002_lavender_003",
           "title": "Child Birth",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "lavender_002",
+              "htmlFile": "lavender_002.html",
+              "jpgFile": "/page_jpg/135.jpg",
+              "jpgPageNumber": 135,
+              "protocolPageNumber": "Lavender 2"
+            },
+            {
+              "pageId": "lavender_003",
+              "htmlFile": "lavender_003.html",
+              "jpgFile": "/page_jpg/136.jpg",
+              "jpgPageNumber": 136,
+              "protocolPageNumber": "Lavender 3"
+            }
+          ]
         },
         {
-          "id": "lavender_newborn_metrics_apgar_o2_saturation",
+          "id": "lavender_004",
           "title": "Newborn Metrics / APGAR & O2 Saturation",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "lavender_004",
+              "htmlFile": "lavender_004.html",
+              "jpgFile": "/page_jpg/137.jpg",
+              "jpgPageNumber": 137,
+              "protocolPageNumber": "Lavender 4"
+            }
+          ]
         },
         {
-          "id": "lavender_newborn_resuscitation",
+          "id": "lavender_005",
           "title": "Newborn Resuscitation",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "lavender_005",
+              "htmlFile": "lavender_005.html",
+              "jpgFile": "/page_jpg/138.jpg",
+              "jpgPageNumber": 138,
+              "protocolPageNumber": "Lavender 5"
+            }
+          ]
         }
       ]
     },
     {
       "id": "pink",
-      "name": "Pediatric",
-      "displayName": "Pink - Pediatric",
-      "color": "#FFC0CB",
+      "name": "Pink",
+      "displayName": "Pediatric - Pink",
+      "color": "#FF69B4",
       "protocols": [
         {
-          "id": "pink_brief_resolved_unexplained_event",
+          "id": "pink_001",
           "title": "Brief Resolved Unexplained Event",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "pink_001",
+              "htmlFile": "pink_001.html",
+              "jpgFile": "/page_jpg/139.jpg",
+              "jpgPageNumber": 139,
+              "protocolPageNumber": "Pink 1"
+            }
+          ]
         },
         {
-          "id": "pink_pediatric_respiratory_distress_with_inspiratory_stridor",
+          "id": "pink_002",
           "title": "Pediatric Respiratory Distress with Inspiratory Stridor",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "pink_002",
+              "htmlFile": "pink_002.html",
+              "jpgFile": "/page_jpg/140.jpg",
+              "jpgPageNumber": 140,
+              "protocolPageNumber": "Pink 2"
+            }
+          ]
         },
         {
-          "id": "pink_neonatal_and_young_infant_fever",
+          "id": "pink_003",
           "title": "Neonatal and Young Infant Fever",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "pink_003",
+              "htmlFile": "pink_003.html",
+              "jpgFile": "/page_jpg/141.jpg",
+              "jpgPageNumber": 141,
+              "protocolPageNumber": "Pink 3"
+            }
+          ]
         },
         {
-          "id": "pink_normal_pediatric_vital_signs",
+          "id": "pink_004_pink_005",
           "title": "Normal Pediatric Vital Signs",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "pink_004",
+              "htmlFile": "pink_004.html",
+              "jpgFile": "/page_jpg/142.jpg",
+              "jpgPageNumber": 142,
+              "protocolPageNumber": "Pink 4"
+            },
+            {
+              "pageId": "pink_005",
+              "htmlFile": "pink_005.html",
+              "jpgFile": "/page_jpg/143.jpg",
+              "jpgPageNumber": 143,
+              "protocolPageNumber": "Pink 5"
+            }
+          ]
         },
         {
-          "id": "pink_pediatric_specific_equipment_sizes",
+          "id": "pink_006",
           "title": "Pediatric Specific Equipment Sizes",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "pink_006",
+              "htmlFile": "pink_006.html",
+              "jpgFile": "/page_jpg/144.jpg",
+              "jpgPageNumber": 144,
+              "protocolPageNumber": "Pink 6"
+            }
+          ]
         },
         {
-          "id": "pink_pediatric_transportation",
+          "id": "pink_007_pink_008",
           "title": "Pediatric Transportation",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "pink_007",
+              "htmlFile": "pink_007.html",
+              "jpgFile": "/page_jpg/145.jpg",
+              "jpgPageNumber": 145,
+              "protocolPageNumber": "Pink 7"
+            },
+            {
+              "pageId": "pink_008",
+              "htmlFile": "pink_008.html",
+              "jpgFile": "/page_jpg/146.jpg",
+              "jpgPageNumber": 146,
+              "protocolPageNumber": "Pink 8"
+            }
+          ]
         }
       ]
     },
     {
       "id": "orange",
-      "name": "Behavioral",
-      "displayName": "Orange - Behavioral",
-      "color": "#FF8C00",
+      "name": "Behavioral emergencies",
+      "displayName": "Behavioral emergencies - Orange",
+      "color": "#FF8800",
       "protocols": [
         {
-          "id": "orange_transport_of_mentally_ill_patients",
+          "id": "orange_001_orange_002",
           "title": "Transport of Mentally Ill Patients",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "orange_001",
+              "htmlFile": "orange_001.html",
+              "jpgFile": "/page_jpg/147.jpg",
+              "jpgPageNumber": 147,
+              "protocolPageNumber": "Orange 1"
+            },
+            {
+              "pageId": "orange_002",
+              "htmlFile": "orange_002.html",
+              "jpgFile": "/page_jpg/148.jpg",
+              "jpgPageNumber": 148,
+              "protocolPageNumber": "Orange 2"
+            }
+          ]
         },
         {
-          "id": "orange_depression_suicidal_ideation",
+          "id": "orange_003",
           "title": "Depression / Suicidal Ideation",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "orange_003",
+              "htmlFile": "orange_003.html",
+              "jpgFile": "/page_jpg/149.jpg",
+              "jpgPageNumber": 149,
+              "protocolPageNumber": "Orange 3"
+            }
+          ]
         },
         {
-          "id": "orange_restraints",
+          "id": "orange_004",
           "title": "Restraints",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "orange_004",
+              "htmlFile": "orange_004.html",
+              "jpgFile": "/page_jpg/150.jpg",
+              "jpgPageNumber": 150,
+              "protocolPageNumber": "Orange 4"
+            }
+          ]
         },
         {
-          "id": "orange_hyperactive_delirium_with_severe_agitation",
+          "id": "orange_005_orange_006_orange_007",
           "title": "Hyperactive Delirium with Severe Agitation",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "orange_005",
+              "htmlFile": "orange_005.html",
+              "jpgFile": "/page_jpg/151.jpg",
+              "jpgPageNumber": 151,
+              "protocolPageNumber": "Orange 5"
+            },
+            {
+              "pageId": "orange_006",
+              "htmlFile": "orange_006.html",
+              "jpgFile": "/page_jpg/152.jpg",
+              "jpgPageNumber": 152,
+              "protocolPageNumber": "Orange 6"
+            },
+            {
+              "pageId": "orange_007",
+              "htmlFile": "orange_007.html",
+              "jpgFile": "/page_jpg/153.jpg",
+              "jpgPageNumber": 153,
+              "protocolPageNumber": "Orange 7"
+            }
+          ]
+        },
+        {
+          "id": "orange_008",
+          "title": "Care of the Person Experiencing Homelessness",
+          "pages": [
+            {
+              "pageId": "orange_008",
+              "htmlFile": "orange_008.html",
+              "jpgFile": "/page_jpg/154.jpg",
+              "jpgPageNumber": 154,
+              "protocolPageNumber": "Orange 8"
+            }
+          ]
         }
       ]
     },
     {
       "id": "grey",
-      "name": "Operations",
-      "displayName": "Grey - Operations",
+      "name": "Grey",
+      "displayName": "Operations - Grey",
       "color": "#808080",
       "protocols": [
         {
-          "id": "grey_minimum_landing_zone",
-          "title": "Minimum Landing Zone",
-          "pageCount": 2
+          "id": "grey_001_grey_002",
+          "title": "Minimum Landing Zone (LZ)",
+          "pages": [
+            {
+              "pageId": "grey_001",
+              "htmlFile": "grey_001.html",
+              "jpgFile": "/page_jpg/155.jpg",
+              "jpgPageNumber": 155,
+              "protocolPageNumber": "Grey 1"
+            },
+            {
+              "pageId": "grey_002",
+              "htmlFile": "grey_002.html",
+              "jpgFile": "/page_jpg/156.jpg",
+              "jpgPageNumber": 156,
+              "protocolPageNumber": "Grey 2"
+            }
+          ]
         },
         {
-          "id": "grey_do_not_resuscitate_guidelines",
+          "id": "grey_003_grey_004_grey_005_grey_006_grey_007",
           "title": "Do Not Resuscitate Guidelines",
-          "pageCount": 5
+          "pages": [
+            {
+              "pageId": "grey_003",
+              "htmlFile": "grey_003.html",
+              "jpgFile": "/page_jpg/157.jpg",
+              "jpgPageNumber": 157,
+              "protocolPageNumber": "Grey 3"
+            },
+            {
+              "pageId": "grey_004",
+              "htmlFile": "grey_004.html",
+              "jpgFile": "/page_jpg/158.jpg",
+              "jpgPageNumber": 158,
+              "protocolPageNumber": "Grey 4"
+            },
+            {
+              "pageId": "grey_005",
+              "htmlFile": "grey_005.html",
+              "jpgFile": "/page_jpg/159.jpg",
+              "jpgPageNumber": 159,
+              "protocolPageNumber": "Grey 5"
+            },
+            {
+              "pageId": "grey_006",
+              "htmlFile": "grey_006.html",
+              "jpgFile": "/page_jpg/160.jpg",
+              "jpgPageNumber": 160,
+              "protocolPageNumber": "Grey 6"
+            },
+            {
+              "pageId": "grey_007",
+              "htmlFile": "grey_007.html",
+              "jpgFile": "/page_jpg/161.jpg",
+              "jpgPageNumber": 161,
+              "protocolPageNumber": "Grey 7"
+            }
+          ]
         },
         {
-          "id": "grey_pre_hospital_management_of_hospice_patients",
+          "id": "grey_008_grey_009_grey_010",
           "title": "Pre-hospital Management of Hospice Patients",
-          "pageCount": 3
+          "pages": [
+            {
+              "pageId": "grey_008",
+              "htmlFile": "grey_008.html",
+              "jpgFile": "/page_jpg/162.jpg",
+              "jpgPageNumber": 162,
+              "protocolPageNumber": "Grey 8"
+            },
+            {
+              "pageId": "grey_009",
+              "htmlFile": "grey_009.html",
+              "jpgFile": "/page_jpg/163.jpg",
+              "jpgPageNumber": 163,
+              "protocolPageNumber": "Grey 9"
+            },
+            {
+              "pageId": "grey_010",
+              "htmlFile": "grey_010.html",
+              "jpgFile": "/page_jpg/164.jpg",
+              "jpgPageNumber": 164,
+              "protocolPageNumber": "Grey 10"
+            }
+          ]
         },
         {
-          "id": "grey_death_situations_for_emergency_responders",
+          "id": "grey_011_grey_012",
           "title": "Death Situations for Emergency Responders",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "grey_011",
+              "htmlFile": "grey_011.html",
+              "jpgFile": "/page_jpg/165.jpg",
+              "jpgPageNumber": 165,
+              "protocolPageNumber": "Grey 11"
+            },
+            {
+              "pageId": "grey_012",
+              "htmlFile": "grey_012.html",
+              "jpgFile": "/page_jpg/166.jpg",
+              "jpgPageNumber": 166,
+              "protocolPageNumber": "Grey 12"
+            }
+          ]
         },
         {
-          "id": "grey_maine_death_with_dignity_law",
+          "id": "grey_013",
           "title": "Maine Death With Dignity Law",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "grey_013",
+              "htmlFile": "grey_013.html",
+              "jpgFile": "/page_jpg/167.jpg",
+              "jpgPageNumber": 167,
+              "protocolPageNumber": "Grey 13"
+            }
+          ]
         },
         {
-          "id": "grey_bariatric_patients",
+          "id": "grey_014",
           "title": "Bariatric Patients",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "grey_014",
+              "htmlFile": "grey_014.html",
+              "jpgFile": "/page_jpg/168.jpg",
+              "jpgPageNumber": 168,
+              "protocolPageNumber": "Grey 14"
+            }
+          ]
         },
         {
-          "id": "grey_mass_casualty_disasters_hazmat",
+          "id": "grey_015_grey_016_grey_017",
           "title": "Mass Casualty / Disasters/Hazmat",
-          "pageCount": 3
+          "pages": [
+            {
+              "pageId": "grey_015",
+              "htmlFile": "grey_015.html",
+              "jpgFile": "/page_jpg/169.jpg",
+              "jpgPageNumber": 169,
+              "protocolPageNumber": "Grey 15"
+            },
+            {
+              "pageId": "grey_016",
+              "htmlFile": "grey_016.html",
+              "jpgFile": "/page_jpg/170.jpg",
+              "jpgPageNumber": 170,
+              "protocolPageNumber": "Grey 16"
+            },
+            {
+              "pageId": "grey_017",
+              "htmlFile": "grey_017.html",
+              "jpgFile": "/page_jpg/171.jpg",
+              "jpgPageNumber": 171,
+              "protocolPageNumber": "Grey 17"
+            }
+          ]
         },
         {
-          "id": "grey_sexual_assault_victim",
+          "id": "grey_018",
           "title": "Sexual Assault Victim",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "grey_018",
+              "htmlFile": "grey_018.html",
+              "jpgFile": "/page_jpg/172.jpg",
+              "jpgPageNumber": 172,
+              "protocolPageNumber": "Grey 18"
+            }
+          ]
         },
         {
-          "id": "grey_child_abuse_management_and_reporting",
+          "id": "grey_019_grey_020",
           "title": "Child Abuse Management and Reporting",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "grey_019",
+              "htmlFile": "grey_019.html",
+              "jpgFile": "/page_jpg/173.jpg",
+              "jpgPageNumber": 173,
+              "protocolPageNumber": "Grey 19"
+            },
+            {
+              "pageId": "grey_020",
+              "htmlFile": "grey_020.html",
+              "jpgFile": "/page_jpg/174.jpg",
+              "jpgPageNumber": 174,
+              "protocolPageNumber": "Grey 20"
+            }
+          ]
         },
         {
-          "id": "grey_adult_abuse_and_intoxicated_drivers",
-          "title": "Adult Abuse, and Intoxicated Drivers",
-          "pageCount": 1
+          "id": "grey_021",
+          "title": "Adult Abuse and Intoxicated Drivers",
+          "pages": [
+            {
+              "pageId": "grey_021",
+              "htmlFile": "grey_021.html",
+              "jpgFile": "/page_jpg/175.jpg",
+              "jpgPageNumber": 175,
+              "protocolPageNumber": "Grey 21"
+            }
+          ]
         },
         {
-          "id": "grey_transport_protocol",
+          "id": "grey_022_grey_023",
           "title": "Transport Protocol",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "grey_022",
+              "htmlFile": "grey_022.html",
+              "jpgFile": "/page_jpg/176.jpg",
+              "jpgPageNumber": 176,
+              "protocolPageNumber": "Grey 22"
+            },
+            {
+              "pageId": "grey_023",
+              "htmlFile": "grey_023.html",
+              "jpgFile": "/page_jpg/177.jpg",
+              "jpgPageNumber": 177,
+              "protocolPageNumber": "Grey 23"
+            }
+          ]
         },
         {
-          "id": "grey_protective_headgear_removal",
+          "id": "grey_024",
           "title": "Protective Headgear Removal",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "grey_024",
+              "htmlFile": "grey_024.html",
+              "jpgFile": "/page_jpg/178.jpg",
+              "jpgPageNumber": 178,
+              "protocolPageNumber": "Grey 24"
+            }
+          ]
         },
         {
-          "id": "grey_crime_scenes",
+          "id": "grey_025",
           "title": "Crime Scenes",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "grey_025",
+              "htmlFile": "grey_025.html",
+              "jpgFile": "/page_jpg/179.jpg",
+              "jpgPageNumber": 179,
+              "protocolPageNumber": "Grey 25"
+            }
+          ]
         },
         {
-          "id": "grey_defibrillation_cardioversion_settings",
+          "id": "grey_026",
           "title": "Defibrillation / Cardioversion Settings",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "grey_026",
+              "htmlFile": "grey_026.html",
+              "jpgFile": "/page_jpg/180.jpg",
+              "jpgPageNumber": 180,
+              "protocolPageNumber": "Grey 26"
+            }
+          ]
         },
         {
-          "id": "grey_baby_safe_haven_laws",
+          "id": "grey_027",
           "title": "Baby Safe Haven Laws",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "grey_027",
+              "htmlFile": "grey_027.html",
+              "jpgFile": "/page_jpg/181.jpg",
+              "jpgPageNumber": 181,
+              "protocolPageNumber": "Grey 27"
+            }
+          ]
         },
         {
-          "id": "grey_safe_response_transport",
+          "id": "grey_028",
           "title": "Safe Response & Transport",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "grey_028",
+              "htmlFile": "grey_028.html",
+              "jpgFile": "/page_jpg/182.jpg",
+              "jpgPageNumber": 182,
+              "protocolPageNumber": "Grey 28"
+            }
+          ]
         },
         {
-          "id": "grey_care_of_the_deaf_and_hard_of_hearing",
+          "id": "grey_029_grey_030",
           "title": "Care of the Deaf and Hard of Hearing",
-          "pageCount": 2
+          "pages": [
+            {
+              "pageId": "grey_029",
+              "htmlFile": "grey_029.html",
+              "jpgFile": "/page_jpg/183.jpg",
+              "jpgPageNumber": 183,
+              "protocolPageNumber": "Grey 29"
+            },
+            {
+              "pageId": "grey_030",
+              "htmlFile": "grey_030.html",
+              "jpgFile": "/page_jpg/184.jpg",
+              "jpgPageNumber": 184,
+              "protocolPageNumber": "Grey 30"
+            }
+          ]
         },
         {
-          "id": "grey_care_of_the_visually_impaired_and_blind",
+          "id": "grey_031",
           "title": "Care of the Visually Impaired and Blind",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "grey_031",
+              "htmlFile": "grey_031.html",
+              "jpgFile": "/page_jpg/185.jpg",
+              "jpgPageNumber": 185,
+              "protocolPageNumber": "Grey 31"
+            }
+          ]
         },
         {
-          "id": "grey_maine_ems_medication_list",
+          "id": "grey_032",
           "title": "Maine EMS Medication List",
-          "pageCount": 1
+          "pages": [
+            {
+              "pageId": "grey_032",
+              "htmlFile": "grey_032.html",
+              "jpgFile": "/page_jpg/186.jpg",
+              "jpgPageNumber": 186,
+              "protocolPageNumber": "Grey 32"
+            }
+          ]
         },
         {
-          "id": "grey_telephone_radio_reference_contact_numbers",
+          "id": "grey_033_grey_034_grey_035",
           "title": "Telephone / Radio Reference/ Contact Numbers",
-          "pageCount": 3
+          "pages": [
+            {
+              "pageId": "grey_033",
+              "htmlFile": "grey_033.html",
+              "jpgFile": "/page_jpg/187.jpg",
+              "jpgPageNumber": 187,
+              "protocolPageNumber": "Grey 33"
+            },
+            {
+              "pageId": "grey_034",
+              "htmlFile": "grey_034.html",
+              "jpgFile": "/page_jpg/188.jpg",
+              "jpgPageNumber": 188,
+              "protocolPageNumber": "Grey 34"
+            },
+            {
+              "pageId": "grey_035",
+              "htmlFile": "grey_035.html",
+              "jpgFile": "/page_jpg/189.jpg",
+              "jpgPageNumber": 189,
+              "protocolPageNumber": "Grey 35"
+            }
+          ]
         }
       ]
     }
-  ],
-  "metadata": {
-    "parsedAt": "2026-02-12T02:24:39.758Z",
-    "totalProtocols": 101,
-    "totalCategories": 11
-  }
+  ]
 }

@@ -90,6 +90,7 @@ const MEDICATION_PATTERNS = [
   /\b(ketamine)\b/gi,
   /\b(dopamine)\b/gi,
   /\b(norepinephrine|levophed)\b/gi,
+  /\b(oxytocin|pitocin)\b/gi,
 ];
 
 function cleanText(text: string): string {
@@ -177,7 +178,9 @@ function generateSearchIndex(): void {
         const pearlsSections: string[] = [];
 
         page.sections.forEach(section => {
-          const cleanContent = cleanText(section.content || section.html || '');
+          // For lists/tables, content is an object - use html instead
+          const textContent = typeof section.content === 'string' ? section.content : section.html;
+          const cleanContent = cleanText(textContent || '');
           allContent.push(cleanContent);
 
           if (section.providerLevel && section.providerLevel !== 'ALL') {
@@ -202,7 +205,7 @@ function generateSearchIndex(): void {
           category: categoryId,
           categoryName: category.displayName,
           pageNumber: page.pageNumber,
-          content: fullContent.substring(0, 500), // First 500 chars for preview
+          content: fullContent.substring(0, 2000), // First 2000 chars for preview
           keywords,
           providerLevels: Array.from(providerLevels),
           type: 'protocol'
@@ -235,7 +238,7 @@ function generateSearchIndex(): void {
             category: categoryId,
             categoryName: category.displayName,
             pageNumber: page.pageNumber,
-            content: fullContent.substring(0, 300),
+            content: fullContent.substring(0, 2000), // Increased to match protocol items
             keywords: [med, ...keywords],
             providerLevels: Array.from(providerLevels),
             type: 'medication'

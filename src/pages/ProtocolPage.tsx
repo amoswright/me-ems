@@ -21,6 +21,23 @@ export function ProtocolPage() {
     sectionRefs.current.clear();
   }, [protocolId]);
 
+  // Scroll to specific page when hash is present in URL
+  useEffect(() => {
+    if (!protocol) return;
+
+    const hash = window.location.hash.substring(1); // Remove the '#'
+    if (hash) {
+      setTimeout(() => {
+        const element = document.getElementById(hash);
+        if (element) {
+          const yOffset = -120; // Offset for sticky header + tabs
+          const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, [protocol]);
+
   // Scroll to provider level section when tab is clicked
   useEffect(() => {
     if (providerLevel === 'ALL') {
@@ -153,7 +170,7 @@ export function ProtocolPage() {
       {/* Protocol Content */}
       <div className="space-y-6">
         {protocol.pages.map((page, pageIndex) => (
-          <div key={page.pageId}>
+          <div key={page.pageId} id={page.pageId}>
             {page.isContinuation && pageIndex > 0 && (
               <div className="mb-4 p-3 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 rounded">
                 <p className="text-sm italic text-blue-800 dark:text-blue-200">
@@ -167,26 +184,47 @@ export function ProtocolPage() {
                 const hasMermaid = hasMermaidContent(section.html);
                 const mermaidContent = hasMermaid ? extractMermaidContent(section.html) : null;
                 const cleanHtml = hasMermaid ? removeMermaidTags(section.html) : section.html;
-                const isHighlighted = providerLevel !== 'ALL' && section.providerLevel === providerLevel;
-                const showProviderBadge = section.providerLevel !== 'ALL';
-                const isPearls = section.providerLevel === 'PEARLS';
 
-                const providerColors = section.providerLevel !== 'ALL' ? getProviderLevelColors(section.providerLevel) : [];
+                // Determine the effective provider level for this section
+                // If this is a continuation page and the section is marked as 'ALL',
+                // check if it's a list continuing from a previous provider level
+                let effectiveProviderLevel = section.providerLevel;
+                if (page.isContinuation && section.providerLevel === 'ALL' && section.type === 'list') {
+                  // Check if this list starts with a number > 1 (continuation)
+                  const listMatch = section.html.match(/start="(\d+)"/);
+                  if (listMatch && parseInt(listMatch[1]) > 1 && pageIndex > 0) {
+                    // Find the last non-ALL provider level from previous page
+                    const prevPage = protocol.pages[pageIndex - 1];
+                    for (let i = prevPage.sections.length - 1; i >= 0; i--) {
+                      if (prevPage.sections[i].providerLevel !== 'ALL' && prevPage.sections[i].providerLevel !== 'PEARLS') {
+                        effectiveProviderLevel = prevPage.sections[i].providerLevel;
+                        break;
+                      }
+                    }
+                  }
+                }
+
+                const isHighlighted = providerLevel !== 'ALL' && effectiveProviderLevel === providerLevel;
+                // Only show provider badge for header sections, not for every section with a provider level
+                const showProviderBadge = section.type === 'header' && effectiveProviderLevel !== 'ALL';
+                const isPearls = effectiveProviderLevel === 'PEARLS';
+
+                const providerColors = effectiveProviderLevel !== 'ALL' ? getProviderLevelColors(effectiveProviderLevel) : [];
 
                 return (
                   <div
                     key={sectionIndex}
                     ref={(el) => {
-                      if (section.providerLevel !== 'ALL') {
-                        setRef(section.providerLevel, el);
+                      if (effectiveProviderLevel !== 'ALL') {
+                        setRef(effectiveProviderLevel, el);
                       }
                     }}
                     className={`
                       transition-all duration-300 rounded-lg relative
-                      ${section.providerLevel !== 'ALL' ? 'p-4 mb-4' : ''}
-                      ${section.providerLevel !== 'ALL' ? 'pl-6' : ''}
+                      ${effectiveProviderLevel !== 'ALL' ? 'p-4 mb-4' : ''}
+                      ${effectiveProviderLevel !== 'ALL' ? 'pl-6' : ''}
                       ${isHighlighted && isPearls ? 'bg-amber-50 dark:bg-amber-900/20 shadow-md' : ''}
-                      ${isHighlighted && !isPearls && section.providerLevel !== 'ALL' ? 'bg-blue-50 dark:bg-blue-900/20 shadow-md' : ''}
+                      ${isHighlighted && !isPearls && effectiveProviderLevel !== 'ALL' ? 'bg-blue-50 dark:bg-blue-900/20 shadow-md' : ''}
                     `}
                   >
                     {/* Render multiple color bars for combined provider levels */}
@@ -204,17 +242,17 @@ export function ProtocolPage() {
                     {showProviderBadge && (
                       <div className="mb-3">
                         <h3 className={`inline-block px-3 py-1.5 text-sm font-bold rounded-md shadow-sm ${
-                          section.providerLevel === 'PEARLS'
+                          effectiveProviderLevel === 'PEARLS'
                             ? 'bg-gradient-to-r from-amber-500 to-yellow-500 text-white'
-                            : section.providerLevel === 'EMT' || section.providerLevel === 'EMT_ADVANCED_EMT'
+                            : effectiveProviderLevel === 'EMT' || effectiveProviderLevel === 'EMT_ADVANCED_EMT'
                             ? 'bg-gradient-to-r from-green-600 to-green-500 text-white'
-                            : section.providerLevel === 'ADVANCED_EMT'
+                            : effectiveProviderLevel === 'ADVANCED_EMT'
                             ? 'bg-gradient-to-r from-yellow-600 to-yellow-500 text-gray-900'
-                            : section.providerLevel === 'PARAMEDIC' || section.providerLevel === 'ADVANCED_EMT_PARAMEDIC' || section.providerLevel === 'EMT_ADVANCED_EMT_PARAMEDIC'
+                            : effectiveProviderLevel === 'PARAMEDIC' || effectiveProviderLevel === 'ADVANCED_EMT_PARAMEDIC' || effectiveProviderLevel === 'EMT_ADVANCED_EMT_PARAMEDIC'
                             ? 'bg-gradient-to-r from-red-600 to-red-500 text-white'
                             : 'bg-gradient-to-r from-blue-600 to-blue-500 text-white'
                         }`}>
-                          {getProviderLevelDisplay(section.providerLevel, section.pearlsTitle)}
+                          {getProviderLevelDisplay(effectiveProviderLevel, section.pearlsTitle)}
                         </h3>
                       </div>
                     )}
@@ -228,7 +266,8 @@ export function ProtocolPage() {
                     )}
 
                     {/* Render remaining HTML content with icons */}
-                    {cleanHtml && (
+                    {/* Skip rendering HTML for provider level headers since we show the styled badge instead */}
+                    {cleanHtml && !(section.type === 'header' && effectiveProviderLevel !== 'ALL') && (
                       <div>{renderProtocolHtml(cleanHtml)}</div>
                     )}
                   </div>

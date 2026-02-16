@@ -1,8 +1,9 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useCategory } from '@/hooks/useProtocolData';
 
 export function CategoryPage() {
   const { categoryId } = useParams<{ categoryId: string }>();
+  const navigate = useNavigate();
   const { protocols, category, loading, error } = useCategory(categoryId);
 
   if (loading) {
@@ -51,9 +52,23 @@ export function CategoryPage() {
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:underline mb-1">
                 {protocol.title}
               </h3>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                {protocol.pages.length} page{protocol.pages.length !== 1 ? 's' : ''}
-              </p>
+              <div className="text-sm text-gray-500 dark:text-gray-400 flex flex-wrap gap-1 items-center">
+                {protocol.pages.filter(p => p.pageNumber).map((page, idx) => (
+                  <span key={page.pageId}>
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        navigate(`/protocol/${protocol.id}#${page.pageId}`);
+                      }}
+                      className="hover:underline hover:text-gray-700 dark:hover:text-gray-300 cursor-pointer bg-transparent border-0 p-0 font-inherit"
+                    >
+                      {page.pageNumber}
+                    </button>
+                    {idx < protocol.pages.filter(p => p.pageNumber).length - 1 && ', '}
+                  </span>
+                )) || `${protocol.pages.length} page${protocol.pages.length !== 1 ? 's' : ''}`}
+              </div>
             </div>
             <svg
               className="w-6 h-6 text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors flex-shrink-0"

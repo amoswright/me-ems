@@ -4,7 +4,7 @@ import { useProtocol } from '@/hooks/useProtocolData';
 import { ProviderLevelTabs } from '@/components/ProviderLevelTabs';
 import { useAppStore } from '@/store/useAppStore';
 import { MermaidDiagram } from '@/components/MermaidDiagram';
-import { hasMermaidContent, extractMermaidContent, removeMermaidTags } from '@/utils/parseMermaid';
+import { extractMermaidContent } from '@/utils/parseMermaid';
 import { renderProtocolHtml } from '@/utils/renderProtocolHtml';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
@@ -181,9 +181,10 @@ export function ProtocolPage() {
 
             <div className="protocol-content" onClick={handleProtocolClick}>
               {page.sections.map((section, sectionIndex) => {
-                const hasMermaid = hasMermaidContent(section.html);
-                const mermaidContent = hasMermaid ? extractMermaidContent(section.html) : null;
-                const cleanHtml = hasMermaid ? removeMermaidTags(section.html) : section.html;
+                // For mermaid sections, extract from HTML field (has <br> tags) and decode entities
+                const isMermaidSection = section.type === 'mermaid';
+                const mermaidContent = isMermaidSection ? extractMermaidContent(section.html) : null;
+                const cleanHtml = isMermaidSection ? '' : section.html;
 
                 // Determine the effective provider level for this section
                 // If this is a continuation page and the section is marked as 'ALL',

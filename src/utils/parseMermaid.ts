@@ -13,19 +13,37 @@ export function extractMermaidContent(html: string): string | null {
   // Try actual <mermaid> tags first
   let match = html.match(/<mermaid>([\s\S]*?)<\/mermaid>/);
   if (match) {
-    return match[1].trim();
+    // Decode HTML entities
+    let decoded = match[1]
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>');
+
+    // Wrap all node labels in quotes to handle special characters like parentheses
+    // Match patterns like A[label] and wrap label in quotes: A["label"]
+    // This regex matches square bracket content that isn't already quoted
+    decoded = decoded.replace(/\[(?!")([^\]]+)\]/g, (match, label) => {
+      // If label doesn't start with a quote, wrap it
+      return `["${label}"]`;
+    });
+
+    return decoded.trim();
   }
 
   // Try HTML-encoded tags
   match = html.match(/&lt;mermaid&gt;([\s\S]*?)&lt;\/mermaid&gt;/);
   if (match) {
-    // Decode HTML entities in the content
-    const decoded = match[1]
-      .replace(/&lt;/g, '<')
-      .replace(/&gt;/g, '>')
+    // Decode HTML entities
+    let decoded = match[1]
       .replace(/&amp;/g, '&')
-      .replace(/&quot;/g, '"')
-      .replace(/&#39;/g, "'");
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>');
+
+    // Wrap all node labels in quotes
+    decoded = decoded.replace(/\[(?!")([^\]]+)\]/g, (match, label) => {
+      return `["${label}"]`;
+    });
+
     return decoded.trim();
   }
 

@@ -92,6 +92,27 @@ html {
   padding-left: 0.5rem;
 }
 
+.protocol-ref-link {
+  color: #60a5fa;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
+}
+
+.protocol-ref-link:hover {
+  color: #93c5fd;
+}
+
+[data-theme="light"] .protocol-ref-link,
+.light .protocol-ref-link {
+  color: #2563eb;
+}
+
+[data-theme="light"] .protocol-ref-link:hover,
+.light .protocol-ref-link:hover {
+  color: #1d4ed8;
+}
+
 .protocol-content li {
   margin-bottom: 0.75rem;
   color: var(--text-primary);

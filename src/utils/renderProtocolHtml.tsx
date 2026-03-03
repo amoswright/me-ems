@@ -1,3 +1,4 @@
+import React from 'react';
 import { ProtocolIcon } from '@/components/ProtocolIcon';
 import { Link } from 'react-router-dom';
 import parse, { Element, Text, domToReact } from 'html-react-parser';
@@ -46,59 +47,75 @@ function linkifyProtocolRefs(text: string, keyPrefix: string): React.ReactNode[]
 }
 
 /**
- * Processes text content to add indentation for nested list items.
- * Three levels:
+ * Splits <li> children at <br> boundaries into segments, then applies consistent
+ * indentation to each segment based on its leading marker:
  *   - letter markers (a., b., c.)      → ml-8
  *   - roman numeral markers (i., ii.)  → ml-16
  *   - number sub-items (1., 2., 3.)    → ml-24
+ *
+ * Wraps the ENTIRE segment (text + inline elements like <strong>) inside the
+ * indented div, so bold/italic content stays with its marker line.
  */
-function processNestedListText(text: string): React.ReactNode {
-  const lines = text.split(/(<br\s*\/?>|\n)/i);
-  const processedLines: React.ReactNode[] = [];
+function processLiChildren(
+  children: DOMNode[],
+  options: HTMLReactParserOptions
+): React.ReactNode[] {
+  // Split children into segments at <br> boundaries
+  const segments: DOMNode[][] = [[]];
+  for (const child of children) {
+    if (child.type === 'tag' && (child as Element).name === 'br') {
+      segments.push([]);
+    } else {
+      segments[segments.length - 1].push(child);
+    }
+  }
 
-  lines.forEach((line, index) => {
-    if (line.match(/<br\s*\/?>/i) || line === '\n') {
-      processedLines.push(<br key={`br-${index}`} />);
-    } else if (line.trim()) {
-      // Roman numerals checked first since 'i' is both a letter and roman numeral
-      // [ivx]+ covers i, ii, iii, iv, v, vi, vii, viii, ix, x, xi, etc.
-      const romanMatch = line.match(/^\s*([ivx]{1,6})\.\s+(.+)/i);
-      const letterMatch = !romanMatch && line.match(/^\s*([a-z])\.\s+(.+)/i);
-      const numMatch = !romanMatch && !letterMatch && line.match(/^\s*(\d+)\.\s+(.+)/);
+  const result: React.ReactNode[] = [];
 
-      if (romanMatch) {
-        processedLines.push(
-          <div key={`roman-${index}`} className="ml-16 mt-1">
-            <span className="font-semibold">{romanMatch[1]}.</span>{' '}
-            {linkifyProtocolRefs(romanMatch[2], `roman-${index}`)}
-          </div>
-        );
-      } else if (letterMatch) {
-        processedLines.push(
-          <div key={`letter-${index}`} className="ml-8 mt-1">
-            <span className="font-semibold">{letterMatch[1]}.</span>{' '}
-            {linkifyProtocolRefs(letterMatch[2], `letter-${index}`)}
-          </div>
-        );
-      } else if (numMatch) {
-        processedLines.push(
-          <div key={`num-${index}`} className="ml-24 mt-1">
-            <span className="font-semibold">{numMatch[1]}.</span>{' '}
-            {linkifyProtocolRefs(numMatch[2], `num-${index}`)}
-          </div>
-        );
-      } else {
-        const linked = linkifyProtocolRefs(line, `line-${index}`);
-        processedLines.push(
-          linked.length === 1 && typeof linked[0] === 'string'
-            ? line
-            : <span key={`span-${index}`}>{linked}</span>
-        );
-      }
+  segments.forEach((segment, segIndex) => {
+    // Skip empty trailing segments
+    if (segment.length === 0) return;
+
+    // Check first text node for a sub-item marker
+    const firstText = segment.find(n => n.type === 'text') as Text | undefined;
+    const rawText = firstText?.data ?? '';
+    const trimmed = rawText.trimStart();
+
+    // Roman numerals first (since 'i' is also a letter)
+    const romanMatch = trimmed.match(/^([ivx]{1,6})\.\s*/i);
+    const letterMatch = !romanMatch && trimmed.match(/^([a-z])\.\s*/i);
+    const numMatch = !romanMatch && !letterMatch && trimmed.match(/^(\d+)\.\s*/);
+    const markerMatch = romanMatch || letterMatch || numMatch;
+
+    if (markerMatch && firstText) {
+      const marker = markerMatch[1];
+      // Text after the marker in the first text node
+      const leadingWhitespace = rawText.length - trimmed.length;
+      const restText = rawText.slice(leadingWhitespace + markerMatch[0].length);
+      // All nodes in this segment except the first text node
+      const restNodes = segment.filter(n => n !== firstText);
+
+      const indent = romanMatch ? 'ml-16' : letterMatch ? 'ml-8' : 'ml-24';
+
+      result.push(
+        <div key={`seg-${segIndex}`} className={`${indent} mt-1`}>
+          <span className="font-semibold">{marker}.</span>{' '}
+          {linkifyProtocolRefs(restText, `seg-${segIndex}`)}
+          {domToReact(restNodes as DOMNode[], options)}
+        </div>
+      );
+    } else {
+      // No marker — first segment is the main item text, later ones are continuations
+      if (segIndex > 0) result.push(<br key={`br-${segIndex}`} />);
+      result.push(
+        <React.Fragment key={`seg-${segIndex}`}>
+          {domToReact(segment as DOMNode[], options)}
+        </React.Fragment>
+      );
     }
   });
 
-  return processedLines.length > 0 ? processedLines : text;
+  return result;
 }
 
 /**
@@ -108,7 +125,7 @@ function processNestedListText(text: string): React.ReactNode {
 export function renderProtocolHtml(html: string) {
   const options: HTMLReactParserOptions = {
     replace: (domNode) => {
-      // Check if this is a protocol-icon element
+      // Replace <protocol-icon> with React component
       if (domNode instanceof Element && domNode.name === 'protocol-icon') {
         const iconName = domNode.attribs?.name;
         if (iconName) {
@@ -116,25 +133,18 @@ export function renderProtocolHtml(html: string) {
         }
       }
 
-      // Process list items for nested sub-items
+      // Process <li> elements that contain sub-item markers after a <br>
       if (domNode instanceof Element && domNode.name === 'li') {
-        const innerHTML = domNode.children
-          .map((child) => {
-            if (child.type === 'text') return (child as Text).data;
-            if (child.type === 'tag') return `<${(child as Element).name}>`;
-            return '';
-          })
-          .join('');
+        const hasSubItems = domNode.children.some(child => {
+          if (child.type !== 'text') return false;
+          const trimmed = (child as Text).data.trimStart();
+          return /^([ivx]{1,6}|[a-z]|\d+)\.\s/i.test(trimmed);
+        });
 
-        if (innerHTML.match(/[a-z]\.\s+/i)) {
+        if (hasSubItems) {
           return (
-            <li key={domNode.attribs?.key}>
-              {domNode.children.map((child, _idx) => {
-                if (child.type === 'text') {
-                  return processNestedListText((child as Text).data);
-                }
-                return domToReact([child] as DOMNode[], options);
-              })}
+            <li>
+              {processLiChildren(domNode.children as DOMNode[], options)}
             </li>
           );
         }

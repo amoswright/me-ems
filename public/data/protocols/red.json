@@ -611,14 +611,14 @@
             "html": "<p>If trauma suspected, refer to the Chest Trauma protocol, Green 7.</p>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
-            "content": "EMT:",
-            "html": "<p><strong>EMT:</strong></p>"
+            "type": "header",
+            "providerLevel": "EMT",
+            "content": "EMT",
+            "html": "<h2>EMT</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT",
             "content": {
               "type": "ordered",
               "startNumber": 1,

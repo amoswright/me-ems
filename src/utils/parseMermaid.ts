@@ -22,8 +22,7 @@ export function extractMermaidContent(html: string): string | null {
     // Wrap all node labels in quotes to handle special characters like parentheses
     // Match patterns like A[label] and wrap label in quotes: A["label"]
     // This regex matches square bracket content that isn't already quoted
-    decoded = decoded.replace(/\[(?!")([^\]]+)\]/g, (match, label) => {
-      // If label doesn't start with a quote, wrap it
+    decoded = decoded.replace(/\[(?!")([^\]]+)\]/g, (_match, label) => {
       return `["${label}"]`;
     });
 
@@ -40,7 +39,7 @@ export function extractMermaidContent(html: string): string | null {
       .replace(/&gt;/g, '>');
 
     // Wrap all node labels in quotes
-    decoded = decoded.replace(/\[(?!")([^\]]+)\]/g, (match, label) => {
+    decoded = decoded.replace(/\[(?!")([^\]]+)\]/g, (_match, label) => {
       return `["${label}"]`;
     });
 

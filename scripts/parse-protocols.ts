@@ -464,15 +464,16 @@ function parseProtocolHTML(htmlPath: string, pageId: string, jpgFile?: string): 
 
         // If the strong tag ONLY contains provider level text (no extra content after)
         // then treat this as a provider level header
-        if (detectedLevel !== 'ALL' && strongText.match(/^(EMT|ADVANCED EMT|PARAMEDIC)$/i)) {
+        if (detectedLevel !== 'ALL' && strongText.match(/^(EMT|ADVANCED EMT|PARAMEDIC):?$/i)) {
           currentProviderLevel = detectedLevel;
+          const headerLabel = strongText.replace(/:$/, ''); // strip trailing colon
 
           // Create header section with just the provider level text
           sections.push({
             type: 'header',
             providerLevel: currentProviderLevel,
-            content: strongText,
-            html: `<h2>${strongText}</h2>` // Simple header HTML without the extra content
+            content: headerLabel,
+            html: `<h2>${headerLabel}</h2>` // Simple header HTML without the extra content
           });
 
           // Check if there's additional content after the <strong> tag

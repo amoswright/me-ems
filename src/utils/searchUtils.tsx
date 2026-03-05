@@ -40,7 +40,7 @@ export function getContextSnippet(
         if (term.length >= 4) searchTerms.push(term);
       } else if (Array.isArray(match.value)) {
         // Search through keyword array for matches
-        match.value.forEach(kw => {
+        (match.value as string[]).forEach(kw => {
           if (typeof kw === 'string' && kw.length >= 4) {
             searchTerms.push(kw);
           }

@@ -7,7 +7,7 @@
       {
         "pageId": "pink_001",
         "pageNumber": "Pink 1",
-        "jpgReference": "/page_jpg/139.jpg",
+        "jpgReference": "/page_jpg/134.jpg",
         "isContinuation": false,
         "sections": [
           {
@@ -112,7 +112,7 @@
       {
         "pageId": "pink_002",
         "pageNumber": "Pink 2",
-        "jpgReference": "/page_jpg/140.jpg",
+        "jpgReference": "/page_jpg/135.jpg",
         "isContinuation": false,
         "sections": [
           {
@@ -228,7 +228,7 @@
       {
         "pageId": "pink_003",
         "pageNumber": "Pink 3",
-        "jpgReference": "/page_jpg/141.jpg",
+        "jpgReference": "/page_jpg/136.jpg",
         "isContinuation": false,
         "sections": [
           {
@@ -321,7 +321,7 @@
       {
         "pageId": "pink_004",
         "pageNumber": "Pink 4",
-        "jpgReference": "/page_jpg/142.jpg",
+        "jpgReference": "/page_jpg/137.jpg",
         "isContinuation": false,
         "sections": [
           {
@@ -485,7 +485,7 @@
       {
         "pageId": "pink_005",
         "pageNumber": "",
-        "jpgReference": "/page_jpg/143.jpg",
+        "jpgReference": "/page_jpg/138.jpg",
         "isContinuation": false,
         "sections": [
           {
@@ -606,7 +606,7 @@
       {
         "pageId": "pink_006",
         "pageNumber": "Pink 6",
-        "jpgReference": "/page_jpg/144.jpg",
+        "jpgReference": "/page_jpg/139.jpg",
         "isContinuation": false,
         "sections": [
           {
@@ -800,7 +800,7 @@
       {
         "pageId": "pink_007",
         "pageNumber": "Pink 7",
-        "jpgReference": "/page_jpg/145.jpg",
+        "jpgReference": "/page_jpg/140.jpg",
         "isContinuation": true,
         "sections": [
           {
@@ -858,7 +858,7 @@
       {
         "pageId": "pink_008",
         "pageNumber": "Pink 8",
-        "jpgReference": "/page_jpg/146.jpg",
+        "jpgReference": "/page_jpg/141.jpg",
         "isContinuation": false,
         "sections": [
           {

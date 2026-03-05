@@ -1,0 +1,65 @@
+<h1>Trauma Triage #1 (Patient with Blunt or Penetrating Trauma)</h1>
+<mermaid>
+graph TD
+    A[Red Criteria<br>High Risk for Serious Injury] --> B{Injury Patterns}
+    A --> C{Mental Status & Vital Signs}
+    B -- Yes --> D[Go to nearest Level 1 or 2 Trauma Center if total transport time is less than 45 minutes, otherwise go to highest-level trauma center available OR the closest ED which is a trauma system participating hospital**; any questions, contact OLMC]
+    C -- Yes --> E[Transport to nearest Trauma System participating hospital]
+<pre><code>subgraph Mental Status &amp; Vital Signs
+    direction LR
+    C_note(&quot;*Obtain a manual blood pressure whenever possible, and consider monitoring pulse pressure as an early sign of hypotension&quot;)
+    C --&gt; C_note
+    C --&gt; C1[All Patients]
+    C --&gt; C2[Age 0-9 years]
+    C --&gt; C3[Age 10-64 years]
+    C --&gt; C4[Age &gt;/= to 65 years]
+<pre><code>C1 --&amp;gt; C1_1[Unable to follow commands (motor GCS &amp;lt; 6)]
+C1 --&amp;gt; C1_2[RR &amp;lt; 10 or &amp;gt; 29 breaths/min]
+C1 --&amp;gt; C1_3[Respiratory distress or need for respiratory support]
+C1 --&amp;gt; C1_4[Room-air pulse oximetry &amp;lt; 90%]
+
+C2 --&amp;gt; C2_1[*SBP &amp;lt; 70 mmHg + (2 x age in years)]
+
+C3 --&amp;gt; C3_1[*SBP &amp;lt; 90 mmHg or&amp;lt;br&amp;gt;HR &amp;gt; SBP]
+
+C4 --&amp;gt; C4_1[*SBP &amp;lt; 110 mmHg or&amp;lt;br&amp;gt;HR &amp;gt; SBP]
+</code></pre>
+<p>end</p>
+<p>B --&gt; B_note[Injury Patterns]<br />
+B -- Yes --&gt; D<br />
+B -- No --&gt; F{Yellow Criteria&lt;br&gt;Moderate Risk for Serious Injury}</p>
+<p>subgraph Yellow Criteria<br />
+direction LR<br />
+F --&gt; F1[Mechanism of Injury]<br />
+F --&gt; F2[EMS Judgment]<br />
+F1 --&gt; F1a[High-Risk Auto Crash]<br />
+F1a --&gt; F1a1[Partial or complete ejection]<br />
+F1a --&gt; F1a2[Significant intrusion (including roof)]<br />
+F1a --&gt; F1a3[&amp;gt;12 inches occupant site OR&lt;br&gt;&amp;gt;18 inches any site OR]<br />
+F1a --&gt; F1a4[Need for extrication for entrapped patient]<br />
+F1a --&gt; F1a5[Death in passenger compartment]<br />
+F1a --&gt; F1a6[Child (age 0-9 years) unrestrained or in unsecured child safety seat]<br />
+F1a --&gt; F1a7[Vehicle telemetry data consistent with severe injury]<br />
+F1 --&gt; F1b[Rider separated from transport vehicle with significant impact (e.g., motorcycle, ATV, horse, etc.)]<br />
+F1 --&gt; F1c[Pedestrian/bicycle rider thrown, run over, or with significant impact]<br />
+F1 --&gt; F1d[Fall from height &amp;gt; 10 feet (all ages)]<br />
+F1 --&gt; F1e[Lightning strike/electrical trauma]<br />
+F1 --&gt; F1f[Significant burn: &amp;gt;10% BSA (counting only partial and full thickness burns), circumferential burns, airway involvement, genital burns and burns to the hands or face)]<br />
+F2 --&gt; F2a[Consider risk factors, including:]<br />
+F2a --&gt; F2a1[Low-level falls in young children (age &amp;lt;=/ 5 years) or older adults (age &amp;gt;/= 65 years) with significant head impact]<br />
+F2a --&gt; F2a2[Anticoagulant use]<br />
+F2a --&gt; F2a3[Suspicion of child abuse]<br />
+F2a --&gt; F2a4[Special, high-resource healthcare needs]<br />
+F2a --&gt; F2a5[Pregnancy &amp;gt; 20 weeks]<br />
+F2a --&gt; F2a6[Burns in conjunction with trauma]<br />
+F2a --&gt; F2a7[Children should be triaged preferentially to pediatric capable centers]<br />
+F2a --&gt; F2b[If concerned, take to a trauma center]<br />
+end</p>
+<p>D -- Yes --&gt; D_up( )<br />
+D_up --&gt; F<br />
+F -- Yes --&gt; E<br />
+F -- No --&gt; F_exit[Transport to nearest Trauma System participating hospital]<br />
+</code></pre><br />
+</mermaid></p>
+<p>(Back to TOC) &lt;page_number&gt;Green 1&lt;/page_number&gt;</p>
+<hr />

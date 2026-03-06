@@ -174,7 +174,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "Children with a known, recent exposure to common triggers of allergic reactions (e.g., peanuts, medications, bee stings) should be considered at risk for having an allergic reaction or anaphylaxis. <img>A teddy bear.</img>",
-            "html": "<p>Children with a known, recent exposure to common triggers of allergic reactions (e.g., peanuts, medications, bee stings) should be considered at risk for having an allergic reaction or anaphylaxis. 🧸</p>"
+            "html": "<p>Children with a known, recent exposure to common triggers of allergic reactions (e.g., peanuts, medications, bee stings) should be considered at risk for having an allergic reaction or anaphylaxis. &lt;img&gt;A teddy bear.&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -253,7 +253,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "***Hypotension or evidence of end-organ dysfunction may include systolic BP of less than 90 mmHg (or greater than 30% decrease from baseline BP) in adults OR BP less than age-specific cut-off in pediatric patients, refer to Normal Pediatric Vital Signs, Pink 4; hypotonia; collapse; syncope, etc. <img>Bear</img>",
-            "html": "<p>***Hypotension or evidence of end-organ dysfunction may include systolic BP of less than 90 mmHg (or greater than 30% decrease from baseline BP) in adults OR BP less than age-specific cut-off in pediatric patients, refer to Normal Pediatric Vital Signs, Pink 4; hypotonia; collapse; syncope, etc. 🧸</p>"
+            "html": "<p>***Hypotension or evidence of end-organ dysfunction may include systolic BP of less than 90 mmHg (or greater than 30% decrease from baseline BP) in adults OR BP less than age-specific cut-off in pediatric patients, refer to Normal Pediatric Vital Signs, Pink 4; hypotonia; collapse; syncope, etc. &lt;img&gt;Bear&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -313,7 +313,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "Children experiencing cutaneous signs of an allergic reaction with no systemic symptoms should be evaluated by a medical clinician.\n<img>A small blue teddy bear with a bandage on its head.</img>",
-            "html": "<p>Children experiencing cutaneous signs of an allergic reaction with no systemic symptoms should be evaluated by a medical clinician.<br>\n🧸</p>"
+            "html": "<p>Children experiencing cutaneous signs of an allergic reaction with no systemic symptoms should be evaluated by a medical clinician.<br>\n&lt;img&gt;A small blue teddy bear with a bandage on its head.&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -393,10 +393,16 @@
             "html": "<ol>\n<li>Immobilize spine, if indicated</li>\n<li>Manage airway as appropriate, see Airway Algorithm, Blue 2</li>\n<li>Request ALS, if available</li>\n<li>If shock present, refer to Medical Shock protocol, Gold 14</li>\n<li>Perform finger stick to measure blood glucose, if so trained. If blood glucose is less than 60 mg/dL, refer to Diabetic/Hypoglycemic Emergencies protocol, Gold 6</li>\n<li>If respirations less than 12 per minute AND narcotic overdose suspected, refer to Poisoning/Overdose protocol, Yellow 1<br>\n<em><strong>Never administer naloxone to a neonate</strong></em></li>\n<li>For patients who suffered syncope before their period of AMS, or who are still altered, obtain a 12-lead ECG, if available and so trained. Refer to Syncope protocol, Red 33.</li>\n</ol>"
           },
           {
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "ADVANCED EMT/PARAMEDIC",
+            "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
+          },
+          {
             "type": "content",
-            "providerLevel": "EMT",
-            "content": "ADVANCED EMT/PARAMEDIC\n8. Establish IV en route\n9. Cardiac monitor",
-            "html": "<p><strong>ADVANCED EMT/PARAMEDIC</strong><br>\n8. Establish IV en route<br>\n9. Cardiac monitor</p>"
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "8. Establish IV en route\n9. Cardiac monitor",
+            "html": "<p>8. Establish IV en route<br>\n9. Cardiac monitor</p>"
           },
           {
             "type": "header",
@@ -602,7 +608,7 @@
             "type": "content",
             "providerLevel": "PARAMEDIC",
             "content": "<img>Teddy bear</img>\n<img>Teddy bear</img>",
-            "html": "<p>🧸<br>\n🧸</p>"
+            "html": "<p>&lt;img&gt;Teddy bear&lt;/img&gt;<br>\n&lt;img&gt;Teddy bear&lt;/img&gt;</p>"
           }
         ]
       },
@@ -815,7 +821,7 @@
                 }
               ]
             },
-            "html": "<ol start=\"12\">\n<li>\n<p>For patients visibly pregnant or less than 6 weeks postpartum who are seizing or post-ictal,<br>\na. Magnesium sulfate 4 gm <strong>IV/IO</strong> over 15 minutes via medication pump<br>\ni. If IV/IO not available, in the actively seizing patient OR patient with recurrent seizure activity without recovery/return to baseline between seizures, magnesium sulfate 8 gm <strong>IM</strong> (4 gm in each buttock)<br>\nb. If <strong>IV/IO/IM</strong> magnesium sulfate was administered AND<br>\ni. Seizing stopped or patient was post-ictal, start magnesium sulfate infusion at 1 gm/hour via medication pump.<br>\nii. Seizing continues, magnesium sulfate 2 gm <strong>IV/IO</strong> over 5 minutes via medication pump.<br>\n1. If seizing stops after this second <strong>IV/IO</strong> dose of magnesium sulfate start magnesium sulfate infusion at 1 gm/hour via medication pump.<br>\nc. If patient continues to seize, administer one of the following<br>\ni. Midazolam 10 mg IM, or<br>\nii. Midazolam 5 mg IV/IO<br>\nd. If seizure continues, repeat midazolam every 5 min until resolution of seizure, for a MAX cumulative total of 20 mg <strong>IM</strong> or 15 mg <strong>IV/IO</strong><br>\n🏥</p>\n</li>\n<li>\n<p>Contact OLMC for the following OPTIONS:<br>\na. If unable to stop seizure activity, or if any therapy beyond these protocols is necessary<br>\n📞</p>\n</li>\n</ol>"
+            "html": "<ol start=\"12\">\n<li>\n<p>For patients visibly pregnant or less than 6 weeks postpartum who are seizing or post-ictal,<br>\na. Magnesium sulfate 4 gm <strong>IV/IO</strong> over 15 minutes via medication pump<br>\ni. If IV/IO not available, in the actively seizing patient OR patient with recurrent seizure activity without recovery/return to baseline between seizures, magnesium sulfate 8 gm <strong>IM</strong> (4 gm in each buttock)<br>\nb. If <strong>IV/IO/IM</strong> magnesium sulfate was administered AND<br>\ni. Seizing stopped or patient was post-ictal, start magnesium sulfate infusion at 1 gm/hour via medication pump.<br>\nii. Seizing continues, magnesium sulfate 2 gm <strong>IV/IO</strong> over 5 minutes via medication pump.<br>\n1. If seizing stops after this second <strong>IV/IO</strong> dose of magnesium sulfate start magnesium sulfate infusion at 1 gm/hour via medication pump.<br>\nc. If patient continues to seize, administer one of the following<br>\ni. Midazolam 10 mg IM, or<br>\nii. Midazolam 5 mg IV/IO<br>\nd. If seizure continues, repeat midazolam every 5 min until resolution of seizure, for a MAX cumulative total of 20 mg <strong>IM</strong> or 15 mg <strong>IV/IO</strong><br>\n&lt;img&gt;Hospital Logo&lt;/img&gt;</p>\n</li>\n<li>\n<p>Contact OLMC for the following OPTIONS:<br>\na. If unable to stop seizure activity, or if any therapy beyond these protocols is necessary<br>\n&lt;img&gt;Hand Holding Phone Icon&lt;/img&gt;</p>\n</li>\n</ol>"
           },
           {
             "type": "pearls",
@@ -1261,10 +1267,16 @@
             "html": "<ol>\n<li>Manage airway as appropriate, see Airway Algorithm, Blue 2</li>\n<li>Maintain O₂ saturation between 94 - 99%</li>\n<li>Elevate head of stretcher to 30 degrees (unless patient requires spinal motion restriction)</li>\n<li>Request ALS, if available. Do not delay transport for ALS intercept. When operationally and medically feasible, limit scene time to 10 minutes or less.</li>\n<li>Perform finger stick to measure blood glucose, if so trained. If blood glucose is less than 60 mg/dL, refer to Diabetic/Hypoglycemic Emergencies protocol, Gold 6</li>\n<li>As early as possible, alert the receiving hospital of a \"Code Stroke\"<br>\na. Relay the following information:<br>\ni. Patient age and gender<br>\nii. Identify the patient as a potential stroke patient<br>\niii. The patient's neurologic deficits and the findings of the Cincinnati Prehospital Stoke Scale and FAST-ED Scale<br>\niv. The \"Time Last Known Well\"<br>\nv. The patient's mental status<br>\nvi. The patient's vital signs and finger stick blood glucose results<br>\nvii. ETA</li>\n<li>Transport to the most appropriate facility based on regional resources</li>\n<li>If available and so trained, perform 12-lead ECG en route.</li>\n</ol>"
           },
           {
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "ADVANCED EMT/PARAMEDIC",
+            "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
+          },
+          {
             "type": "content",
-            "providerLevel": "EMT",
-            "content": "ADVANCED EMT/PARAMEDIC\n9. Cardiac monitor\n10. IV en route\n11. Perform 12-lead ECG en route",
-            "html": "<p><strong>ADVANCED EMT/PARAMEDIC</strong><br>\n9. Cardiac monitor<br>\n10. IV en route<br>\n11. Perform 12-lead ECG en route</p>"
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "9. Cardiac monitor\n10. IV en route\n11. Perform 12-lead ECG en route",
+            "html": "<p>9. Cardiac monitor<br>\n10. IV en route<br>\n11. Perform 12-lead ECG en route</p>"
           },
           {
             "type": "pearls",
@@ -1274,7 +1286,7 @@
           },
           {
             "type": "list",
-            "providerLevel": "EMT",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "unordered",
               "items": [
@@ -1296,7 +1308,7 @@
           },
           {
             "type": "content",
-            "providerLevel": "EMT",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": "Northern NE Protocol Group has taken extreme caution to ensure all information is accurate and in accordance with professional standards in effect at the time of publication. These protocols, policies, or procedures MAY NOT BE altered or modified.",
             "html": "<p>Northern NE Protocol Group has taken extreme caution to ensure all information is accurate and in accordance with professional standards in effect at the time of publication. These protocols, policies, or procedures MAY NOT BE altered or modified.</p>"
           }
@@ -1500,7 +1512,7 @@
             "type": "content",
             "providerLevel": "PARAMEDIC",
             "content": "<img>Hospital Logo</img>",
-            "html": "<p>🏥</p>"
+            "html": "<p>&lt;img&gt;Hospital Logo&lt;/img&gt;</p>"
           },
           {
             "type": "pearls",
@@ -1549,7 +1561,7 @@
             "type": "content",
             "providerLevel": "PARAMEDIC",
             "content": "<img>Bear Icon</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;Bear Icon&lt;/img&gt;</p>"
           }
         ]
       },
@@ -1581,7 +1593,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "Please see below for pediatric specific findings & vital signs.\n<img>A blue teddy bear with a bandage on its head.</img>",
-            "html": "<p>Please see below for pediatric specific findings &amp; vital signs.<br>\n🧸</p>"
+            "html": "<p>Please see below for pediatric specific findings &amp; vital signs.<br>\n&lt;img&gt;A blue teddy bear with a bandage on its head.&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -1718,7 +1730,7 @@
                 }
               ]
             },
-            "html": "<ul>\n<li>Many pediatric patients with shock have associated hypoglycemia. Mortality is increased if this is not addressed. Also, the presenting symptoms of shock and those of hypoglycemia can be very similar.</li>\n<li>In children under the age 6, prompt IO placement after one failed IV attempt should be considered, since timely, successful IV placement in this age group is shown to be difficult.</li>\n<li>Patients in shock require frequent reassessment. The following physiologic parameters are appropriate endpoints for therapy: normalization of heart rate, capillary refill, mental status, resolution of existing hypotension and, if available, presence of urine output.<br>\n🧸</li>\n</ul>"
+            "html": "<ul>\n<li>Many pediatric patients with shock have associated hypoglycemia. Mortality is increased if this is not addressed. Also, the presenting symptoms of shock and those of hypoglycemia can be very similar.</li>\n<li>In children under the age 6, prompt IO placement after one failed IV attempt should be considered, since timely, successful IV placement in this age group is shown to be difficult.</li>\n<li>Patients in shock require frequent reassessment. The following physiologic parameters are appropriate endpoints for therapy: normalization of heart rate, capillary refill, mental status, resolution of existing hypotension and, if available, presence of urine output.<br>\n&lt;img&gt;A blue teddy bear sitting up.&lt;/img&gt;</li>\n</ul>"
           }
         ]
       }
@@ -1852,13 +1864,13 @@
           },
           {
             "type": "header",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": "ADVANCED EMT/PARAMEDIC",
             "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 4,
@@ -1877,7 +1889,7 @@
                 }
               ]
             },
-            "html": "<ol start=\"4\">\n<li>Consider Ondansetron: (Remember: do not administer if patient has history of long QT syndrome)<br>\na. Adults: administer ondansetron 4 mg ODT tablet PO, or ondansetron 4 mg IV/IM<br>\ni. May repeat once after 15 minutes, as needed.<br>\nb. Pediatric patients:<br>\ni. 6 months to less than 4 years old: ondansetron 2 mg IV/IM<br>\nii. 4 years old and above: ondansetron 4 mg PO/IV/IM</li>\n<li>Consider IV access if active vomiting or for management of underlying cause</li>\n<li>Consider fluid bolus if actively vomiting<br>\n🧸</li>\n<li>Contact OLMC for dosage question, abnormal vital signs, or coincident drug use (including alcohol) by patient.<br>\n📞</li>\n</ol>"
+            "html": "<ol start=\"4\">\n<li>Consider Ondansetron: (Remember: do not administer if patient has history of long QT syndrome)<br>\na. Adults: administer ondansetron 4 mg ODT tablet PO, or ondansetron 4 mg IV/IM<br>\ni. May repeat once after 15 minutes, as needed.<br>\nb. Pediatric patients:<br>\ni. 6 months to less than 4 years old: ondansetron 2 mg IV/IM<br>\nii. 4 years old and above: ondansetron 4 mg PO/IV/IM</li>\n<li>Consider IV access if active vomiting or for management of underlying cause</li>\n<li>Consider fluid bolus if actively vomiting<br>\n&lt;img&gt;A teddy bear.&lt;/img&gt;</li>\n<li>Contact OLMC for dosage question, abnormal vital signs, or coincident drug use (including alcohol) by patient.<br>\n&lt;img&gt;A hand holding a phone.&lt;/img&gt;</li>\n</ol>"
           },
           {
             "type": "header",
@@ -1919,14 +1931,14 @@
             "html": "<p>This protocol applies to patients with measured temperatures greater than or equal to 101F (38.3C) who have NOT received any acetaminophen-containing medications in the past 6 hours, do NOT have underlying liver disease AND are NOT allergic to acetaminophen.</p>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMT/ADVANCED EMT/PARAMEDIC",
-            "html": "<p><strong>EMT/ADVANCED EMT/PARAMEDIC</strong></p>"
+            "html": "<h2>EMT/ADVANCED EMT/PARAMEDIC</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -1949,7 +1961,7 @@
           },
           {
             "type": "table",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "table",
               "headers": [

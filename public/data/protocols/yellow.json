@@ -61,7 +61,7 @@
             "type": "content",
             "providerLevel": "EMT",
             "content": "NEVER GIVE NALOXONE TO A NEONATE\n<img>Bear with bandage</img>",
-            "html": "<p><em><strong>NEVER GIVE NALOXONE TO A NEONATE</strong></em><br>\n🧸</p>"
+            "html": "<p><em><strong>NEVER GIVE NALOXONE TO A NEONATE</strong></em><br>\n&lt;img&gt;Bear with bandage&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -93,10 +93,16 @@
             "html": "<ol start=\"5\">\n<li>For suspected cyanide or CO poisoning, see Cyanide/CO Exposure protocol, Yellow 8</li>\n<li>For hypoglycemia, see Diabetic/Hypoglycemic Emergencies protocol, Gold 6.</li>\n<li>For seizures, see Seizure protocol, Gold 8.</li>\n<li>Obtain 12-lead ECG, if available and so trained.</li>\n</ol>"
           },
           {
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "ADVANCED EMT/PARAMEDIC",
+            "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
+          },
+          {
             "type": "content",
-            "providerLevel": "EMT",
-            "content": "ADVANCED EMT/PARAMEDIC\n9. Establish IV access.\n10. Alternative naloxone route of administration:\na. Naloxone 0.1 - 2 mg IV/IO/IM; titrate to improved respiratory drive.\nb. Pediatric patients (excluding neonates): 0.1 mg/kg naloxone if less than 20 kg; 0.1-2 mg IV/IO/IM if greater than 20 kg or 5 years or older; titrate to improved respiratory drive.\n11. Cardiac Monitor\n12. If patient is hypotensive, administer a fluid bolus.\n<img>Bear with bandage</img>",
-            "html": "<p><strong>ADVANCED EMT/PARAMEDIC</strong><br>\n9. Establish IV access.<br>\n10. Alternative naloxone route of administration:<br>\na. Naloxone 0.1 - 2 mg IV/IO/IM; titrate to improved respiratory drive.<br>\nb. Pediatric patients (excluding neonates): 0.1 mg/kg naloxone if less than 20 kg; 0.1-2 mg IV/IO/IM if greater than 20 kg or 5 years or older; titrate to improved respiratory drive.<br>\n11. Cardiac Monitor<br>\n12. If patient is hypotensive, administer a fluid bolus.<br>\n🧸</p>"
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "9. Establish IV access.\n10. Alternative naloxone route of administration:\na. Naloxone 0.1 - 2 mg IV/IO/IM; titrate to improved respiratory drive.\nb. Pediatric patients (excluding neonates): 0.1 mg/kg naloxone if less than 20 kg; 0.1-2 mg IV/IO/IM if greater than 20 kg or 5 years or older; titrate to improved respiratory drive.\n11. Cardiac Monitor\n12. If patient is hypotensive, administer a fluid bolus.\n<img>Bear with bandage</img>",
+            "html": "<p>9. Establish IV access.<br>\n10. Alternative naloxone route of administration:<br>\na. Naloxone 0.1 - 2 mg IV/IO/IM; titrate to improved respiratory drive.<br>\nb. Pediatric patients (excluding neonates): 0.1 mg/kg naloxone if less than 20 kg; 0.1-2 mg IV/IO/IM if greater than 20 kg or 5 years or older; titrate to improved respiratory drive.<br>\n11. Cardiac Monitor<br>\n12. If patient is hypotensive, administer a fluid bolus.<br>\n&lt;img&gt;Bear with bandage&lt;/img&gt;</p>"
           },
           {
             "type": "header",
@@ -212,7 +218,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>A small teddy bear illustration.</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;A small teddy bear illustration.&lt;/img&gt;</p>"
           },
           {
             "type": "pearls",
@@ -325,7 +331,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Hospital logo.</img>",
-            "html": "<p>🏥</p>"
+            "html": "<p>&lt;img&gt;Hospital logo.&lt;/img&gt;</p>"
           }
         ]
       }
@@ -362,19 +368,19 @@
           },
           {
             "type": "header",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMT/AEMT/PARAMEDIC",
             "html": "<h2>EMT/AEMT/PARAMEDIC</h2>"
           },
           {
             "type": "content",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "If a patient treated for opioid overdose refuses transport to the hospital, and the patient has decision making capacity (defined by Maine EMS Transport protocol, Grey 22):",
             "html": "<p>If a patient treated for opioid overdose refuses transport to the hospital, and the patient has decision making capacity (defined by Maine EMS Transport protocol, Grey 22):</p>"
           },
           {
             "type": "list",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -840,14 +846,14 @@
             "html": "<h2>Treatments</h2>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMT/AEMT/Paramedic",
-            "html": "<p><strong>EMT/AEMT/Paramedic</strong></p>"
+            "html": "<h2>EMT/AEMT/Paramedic</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -867,19 +873,19 @@
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "AEMT/P",
             "html": "<p><strong>AEMT/P</strong></p>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMT/AEMT/Paramedic",
-            "html": "<p><strong>EMT/AEMT/Paramedic</strong></p>"
+            "html": "<h2>EMT/AEMT/Paramedic</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -927,7 +933,7 @@
                 }
               ]
             },
-            "html": "<ol>\n<li>Adult: Hydroxocobalamin (Cyanokit) - 5 g IV. May repeat x 1 for partial response</li>\n<li>Peds: Hydroxocobalamin (Cyanokit) - 70 mg/kg IV, 2.5 g for weight less than 30 kg 🧸</li>\n</ol>"
+            "html": "<ol>\n<li>Adult: Hydroxocobalamin (Cyanokit) - 5 g IV. May repeat x 1 for partial response</li>\n<li>Peds: Hydroxocobalamin (Cyanokit) - 70 mg/kg IV, 2.5 g for weight less than 30 kg &lt;img&gt;Bear icon&lt;/img&gt;</li>\n</ol>"
           }
         ]
       },
@@ -1058,10 +1064,16 @@
             "html": "<ol>\n<li>Ensure the scene is safe.</li>\n<li>Don standard PPE capable of preventing skin exposure to liquids and solids (gown and gloves), mucous membrane exposure to liquids and particles (face mask and eye protection), and inhalational exposure to particles (N95 face mask or respirator).</li>\n<li>Hazmat Trained Personnel to determine need for decontamination</li>\n<li>For Mass Casualty Incidents (MCI), if vomiting occurs:<br>\na. Within 1 hour of exposure, survival is unlikely. If providing care to patient will compromise other patients, tag patient “<strong>Black</strong>”.<br>\nb. Less than 4 hours after exposure, patient requires immediate decontamination and medical evaluation, tag patient “<strong>Red</strong>”.<br>\nc. Four hours after exposure, re-evaluation can be delayed 24-72 hours, tag patient “<strong>Yellow</strong>”.</li>\n<li>Treat traumatic injuries per appropriate protocol (<strong>Green Section</strong>).</li>\n<li>Consider pain management per Universal Pain Management protocol, <strong>Green 18</strong>.</li>\n<li>Use water-repellent dressings to cover wounds to prevent cross contamination.</li>\n<li>Consider transport only after appropriate decontamination</li>\n</ol>"
           },
           {
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT",
+            "content": "AEMT",
+            "html": "<h2>AEMT</h2>"
+          },
+          {
             "type": "content",
-            "providerLevel": "EMT",
-            "content": "AEMT\n9. Consider anti-emetic per Nausea and Vomiting protocol, Gold 18.\n10. Document the time the GI symptoms started.",
-            "html": "<p><strong>AEMT</strong><br>\n9. Consider anti-emetic per Nausea and Vomiting protocol, <strong>Gold 18</strong>.<br>\n10. Document the time the GI symptoms started.</p>"
+            "providerLevel": "ADVANCED_EMT",
+            "content": "9. Consider anti-emetic per Nausea and Vomiting protocol, Gold 18.\n10. Document the time the GI symptoms started.",
+            "html": "<p>9. Consider anti-emetic per Nausea and Vomiting protocol, <strong>Gold 18</strong>.<br>\n10. Document the time the GI symptoms started.</p>"
           },
           {
             "type": "header",
@@ -1230,7 +1242,7 @@
                 }
               ]
             },
-            "html": "<ol start=\"8\">\n<li>Consider 1000 mL (20 mL/kg for <strong>pediatrics</strong>) bolus of NS heated to 104 - 108° F (40 - 42° C). 🧸</li>\n<li>Contact OLMC for additional boluses. 📞</li>\n</ol>"
+            "html": "<ol start=\"8\">\n<li>Consider 1000 mL (20 mL/kg for <strong>pediatrics</strong>) bolus of NS heated to 104 - 108° F (40 - 42° C). &lt;img&gt;Teddy bear icon&lt;/img&gt;</li>\n<li>Contact OLMC for additional boluses. &lt;img&gt;Phone icon&lt;/img&gt;</li>\n</ol>"
           }
         ]
       }
@@ -1341,20 +1353,26 @@
         "isContinuation": false,
         "sections": [
           {
-            "type": "content",
-            "providerLevel": "ALL",
-            "content": "ADVANCED EMT/PARAMEDIC\n5. Consider 1000 mL (20 mL/ kg for pediatrics) bolus of NS heated to 104 - 108° F (40 - 42° C).",
-            "html": "<p><strong>ADVANCED EMT/PARAMEDIC</strong><br>\n5. Consider 1000 mL (20 mL/ kg for <strong>pediatrics</strong>) bolus of NS heated to 104 - 108° F (40 - 42° C).</p>"
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "ADVANCED EMT/PARAMEDIC",
+            "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "5. Consider 1000 mL (20 mL/ kg for pediatrics) bolus of NS heated to 104 - 108° F (40 - 42° C).",
+            "html": "<p>5. Consider 1000 mL (20 mL/ kg for <strong>pediatrics</strong>) bolus of NS heated to 104 - 108° F (40 - 42° C).</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": "<img>Bear</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;Bear&lt;/img&gt;</p>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 6,
@@ -1368,13 +1386,13 @@
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": "<img>Bear</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;Bear&lt;/img&gt;</p>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 7,

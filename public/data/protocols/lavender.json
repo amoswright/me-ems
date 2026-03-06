@@ -98,7 +98,7 @@
             "type": "content",
             "providerLevel": "EMT",
             "content": "<img>Hospital Icon</img>",
-            "html": "<p>🏥</p>"
+            "html": "<p>&lt;img&gt;Hospital Icon&lt;/img&gt;</p>"
           },
           {
             "type": "list",
@@ -218,14 +218,14 @@
             "html": "<h1>Childbirth #1</h1>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMT/ADVANCED EMT/PARAMEDIC",
-            "html": "<p><strong>EMT/ADVANCED EMT/PARAMEDIC</strong></p>"
+            "html": "<h2>EMT/ADVANCED EMT/PARAMEDIC</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,

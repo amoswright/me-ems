@@ -69,14 +69,14 @@
             "html": "<ol>\n<li>Make note of the home environment: Medications, condition, caregiver's condition, possibility of toxic exposure, etc.</li>\n<li>Are there any concerns for non-accidental trauma?</li>\n</ol>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
-            "content": "EMT/ADVANCED EMT /PARAMEDIC:",
-            "html": "<p><strong>EMT/ADVANCED EMT /PARAMEDIC:</strong></p>"
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+            "content": "EMT/ADVANCED EMT /PARAMEDIC",
+            "html": "<h2>EMT/ADVANCED EMT /PARAMEDIC</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -96,7 +96,7 @@
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "<watermark>EAP</watermark>",
             "html": "<p>&lt;watermark&gt;EAP&lt;/watermark&gt;</p>"
           }
@@ -140,14 +140,14 @@
             "html": "<p>As stridor worsens in severity, the following may also be observed: tachypnea, retractions, accessory muscle use, nasal flaring, fatigue from respiratory effort, and cyanosis.</p>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT",
             "content": "EMT / ADVANCED EMT",
-            "html": "<p><strong>EMT / ADVANCED EMT</strong></p>"
+            "html": "<h2>EMT / ADVANCED EMT</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -272,14 +272,14 @@
             "html": "<ul>\n<li>Neonates are children 0-28 days old.</li>\n<li>Young infants are less than 60 days old.</li>\n<li>Fever is a temperature of greater than or equal to 38.0 °C or 100.4 °F measured by any method by either caregivers or EMS.</li>\n<li>Serious Bacterial Infections (SBI) in neonates and young infants may also present with hypothermia (temperature less than 36.0°C or 96.8 °F).</li>\n</ul>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
-            "content": "EMT/ADVANCED EMT/PARAMEDIC:",
-            "html": "<p><strong>EMT/ADVANCED EMT/PARAMEDIC:</strong></p>"
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+            "content": "EMT/ADVANCED EMT/PARAMEDIC",
+            "html": "<h2>EMT/ADVANCED EMT/PARAMEDIC</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -305,7 +305,7 @@
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "<watermark>EAP</watermark>",
             "html": "<p>&lt;watermark&gt;EAP&lt;/watermark&gt;</p>"
           }
@@ -845,7 +845,7 @@
                 }
               ]
             },
-            "html": "<ol>\n<li>\n<p>Convertible (traditional) car seat with two belt paths (front and back) with four points for belt attachment to the cot is considered best practice for pediatric patients who can tolerate a semi-upright position.<br>\na. Position safety seat on cot facing foot-end with backrest elevated to meet back of child safety seat.<br>\nb. Secure safety seat with 2 pairs of belts at both forward and rear points of seat.<br>\nc. Place shoulder straps of the harness through slots just below child's shoulders and fasten snugly to child.<br>\nd. Follow manufacturer's guidelines regarding child's weight.<br>\nNote: Non-convertible safety seats cannot be secured safely to cot. If child's personal safety seat is not a convertible seat, it cannot be used on the cot.<br>\n[Car seat on cot]</p>\n</li>\n<li>\n<p>Stretcher harness device with 5-point harness (examples: Ferno Pedi-Mate, SafeGuard Transport, EMS Solutions)<br>\na. Attach securely to cot following the manufacturer's instructions.<br>\nb. 5-point harness must rest snugly against child. Secure belt at child's shoulder level so no gaps exists above shoulders.<br>\nc. Adjust head portion of cot according to manufacturer's recommendation.<br>\nd. Follow manufacturer guidelines for weight ratings.<br>\n[Stretcher harness]</p>\n <table>\n   <thead>\n     <tr>\n       <th>Examples</th>\n       <th>Weight Range</th>\n     </tr>\n   </thead>\n   <tbody>\n     <tr>\n       <td>Ferno Pedi-Mate</td>\n       <td>10-40 pounds</td>\n     </tr>\n     <tr>\n       <td>Ferno Pedi-Mate Plus</td>\n       <td>10-100 pounds</td>\n     </tr>\n     <tr>\n       <td>EMS Solutions ECR</td>\n       <td>4-110 pounds</td>\n     </tr>\n   </tbody>\n </table>\n</li>\n<li>\n<p>Car bed with both a front and rear belt path (example: Dream Ride Infant Car Bed)<br>\na. For infants who cannot tolerate a semi-upright position or who must lie flat.<br>\nb. Position car bed so infant lies perpendicular to cot, keeping infant's head toward center of patient compartment.<br>\nc. Fully raise backrest and anchor car bed to cot with 2 belts, utilizing the 4 attachment sites supplied with car bed.<br>\nd. Only appropriate for infants from 5 – 20 lbs.<br>\n[Infant car bed on cot]</p>\n</li>\n</ol>"
+            "html": "<ol>\n<li>\n<p>Convertible (traditional) car seat with two belt paths (front and back) with four points for belt attachment to the cot is considered best practice for pediatric patients who can tolerate a semi-upright position.<br>\na. Position safety seat on cot facing foot-end with backrest elevated to meet back of child safety seat.<br>\nb. Secure safety seat with 2 pairs of belts at both forward and rear points of seat.<br>\nc. Place shoulder straps of the harness through slots just below child's shoulders and fasten snugly to child.<br>\nd. Follow manufacturer's guidelines regarding child's weight.<br>\nNote: Non-convertible safety seats cannot be secured safely to cot. If child's personal safety seat is not a convertible seat, it cannot be used on the cot.<br>\n&lt;img&gt;A child safety seat attached to a cot.&lt;/img&gt;</p>\n</li>\n<li>\n<p>Stretcher harness device with 5-point harness (examples: Ferno Pedi-Mate, SafeGuard Transport, EMS Solutions)<br>\na. Attach securely to cot following the manufacturer's instructions.<br>\nb. 5-point harness must rest snugly against child. Secure belt at child's shoulder level so no gaps exists above shoulders.<br>\nc. Adjust head portion of cot according to manufacturer's recommendation.<br>\nd. Follow manufacturer guidelines for weight ratings.<br>\n&lt;img&gt;A child sitting in a stretcher harness device.&lt;/img&gt;</p>\n <table>\n   <thead>\n     <tr>\n       <th>Examples</th>\n       <th>Weight Range</th>\n     </tr>\n   </thead>\n   <tbody>\n     <tr>\n       <td>Ferno Pedi-Mate</td>\n       <td>10-40 pounds</td>\n     </tr>\n     <tr>\n       <td>Ferno Pedi-Mate Plus</td>\n       <td>10-100 pounds</td>\n     </tr>\n     <tr>\n       <td>EMS Solutions ECR</td>\n       <td>4-110 pounds</td>\n     </tr>\n   </tbody>\n </table>\n</li>\n<li>\n<p>Car bed with both a front and rear belt path (example: Dream Ride Infant Car Bed)<br>\na. For infants who cannot tolerate a semi-upright position or who must lie flat.<br>\nb. Position car bed so infant lies perpendicular to cot, keeping infant's head toward center of patient compartment.<br>\nc. Fully raise backrest and anchor car bed to cot with 2 belts, utilizing the 4 attachment sites supplied with car bed.<br>\nd. Only appropriate for infants from 5 – 20 lbs.<br>\n&lt;img&gt;An infant car bed attached to a cot.&lt;/img&gt;</p>\n</li>\n</ol>"
           },
           {
             "type": "content",

@@ -205,7 +205,15 @@ export function ProtocolPage() {
                   }
                 }
 
-                const isHighlighted = providerLevel !== 'ALL' && effectiveProviderLevel === providerLevel;
+                // Combined levels match any of their constituent providers
+                const levelIncludes = (sectionLevel: string, selected: string): boolean => {
+                  if (sectionLevel === selected) return true;
+                  if (sectionLevel === 'EMT_ADVANCED_EMT_PARAMEDIC') return true;
+                  if (sectionLevel === 'EMT_ADVANCED_EMT') return selected === 'EMT' || selected === 'ADVANCED_EMT';
+                  if (sectionLevel === 'ADVANCED_EMT_PARAMEDIC') return selected === 'ADVANCED_EMT' || selected === 'PARAMEDIC';
+                  return false;
+                };
+                const isHighlighted = providerLevel !== 'ALL' && levelIncludes(effectiveProviderLevel, providerLevel);
                 // Only show provider badge for header sections, not for every section with a provider level
                 const showProviderBadge = section.type === 'header' && effectiveProviderLevel !== 'ALL';
                 const isPearls = effectiveProviderLevel === 'PEARLS';
@@ -245,12 +253,18 @@ export function ProtocolPage() {
                         <h3 className={`inline-block px-3 py-1.5 text-sm font-bold rounded-md shadow-sm ${
                           effectiveProviderLevel === 'PEARLS'
                             ? 'bg-gradient-to-r from-amber-500 to-yellow-500 text-white'
-                            : effectiveProviderLevel === 'EMT' || effectiveProviderLevel === 'EMT_ADVANCED_EMT'
+                            : effectiveProviderLevel === 'EMT'
                             ? 'bg-gradient-to-r from-green-600 to-green-500 text-white'
                             : effectiveProviderLevel === 'ADVANCED_EMT'
                             ? 'bg-gradient-to-r from-yellow-600 to-yellow-500 text-gray-900'
-                            : effectiveProviderLevel === 'PARAMEDIC' || effectiveProviderLevel === 'ADVANCED_EMT_PARAMEDIC' || effectiveProviderLevel === 'EMT_ADVANCED_EMT_PARAMEDIC'
+                            : effectiveProviderLevel === 'PARAMEDIC'
                             ? 'bg-gradient-to-r from-red-600 to-red-500 text-white'
+                            : effectiveProviderLevel === 'EMT_ADVANCED_EMT'
+                            ? 'bg-gradient-to-r from-green-600 to-yellow-500 text-white'
+                            : effectiveProviderLevel === 'ADVANCED_EMT_PARAMEDIC'
+                            ? 'bg-gradient-to-r from-yellow-500 to-red-500 text-white'
+                            : effectiveProviderLevel === 'EMT_ADVANCED_EMT_PARAMEDIC'
+                            ? 'bg-gradient-to-r from-green-600 to-red-500 text-white'
                             : 'bg-gradient-to-r from-blue-600 to-blue-500 text-white'
                         }`}>
                           {getProviderLevelDisplay(effectiveProviderLevel, section.pearlsTitle)}

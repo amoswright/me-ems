@@ -1445,8 +1445,8 @@
             {
               "pageId": "lavender_001",
               "htmlFile": "lavender_001.html",
-              "jpgFile": "/page_jpg/134.jpg",
-              "jpgPageNumber": 134,
+              "jpgFile": "/page_jpg/142.jpg",
+              "jpgPageNumber": 142,
               "protocolPageNumber": "Lavender 1"
             }
           ]
@@ -1458,15 +1458,15 @@
             {
               "pageId": "lavender_002",
               "htmlFile": "lavender_002.html",
-              "jpgFile": "/page_jpg/135.jpg",
-              "jpgPageNumber": 135,
+              "jpgFile": "/page_jpg/143.jpg",
+              "jpgPageNumber": 143,
               "protocolPageNumber": "Lavender 2"
             },
             {
               "pageId": "lavender_003",
               "htmlFile": "lavender_003.html",
-              "jpgFile": "/page_jpg/136.jpg",
-              "jpgPageNumber": 136,
+              "jpgFile": "/page_jpg/144.jpg",
+              "jpgPageNumber": 144,
               "protocolPageNumber": "Lavender 3"
             }
           ]
@@ -1478,8 +1478,8 @@
             {
               "pageId": "lavender_004",
               "htmlFile": "lavender_004.html",
-              "jpgFile": "/page_jpg/137.jpg",
-              "jpgPageNumber": 137,
+              "jpgFile": "/page_jpg/145.jpg",
+              "jpgPageNumber": 145,
               "protocolPageNumber": "Lavender 4"
             }
           ]
@@ -1491,8 +1491,8 @@
             {
               "pageId": "lavender_005",
               "htmlFile": "lavender_005.html",
-              "jpgFile": "/page_jpg/138.jpg",
-              "jpgPageNumber": 138,
+              "jpgFile": "/page_jpg/146.jpg",
+              "jpgPageNumber": 146,
               "protocolPageNumber": "Lavender 5"
             }
           ]
@@ -1512,8 +1512,8 @@
             {
               "pageId": "pink_001",
               "htmlFile": "pink_001.html",
-              "jpgFile": "/page_jpg/139.jpg",
-              "jpgPageNumber": 139,
+              "jpgFile": "/page_jpg/134.jpg",
+              "jpgPageNumber": 134,
               "protocolPageNumber": "Pink 1"
             }
           ]
@@ -1525,8 +1525,8 @@
             {
               "pageId": "pink_002",
               "htmlFile": "pink_002.html",
-              "jpgFile": "/page_jpg/140.jpg",
-              "jpgPageNumber": 140,
+              "jpgFile": "/page_jpg/135.jpg",
+              "jpgPageNumber": 135,
               "protocolPageNumber": "Pink 2"
             }
           ]
@@ -1538,8 +1538,8 @@
             {
               "pageId": "pink_003",
               "htmlFile": "pink_003.html",
-              "jpgFile": "/page_jpg/141.jpg",
-              "jpgPageNumber": 141,
+              "jpgFile": "/page_jpg/136.jpg",
+              "jpgPageNumber": 136,
               "protocolPageNumber": "Pink 3"
             }
           ]
@@ -1551,15 +1551,15 @@
             {
               "pageId": "pink_004",
               "htmlFile": "pink_004.html",
-              "jpgFile": "/page_jpg/142.jpg",
-              "jpgPageNumber": 142,
+              "jpgFile": "/page_jpg/137.jpg",
+              "jpgPageNumber": 137,
               "protocolPageNumber": "Pink 4"
             },
             {
               "pageId": "pink_005",
               "htmlFile": "pink_005.html",
-              "jpgFile": "/page_jpg/143.jpg",
-              "jpgPageNumber": 143,
+              "jpgFile": "/page_jpg/138.jpg",
+              "jpgPageNumber": 138,
               "protocolPageNumber": "Pink 5"
             }
           ]
@@ -1571,8 +1571,8 @@
             {
               "pageId": "pink_006",
               "htmlFile": "pink_006.html",
-              "jpgFile": "/page_jpg/144.jpg",
-              "jpgPageNumber": 144,
+              "jpgFile": "/page_jpg/139.jpg",
+              "jpgPageNumber": 139,
               "protocolPageNumber": "Pink 6"
             }
           ]
@@ -1584,15 +1584,15 @@
             {
               "pageId": "pink_007",
               "htmlFile": "pink_007.html",
-              "jpgFile": "/page_jpg/145.jpg",
-              "jpgPageNumber": 145,
+              "jpgFile": "/page_jpg/140.jpg",
+              "jpgPageNumber": 140,
               "protocolPageNumber": "Pink 7"
             },
             {
               "pageId": "pink_008",
               "htmlFile": "pink_008.html",
-              "jpgFile": "/page_jpg/146.jpg",
-              "jpgPageNumber": 146,
+              "jpgFile": "/page_jpg/141.jpg",
+              "jpgPageNumber": 141,
               "protocolPageNumber": "Pink 8"
             }
           ]

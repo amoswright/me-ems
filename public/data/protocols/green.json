@@ -134,7 +134,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>A small blue teddy bear icon.</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;A small blue teddy bear icon.&lt;/img&gt;</p>"
           }
         ]
       },
@@ -771,7 +771,7 @@
             "type": "content",
             "providerLevel": "EMT",
             "content": "<img>A small blue teddy bear.</img>\n(Continued)",
-            "html": "<p>🧸<br>\n(Continued)</p>"
+            "html": "<p>&lt;img&gt;A small blue teddy bear.&lt;/img&gt;<br>\n(Continued)</p>"
           }
         ]
       },
@@ -837,7 +837,7 @@
           },
           {
             "type": "header",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": "ADVANCED EMT/PARAMEDIC",
             "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
           },
@@ -906,7 +906,7 @@
                 }
               ]
             },
-            "html": "<ol start=\"11\">\n<li>In patients with any potential for TBI, initiate IV access to ensure maintenance of age-appropriate SBP.</li>\n<li><strong>PEDIATRICS - GOAL SBP defined below:</strong><br>\na. Hypotension is defined as SBP below the 5th percentile for age, estimated using the following guide:<br>\ni. Age 0-10 years: 70 mmHg + (age x 2)<br>\nii. Age greater than 10 years: 90 mmHg (same as adolescents and adults)<br>\niii. \"Rules of Thumb\" to remember:<br>\n1. Infant = 70 mmHg<br>\n2. 5 year old = 80 mmHg<br>\n3. 10 years and older = 90 mmHg<br>\n🧸</li>\n</ol>"
+            "html": "<ol start=\"11\">\n<li>In patients with any potential for TBI, initiate IV access to ensure maintenance of age-appropriate SBP.</li>\n<li><strong>PEDIATRICS - GOAL SBP defined below:</strong><br>\na. Hypotension is defined as SBP below the 5th percentile for age, estimated using the following guide:<br>\ni. Age 0-10 years: 70 mmHg + (age x 2)<br>\nii. Age greater than 10 years: 90 mmHg (same as adolescents and adults)<br>\niii. \"Rules of Thumb\" to remember:<br>\n1. Infant = 70 mmHg<br>\n2. 5 year old = 80 mmHg<br>\n3. 10 years and older = 90 mmHg<br>\n&lt;img&gt;A teddy bear.&lt;/img&gt;</li>\n</ol>"
           }
         ]
       },
@@ -938,7 +938,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "b. For SBP below goal for age, give 20 mL/kg IV bolus .May repeat x 2 up to a total of 60 mL/kg to achieve goal SBP. If needing the third bolus, please consult OLMC.\n<img>Teddy Bear</img>\n<img>Hospital Bed Icon</img>",
-            "html": "<p>b. For SBP below goal for age, give 20 mL/kg IV bolus .May repeat x 2 up to a total of 60 mL/kg to achieve goal SBP. If needing the third bolus, please consult OLMC.<br>\n🧸<br>\n🏥</p>"
+            "html": "<p>b. For SBP below goal for age, give 20 mL/kg IV bolus .May repeat x 2 up to a total of 60 mL/kg to achieve goal SBP. If needing the third bolus, please consult OLMC.<br>\n&lt;img&gt;Teddy Bear&lt;/img&gt;<br>\n&lt;img&gt;Hospital Bed Icon&lt;/img&gt;</p>"
           },
           {
             "type": "list",
@@ -1140,10 +1140,16 @@
             "html": "<ol>\n<li>Identify all sites of bleeding and control with direct pressure and elevation.</li>\n<li>If life-threatening bleeding is on extremity and uncontrolled with direct pressure, consider applying a Maine EMS-approved tourniquet.<br>\na. Tourniquets should be applied proximally on the affected limb for the following reasons:<br>\ni. Injuries are commonly more proximal than anticipated, and<br>\nii. Double-bone structures in both the forearm and the lower leg effectively splint the arteries and prevent tourniquets from working properly.<br>\nb. Tourniquets should be as tight as possible.<br>\ni. Due to associated pain, request ALS, if available.<br>\nc. If hemorrhage continues after application of the tourniquet, ensure the tourniquet is applied as tightly as possible. If hemorrhage continues, consider placement of a second tourniquet, proximal to the first. Experience has shown applying two tourniquets greatly reduces the incidence of hemorrhage, especially in injuries to the lower extremity.<br>\nd. Document time or tourniquet application and communicate this clearly with receiving facility.</li>\n<li>If life-threatening bleeding is not controlled by the above or is located in an area not amenable to placement of a tourniquet (if epistaxis, see Facial/dental protocols, Green 24), consider applying a Maine EMS-approved hemostatic agent by packing the agent in the wound and applying/maintaining pressure over the agent for a minimum of 5 minutes. Check for ongoing bleeding. If bleeding has stopped, bandage appropriately. If bleeding continues, reapply pressure for a minimum of 5 minutes. If bleeding continues after the second period of pressure, remove the initial hemostatic agent and repeat with a new hemostatic agent. Remember, for these agents to have maximal effectiveness, they must be packed inside the wound as close to the bleeding source as possible</li>\n<li>Treat for shock, if indicated, and manage airway as appropriate.</li>\n<li>If amputation, rinse severed part briefly and gently with sterile saline to remove debris.<br>\na. Wrap severed part in sterile gauze, moisten with sterile saline (do not soak), place in a water-tight container. Place container on ice (do not use dry ice). Do not put part directly on ice. If necessary, use ice packs to provide some level of cooling.</li>\n<li>Request Paramedic if bleeding cannot be controlled, patient demonstrates signs or symptoms of shock, or the patient requires pain management due to tourniquet placement.</li>\n</ol>"
           },
           {
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "ADVANCED EMT /PARAMEDIC",
+            "html": "<h2>ADVANCED EMT /PARAMEDIC</h2>"
+          },
+          {
             "type": "content",
-            "providerLevel": "EMT",
-            "content": "ADVANCED EMT /PARAMEDIC\n7. IV en route (refer to Hemorrhagic Shock protocol, Green 13).\n8. Cardiac monitor",
-            "html": "<p><strong>ADVANCED EMT /PARAMEDIC</strong><br>\n7. IV en route (refer to Hemorrhagic Shock protocol, Green 13).<br>\n8. Cardiac monitor</p>"
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "7. IV en route (refer to Hemorrhagic Shock protocol, Green 13).\n8. Cardiac monitor",
+            "html": "<p>7. IV en route (refer to Hemorrhagic Shock protocol, Green 13).<br>\n8. Cardiac monitor</p>"
           }
         ]
       }
@@ -1217,14 +1223,20 @@
             "html": "<ol>\n<li>Control external bleeding, refer to Hemorrhage protocol, <strong>Green 12.</strong></li>\n<li>Manage airway, as appropriate; see Airway Algorithm, <strong>Blue 2.</strong></li>\n<li>If patient is in third trimester of pregnancy:<br>\na. Place patient in left or right lateral recumbent position and re-evaluate.<br>\nb. If shock is secondary to trauma, immobilize patient on a backboard before placing in left or right lateral recumbent position (manually displace uterus to the left or right if tilting the board is not possible).</li>\n<li>If the cause of hypovolemic shock is felt to be secondary to acute unstable pelvic fracture, apply a Maine EMS-approved pelvic stabilization device. If Maine EMS-approved pelvic binder is not available, immobilize with a sheet wrap.</li>\n<li>Request ALS.</li>\n</ol>"
           },
           {
-            "type": "content",
-            "providerLevel": "EMT",
-            "content": "ADVANCED EMT/PARAMEDIC\n6. Establish 2 large bore IVs en route.\n7. Cardiac monitor\n8. If shock present (see table on Hemorrhagic Shock #3), perform fluid bolus according to the following guidelines:\na. Pediatrics – establish IV access and perform 20 mL/kg fluid bolus. Repeat, as needed, within 15-30 min for a total of 60 mL/kg.\nb. Uncontrolled bleeding: for suspected internal bleeding or uncontrolled bleeding, fluid bolus to maintain age appropriate target systolic BP (90 mmHg in adults).\nc. In suspected TBI/CNS injury initiate fluid bolus to maintain age-appropriate SBP. Refer to Head Trauma protocol, Green 8, for age-appropriate SBP.\n<img>A small teddy bear illustration.</img>\nCurrent evidence suggests there may be a benefit from use of Lactated Ringers in critically ill patients with shock. Consider using Lactated Ringers preferentially, if available, while still aiming for age-appropriate BP in hemorrhagic shock and head injuries.\n9. Contact OLMC if patient is older than 65 years of age for fluid bolus order\n10. Contact OLMC if blood pressure remains less than 90 mmHg systolic after fluid boluses",
-            "html": "<p><strong>ADVANCED EMT/PARAMEDIC</strong><br>\n6. Establish 2 large bore IVs en route.<br>\n7. Cardiac monitor<br>\n8. If shock present (see table on Hemorrhagic Shock #3), perform fluid bolus according to the following guidelines:<br>\na. <strong>Pediatrics</strong> – establish IV access and perform 20 mL/kg fluid bolus. Repeat, as needed, within 15-30 min for a total of 60 mL/kg.<br>\nb. Uncontrolled bleeding: for suspected internal bleeding or uncontrolled bleeding, fluid bolus to maintain age appropriate target systolic BP (90 mmHg in adults).<br>\nc. In suspected TBI/CNS injury initiate fluid bolus to maintain age-appropriate SBP. Refer to Head Trauma protocol, <strong>Green 8</strong>, for age-appropriate SBP.<br>\n🧸<br>\nCurrent evidence suggests there may be a benefit from use of Lactated Ringers in critically ill patients with shock. Consider using Lactated Ringers preferentially, if available, while still aiming for age-appropriate BP in hemorrhagic shock and head injuries.<br>\n9. Contact OLMC if patient is older than 65 years of age for fluid bolus order<br>\n10. Contact OLMC if blood pressure remains less than 90 mmHg systolic after fluid boluses</p>"
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "ADVANCED EMT/PARAMEDIC",
+            "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
           },
           {
             "type": "content",
-            "providerLevel": "EMT",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "6. Establish 2 large bore IVs en route.\n7. Cardiac monitor\n8. If shock present (see table on Hemorrhagic Shock #3), perform fluid bolus according to the following guidelines:\na. Pediatrics – establish IV access and perform 20 mL/kg fluid bolus. Repeat, as needed, within 15-30 min for a total of 60 mL/kg.\nb. Uncontrolled bleeding: for suspected internal bleeding or uncontrolled bleeding, fluid bolus to maintain age appropriate target systolic BP (90 mmHg in adults).\nc. In suspected TBI/CNS injury initiate fluid bolus to maintain age-appropriate SBP. Refer to Head Trauma protocol, Green 8, for age-appropriate SBP.\n<img>A small teddy bear illustration.</img>\nCurrent evidence suggests there may be a benefit from use of Lactated Ringers in critically ill patients with shock. Consider using Lactated Ringers preferentially, if available, while still aiming for age-appropriate BP in hemorrhagic shock and head injuries.\n9. Contact OLMC if patient is older than 65 years of age for fluid bolus order\n10. Contact OLMC if blood pressure remains less than 90 mmHg systolic after fluid boluses",
+            "html": "<p>6. Establish 2 large bore IVs en route.<br>\n7. Cardiac monitor<br>\n8. If shock present (see table on Hemorrhagic Shock #3), perform fluid bolus according to the following guidelines:<br>\na. <strong>Pediatrics</strong> – establish IV access and perform 20 mL/kg fluid bolus. Repeat, as needed, within 15-30 min for a total of 60 mL/kg.<br>\nb. Uncontrolled bleeding: for suspected internal bleeding or uncontrolled bleeding, fluid bolus to maintain age appropriate target systolic BP (90 mmHg in adults).<br>\nc. In suspected TBI/CNS injury initiate fluid bolus to maintain age-appropriate SBP. Refer to Head Trauma protocol, <strong>Green 8</strong>, for age-appropriate SBP.<br>\n&lt;img&gt;A small teddy bear illustration.&lt;/img&gt;<br>\nCurrent evidence suggests there may be a benefit from use of Lactated Ringers in critically ill patients with shock. Consider using Lactated Ringers preferentially, if available, while still aiming for age-appropriate BP in hemorrhagic shock and head injuries.<br>\n9. Contact OLMC if patient is older than 65 years of age for fluid bolus order<br>\n10. Contact OLMC if blood pressure remains less than 90 mmHg systolic after fluid boluses</p>"
+          },
+          {
+            "type": "content",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": "(Continued)",
             "html": "<p>(Continued)</p>"
           }
@@ -1312,7 +1324,7 @@
                 }
               ]
             },
-            "html": "<ol>\n<li>\n<p>NOTE: Discuss the use of TXA in patients on anticoagulation with OLMC before providing medication.* (see Pearls)<br>\n📞</p>\n</li>\n<li>\n<p>NOTE: CONTRAINDICATIONS for tranexamic acid (TXA) include:</p>\n<ul>\n<li>Isolated head injury (multi-trauma patients with hemorrhagic shock SHOULD receive TXA regardless of head injury),</li>\n<li>Patients younger than 16 years old,</li>\n<li>Patients greater than 24 wks pregnant (or pregnant with fundus above umbilicus) suffering hemorrhagic shock due to trauma,</li>\n<li>Patients with known hypercoagulable states,</li>\n<li>The patient is more than 180 minutes (3 hours) from the time of injury,</li>\n<li>Patients with hemorrhage due to GI bleeding</li>\n</ul>\n</li>\n</ol>"
+            "html": "<ol>\n<li>\n<p>NOTE: Discuss the use of TXA in patients on anticoagulation with OLMC before providing medication.* (see Pearls)<br>\n&lt;img&gt;Phone icon&lt;/img&gt;</p>\n</li>\n<li>\n<p>NOTE: CONTRAINDICATIONS for tranexamic acid (TXA) include:</p>\n<ul>\n<li>Isolated head injury (multi-trauma patients with hemorrhagic shock SHOULD receive TXA regardless of head injury),</li>\n<li>Patients younger than 16 years old,</li>\n<li>Patients greater than 24 wks pregnant (or pregnant with fundus above umbilicus) suffering hemorrhagic shock due to trauma,</li>\n<li>Patients with known hypercoagulable states,</li>\n<li>The patient is more than 180 minutes (3 hours) from the time of injury,</li>\n<li>Patients with hemorrhage due to GI bleeding</li>\n</ul>\n</li>\n</ol>"
           },
           {
             "type": "pearls",
@@ -1527,13 +1539,13 @@
           },
           {
             "type": "header",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": "ADVANCED EMT/PARAMEDIC",
             "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 7,
@@ -1559,9 +1571,9 @@
           },
           {
             "type": "content",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": "<img>A small teddy bear illustration.</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;A small teddy bear illustration.&lt;/img&gt;</p>"
           },
           {
             "type": "header",
@@ -1637,7 +1649,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Rule of 9's Estimation of Burned Body Surface (Percent) Diagram</img>",
-            "html": "<p>[Diagram: Rule of 9's Estimation of Burned Body Surface (Percent) Diagram]</p>"
+            "html": "<p>&lt;img&gt;Rule of 9's Estimation of Burned Body Surface (Percent) Diagram&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -1675,7 +1687,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "Patient Exclusion Criteria\nChange in baseline mental status or head injury with change in mental status from baseline.\nFor suspected cardiac chest pain, refer to Chest Pain - Suspected Cardiac Origin protocol, Red 2. <img>A teddy bear icon.</img>",
-            "html": "<p><strong>Patient Exclusion Criteria</strong><br>\nChange in baseline mental status or head injury with change in mental status from baseline.<br>\nFor suspected cardiac chest pain, refer to Chest Pain - Suspected Cardiac Origin protocol, Red 2. 🧸</p>"
+            "html": "<p><strong>Patient Exclusion Criteria</strong><br>\nChange in baseline mental status or head injury with change in mental status from baseline.<br>\nFor suspected cardiac chest pain, refer to Chest Pain - Suspected Cardiac Origin protocol, Red 2. &lt;img&gt;A teddy bear icon.&lt;/img&gt;</p>"
           },
           {
             "type": "header",
@@ -1864,7 +1876,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Phone icon</img>",
-            "html": "<p>📞</p>"
+            "html": "<p>&lt;img&gt;Phone icon&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -1920,7 +1932,7 @@
                 }
               ]
             },
-            "html": "<ol start=\"13\">\n<li>\n<p>Contact OLMC if desiring to switch from one type of analgesic to another (other than from acetaminophen), no matter the duration of time that has passed since dosing the initial agent. Adding one class of medications to another can have additive effects such as hypotension, bradypnea, depression of mental status, etc.<br>\n🪶</p>\n</li>\n<li>\n<p>Transport in position of comfort and reassess pain, as indicated.</p>\n</li>\n</ol>"
+            "html": "<ol start=\"13\">\n<li>\n<p>Contact OLMC if desiring to switch from one type of analgesic to another (other than from acetaminophen), no matter the duration of time that has passed since dosing the initial agent. Adding one class of medications to another can have additive effects such as hypotension, bradypnea, depression of mental status, etc.<br>\n&lt;img&gt;feather&lt;/img&gt;</p>\n</li>\n<li>\n<p>Transport in position of comfort and reassess pain, as indicated.</p>\n</li>\n</ol>"
           },
           {
             "type": "pearls",
@@ -1997,7 +2009,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>A small teddy bear icon.</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;A small teddy bear icon.&lt;/img&gt;</p>"
           },
           {
             "type": "header",
@@ -2269,14 +2281,14 @@
             "html": "<h1>Crush Injury</h1>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMT/ADVANCED EMT/ PARAMEDIC",
-            "html": "<p><strong>EMT/ADVANCED EMT/ PARAMEDIC</strong></p>"
+            "html": "<h2>EMT/ADVANCED EMT/ PARAMEDIC</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -2295,10 +2307,16 @@
             "html": "<ol>\n<li>If severe hemorrhage is present, refer to Hemorrhage protocol, <strong>Green 12</strong>.</li>\n<li>Administer high-flow oxygen to maintain O₂ sat between 94-99%.</li>\n<li>Manage airway as appropriate, see Airway Algorithm, <strong>Blue 2</strong>.</li>\n</ol>"
           },
           {
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "ADVANCED EMT/PARAMEDIC",
+            "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
+          },
+          {
             "type": "content",
-            "providerLevel": "ALL",
-            "content": "ADVANCED EMT/PARAMEDIC\n4.  Intravenous access should be established with Normal Saline initial bolus of 10-15 mL/kg (prior to extrication if possible).",
-            "html": "<p><strong>ADVANCED EMT/PARAMEDIC</strong><br>\n4.  Intravenous access should be established with Normal Saline initial bolus of 10-15 mL/kg (prior to extrication if possible).</p>"
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "4.  Intravenous access should be established with Normal Saline initial bolus of 10-15 mL/kg (prior to extrication if possible).",
+            "html": "<p>4.  Intravenous access should be established with Normal Saline initial bolus of 10-15 mL/kg (prior to extrication if possible).</p>"
           },
           {
             "type": "header",
@@ -2316,7 +2334,7 @@
             "type": "content",
             "providerLevel": "PARAMEDIC",
             "content": "<img>A small teddy bear icon.</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;A small teddy bear icon.&lt;/img&gt;</p>"
           },
           {
             "type": "pearls",
@@ -2352,14 +2370,14 @@
             "html": "<h1>Facial/Dental Injury</h1>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMT/ADVANCED EMT/ PARAMEDIC",
-            "html": "<p><strong>EMT/ADVANCED EMT/ PARAMEDIC</strong></p>"
+            "html": "<h2>EMT/ADVANCED EMT/ PARAMEDIC</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -2384,14 +2402,14 @@
             "html": "<ol>\n<li>Administer oxygen, as appropriate, with a target of achieving 94-99% saturation.</li>\n<li><strong>Avulsed tooth:</strong><br>\na. Avoid touching the root of the avulsed tooth. Do not wipe off tooth.<br>\nb. Pick up at crown end. If dirty, rinse off under cold water for 10 seconds.<br>\nc. Place tooth in milk or saline as the storage medium. Alternatively, a cooperative patient can hold tooth in mouth using own saliva as storage medium.</li>\n<li><strong>Unstable Mandible Injury:</strong><br>\na. Expect patient cannot spit/swallow effectively and have suction readily available.<br>\nb. Preferentially transport sitting up with emesis basin/suction available (in the absence of a suspected spinal injury, see Spinal Management Protocol, Green 3).</li>\n<li><strong>Epistaxis:</strong><br>\na. Pinch nose continuously for 10 – 15 minutes, below nasal bones while having patient lean forward. May place a nasal clamp for hemorrhage, if so available.</li>\n<li><strong>Nose/Ear Avulsion:</strong><br>\na. Recover tissue if doing so does not delay care.<br>\nb. Transport with avulsed tissue wrapped in dry sterile gauze in a plastic bag placed on ice.<br>\nc. Severe ear and nose lacerations can be covered with a moist sterile dressing.</li>\n</ol>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": "ADVANCED EMT/PARAMEDIC",
-            "html": "<p><strong>ADVANCED EMT/PARAMEDIC</strong></p>"
+            "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 6,
@@ -2483,10 +2501,16 @@
             "html": "<ol>\n<li>Assess eye. Never put pressure on an injured globe.</li>\n<li>Assess gross visual acuity (e.g., count fingers).</li>\n<li>For thermal exposure, assist patient with removal of contact lenses and apply cool saline gauze to both eyes.</li>\n<li>For chemical exposure, assist patient with removal on contact lenses and flush eye(s) with sterile saline or clean water source continuously.</li>\n<li>For direct eye trauma:<br>\na. Impaled object: secure object and patch both eyes. Keep patient supine.<br>\nb. Puncture wounds: patch (vs. protective shields) both eyes and keep patient supine.<br>\nc. Avulsion of globe: do NOT put back into socket. Cover with moist sterile dressings and then place cup over site.<br>\nd. Other significant eye trauma: place eye shield.</li>\n</ol>"
           },
           {
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "ADVANCED EMT/PARAMEDIC",
+            "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
+          },
+          {
             "type": "content",
-            "providerLevel": "EMT",
-            "content": "ADVANCED EMT/PARAMEDIC\n6.  For penetrating or blunt eye trauma, if patient experiences nausea, refer to Nausea and Vomiting protocol, Gold 18.",
-            "html": "<p><strong>ADVANCED EMT/PARAMEDIC</strong><br>\n6.  For penetrating or blunt eye trauma, if patient experiences nausea, refer to Nausea and Vomiting protocol, <strong>Gold 18</strong>.</p>"
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "6.  For penetrating or blunt eye trauma, if patient experiences nausea, refer to Nausea and Vomiting protocol, Gold 18.",
+            "html": "<p>6.  For penetrating or blunt eye trauma, if patient experiences nausea, refer to Nausea and Vomiting protocol, <strong>Gold 18</strong>.</p>"
           },
           {
             "type": "header",

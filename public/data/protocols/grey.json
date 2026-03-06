@@ -1010,14 +1010,14 @@
             "html": "<p>This protocol provides guidance for the triage, extrication, care and transport of bariatric patients. A bariatric patient exceeds 180 kg (400 lbs.) or possesses a body habitus that challenges the ability of a two-person crew to manage effectively. On scene time may be prolonged for bariatric patients who may require additional resources, personnel and equipment to safely evaluate, manage and transport. Goals include the timely and effective management of these patients while maintaining patient privacy, dignity and comfort.</p>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
-            "content": "EMT/Advanced EMT/Paramedic:",
-            "html": "<p><strong>EMT/Advanced EMT/Paramedic:</strong></p>"
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+            "content": "EMT/Advanced EMT/Paramedic",
+            "html": "<h2>EMT/Advanced EMT/Paramedic</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "unordered",
               "items": [
@@ -1051,9 +1051,9 @@
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "<img>Hospital Icon</img>",
-            "html": "<p>🏥</p>"
+            "html": "<p>&lt;img&gt;Hospital Icon&lt;/img&gt;</p>"
           },
           {
             "type": "pearls",
@@ -1063,7 +1063,7 @@
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "unordered",
               "items": [
@@ -1314,7 +1314,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Ambulance</img> <img>Fire Truck</img> <img>Police Car</img>",
-            "html": "<p>🚑 🚒 🚓</p>"
+            "html": "<p>&lt;img&gt;Ambulance&lt;/img&gt; &lt;img&gt;Fire Truck&lt;/img&gt; &lt;img&gt;Police Car&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -2146,25 +2146,25 @@
           },
           {
             "type": "header",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMT/AEMT/Paramedic",
             "html": "<h2>EMT/AEMT/Paramedic</h2>"
           },
           {
             "type": "content",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "Maine Safe Haven Laws: In Maine, a person may voluntarily deliver their baby not more than 31 days old to any safe haven provider with intent not to take back the newborn. The term “safe haven provider” as defined in 22 M.R.S. § 4018(1)(B) refers to a law enforcement officer; staff at a medical emergency room; a medical services provider (which includes Emergency Medical Services person); a hospital staff member at a hospital, or a fire fighter.",
             "html": "<p><strong>Maine Safe Haven Laws:</strong> In Maine, a person may voluntarily deliver their baby not more than 31 days old to any safe haven provider with intent not to take back the newborn. The term “safe haven provider” as defined in 22 M.R.S. § 4018(1)(B) refers to a law enforcement officer; staff at a medical emergency room; a medical services provider (which includes Emergency Medical Services person); a hospital staff member at a hospital, or a fire fighter.</p>"
           },
           {
             "type": "content",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "Procedure:",
             "html": "<p><strong>Procedure:</strong></p>"
           },
           {
             "type": "list",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -2190,13 +2190,13 @@
           },
           {
             "type": "content",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMS clinicians are mandated to report incidents of child abuse/neglect to Child Protective Services (1-800-452-1999). Refer to Grey 19, Child Abuse Management and Reporting protocol.",
             "html": "<p>EMS clinicians are mandated to report incidents of child abuse/neglect to Child Protective Services (1-800-452-1999). Refer to Grey 19, Child Abuse Management and Reporting protocol.</p>"
           },
           {
             "type": "content",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "<watermark>EAP</watermark>",
             "html": "<p>&lt;watermark&gt;EAP&lt;/watermark&gt;</p>"
           }
@@ -2296,17 +2296,17 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Hospital Logo</img>",
-            "html": "<p>🏥</p>"
+            "html": "<p>&lt;img&gt;Hospital Logo&lt;/img&gt;</p>"
           },
           {
             "type": "header",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMT/Advanced EMT/Paramedic",
             "html": "<h2>EMT/Advanced EMT/Paramedic</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -2351,7 +2351,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>MAINE EMS logo</img>\nEMS Communication Card\nFor Medical, Physical, and Emotional Information",
-            "html": "<p>[Maine EMS]<br>\nEMS Communication Card<br>\nFor Medical, Physical, and Emotional Information</p>"
+            "html": "<p>&lt;img&gt;MAINE EMS logo&lt;/img&gt;<br>\nEMS Communication Card<br>\nFor Medical, Physical, and Emotional Information</p>"
           },
           {
             "type": "content",
@@ -2409,19 +2409,19 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "This resource is a collaboration between the Maine Department of Public Safety and the Maine Department of Labor Division of the Deaf and Hard of Hearing and Late Deafened\n<img>Maine Department of Public Safety seal</img> <img>Maine Department of Labor seal with map of Maine</img>",
-            "html": "<p>This resource is a collaboration between the Maine Department of Public Safety and the Maine Department of Labor Division of the Deaf and Hard of Hearing and Late Deafened<br>\n[Maine Department Seal]</p>"
+            "html": "<p>This resource is a collaboration between the Maine Department of Public Safety and the Maine Department of Labor Division of the Deaf and Hard of Hearing and Late Deafened<br>\n&lt;img&gt;Maine Department of Public Safety seal&lt;/img&gt; &lt;img&gt;Maine Department of Labor seal with map of Maine&lt;/img&gt;</p>"
           },
           {
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Touch for YES icon (thumbs up)</img> <img>Touch for NO icon (thumbs down)</img>\nYES=eyes wide open NO=eyes closed",
-            "html": "<p>👍 👎<br>\nYES=eyes wide open NO=eyes closed</p>"
+            "html": "<p>&lt;img&gt;Touch for YES icon (thumbs up)&lt;/img&gt; &lt;img&gt;Touch for NO icon (thumbs down)&lt;/img&gt;<br>\nYES=eyes wide open NO=eyes closed</p>"
           },
           {
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Phone icon</img> Call This Number\n<img>Phone keypad</img>",
-            "html": "<p>📞 Call This Number<br>\n📞</p>"
+            "html": "<p>&lt;img&gt;Phone icon&lt;/img&gt; Call This Number<br>\n&lt;img&gt;Phone keypad&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -2455,7 +2455,7 @@
                 }
               ]
             },
-            "html": "<ul>\n<li>🖐️ Interpreter</li>\n<li>📞 Texting</li>\n<li>📝 Writing</li>\n<li>👄 Lipread</li>\n<li>🚫👄 I Cannot Lipread</li>\n<li>🦻 Assistive Listening Device</li>\n</ul>"
+            "html": "<ul>\n<li>&lt;img&gt;Hand with fingers spread icon&lt;/img&gt; Interpreter</li>\n<li>&lt;img&gt;Smartphone icon&lt;/img&gt; Texting</li>\n<li>&lt;img&gt;Paper with pen icon&lt;/img&gt; Writing</li>\n<li>&lt;img&gt;Lips icon&lt;/img&gt; Lipread</li>\n<li>&lt;img&gt;Red circle with line through it over lips icon&lt;/img&gt; I Cannot Lipread</li>\n<li>&lt;img&gt;Assistive Listening Device icon&lt;/img&gt; Assistive Listening Device</li>\n</ul>"
           },
           {
             "type": "content",
@@ -2467,7 +2467,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Front human figure outline</img> Front\n<img>Back human figure outline</img> Back\nTouch Where It Hurts",
-            "html": "<p>🧍 Front<br>\n🚶‍♂️ Back<br>\nTouch Where It Hurts</p>"
+            "html": "<p>&lt;img&gt;Front human figure outline&lt;/img&gt; Front<br>\n&lt;img&gt;Back human figure outline&lt;/img&gt; Back<br>\nTouch Where It Hurts</p>"
           },
           {
             "type": "content",
@@ -2479,7 +2479,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Touch for YES icon (thumbs up)</img> <img>Touch for NO icon (thumbs down)</img>\nYES=eyes wide open NO=eyes closed",
-            "html": "<p>👍 👎<br>\nYES=eyes wide open NO=eyes closed</p>"
+            "html": "<p>&lt;img&gt;Touch for YES icon (thumbs up)&lt;/img&gt; &lt;img&gt;Touch for NO icon (thumbs down)&lt;/img&gt;<br>\nYES=eyes wide open NO=eyes closed</p>"
           },
           {
             "type": "content",
@@ -2522,7 +2522,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Hospital building icon</img> Hospital",
-            "html": "<p>🏥 Hospital</p>"
+            "html": "<p>&lt;img&gt;Hospital building icon&lt;/img&gt; Hospital</p>"
           },
           {
             "type": "table",
@@ -2577,7 +2577,7 @@
                 ]
               ]
             },
-            "html": "<table>\n  <tbody><tr>\n    <td>👨‍⚕️<br>DOCTOR</td>\n    <td>👨‍👩‍👧‍👦<br>FAMILY</td>\n    <td>🤧<br>ALLERGY</td>\n    <td>💊<br>MEDICINE</td>\n    <td>🥶<br>COLD</td>\n    <td>🤕<br>HEADACHE</td>\n    <td>😵<br>CHOKING</td>\n    <td>😵‍💫<br>DIZZY</td>\n    <td>🤒<br>SORE THROAT</td>\n  </tr>\n  <tr>\n    <td>🚻<br>RESTROOM</td>\n    <td>🛏️<br>BLANKET</td>\n    <td>💉<br>NEEDLE</td>\n    <td>💧<br>WATER</td>\n    <td>😟<br>WORRIED</td>\n    <td>😠<br>ANGRY</td>\n    <td>🤢<br>NAUSEOUS</td>\n    <td>😕<br>CONFUSED</td>\n    <td>🤒<br>FEVER</td>\n  </tr>\n  <tr>\n    <td>🕐<br>TIME</td>\n    <td>📅<br>DATE</td>\n    <td>🫁<br>OXYGEN</td>\n    <td>🔥<br>BURNS</td>\n    <td>🫥<br>NUMBNESS</td>\n    <td>😤<br>FRUSTRATED</td>\n    <td>😤<br>FRUSTRATED</td>\n    <td>😢<br>SAD</td>\n    <td>🤧<br>COUGH</td>\n  </tr>\n  <tr>\n    <td>❓<br>WHAT HAPPENED</td>\n    <td>🦻<br>HEARING AID</td>\n    <td>📝<br>PAPER &amp; PEN</td>\n    <td>[DNR Document]<br>WILL/DNR</td>\n    <td>⚠️<br>SUICIDAL</td>\n    <td>💔<br>CHEST PAIN</td>\n    <td>😰<br>ANXIETY DEPRESSION</td>\n    <td>😮‍💨<br>CAN'T BREATHE</td>\n    <td>😮‍💨<br>SHORTNESS OF BRETH</td>\n  </tr>\n</tbody></table>"
+            "html": "<table>\n  <tbody><tr>\n    <td>&lt;img&gt;Doctor icon&lt;/img&gt;<br>DOCTOR</td>\n    <td>&lt;img&gt;Family icon&lt;/img&gt;<br>FAMILY</td>\n    <td>&lt;img&gt;Allergy icon&lt;/img&gt;<br>ALLERGY</td>\n    <td>&lt;img&gt;Medicine bottle icon&lt;/img&gt;<br>MEDICINE</td>\n    <td>&lt;img&gt;Cold icon&lt;/img&gt;<br>COLD</td>\n    <td>&lt;img&gt;Headache icon&lt;/img&gt;<br>HEADACHE</td>\n    <td>&lt;img&gt;Choking icon&lt;/img&gt;<br>CHOKING</td>\n    <td>&lt;img&gt;Dizzy icon&lt;/img&gt;<br>DIZZY</td>\n    <td>&lt;img&gt;Sore Throat icon&lt;/img&gt;<br>SORE THROAT</td>\n  </tr>\n  <tr>\n    <td>&lt;img&gt;Restroom icon&lt;/img&gt;<br>RESTROOM</td>\n    <td>&lt;img&gt;Blanket icon&lt;/img&gt;<br>BLANKET</td>\n    <td>&lt;img&gt;Needle icon&lt;/img&gt;<br>NEEDLE</td>\n    <td>&lt;img&gt;Water bottle icon&lt;/img&gt;<br>WATER</td>\n    <td>&lt;img&gt;Worried face icon&lt;/img&gt;<br>WORRIED</td>\n    <td>&lt;img&gt;Angry face icon&lt;/img&gt;<br>ANGRY</td>\n    <td>&lt;img&gt;Nauseous icon&lt;/img&gt;<br>NAUSEOUS</td>\n    <td>&lt;img&gt;Confused icon&lt;/img&gt;<br>CONFUSED</td>\n    <td>&lt;img&gt;Fever icon&lt;/img&gt;<br>FEVER</td>\n  </tr>\n  <tr>\n    <td>&lt;img&gt;Clock icon&lt;/img&gt;<br>TIME</td>\n    <td>&lt;img&gt;Calendar icon&lt;/img&gt;<br>DATE</td>\n    <td>&lt;img&gt;Oxygen tank icon&lt;/img&gt;<br>OXYGEN</td>\n    <td>&lt;img&gt;Burns icon&lt;/img&gt;<br>BURNS</td>\n    <td>&lt;img&gt;Numbness icon&lt;/img&gt;<br>NUMBNESS</td>\n    <td>&lt;img&gt;Frustrated face icon&lt;/img&gt;<br>FRUSTRATED</td>\n    <td>&lt;img&gt;Frustrated person icon&lt;/img&gt;<br>FRUSTRATED</td>\n    <td>&lt;img&gt;Sad face icon&lt;/img&gt;<br>SAD</td>\n    <td>&lt;img&gt;Cough icon&lt;/img&gt;<br>COUGH</td>\n  </tr>\n  <tr>\n    <td>&lt;img&gt;What happened icon&lt;/img&gt;<br>WHAT HAPPENED</td>\n    <td>&lt;img&gt;Hearing Aid icon&lt;/img&gt;<br>HEARING AID</td>\n    <td>&lt;img&gt;Paper &amp; Pen icon&lt;/img&gt;<br>PAPER &amp; PEN</td>\n    <td>&lt;img&gt;Will/DNR icon&lt;/img&gt;<br>WILL/DNR</td>\n    <td>&lt;img&gt;Suicidal skull icon&lt;/img&gt;<br>SUICIDAL</td>\n    <td>&lt;img&gt;Chest Pain icon&lt;/img&gt;<br>CHEST PAIN</td>\n    <td>&lt;img&gt;Anxiety Depression icon&lt;/img&gt;<br>ANXIETY DEPRESSION</td>\n    <td>&lt;img&gt;Can't Breathe icon&lt;/img&gt;<br>CAN'T BREATHE</td>\n    <td>&lt;img&gt;Shortness of Breath icon&lt;/img&gt;<br>SHORTNESS OF BRETH</td>\n  </tr>\n</tbody></table>"
           }
         ]
       }
@@ -2601,14 +2601,14 @@
             "html": "<h1>Care of the Visually Impaired and Blind</h1>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMT/Advanced EMT/Paramedic",
-            "html": "<p><strong>EMT/Advanced EMT/Paramedic</strong></p>"
+            "html": "<h2>EMT/Advanced EMT/Paramedic</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -2642,7 +2642,7 @@
                 }
               ]
             },
-            "html": "<ol>\n<li>Introduce yourself and announce to patient every time you enter or leave the environment of care</li>\n<li>Ensure the patient has access to mobility equipment (e.g., cane, guide dog) at all times.</li>\n<li>If assisting with ambulation, move slowly and guide the patient while describing potential obstacles (e.g., stairs, slopes, changes in flooring).</li>\n<li>Ensure the patient has access to personal technology (e.g., phone, smartwatch)</li>\n<li>Tell the patient what you are going to do before doing it.</li>\n<li>Listen to the patient's caregiver(s), if the patient consents and if applicable, but only after gathering as much information from the patient as you can.</li>\n<li>Notify the hospital of incoming patient with special needs and desire for advocate, if requested by patient. 🏥</li>\n<li>Accommodate the needs of the patient, but do not over-focus on visual impairment during obtaining the history of present illness.</li>\n<li>Clearly note the patient's visual impairment in the run report.</li>\n</ol>"
+            "html": "<ol>\n<li>Introduce yourself and announce to patient every time you enter or leave the environment of care</li>\n<li>Ensure the patient has access to mobility equipment (e.g., cane, guide dog) at all times.</li>\n<li>If assisting with ambulation, move slowly and guide the patient while describing potential obstacles (e.g., stairs, slopes, changes in flooring).</li>\n<li>Ensure the patient has access to personal technology (e.g., phone, smartwatch)</li>\n<li>Tell the patient what you are going to do before doing it.</li>\n<li>Listen to the patient's caregiver(s), if the patient consents and if applicable, but only after gathering as much information from the patient as you can.</li>\n<li>Notify the hospital of incoming patient with special needs and desire for advocate, if requested by patient. &lt;img&gt;Hospital Logo&lt;/img&gt;</li>\n<li>Accommodate the needs of the patient, but do not over-focus on visual impairment during obtaining the history of present illness.</li>\n<li>Clearly note the patient's visual impairment in the run report.</li>\n</ol>"
           }
         ]
       }

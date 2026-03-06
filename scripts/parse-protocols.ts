@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Type definitions
-type ProviderLevel = 'EMT' | 'ADVANCED_EMT' | 'PARAMEDIC' | 'ALL';
+type ProviderLevel = 'EMT' | 'ADVANCED_EMT' | 'PARAMEDIC' | 'ALL' | 'EMT_ADVANCED_EMT' | 'ADVANCED_EMT_PARAMEDIC' | 'EMT_ADVANCED_EMT_PARAMEDIC';
 
 interface Category {
   id: string;
@@ -91,7 +91,7 @@ interface TableOfContents {
 }
 
 // Constants
-const SOURCE_DIR = path.join(__dirname, '..', '..', 'archive-html-files');
+const SOURCE_DIR = path.join(__dirname, '..', 'archive-html-files');
 const OUTPUT_DIR = path.join(__dirname, '..', 'public', 'data');
 const PROTOCOLS_DIR = path.join(OUTPUT_DIR, 'protocols');
 
@@ -148,18 +148,22 @@ function extractProtocolPageNumber(html: string): string {
 function extractProviderLevel(text: string): ProviderLevel {
   const upperText = text.toUpperCase();
 
-  if (upperText.includes('PARAMEDIC') && !upperText.includes('EMT') && !upperText.includes('ADVANCED')) {
-    return 'PARAMEDIC';
-  }
-  if (upperText.includes('ADVANCED EMT') || upperText.includes('AEMT')) {
-    return 'ADVANCED_EMT';
-  }
-  if (upperText.includes('EMT') && !upperText.includes('ADVANCED') && !upperText.includes('PARAMEDIC')) {
-    return 'EMT';
-  }
-  if (upperText.includes('EMT/ADVANCED EMT/PARAMEDIC') || upperText.includes('ALL CLINICIANS')) {
-    return 'ALL';
-  }
+  // Normalize: treat AEMT as ADVANCED EMT, strip spaces around slashes
+  const normalized = upperText.replace(/\bAEMT\b/g, 'ADVANCED EMT').replace(/\s*\/\s*/g, '/');
+
+  const hasParamedic = normalized.includes('PARAMEDIC');
+  const hasAdvancedEmt = normalized.includes('ADVANCED EMT');
+  // EMT alone: present in string but not as part of ADVANCED EMT
+  const hasEmt = /\bEMT\b/.test(normalized.replace(/ADVANCED EMT/g, ''));
+
+  if (upperText.includes('ALL CLINICIANS')) return 'ALL';
+
+  if (hasEmt && hasAdvancedEmt && hasParamedic) return 'EMT_ADVANCED_EMT_PARAMEDIC';
+  if (hasEmt && hasAdvancedEmt) return 'EMT_ADVANCED_EMT';
+  if (hasAdvancedEmt && hasParamedic) return 'ADVANCED_EMT_PARAMEDIC';
+  if (hasParamedic && !hasEmt && !hasAdvancedEmt) return 'PARAMEDIC';
+  if (hasAdvancedEmt && !hasEmt && !hasParamedic) return 'ADVANCED_EMT';
+  if (hasEmt && !hasAdvancedEmt && !hasParamedic) return 'EMT';
 
   return 'ALL';
 }
@@ -464,7 +468,9 @@ function parseProtocolHTML(htmlPath: string, pageId: string, jpgFile?: string): 
 
         // If the strong tag ONLY contains provider level text (no extra content after)
         // then treat this as a provider level header
-        if (detectedLevel !== 'ALL' && strongText.match(/^(EMT|ADVANCED EMT|PARAMEDIC):?$/i)) {
+        // Match single or combined provider level headers (e.g. "EMT", "EMT/ADVANCED EMT/PARAMEDIC", "EMT/AEMT/PARAMEDIC")
+        const providerToken = /^(EMT|ADVANCED\s+EMT|AEMT|PARAMEDIC)(\s*\/\s*(EMT|ADVANCED\s+EMT|AEMT|PARAMEDIC))*:?$/i;
+        if (detectedLevel !== 'ALL' && strongText.match(providerToken)) {
           currentProviderLevel = detectedLevel;
           const headerLabel = strongText.replace(/:$/, ''); // strip trailing colon
 

@@ -417,7 +417,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>A cartoon teddy bear.</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;A cartoon teddy bear.&lt;/img&gt;</p>"
           }
         ]
       }
@@ -507,7 +507,7 @@
                 }
               ]
             },
-            "html": "<ol start=\"3\">\n<li>Pain control<br>\na. Adult &amp; Pediatric: Fentanyl 0.5 - 1 mcg/kg IV/IO, may repeat every 15 minutes to a MAX cumulative dose of 5 mcg/kg.<br>\n🧸</li>\n<li>Anxiolysis - After adequate pain control, if the patient continues to have signs of inadequate sedation (including eye opening, coughing or gagging, sweating, tearing, new or worsening hypertension and/or tachycardia, tachypnea, or attempts to self-extubate) and the patient is NOT hypotensive, consider ONE of the following options:<br>\na. Midazolam<br>\ni. Adult: 0.5 - 2.5 mg IV/IO every 5 minutes, may repeat x 3 to a MAX cumulative dose of 5 mg OR 1-5 mg IM every 5 minutes, may repeat x 3 to a MAX cumulative dose of 10 mg.<br>\nii. Pediatric:<br>\n1. 6 months - 12 years: 0.05 mg/kg IV/IO, may repeat every 5 minutes to a MAX cumulative dose of 5 mg.<br>\n2. 6 months - 12 years: 0.1 mg/kg IM (MAX single dose 5 mg), may repeat every 5 minutes to a maximum cumulative dose of 10 mg.<br>\n🧸<br>\n-OR-<br>\nb. Ketamine (Adult ONLY)<br>\ni. 0.2 mg/kg IV/IO, max single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via a pump. May repeat x 1 in 5 minutes.<br>\nii. 0.4 mg/kg IM, max single dose 50 mg. May repeat x 1 in 10 minutes.</li>\n</ol>"
+            "html": "<ol start=\"3\">\n<li>Pain control<br>\na. Adult &amp; Pediatric: Fentanyl 0.5 - 1 mcg/kg IV/IO, may repeat every 15 minutes to a MAX cumulative dose of 5 mcg/kg.<br>\n&lt;img&gt;Bear with bandage&lt;/img&gt;</li>\n<li>Anxiolysis - After adequate pain control, if the patient continues to have signs of inadequate sedation (including eye opening, coughing or gagging, sweating, tearing, new or worsening hypertension and/or tachycardia, tachypnea, or attempts to self-extubate) and the patient is NOT hypotensive, consider ONE of the following options:<br>\na. Midazolam<br>\ni. Adult: 0.5 - 2.5 mg IV/IO every 5 minutes, may repeat x 3 to a MAX cumulative dose of 5 mg OR 1-5 mg IM every 5 minutes, may repeat x 3 to a MAX cumulative dose of 10 mg.<br>\nii. Pediatric:<br>\n1. 6 months - 12 years: 0.05 mg/kg IV/IO, may repeat every 5 minutes to a MAX cumulative dose of 5 mg.<br>\n2. 6 months - 12 years: 0.1 mg/kg IM (MAX single dose 5 mg), may repeat every 5 minutes to a maximum cumulative dose of 10 mg.<br>\n&lt;img&gt;Bear with bandage&lt;/img&gt;<br>\n-OR-<br>\nb. Ketamine (Adult ONLY)<br>\ni. 0.2 mg/kg IV/IO, max single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via a pump. May repeat x 1 in 5 minutes.<br>\nii. 0.4 mg/kg IM, max single dose 50 mg. May repeat x 1 in 10 minutes.</li>\n</ol>"
           },
           {
             "type": "content",
@@ -555,14 +555,14 @@
             "html": "<p>Pulmonary Edema, see Blue 10<br>\nAnaphylaxis, see Gold 1<br>\nChest Trauma, see Green 7</p>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT",
             "content": "EMT/ADVANCED EMT",
-            "html": "<p><strong>EMT/ADVANCED EMT</strong></p>"
+            "html": "<h2>EMT/ADVANCED EMT</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -608,7 +608,7 @@
                 }
               ]
             },
-            "html": "<ol>\n<li>O₂ as appropriate.</li>\n<li>If needed, assist ventilation with positive pressure ventilation using 100% O₂.</li>\n<li>Request ALS. (see Definitions, Purple 1)</li>\n<li>Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age with continued respiratory distress. Every 5 minutes, may repeat x 2 as needed for ongoing symptoms. 🧸</li>\n<li>For severe respiratory distress, EPINEPHrine:\n<ol>\n<li>Adult – EPINEPHrine 0.3 mg IM of 1mg/1mL every 20 minutes.</li>\n<li>Pediatric - EPINEPHrine dose which is as follows: less than 25 kg, 0.15 mg IM [0.15 mL of 1mg/mL], greater than 25 kg, 0.3 mg IM [0.3 mL of 1mg/mL] in anterolateral thigh every 20 minutes. 🧸</li>\n</ol>\n</li>\n<li>Consider CPAP* in patients greater than 18 yo if no improvement after three nebulizers.<br>\n<em>CPAP at the EMT level, only if available and so trained. CPAP should be initiated at 5 cm H₂O and titrated slowly (every 5 minutes), as needed. Do not exceed 10 cm H₂O. Recall that CPAP should never take the place of bronchodilatorsators and should be used only <strong>after</strong>, or in concert with, inhaled bronchodilatorsators in patients with acute bronchospasm. If CPAP is going to be used in the asthmatic, nebulizers must be administered simultaneously</em>.</li>\n<li>If CPAP is initiated, do the following:<br>\na. Ensure ALS has been requested (see Definitions, Purple 1). ALS clinicians bring additional therapies to support the management of patients requiring CPAP.<br>\nb. Contact OLMC for the following treatment option:<br>\ni. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer every five minutes while the patient remains on CPAP. 📞<br>\n<strong>ADVANCED EMT</strong></li>\n<li>Cardiac monitor</li>\n<li>Manage airway as needed, refer to Airway Algorithm, Blue 2.</li>\n</ol>"
+            "html": "<ol>\n<li>O₂ as appropriate.</li>\n<li>If needed, assist ventilation with positive pressure ventilation using 100% O₂.</li>\n<li>Request ALS. (see Definitions, Purple 1)</li>\n<li>Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age with continued respiratory distress. Every 5 minutes, may repeat x 2 as needed for ongoing symptoms. &lt;img&gt;Bear&lt;/img&gt;</li>\n<li>For severe respiratory distress, EPINEPHrine:\n<ol>\n<li>Adult – EPINEPHrine 0.3 mg IM of 1mg/1mL every 20 minutes.</li>\n<li>Pediatric - EPINEPHrine dose which is as follows: less than 25 kg, 0.15 mg IM [0.15 mL of 1mg/mL], greater than 25 kg, 0.3 mg IM [0.3 mL of 1mg/mL] in anterolateral thigh every 20 minutes. &lt;img&gt;Bear&lt;/img&gt;</li>\n</ol>\n</li>\n<li>Consider CPAP* in patients greater than 18 yo if no improvement after three nebulizers.<br>\n<em>CPAP at the EMT level, only if available and so trained. CPAP should be initiated at 5 cm H₂O and titrated slowly (every 5 minutes), as needed. Do not exceed 10 cm H₂O. Recall that CPAP should never take the place of bronchodilatorsators and should be used only <strong>after</strong>, or in concert with, inhaled bronchodilatorsators in patients with acute bronchospasm. If CPAP is going to be used in the asthmatic, nebulizers must be administered simultaneously</em>.</li>\n<li>If CPAP is initiated, do the following:<br>\na. Ensure ALS has been requested (see Definitions, Purple 1). ALS clinicians bring additional therapies to support the management of patients requiring CPAP.<br>\nb. Contact OLMC for the following treatment option:<br>\ni. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer every five minutes while the patient remains on CPAP. &lt;img&gt;Phone&lt;/img&gt;<br>\n<strong>ADVANCED EMT</strong></li>\n<li>Cardiac monitor</li>\n<li>Manage airway as needed, refer to Airway Algorithm, Blue 2.</li>\n</ol>"
           },
           {
             "type": "header",
@@ -620,7 +620,7 @@
             "type": "content",
             "providerLevel": "PARAMEDIC",
             "content": "10. Adult/Pediatric\na. Albuterol 2.5 mg by nebulization. May repeat 1 time; or\nb. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age and in continued respiratory distress. May repeat every five minutes x 2. <img>Bear</img>",
-            "html": "<p>10. Adult/Pediatric<br>\na. Albuterol 2.5 mg by nebulization. May repeat 1 time; or<br>\nb. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age and in continued respiratory distress. May repeat every five minutes x 2. 🧸</p>"
+            "html": "<p>10. Adult/Pediatric<br>\na. Albuterol 2.5 mg by nebulization. May repeat 1 time; or<br>\nb. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age and in continued respiratory distress. May repeat every five minutes x 2. &lt;img&gt;Bear&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -669,7 +669,7 @@
                 }
               ]
             },
-            "html": "<ol start=\"11\">\n<li>\n<p>Dexamethasone<br>\na. Adult:<br>\ni. 16 mg PO x 1 if patient can tolerate oral medications, is not in overt respiratory distress, and is not requiring an airway management technique that obscures access to the mouth (e.g., O₂ mask or CPAP),<br>\nii. 16 mg IV/IM/IO x 1, if the patient cannot tolerate oral medications, or has any of the above conditions.<br>\nb. Pediatric:<br>\ni. 0.6 mg/kg (single MAX dose of 16 mg) PO x 1, if patient can tolerate oral medications, is not in overt respiratory distress, and is not requiring an airway management technique that obscures access to the mouth (e.g., O₂ mask or CPAP), 🧸<br>\nii. 0.6 mg/kg (single MAX dose of 16 mg) IV/IM/IO x 1, if the patient cannot tolerate oral medications, or has any of the above conditions.</p>\n</li>\n<li>\n<p>For patients not improving with the above measures, consider the following OPTIONS:<br>\na. Repeated or continuous albuterol by nebulization or inhaler.<br>\nb. For patients in status asthmaticus:<br>\ni. EPINEPHrine<br>\n1. Adult: EPINEPHrine 0.3 mg IM of 1mg/1mL every 20 minutes. 🏥<br>\n2. Pediatric: EPINEPHrine dose which is as follows:<br>\na. Less than 25 kg, 0.15 mg IM [0.15mL of 1mg/mL] in anterolateral thigh every 20 minutes,<br>\nb. Greater than 25 kg, 0.3 mg IM [0.3 mL of 1mg/mL] in anterolateral thigh every 20 minutes. 🧸<br>\nii. Magnesium Sulfate<br>\n1. Adult: Magnesium Sulfate 2 grams IV/IO, diluted in 50-100 mL of IVF (D₅W preferred), over 15 minutes, delivered via medication pump.<br>\n2. Pediatric: Magnesium Sulfate 50 mg/kg IV/IO with a MAX dose of 2 grams, diluted in 50-100 mL of IVF (D₅W preferred), over 15 minutes, delivered via medication pump. 🧸</p>\n</li>\n</ol>"
+            "html": "<ol start=\"11\">\n<li>\n<p>Dexamethasone<br>\na. Adult:<br>\ni. 16 mg PO x 1 if patient can tolerate oral medications, is not in overt respiratory distress, and is not requiring an airway management technique that obscures access to the mouth (e.g., O₂ mask or CPAP),<br>\nii. 16 mg IV/IM/IO x 1, if the patient cannot tolerate oral medications, or has any of the above conditions.<br>\nb. Pediatric:<br>\ni. 0.6 mg/kg (single MAX dose of 16 mg) PO x 1, if patient can tolerate oral medications, is not in overt respiratory distress, and is not requiring an airway management technique that obscures access to the mouth (e.g., O₂ mask or CPAP), &lt;img&gt;Bear&lt;/img&gt;<br>\nii. 0.6 mg/kg (single MAX dose of 16 mg) IV/IM/IO x 1, if the patient cannot tolerate oral medications, or has any of the above conditions.</p>\n</li>\n<li>\n<p>For patients not improving with the above measures, consider the following OPTIONS:<br>\na. Repeated or continuous albuterol by nebulization or inhaler.<br>\nb. For patients in status asthmaticus:<br>\ni. EPINEPHrine<br>\n1. Adult: EPINEPHrine 0.3 mg IM of 1mg/1mL every 20 minutes. &lt;img&gt;Hospital&lt;/img&gt;<br>\n2. Pediatric: EPINEPHrine dose which is as follows:<br>\na. Less than 25 kg, 0.15 mg IM [0.15mL of 1mg/mL] in anterolateral thigh every 20 minutes,<br>\nb. Greater than 25 kg, 0.3 mg IM [0.3 mL of 1mg/mL] in anterolateral thigh every 20 minutes. &lt;img&gt;Bear&lt;/img&gt;<br>\nii. Magnesium Sulfate<br>\n1. Adult: Magnesium Sulfate 2 grams IV/IO, diluted in 50-100 mL of IVF (D₅W preferred), over 15 minutes, delivered via medication pump.<br>\n2. Pediatric: Magnesium Sulfate 50 mg/kg IV/IO with a MAX dose of 2 grams, diluted in 50-100 mL of IVF (D₅W preferred), over 15 minutes, delivered via medication pump. &lt;img&gt;Bear&lt;/img&gt;</p>\n</li>\n</ol>"
           },
           {
             "type": "content",
@@ -701,7 +701,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>A teddy bear wearing a bandage.</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;A teddy bear wearing a bandage.&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -743,14 +743,14 @@
             "html": "<p>Adult patients with respiratory failure who are unable to oxygenate and ventilate often require CPAP. These patients may be combative and unable to tolerate CPAP either due to their hypoxia or anxiety.</p>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMT/ADVANCED EMT/PARAMEDIC",
-            "html": "<p><strong>EMT/ADVANCED EMT/PARAMEDIC</strong></p>"
+            "html": "<h2>EMT/ADVANCED EMT/PARAMEDIC</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -763,10 +763,16 @@
             "html": "<ol>\n<li>Attempt coaching.</li>\n</ol>"
           },
           {
+            "type": "header",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "ADVANCED EMT/PARAMEDIC",
+            "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
+          },
+          {
             "type": "content",
-            "providerLevel": "ALL",
-            "content": "ADVANCED EMT/PARAMEDIC\n2. If CPAP causing nausea and bloating, consider ondansetron, see Nausea and Vomiting protocol, Gold 18.",
-            "html": "<p><strong>ADVANCED EMT/PARAMEDIC</strong><br>\n2. If CPAP causing nausea and bloating, consider ondansetron, see Nausea and Vomiting protocol, Gold 18.</p>"
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+            "content": "2. If CPAP causing nausea and bloating, consider ondansetron, see Nausea and Vomiting protocol, Gold 18.",
+            "html": "<p>2. If CPAP causing nausea and bloating, consider ondansetron, see Nausea and Vomiting protocol, Gold 18.</p>"
           },
           {
             "type": "header",
@@ -1082,7 +1088,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Diagram showing the neck with red lines indicating incision points, labeled \"Start Incision here\", \"Thyroid Cartilage\", \"Cricothyroid membrane\", and \"Cricoid cartilage\".</img>\n<img>Diagram showing a cross-section of the neck, highlighting \"Thyroid cartilage\", \"Cricothyroid membrane\", and \"Cricoid cartilage\".</img>",
-            "html": "<p>[Diagram: Diagram showing the neck with red lines indicating incision points, labeled \"Start Incision here\", \"Thyroid Cartilage\", \"Cricothyroid membrane\", and \"Cricoid cartilage\".]<br>\n[Diagram: Diagram showing a cross-section of the neck, highlighting \"Thyroid cartilage\", \"Cricothyroid membrane\", and \"Cricoid cartilage\".]</p>"
+            "html": "<p>&lt;img&gt;Diagram showing the neck with red lines indicating incision points, labeled \"Start Incision here\", \"Thyroid Cartilage\", \"Cricothyroid membrane\", and \"Cricoid cartilage\".&lt;/img&gt;<br>\n&lt;img&gt;Diagram showing a cross-section of the neck, highlighting \"Thyroid cartilage\", \"Cricothyroid membrane\", and \"Cricoid cartilage\".&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -1170,7 +1176,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Surgical Cricothyrotomy #2 Procedure</img>",
-            "html": "<p>[Diagram: Surgical Cricothyrotomy #2 Procedure]</p>"
+            "html": "<p>&lt;img&gt;Surgical Cricothyrotomy #2 Procedure&lt;/img&gt;</p>"
           }
         ]
       }
@@ -1197,7 +1203,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "Indication:\nAn adult or pediatric patient with an established tracheostomy with signs of respiratory distress or failure.\n<img>A small teddy bear icon.</img>",
-            "html": "<p><strong>Indication:</strong><br>\nAn adult or pediatric patient with an established tracheostomy with signs of respiratory distress or failure.<br>\n🧸</p>"
+            "html": "<p><strong>Indication:</strong><br>\nAn adult or pediatric patient with an established tracheostomy with signs of respiratory distress or failure.<br>\n&lt;img&gt;A small teddy bear icon.&lt;/img&gt;</p>"
           },
           {
             "type": "content",

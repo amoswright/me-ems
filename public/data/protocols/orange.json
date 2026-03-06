@@ -183,14 +183,14 @@
             "html": "<p>In certain limited situations, when a patient poses a significant danger to self or others, it may be appropriate to restrain the patient involuntarily. Clinicians are cautioned to use physical restraint as a last resort, preferably with the assistance of local law enforcement. Once the decision is made to restrain a patient, the least restrictive restraint reasonable should be implemented and the patient should remain restrained until arrival at the emergency department, unless it interferes with the delivery of medical care. Only commercially available soft restraints are approved by Maine EMS.</p>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT",
             "content": "EMT/AEMT",
-            "html": "<p><strong>EMT/AEMT</strong></p>"
+            "html": "<h2>EMT/AEMT</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -236,7 +236,7 @@
                 }
               ]
             },
-            "html": "<ol>\n<li>Refer to Altered Level of Consciousness Protocol, <strong>Gold 5</strong>, to establish etiology of agitation.</li>\n<li>Request law enforcement assistance.</li>\n<li>Request ALS.</li>\n<li>Attempt de-escalation techniques (speak in an honest, non-confrontational tone while avoiding eye contact).</li>\n<li>Have appropriate personnel available prior to initiating restraints.</li>\n<li>Restrain patients in a lateral or supine position. NEVER leave patients restrained in a prone position. NEVER restrain a patient's hands and feet behind them (hog-tying). All applied restraints must be easy to remove should a medical emergency occur.</li>\n<li>Never place objects on top of patients to restrain them.</li>\n<li>Restrained patients require 1:1 observation by EMS personnel and require continuous cardiac, pulse oximetry and waveform capnography monitoring, if able to do so.</li>\n<li>Contact <strong>OLMC</strong> as soon as logistically possible after securing the safety of the patient and clinicians. 🏥</li>\n<li>Documentation: Document de-escalation techniques utilized prior to physical restraint. Document type of restraints used, how restraints applied, when restraints applied, why restraints applied (e.g., patient's behavior and mental status), the agency and individual that applied the restraints, frequent vital signs and CSM checks, education provided to patient and time OLMC notified.</li>\n<li>Restraint devices applied by a law enforcement officer (LEO) require an officer's presence to ensure patient safety and to allow for quick removal, if medically necessary. In most cases, the LEO should accompany the patient in the ambulance. However, if the LEO requests, and there is no active safety concern to the EMS Clinician, it is permissive for the LEO to immediately follow the ambulance in their vehicle to the hospital.</li>\n<li>Restrained patients should not be moved in a stair chair device as violent patients cannot be properly restrained in a stair chair and EMS personnel may be easily thrown off-balance by a resisting patient.</li>\n<li>Restrained patients should be transported to the nearest emergency department.</li>\n</ol>"
+            "html": "<ol>\n<li>Refer to Altered Level of Consciousness Protocol, <strong>Gold 5</strong>, to establish etiology of agitation.</li>\n<li>Request law enforcement assistance.</li>\n<li>Request ALS.</li>\n<li>Attempt de-escalation techniques (speak in an honest, non-confrontational tone while avoiding eye contact).</li>\n<li>Have appropriate personnel available prior to initiating restraints.</li>\n<li>Restrain patients in a lateral or supine position. NEVER leave patients restrained in a prone position. NEVER restrain a patient's hands and feet behind them (hog-tying). All applied restraints must be easy to remove should a medical emergency occur.</li>\n<li>Never place objects on top of patients to restrain them.</li>\n<li>Restrained patients require 1:1 observation by EMS personnel and require continuous cardiac, pulse oximetry and waveform capnography monitoring, if able to do so.</li>\n<li>Contact <strong>OLMC</strong> as soon as logistically possible after securing the safety of the patient and clinicians. &lt;img&gt;Hospital Icon&lt;/img&gt;</li>\n<li>Documentation: Document de-escalation techniques utilized prior to physical restraint. Document type of restraints used, how restraints applied, when restraints applied, why restraints applied (e.g., patient's behavior and mental status), the agency and individual that applied the restraints, frequent vital signs and CSM checks, education provided to patient and time OLMC notified.</li>\n<li>Restraint devices applied by a law enforcement officer (LEO) require an officer's presence to ensure patient safety and to allow for quick removal, if medically necessary. In most cases, the LEO should accompany the patient in the ambulance. However, if the LEO requests, and there is no active safety concern to the EMS Clinician, it is permissive for the LEO to immediately follow the ambulance in their vehicle to the hospital.</li>\n<li>Restrained patients should not be moved in a stair chair device as violent patients cannot be properly restrained in a stair chair and EMS personnel may be easily thrown off-balance by a resisting patient.</li>\n<li>Restrained patients should be transported to the nearest emergency department.</li>\n</ol>"
           },
           {
             "type": "header",
@@ -278,14 +278,14 @@
             "html": "<h1>Hyperactive Delirium with Severe Agitation #1</h1>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT",
             "content": "EMT/ADVANCED EMT",
-            "html": "<p><strong>EMT/ADVANCED EMT</strong></p>"
+            "html": "<h2>EMT/ADVANCED EMT</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -691,14 +691,14 @@
             "html": "<h1>Care of the Person Experiencing Homelessness</h1>"
           },
           {
-            "type": "content",
-            "providerLevel": "ALL",
+            "type": "header",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": "EMT/ADVANCED EMT/PARAMEDIC",
-            "html": "<p><strong>EMT/ADVANCED EMT/PARAMEDIC</strong></p>"
+            "html": "<h2>EMT/ADVANCED EMT/PARAMEDIC</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,

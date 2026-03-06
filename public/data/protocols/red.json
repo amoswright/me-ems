@@ -190,7 +190,7 @@
             "type": "content",
             "providerLevel": "PARAMEDIC",
             "content": "10. Paramedic may perform all treatments above without medical control.\n11. Obtain 12-lead ECG within first 10 minutes of patient contact.\nIf patient meets STEMI criteria, refer to local or regional cardiac systems of care for destination decision support.* Alert the destination hospital as soon as possible to allow the hospital to prepare while addressing any questions regarding appropriateness of destination, dynamic patient presentations or treatment modalities. <img>Hospital Icon</img>",
-            "html": "<p>10. Paramedic may perform all treatments above without medical control.<br>\n11. Obtain 12-lead ECG within first 10 minutes of patient contact.<br>\nIf patient meets STEMI criteria, refer to local or regional cardiac systems of care for destination decision support.* Alert the destination hospital as soon as possible to allow the hospital to prepare while addressing any questions regarding appropriateness of destination, dynamic patient presentations or treatment modalities. 🏥</p>"
+            "html": "<p>10. Paramedic may perform all treatments above without medical control.<br>\n11. Obtain 12-lead ECG within first 10 minutes of patient contact.<br>\nIf patient meets STEMI criteria, refer to local or regional cardiac systems of care for destination decision support.* Alert the destination hospital as soon as possible to allow the hospital to prepare while addressing any questions regarding appropriateness of destination, dynamic patient presentations or treatment modalities. &lt;img&gt;Hospital Icon&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -411,7 +411,7 @@
                 }
               ]
             },
-            "html": "<ol>\n<li>Prehospital 12-lead ECG is now a standard of care for increasing diagnostic information regarding the chest pain/cardiac arrest patient</li>\n<li>Acquisition of a 12-lead ECG should be done in all patients with chest pain or a potential cardiac complaint/diagnosis such as syncope or shortness of breath. Given the frequency of atypical presentation in the elderly, responders must have a high index of suspicion in the elderly patient</li>\n<li>Transmission of 12-lead ECG or presentation of prehospital 12-lead ECG to treating clinicians at the receiving ED is intended to augment patient triage and facilitate rapid identification of a potential thrombolytic or emergent catheterization candidate</li>\n<li>In the case of STEMI, notify the receiving ED immediately 🏥</li>\n</ol>"
+            "html": "<ol>\n<li>Prehospital 12-lead ECG is now a standard of care for increasing diagnostic information regarding the chest pain/cardiac arrest patient</li>\n<li>Acquisition of a 12-lead ECG should be done in all patients with chest pain or a potential cardiac complaint/diagnosis such as syncope or shortness of breath. Given the frequency of atypical presentation in the elderly, responders must have a high index of suspicion in the elderly patient</li>\n<li>Transmission of 12-lead ECG or presentation of prehospital 12-lead ECG to treating clinicians at the receiving ED is intended to augment patient triage and facilitate rapid identification of a potential thrombolytic or emergent catheterization candidate</li>\n<li>In the case of STEMI, notify the receiving ED immediately &lt;img&gt;Hospital Logo&lt;/img&gt;</li>\n</ol>"
           },
           {
             "type": "content",
@@ -429,7 +429,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Body diagram showing lead placement for 12-lead ECG (RA, LA, RL, LL)</img>\nRA = Right Arm\nLA = Left Arm\nRL = Right Leg\nLL = Left Leg",
-            "html": "<p>[Diagram: Body diagram showing lead placement for 12-lead ECG (RA, LA, RL, LL]<br>\nRA = Right Arm<br>\nLA = Left Arm<br>\nRL = Right Leg<br>\nLL = Left Leg</p>"
+            "html": "<p>&lt;img&gt;Body diagram showing lead placement for 12-lead ECG (RA, LA, RL, LL)&lt;/img&gt;<br>\nRA = Right Arm<br>\nLA = Left Arm<br>\nRL = Right Leg<br>\nLL = Left Leg</p>"
           },
           {
             "type": "content",
@@ -441,7 +441,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Body diagram showing lead placement for 12-lead ECG (V1-V9)</img>\n<img>Body diagram showing lead placement for 12-lead ECG (V7-V9) with Scapula highlighted</img>\n<img>Electrocardiogram strips showing leads V1, V2, V3, V4R, V5, V6, V7, V8, V9</img>",
-            "html": "<p>[Diagram: Body diagram showing lead placement for 12-lead ECG (V1-V9]<br>\n&lt;img&gt;Body diagram showing lead placement for 12-lead ECG (V7-V9) with Scapula highlighted&lt;/img&gt;<br>\n[ECG: Electrocardiogram strips showing leads V1, V2, V3, V4R, V5, V6, V7, V8, V9]</p>"
+            "html": "<p>&lt;img&gt;Body diagram showing lead placement for 12-lead ECG (V1-V9)&lt;/img&gt;<br>\n&lt;img&gt;Body diagram showing lead placement for 12-lead ECG (V7-V9) with Scapula highlighted&lt;/img&gt;<br>\n&lt;img&gt;Electrocardiogram strips showing leads V1, V2, V3, V4R, V5, V6, V7, V8, V9&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -1086,7 +1086,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "In the case of peripartum cardiac arrest, provision of high-quality CPR remains a priority. If a patient's fundus height is at or above the level of the umbilicus, manual uterine displacement to either the left or right is the preferred method of relieving aortocaval compression during chest compressions. Additionally, local hospital resources for advanced care should be activated immediately upon recognition of peripartum cardiac arrest. Contact OLMC to discuss the potential of additional therapies.\n<img>Hospital Icon</img>",
-            "html": "<p>In the case of peripartum cardiac arrest, provision of high-quality CPR remains a priority. If a patient's fundus height is at or above the level of the umbilicus, manual uterine displacement to either the left or right is the preferred method of relieving aortocaval compression during chest compressions. Additionally, local hospital resources for advanced care should be activated immediately upon recognition of peripartum cardiac arrest. Contact OLMC to discuss the potential of additional therapies.<br>\n🏥</p>"
+            "html": "<p>In the case of peripartum cardiac arrest, provision of high-quality CPR remains a priority. If a patient's fundus height is at or above the level of the umbilicus, manual uterine displacement to either the left or right is the preferred method of relieving aortocaval compression during chest compressions. Additionally, local hospital resources for advanced care should be activated immediately upon recognition of peripartum cardiac arrest. Contact OLMC to discuss the potential of additional therapies.<br>\n&lt;img&gt;Hospital Icon&lt;/img&gt;</p>"
           }
         ]
       },
@@ -1245,7 +1245,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>A diagram showing two sets of defibrillator pads on a person's chest. The first set (blue pads) is placed over the heart, with one pad on the left side of the chest and the other on the right side. The second set (red pads) is placed over the lower part of the chest, with one pad on the left side and the other on the right side.</img>",
-            "html": "<p>[Diagram: Defibrillator pad placement]</p>"
+            "html": "<p>&lt;img&gt;A diagram showing two sets of defibrillator pads on a person's chest. The first set (blue pads) is placed over the heart, with one pad on the left side of the chest and the other on the right side. The second set (red pads) is placed over the lower part of the chest, with one pad on the left side and the other on the right side.&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -1380,7 +1380,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "*Survival and functional neurologic outcomes are unlikely if ROSC is not obtained by EMS. It is dangerous to the crew, pedestrians and other motorists to attempt to resuscitate a patient during ambulance transport. If circumstances do not allow TOR for safety or other reasons, notify OLMC. <img>Hospital Logo</img>",
-            "html": "<p>*Survival and functional neurologic outcomes are unlikely if ROSC is not obtained by EMS. It is dangerous to the crew, pedestrians and other motorists to attempt to resuscitate a patient during ambulance transport. If circumstances do not allow TOR for safety or other reasons, notify OLMC. 🏥</p>"
+            "html": "<p>*Survival and functional neurologic outcomes are unlikely if ROSC is not obtained by EMS. It is dangerous to the crew, pedestrians and other motorists to attempt to resuscitate a patient during ambulance transport. If circumstances do not allow TOR for safety or other reasons, notify OLMC. &lt;img&gt;Hospital Logo&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -1464,7 +1464,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>NEW ENGLAND Donor Services 800.446.6362 DONATE LIFE</img>",
-            "html": "<p>[Donor Services: 800.446.6362]</p>"
+            "html": "<p>&lt;img&gt;NEW ENGLAND Donor Services 800.446.6362 DONATE LIFE&lt;/img&gt;</p>"
           },
           {
             "type": "header",
@@ -1499,7 +1499,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>NEW ENGLAND Donor Services 800.446.6362 DONATE LIFE</img>",
-            "html": "<p>[Donor Services: 800.446.6362]</p>"
+            "html": "<p>&lt;img&gt;NEW ENGLAND Donor Services 800.446.6362 DONATE LIFE&lt;/img&gt;</p>"
           },
           {
             "type": "header",
@@ -1741,7 +1741,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Bear with stethoscope</img> Pediatric Cardiac Arrest #1 <img>Bear with stethoscope</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;Bear with stethoscope&lt;/img&gt; Pediatric Cardiac Arrest #1 &lt;img&gt;Bear with stethoscope&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -1788,7 +1788,7 @@
                 }
               ]
             },
-            "html": "<ol>\n<li>Initiate immediate CPR with minimal interruptions, continue CPR until AED arrives or signs incompatible with life are present, refer to Do Not Resuscitate Guidelines, Grey 3; refer to Termination of Resuscitation protocol, Red 14.</li>\n<li>Attach AED as soon as available with minimal interruptions in chest compressions and follow AED prompts. From birth to 8 years, use pediatric AED pads. If pediatric pads are unavailable, use adult AED pads, do not allow pads to overlap.</li>\n<li>Place oral and/or nasal airway(s).</li>\n<li>High-flow O₂ with BVM ventilation at a ratio of 30:2 or 15:2 if multiple rescuers.</li>\n<li>Request ALS.</li>\n<li>Continue 2-minute cycles of chest compressions and AED checks.</li>\n<li>If ROSC occurs, refer to Pediatric Post-Resuscitation Care protocol, Red 21.</li>\n<li>Consider termination of resuscitation after discussion with OLMC ; refer to Termination of Resuscitation protocol, Red 14. 🏥</li>\n</ol>"
+            "html": "<ol>\n<li>Initiate immediate CPR with minimal interruptions, continue CPR until AED arrives or signs incompatible with life are present, refer to Do Not Resuscitate Guidelines, Grey 3; refer to Termination of Resuscitation protocol, Red 14.</li>\n<li>Attach AED as soon as available with minimal interruptions in chest compressions and follow AED prompts. From birth to 8 years, use pediatric AED pads. If pediatric pads are unavailable, use adult AED pads, do not allow pads to overlap.</li>\n<li>Place oral and/or nasal airway(s).</li>\n<li>High-flow O₂ with BVM ventilation at a ratio of 30:2 or 15:2 if multiple rescuers.</li>\n<li>Request ALS.</li>\n<li>Continue 2-minute cycles of chest compressions and AED checks.</li>\n<li>If ROSC occurs, refer to Pediatric Post-Resuscitation Care protocol, Red 21.</li>\n<li>Consider termination of resuscitation after discussion with OLMC ; refer to Termination of Resuscitation protocol, Red 14. &lt;img&gt;Hospital icon&lt;/img&gt;</li>\n</ol>"
           },
           {
             "type": "header",
@@ -1838,7 +1838,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Bear with stethoscope</img> Pediatric Cardiac Arrest #2 <img>Bear with stethoscope</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;Bear with stethoscope&lt;/img&gt; Pediatric Cardiac Arrest #2 &lt;img&gt;Bear with stethoscope&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -1909,7 +1909,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>A teddy bear wearing a stethoscope.</img> Pediatric Cardiac Arrest #3 <img>A teddy bear wearing a stethoscope.</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;A teddy bear wearing a stethoscope.&lt;/img&gt; Pediatric Cardiac Arrest #3 &lt;img&gt;A teddy bear wearing a stethoscope.&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -1955,7 +1955,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Bear with stethoscope</img> Pediatric Post-Resuscitation Care <img>Bear with stethoscope</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;Bear with stethoscope&lt;/img&gt; Pediatric Post-Resuscitation Care &lt;img&gt;Bear with stethoscope&lt;/img&gt;</p>"
           },
           {
             "type": "header",
@@ -2014,7 +2014,7 @@
             "type": "content",
             "providerLevel": "PARAMEDIC",
             "content": "<img>Hospital building icon</img>",
-            "html": "<p>🏥</p>"
+            "html": "<p>&lt;img&gt;Hospital building icon&lt;/img&gt;</p>"
           }
         ]
       }
@@ -2041,7 +2041,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Bear with stethoscope</img> Pediatric Cardiac Medications & Dosages <img>Bear with stethoscope</img>",
-            "html": "<p>🧸</p>"
+            "html": "<p>&lt;img&gt;Bear with stethoscope&lt;/img&gt; Pediatric Cardiac Medications &amp; Dosages &lt;img&gt;Bear with stethoscope&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -2256,13 +2256,13 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>A medical professional assisting a patient who is blowing into a 10 mL syringe.</img>\nPosition patient seated upright and have patient blow into a 10 mL syringe forcefully, attempting to move the plunger for 15 sec.*",
-            "html": "<p>[Modified Valsalva maneuver]<br>\nPosition patient seated upright and have patient blow into a 10 mL syringe forcefully, attempting to move the plunger for 15 sec.*</p>"
+            "html": "<p>&lt;img&gt;A medical professional assisting a patient who is blowing into a 10 mL syringe.&lt;/img&gt;<br>\nPosition patient seated upright and have patient blow into a 10 mL syringe forcefully, attempting to move the plunger for 15 sec.*</p>"
           },
           {
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>A patient lying supine with legs raised, wearing a hospital gown.</img>\nThen, immediately lay the patient supine and raise legs to 45 degrees. Hold legs for 1 min, then return to seated position.*",
-            "html": "<p>[Position: Supine with legs raised]<br>\nThen, immediately lay the patient supine and raise legs to 45 degrees. Hold legs for 1 min, then return to seated position.*</p>"
+            "html": "<p>&lt;img&gt;A patient lying supine with legs raised, wearing a hospital gown.&lt;/img&gt;<br>\nThen, immediately lay the patient supine and raise legs to 45 degrees. Hold legs for 1 min, then return to seated position.*</p>"
           },
           {
             "type": "content",
@@ -2392,7 +2392,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Bear</img> Pediatric Tachycardia #1 <img>Bear</img>",
-            "html": "<p>🧸 Pediatric Tachycardia #1 🧸</p>"
+            "html": "<p>&lt;img&gt;Bear&lt;/img&gt; Pediatric Tachycardia #1 &lt;img&gt;Bear&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -2474,7 +2474,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Bear</img> Pediatric Tachycardia #2 <img>Bear</img>",
-            "html": "<p>🧸 Pediatric Tachycardia #2 🧸</p>"
+            "html": "<p>&lt;img&gt;Bear&lt;/img&gt; Pediatric Tachycardia #2 &lt;img&gt;Bear&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -2492,13 +2492,13 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Man blowing into a 10 mL syringe</img>\nPosition patient seated upright and have patient blow into a 10 mL syringe forcefully, attempting to move the plunger for 15 sec. *",
-            "html": "<p>[Modified Valsalva maneuver]<br>\nPosition patient seated upright and have patient blow into a 10 mL syringe forcefully, attempting to move the plunger for 15 sec. *</p>"
+            "html": "<p>&lt;img&gt;Man blowing into a 10 mL syringe&lt;/img&gt;<br>\nPosition patient seated upright and have patient blow into a 10 mL syringe forcefully, attempting to move the plunger for 15 sec. *</p>"
           },
           {
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Man lying down with legs raised</img>",
-            "html": "<p>[Position: Supine with legs raised]</p>"
+            "html": "<p>&lt;img&gt;Man lying down with legs raised&lt;/img&gt;</p>"
           },
           {
             "type": "list",
@@ -2517,7 +2517,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Nurse assisting patient with modified Valsalva maneuver</img>",
-            "html": "<p>[Modified Valsalva maneuver]</p>"
+            "html": "<p>&lt;img&gt;Nurse assisting patient with modified Valsalva maneuver&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -2555,7 +2555,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Bear</img> Pediatric Tachycardia #3 <img>Bear</img>",
-            "html": "<p>🧸 Pediatric Tachycardia #3 🧸</p>"
+            "html": "<p>&lt;img&gt;Bear&lt;/img&gt; Pediatric Tachycardia #3 &lt;img&gt;Bear&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -2827,7 +2827,7 @@
             "type": "content",
             "providerLevel": "ALL",
             "content": "<img>Bear</img> Pediatric Bradycardia <img>Bear</img>",
-            "html": "<p>🧸 Pediatric Bradycardia 🧸</p>"
+            "html": "<p>&lt;img&gt;Bear&lt;/img&gt; Pediatric Bradycardia &lt;img&gt;Bear&lt;/img&gt;</p>"
           },
           {
             "type": "content",
@@ -3042,7 +3042,7 @@
                 }
               ]
             },
-            "html": "<ul>\n<li>Pediatric patients suffering from suspected cardiogenic shock should receive fluid boluses of 10 mL/kg with frequent reassessment for tolerance and need for additional fluids. 🧸</li>\n<li>Pediatric patients rarely require vasopressors. If the patient is not responding to or tolerating intravenous fluids, consult OLMC.</li>\n</ul>"
+            "html": "<ul>\n<li>Pediatric patients suffering from suspected cardiogenic shock should receive fluid boluses of 10 mL/kg with frequent reassessment for tolerance and need for additional fluids. &lt;img&gt;Bear with stethoscope&lt;/img&gt;</li>\n<li>Pediatric patients rarely require vasopressors. If the patient is not responding to or tolerating intravenous fluids, consult OLMC.</li>\n</ul>"
           }
         ]
       }
@@ -3108,13 +3108,13 @@
           },
           {
             "type": "header",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": "ADVANCED EMT/PARAMEDIC",
             "html": "<h2>ADVANCED EMT/PARAMEDIC</h2>"
           },
           {
             "type": "list",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 7,
@@ -3137,7 +3137,7 @@
           },
           {
             "type": "content",
-            "providerLevel": "ADVANCED_EMT",
+            "providerLevel": "ADVANCED_EMT_PARAMEDIC",
             "content": "NOTE: At any time, if relevant signs/symptoms found, go to appropriate protocol.",
             "html": "<p>NOTE: At any time, if relevant signs/symptoms found, go to appropriate protocol.</p>"
           },

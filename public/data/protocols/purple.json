@@ -395,14 +395,20 @@
             "html": "<p>(IO continued from previous page)</p>"
           },
           {
+            "type": "header",
+            "providerLevel": "PARAMEDIC",
+            "content": "Paramedic",
+            "html": "<h2>Paramedic</h2>"
+          },
+          {
             "type": "content",
-            "providerLevel": "ALL",
-            "content": "Paramedic: If infusion of medications or fluids causes significant pain, consider the following:",
-            "html": "<p><strong>Paramedic:</strong> If infusion of medications or fluids causes significant pain, consider the following:</p>"
+            "providerLevel": "PARAMEDIC",
+            "content": "If infusion of medications or fluids causes significant pain, consider the following:",
+            "html": "<p>If infusion of medications or fluids causes significant pain, consider the following:</p>"
           },
           {
             "type": "list",
-            "providerLevel": "ALL",
+            "providerLevel": "PARAMEDIC",
             "content": {
               "type": "ordered",
               "startNumber": 1,
@@ -419,67 +425,67 @@
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "PARAMEDIC",
             "content": "IV means any balanced electrolyte solutions may be used, such as Lactated Ringers, Normal Saline and 5% Dextrose in Water. IV solutions, as defined in this document, DO NOT include other additives (such as potassium) or medications. Normal Saline is the fluid of choice for patients with history of renal failure, not Lactated Ringers. Recommended catheter size for rapid fluid resuscitation in adults is 14-18 gauge. If rapid fluid resuscitation is not required, smaller catheter sizes and heparin/saline locks may be used. Heparin used for this procedure is not considered a medication.",
             "html": "<p><strong>IV</strong> means any balanced electrolyte solutions may be used, such as Lactated Ringers, Normal Saline and 5% Dextrose in Water. IV solutions, as defined in this document, DO NOT include other additives (such as potassium) or medications. Normal Saline is the fluid of choice for patients with history of renal failure, not Lactated Ringers. Recommended catheter size for rapid fluid resuscitation in adults is 14-18 gauge. If rapid fluid resuscitation is not required, smaller catheter sizes and heparin/saline locks may be used. Heparin used for this procedure is not considered a medication.</p>"
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "PARAMEDIC",
             "content": "IV fluids refer to Normal Saline (NS), Lactated Ringers (LR), and 5% Dextrose in Water (D₅W). All Maine EMS-approved medications, except amiodarone and sodium bicarbonate are compatible with these IV fluids; Amiodarone and sodium bicarbonate must be mixed with D₅W only.",
             "html": "<p><strong>IV fluids</strong> refer to Normal Saline (NS), Lactated Ringers (LR), and 5% Dextrose in Water (D₅W). All Maine EMS-approved medications, except amiodarone and sodium bicarbonate are compatible with these IV fluids; Amiodarone and sodium bicarbonate must be mixed with D₅W only.</p>"
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "PARAMEDIC",
             "content": "IV Push means an expedited method of medication delivery in which a small volume of medication is administered, all at once, over a short amount of time into a vein. Recommendations for administration times are listed in specific protocols.",
             "html": "<p><strong>IV Push</strong> means an expedited method of medication delivery in which a small volume of medication is administered, all at once, over a short amount of time into a vein. Recommendations for administration times are listed in specific protocols.</p>"
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "PARAMEDIC",
             "content": "kg refers to kilogram.",
             "html": "<p><strong>kg</strong> refers to kilogram.</p>"
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "PARAMEDIC",
             "content": "L refers to liter.",
             "html": "<p><strong>L</strong> refers to liter.</p>"
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "PARAMEDIC",
             "content": "LVAD refers to Left Ventricular Assist Device.",
             "html": "<p><strong>LVAD</strong> refers to Left Ventricular Assist Device.</p>"
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "PARAMEDIC",
             "content": "LVO refers to Large Vessel Occlusion, a type of stroke that may be amenable to fibrinolytic/endovascular therapy.",
             "html": "<p><strong>LVO</strong> refers to Large Vessel Occlusion, a type of stroke that may be amenable to fibrinolytic/endovascular therapy.</p>"
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "PARAMEDIC",
             "content": "LOC refers to Level of Consciousness.",
             "html": "<p><strong>LOC</strong> refers to Level of Consciousness.</p>"
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "PARAMEDIC",
             "content": "Maine Operational Physician refers to an EMS Physician responding collaboratively with the traditional Maine EMS system, either performing or supporting prehospital care.",
             "html": "<p><strong>Maine Operational Physician</strong> refers to an EMS Physician responding collaboratively with the traditional Maine EMS system, either performing or supporting prehospital care.</p>"
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "PARAMEDIC",
             "content": "MAP refers to mean arterial pressure which is the diastolic pressure plus 1/3 (systolic pressure minus diastolic pressure). Post ROSC MAP goals are greater than 80 mmHg.",
             "html": "<p><strong>MAP</strong> refers to mean arterial pressure which is the diastolic pressure plus 1/3 (systolic pressure minus diastolic pressure). Post ROSC MAP goals are greater than 80 mmHg.</p>"
           },
           {
             "type": "content",
-            "providerLevel": "ALL",
+            "providerLevel": "PARAMEDIC",
             "content": "mCPR refers to mechanical CPR. These devices must meet the requirement of 100-120 compressions/minute with a compression depth of 2 inches.",
             "html": "<p><strong>mCPR</strong> refers to mechanical CPR. These devices must meet the requirement of 100-120 compressions/minute with a compression depth of 2 inches.</p>"
           }

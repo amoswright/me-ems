@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Type definitions
-type ProviderLevel = 'EMT' | 'ADVANCED_EMT' | 'PARAMEDIC' | 'ALL' | 'EMT_ADVANCED_EMT' | 'ADVANCED_EMT_PARAMEDIC' | 'EMT_ADVANCED_EMT_PARAMEDIC';
+type ProviderLevel = 'EMT' | 'ADVANCED_EMT' | 'PARAMEDIC' | 'ALL' | 'EMT_ADVANCED_EMT' | 'ADVANCED_EMT_PARAMEDIC' | 'EMT_ADVANCED_EMT_PARAMEDIC' | 'PEARLS';
 
 interface Category {
   id: string;
@@ -33,14 +33,8 @@ interface PageReference {
   protocolPageNumber: string;
 }
 
-interface Protocol {
-  id: string;
-  title: string;
-  category: string;
-  pages: ProtocolPage[];
-}
-
-interface ProtocolPage {
+// Internal parser types (not exported to JSON)
+interface InternalProtocolPage {
   pageId: string;
   pageNumber: string;
   jpgReference: string;
@@ -53,6 +47,7 @@ interface ProtocolSection {
   providerLevel: ProviderLevel;
   content: any;
   html: string;
+  pearlsTitle?: string;
 }
 
 interface ListData {
@@ -75,6 +70,34 @@ interface TableData {
 interface MermaidDiagram {
   type: 'mermaid';
   code: string;
+}
+
+// Output protocol types (matches src/types/protocol.ts)
+interface ProtocolStep {
+  num: number;
+  providerLevel: ProviderLevel;
+  html: string;
+}
+
+interface ProtocolIntroItem {
+  type: 'content' | 'mermaid' | 'table' | 'list';
+  providerLevel: ProviderLevel;
+  html: string;
+}
+
+interface ProtocolPearl {
+  title?: string;
+  html: string[];
+}
+
+interface Protocol {
+  id: string;
+  title: string;
+  category: string;
+  intro: ProtocolIntroItem[];
+  steps: ProtocolStep[];
+  pearls: ProtocolPearl[];
+  pages: Array<{ pageId: string; pageNumber: string; jpgReference: string }>;
 }
 
 interface SearchIndex {
@@ -157,6 +180,7 @@ function extractProviderLevel(text: string): ProviderLevel {
   const hasEmt = /\bEMT\b/.test(normalized.replace(/ADVANCED EMT/g, ''));
 
   if (upperText.includes('ALL CLINICIANS')) return 'ALL';
+  if (/\bPEARLS?\b/i.test(text)) return 'PEARLS';
 
   if (hasEmt && hasAdvancedEmt && hasParamedic) return 'EMT_ADVANCED_EMT_PARAMEDIC';
   if (hasEmt && hasAdvancedEmt) return 'EMT_ADVANCED_EMT';
@@ -345,7 +369,7 @@ function parseTableData(element: Element): TableData {
 }
 
 // Parse individual protocol HTML file
-function parseProtocolHTML(htmlPath: string, pageId: string, jpgFile?: string): ProtocolPage | null {
+function parseProtocolHTML(htmlPath: string, pageId: string, jpgFile?: string, pageIndex = 0, inheritedProviderLevel: ProviderLevel = 'ALL'): InternalProtocolPage | null {
   if (!existsSync(htmlPath)) {
     console.warn(`  File not found: ${htmlPath}`);
     return null;
@@ -356,11 +380,11 @@ function parseProtocolHTML(htmlPath: string, pageId: string, jpgFile?: string): 
   const document = dom.window.document;
 
   const sections: ProtocolSection[] = [];
-  let currentProviderLevel: ProviderLevel = 'ALL';
+  // Continuation pages inherit the last provider level from the previous page
+  let currentProviderLevel: ProviderLevel = inheritedProviderLevel;
 
-  // Check if this is a continuation page
-  const isContinuation = htmlContent.includes('(Continued from previous page)') ||
-                         htmlContent.includes('(Continued)');
+  // A continuation page is any page after the first in a multi-page protocol
+  const isContinuation = pageIndex > 0;
 
   // Extract page number
   const pageNumber = extractProtocolPageNumber(htmlContent);
@@ -389,23 +413,30 @@ function parseProtocolHTML(htmlPath: string, pageId: string, jpgFile?: string): 
       const text = element.textContent || '';
       currentProviderLevel = extractProviderLevel(text);
 
-      sections.push({
+      // Extract pearlsTitle from "PEARLS for X" or "PEARLS FOR X"
+      const pearlsMatch = text.match(/^PEARLS\s+(?:FOR\s+)?(.+)/i);
+      const section: ProtocolSection = {
         type: 'header',
         providerLevel: currentProviderLevel,
         content: text,
         html: element.outerHTML
-      });
+      };
+      if (pearlsMatch) section.pearlsTitle = pearlsMatch[1].trim();
+
+      sections.push(section);
       return;
     }
 
-    // Detect H1 title
+    // Detect H1 title — skip on continuation pages (it's just "Protocol Name #N")
     if (tagName === 'h1') {
-      sections.push({
-        type: 'header',
-        providerLevel: 'ALL',
-        content: element.textContent || '',
-        html: element.outerHTML
-      });
+      if (!isContinuation) {
+        sections.push({
+          type: 'header',
+          providerLevel: 'ALL',
+          content: element.textContent || '',
+          html: element.outerHTML
+        });
+      }
       return;
     }
 
@@ -445,11 +476,11 @@ function parseProtocolHTML(htmlPath: string, pageId: string, jpgFile?: string): 
       return;
     }
 
-    // Detect PEARLS sections
+    // Detect PEARLS sections (standalone <p> containing PEARLS title text)
     if (tagName === 'p' && element.outerHTML.includes('PEARLS')) {
       sections.push({
         type: 'pearls',
-        providerLevel: 'ALL',
+        providerLevel: currentProviderLevel,
         content: element.textContent || '',
         html: element.outerHTML
       });
@@ -523,6 +554,133 @@ function parseProtocolHTML(htmlPath: string, pageId: string, jpgFile?: string): 
   };
 }
 
+// Parse <br>-separated numbered steps from a content section's HTML
+// Handles patterns like: <p>7. Establish IV en route.<br>8. If shock present...</p>
+// Returns steps array if content looks like numbered steps, null otherwise
+function parseBreakSeparatedSteps(html: string, providerLevel: ProviderLevel): ProtocolStep[] | null {
+  const dom = new JSDOM(html);
+  const p = dom.window.document.querySelector('p');
+  if (!p) return null;
+
+  const innerHTML = p.innerHTML;
+  const segments = innerHTML.split(/<br\s*\/?>/i).map(s => s.trim()).filter(Boolean);
+  if (segments.length === 0) return null;
+
+  // Check if the first segment starts with a numbered step pattern
+  const firstText = segments[0].replace(/<[^>]+>/g, '').trim();
+  if (!/^\d+\./.test(firstText)) return null;
+
+  const result: ProtocolStep[] = [];
+  let currentNum = -1;
+  let currentParts: string[] = [];
+
+  for (const segment of segments) {
+    const textContent = segment.replace(/<[^>]+>/g, '').trim();
+    const match = textContent.match(/^(\d+)\.\s*/);
+
+    if (match) {
+      if (currentNum > 0 && currentParts.length > 0) {
+        result.push({ num: currentNum, providerLevel, html: currentParts.join('<br>') });
+      }
+      currentNum = parseInt(match[1], 10);
+      // Strip the "N. " prefix from the raw segment text (safe because it's plain text at start)
+      const htmlWithoutPrefix = segment.replace(/^\d+\.\s*/, '');
+      currentParts = [htmlWithoutPrefix];
+    } else if (currentNum > 0) {
+      currentParts.push(segment);
+    }
+  }
+
+  if (currentNum > 0 && currentParts.length > 0) {
+    result.push({ num: currentNum, providerLevel, html: currentParts.join('<br>') });
+  }
+
+  return result.length > 0 ? result : null;
+}
+
+// Build unified protocol from internal pages-with-sections structure
+function buildUnifiedProtocol(
+  id: string,
+  title: string,
+  category: string,
+  rawPages: InternalProtocolPage[]
+): Protocol {
+  const intro: ProtocolIntroItem[] = [];
+  const steps: ProtocolStep[] = [];
+  const pearls: ProtocolPearl[] = [];
+  let currentPearl: { title?: string; html: string[] } | null = null;
+  let inPearls = false;
+
+  for (const page of rawPages) {
+    for (const section of page.sections) {
+      // Headers control provider level context — handled at parse time via inheritance
+      // PEARLS headers start a PEARLS section
+      if (section.type === 'header') {
+        if (section.providerLevel === 'PEARLS') {
+          inPearls = true;
+          currentPearl = { title: section.pearlsTitle, html: [] };
+          pearls.push(currentPearl);
+        } else {
+          inPearls = false;
+        }
+        continue;
+      }
+
+      // Everything after a PEARLS header goes into that pearl section
+      if (inPearls && currentPearl) {
+        currentPearl.html.push(section.html);
+        continue;
+      }
+
+      // Ordered lists → extract individual <li> items as steps
+      if (section.type === 'list' && section.html.trimStart().startsWith('<ol')) {
+        const dom = new JSDOM(section.html);
+        const ol = dom.window.document.querySelector('ol');
+        if (ol) {
+          const startAttr = ol.getAttribute('start');
+          const lastNum = steps.length > 0 ? steps[steps.length - 1].num : 0;
+          let num = startAttr ? parseInt(startAttr, 10) : lastNum + 1;
+          const lis = ol.querySelectorAll(':scope > li');
+          lis.forEach(li => {
+            steps.push({
+              num,
+              providerLevel: section.providerLevel,
+              html: li.innerHTML,
+            });
+            num++;
+          });
+        }
+        continue;
+      }
+
+      // Content sections may contain <br>-separated numbered steps (PDF artifact)
+      // e.g. <p><strong>ADVANCED EMT</strong><br>7. Establish IV...<br>8. Cardiac monitor...</p>
+      if (section.type === 'content') {
+        const brSteps = parseBreakSeparatedSteps(section.html, section.providerLevel);
+        if (brSteps && brSteps.length > 0) {
+          steps.push(...brSteps);
+          continue;
+        }
+      }
+
+      // Everything else (ul lists, content, mermaid, table) → intro
+      intro.push({
+        type: section.type === 'list' ? 'list' : section.type as 'content' | 'mermaid' | 'table',
+        providerLevel: section.providerLevel,
+        html: section.html,
+      });
+    }
+  }
+
+  const pageRefs = rawPages.map(p => ({
+    pageId: p.pageId,
+    pageNumber: p.pageNumber,
+    jpgReference: p.jpgReference,
+  }));
+
+  return { id, title, category, intro, steps, pearls, pages: pageRefs };
+}
+
 // Build search index
 function buildSearchIndex(allProtocols: Protocol[]): SearchIndex[] {
   console.log('Building search index...');
@@ -533,18 +691,27 @@ function buildSearchIndex(allProtocols: Protocol[]): SearchIndex[] {
     const content: string[] = [];
     const providerLevels = new Set<string>();
 
-    protocol.pages.forEach(page => {
-      page.sections.forEach(section => {
-        if (section.providerLevel !== 'ALL') {
-          providerLevels.add(section.providerLevel);
-        }
+    // Collect content from intro items
+    protocol.intro.forEach(item => {
+      if (item.providerLevel !== 'ALL') {
+        providerLevels.add(item.providerLevel);
+      }
+      // Strip HTML tags for search content
+      content.push(item.html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim());
+    });
 
-        if (typeof section.content === 'string') {
-          content.push(section.content);
-        } else if (section.content && typeof section.content === 'object') {
-          // Extract text from complex content
-          content.push(JSON.stringify(section.content));
-        }
+    // Collect content from steps
+    protocol.steps.forEach(step => {
+      if (step.providerLevel !== 'ALL') {
+        providerLevels.add(step.providerLevel);
+      }
+      content.push(step.html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim());
+    });
+
+    // Collect content from pearls
+    protocol.pearls.forEach(pearl => {
+      pearl.html.forEach(h => {
+        content.push(h.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim());
       });
     });
 
@@ -618,24 +785,29 @@ async function parseAllProtocols() {
     for (const protocolRef of category.protocols) {
       console.log(`  Protocol: ${protocolRef.title} (${protocolRef.pages.length} pages)`);
 
-      const pages: ProtocolPage[] = [];
+      const rawPages: InternalProtocolPage[] = [];
+      let trailingProviderLevel: ProviderLevel = 'ALL';
 
-      for (const pageRef of protocolRef.pages) {
+      for (let pageIdx = 0; pageIdx < protocolRef.pages.length; pageIdx++) {
+        const pageRef = protocolRef.pages[pageIdx];
         const htmlPath = path.join(SOURCE_DIR, pageRef.htmlFile);
-        const page = parseProtocolHTML(htmlPath, pageRef.pageId, pageRef.jpgFile);
+        const page = parseProtocolHTML(htmlPath, pageRef.pageId, pageRef.jpgFile, pageIdx, trailingProviderLevel);
 
         if (page) {
-          pages.push(page);
+          rawPages.push(page);
+          // Track last meaningful provider level for the next page to inherit
+          for (let i = page.sections.length - 1; i >= 0; i--) {
+            const lvl = page.sections[i].providerLevel;
+            if (lvl !== 'ALL' && lvl !== 'PEARLS') {
+              trailingProviderLevel = lvl;
+              break;
+            }
+          }
         }
       }
 
-      if (pages.length > 0) {
-        const protocol: Protocol = {
-          id: protocolRef.id,
-          title: protocolRef.title,
-          category: category.id,
-          pages
-        };
+      if (rawPages.length > 0) {
+        const protocol = buildUnifiedProtocol(protocolRef.id, protocolRef.title, category.id, rawPages);
 
         protocolsByCategory[category.id].push(protocol);
         allProtocols.push(protocol);
@@ -674,11 +846,12 @@ async function parseAllProtocols() {
   console.log(`  search-index.json: ${searchIndex.length} entries`);
 
   // Write metadata
+  const totalPages = allProtocols.reduce((sum, p) => sum + p.pages.length, 0);
   const metadata = {
     buildDate: new Date().toISOString(),
     version: '1.0.0',
     totalProtocols: allProtocols.length,
-    totalPages: allProtocols.reduce((sum, p) => sum + p.pages.length, 0),
+    totalPages,
     categories: toc.categories.length
   };
 
@@ -690,7 +863,7 @@ async function parseAllProtocols() {
 
   console.log('');
   console.log('='.repeat(50));
-  console.log('✓ Parsing complete!');
+  console.log('Parsing complete!');
   console.log('='.repeat(50));
   console.log(`Total protocols: ${metadata.totalProtocols}`);
   console.log(`Total pages: ${metadata.totalPages}`);

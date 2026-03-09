@@ -37,51 +37,35 @@ export interface PageReference {
   protocolPageNumber: string; // 'Blue 6'
 }
 
-// Protocol data types
-export interface Protocol {
-  id: string;              // 'blue_006_007_008' for multi-page
-  title: string;           // 'Respiratory Distress with Bronchospasm'
-  category: string;        // 'blue'
-  pages: ProtocolPage[];
-}
-
-export interface ProtocolPage {
-  pageId: string;          // 'blue_006'
-  pageNumber: string;      // 'Blue 6'
-  jpgReference: string;    // '/assets/pages_jpg/025.jpg'
-  isContinuation: boolean; // Has "(Continued from previous page)"
-  sections: ProtocolSection[];
-}
-
-export interface ProtocolSection {
-  type: 'header' | 'content' | 'list' | 'table' | 'mermaid' | 'pearls';
+// A single numbered step (one <li> from the unified protocol list)
+export interface ProtocolStep {
+  num: number;              // Step number (1, 2, 3...) from <ol> start attribute
   providerLevel: ProviderLevel;
-  content: string | ListData | TableData | MermaidDiagram;
-  html: string;            // Preserve original HTML for rendering
-  pearlsTitle?: string;    // Optional title for PEARLS sections (e.g., "Seizures", "Persistent Seizures")
+  html: string;             // innerHTML of the <li> (may include nested ol/ul)
 }
 
-// Content type definitions
-export interface ListData {
-  type: 'ordered' | 'unordered';
-  startNumber?: number;    // For continued lists
-  items: ListItem[];
+// Non-step content (intro text, mermaid diagrams, tables, bullet lists)
+export interface ProtocolIntroItem {
+  type: 'content' | 'mermaid' | 'table' | 'list';
+  providerLevel: ProviderLevel;
+  html: string;
 }
 
-export interface ListItem {
-  content: string;
-  nestedList?: ListData;
+// A PEARLS section
+export interface ProtocolPearl {
+  title?: string;           // e.g. "Allergy/Anaphylaxis" from "PEARLS for Allergy/Anaphylaxis"
+  html: string[];           // array of HTML strings (paragraphs, lists)
 }
 
-export interface TableData {
-  type: 'table';
-  headers: string[];
-  rows: string[][];
-}
-
-export interface MermaidDiagram {
-  type: 'mermaid';
-  code: string;            // Mermaid diagram code
+// Protocol data type
+export interface Protocol {
+  id: string;
+  title: string;
+  category: string;
+  intro: ProtocolIntroItem[];    // non-step content (definitions, mermaid, tables, bullet lists)
+  steps: ProtocolStep[];         // THE one unified numbered list across all pages/levels
+  pearls: ProtocolPearl[];       // PEARLS sections (rendered separately)
+  pages: Array<{ pageId: string; pageNumber: string; jpgReference: string }>;  // for Original tab only
 }
 
 // Search types

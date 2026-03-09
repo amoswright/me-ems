@@ -11,7 +11,9 @@
     "split": "tsx scripts/split-combined-files.ts",
     "parse": "tsx scripts/parse-protocols.ts",
     "parse-md": "tsx scripts/parse-markdown.ts",
-    "optimize-images": "tsx scripts/optimize-images.ts"
+    "optimize-images": "tsx scripts/optimize-images.ts",
+    "fix-lists": "tsx scripts/fix-list-nesting.ts",
+    "cleanup-archive": "tsx scripts/cleanup-archive.ts"
   },
   "dependencies": {
     "@xyflow/react": "^12.10.0",

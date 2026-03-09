@@ -69,15 +69,15 @@
     </tr>
   </tbody>
 </table>
-<p>*Time is documented for decision making purposes and is not scored.<br />
+<p>*Time is documented for decision making purposes and is not scored.<br>
 A score of greater than or equal to 4 has a sensitivity of 0.61 and a specificity of 0.89 for LVO (PPV 0.72)</p>
 <h2>Destination Support Guidance for Possible LVO Stroke Patients:</h2>
 <mermaid>
 graph TD
     subgraph Identification of Possible LVO
-        A[Prehospital Stroke Scale +] --> B{Positive LVO Screen}
-        C[FAST-ED greater than or equal to 4] --> B
-        D[FAST-ED less than 4] --> E[Negative LVO Screen]
+        A[Prehospital Stroke Scale +] --&gt; B{Positive LVO Screen}
+        C[FAST-ED greater than or equal to 4] --&gt; B
+        D[FAST-ED less than 4] --&gt; E[Negative LVO Screen]
     end
 <pre><code>subgraph Establish Thrombolytic Eligibility
     B --&gt; F{3thrombolytic?s (+) OR LKW greater than 3 hrs}
@@ -87,18 +87,15 @@ graph TD
     J --&gt; K[Less than 30 minutes]
     J --&gt; L[More than 30 minutes]
 end
-<p>subgraph Establish Distance from Endovascular Capable Hospital<br />
-K --&gt; M[Endovascular Center]<br />
-L --&gt; N[Nearest Hospital (including Endovascular Center if this is the closest hospital)]<br />
+<p>subgraph Establish Distance from Endovascular Capable Hospital<br>
+K --&gt; M[Endovascular Center]<br>
+L --&gt; N[Nearest Hospital (including Endovascular Center if this is the closest hospital)]<br>
 end</p>
-<p>subgraph Destination<br />
-M --&gt; O[Destination]<br />
-N --&gt; O<br />
-end<br />
-</code></pre><br />
-</mermaid></p>
-<p>&quot;3thrombolytic?s&quot; refers to the thrombolytic checklist screening questions on Gold 12. If ALL are answered negative and time criteria are met, the patient is considered thrombolytic eligible. If ANY are answered positive, the patient is thrombolytic ineligible.<br />
+</code><p><code>subgraph Destination<br>
+M --&gt; O[Destination]<br>
+N --&gt; O<br>
+end<br>
+</code></p></pre><br>
+</mermaid><p></p>
+<p>"3thrombolytic?s" refers to the thrombolytic checklist screening questions on Gold 12. If ALL are answered negative and time criteria are met, the patient is considered thrombolytic eligible. If ANY are answered positive, the patient is thrombolytic ineligible.<br>
 LKW refers to the time the patient was Last Known Well and without the presenting stroke symptoms</p>
-<p>(Back to TOC)<br />
-&lt;page_number&gt;Gold 11&lt;/page_number&gt;</p>
-<hr />

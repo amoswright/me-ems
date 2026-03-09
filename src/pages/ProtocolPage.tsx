@@ -1,13 +1,29 @@
+import React from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useProtocol } from '@/hooks/useProtocolData';
 import { ProviderLevelTabs } from '@/components/ProviderLevelTabs';
 import { useAppStore } from '@/store/useAppStore';
 import { MermaidDiagram } from '@/components/MermaidDiagram';
 import { extractMermaidContent } from '@/utils/parseMermaid';
 import { renderProtocolHtml } from '@/utils/renderProtocolHtml';
+import { ProtocolSummaryView } from '@/components/ProtocolSummaryView';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
+import type { ProtocolStep } from '@/types/protocol';
+
+type ViewMode = 'summary' | 'fulltext' | 'original';
+
+const LEVEL_STYLES: Record<string, { border: string; iconBg: string; pillGrad: string; label: string }> = {
+  EMT:                         { border: 'border-l-green-500',  iconBg: 'bg-green-50 dark:bg-green-900/20',   pillGrad: 'from-green-700 to-green-500 text-white',         label: 'EMT' },
+  ADVANCED_EMT:                { border: 'border-l-yellow-500', iconBg: 'bg-yellow-50 dark:bg-yellow-900/20', pillGrad: 'from-yellow-600 to-yellow-400 text-gray-900',    label: 'Advanced EMT' },
+  PARAMEDIC:                   { border: 'border-l-red-500',    iconBg: 'bg-red-50 dark:bg-red-900/20',       pillGrad: 'from-red-700 to-red-500 text-white',             label: 'Paramedic' },
+  EMT_ADVANCED_EMT:            { border: 'border-l-green-400',  iconBg: 'bg-green-50 dark:bg-green-900/20',   pillGrad: 'from-green-600 to-yellow-500 text-white',        label: 'EMT / Advanced EMT' },
+  ADVANCED_EMT_PARAMEDIC:      { border: 'border-l-yellow-400', iconBg: 'bg-yellow-50 dark:bg-yellow-900/20', pillGrad: 'from-yellow-500 to-red-500 text-white',          label: 'Advanced EMT / Paramedic' },
+  EMT_ADVANCED_EMT_PARAMEDIC:  { border: 'border-l-green-400',  iconBg: 'bg-green-50 dark:bg-green-900/20',   pillGrad: 'from-green-600 to-red-500 text-white',           label: 'EMT / Advanced EMT / Paramedic' },
+  PEARLS:                      { border: 'border-l-amber-500',  iconBg: 'bg-amber-50 dark:bg-amber-900/20',   pillGrad: 'from-amber-500 to-yellow-400 text-white',        label: 'PEARLS' },
+  ALL:                         { border: 'border-l-gray-200',   iconBg: 'bg-gray-50 dark:bg-gray-800',        pillGrad: '',                                              label: '' },
+};
 
 export function ProtocolPage() {
   const { protocolId } = useParams<{ protocolId: string }>();
@@ -15,6 +31,7 @@ export function ProtocolPage() {
   const { providerLevel } = useAppStore();
   const navigate = useNavigate();
   const sectionRefs = useRef<Map<string, HTMLDivElement>>(new Map());
+  const [viewMode, setViewMode] = useState<ViewMode>('summary');
 
   // Clear refs when protocol changes (must be before any early returns)
   useEffect(() => {
@@ -68,16 +85,26 @@ export function ProtocolPage() {
 
   const categoryId = protocol.category;
 
-  // Calculate available provider levels from protocol sections
+  // Available provider levels from unified steps
   const availableLevels = Array.from(
     new Set(
-      protocol.pages.flatMap(page =>
-        page.sections
-          .map(section => section.providerLevel)
-          .filter(level => level !== 'ALL')
-      )
+      protocol.steps
+        .map(s => s.providerLevel)
+        .filter(l => l !== 'ALL' && l !== 'PEARLS')
     )
   );
+
+  // Group consecutive steps by provider level
+  interface StepGroup { level: string; steps: ProtocolStep[] }
+  const stepGroups = protocol.steps.reduce<StepGroup[]>((acc, step) => {
+    const last = acc[acc.length - 1];
+    if (last && last.level === step.providerLevel) {
+      last.steps.push(step);
+    } else {
+      acc.push({ level: step.providerLevel, steps: [step] });
+    }
+    return acc;
+  }, []);
 
   // Helper to set ref for first occurrence of each provider level
   const setRef = (providerLevelType: string, el: HTMLDivElement | null) => {
@@ -86,24 +113,16 @@ export function ProtocolPage() {
     }
   };
 
-  // Helper to get display name for provider level
-  const getProviderLevelDisplay = (level: string, pearlsTitle?: string): string => {
-    // If this is a PEARLS section with a specific title, use it
-    if (level === 'PEARLS' && pearlsTitle) {
-      return `PEARLS for ${pearlsTitle}`;
-    }
-
-    const displayMap: Record<string, string> = {
-      ADVANCED_EMT: 'ADVANCED EMT',
-      EMT_ADVANCED_EMT: 'EMT / ADVANCED EMT',
-      ADVANCED_EMT_PARAMEDIC: 'ADVANCED EMT / PARAMEDIC',
-      EMT_ADVANCED_EMT_PARAMEDIC: 'EMT / ADVANCED EMT / PARAMEDIC',
-      PEARLS: 'PEARLS',
-    };
-    return displayMap[level] || level;
+  // Combined levels match any of their constituent providers
+  const levelIncludes = (sectionLevel: string, selected: string): boolean => {
+    if (sectionLevel === selected) return true;
+    if (sectionLevel === 'EMT_ADVANCED_EMT_PARAMEDIC') return true;
+    if (sectionLevel === 'EMT_ADVANCED_EMT') return selected === 'EMT' || selected === 'ADVANCED_EMT';
+    if (sectionLevel === 'ADVANCED_EMT_PARAMEDIC') return selected === 'ADVANCED_EMT' || selected === 'PARAMEDIC';
+    return false;
   };
 
-  // Helper to get color bars for provider level (returns array of colors)
+  // Helper to get color bars for provider level (returns array of Tailwind classes)
   const getProviderLevelColors = (level: string): string[] => {
     const colorMap: Record<string, string[]> = {
       EMT: ['bg-green-500'],
@@ -131,8 +150,8 @@ export function ProtocolPage() {
 
   return (
     <PhotoProvider>
-      {/* Provider Level Tabs */}
-      <ProviderLevelTabs availableLevels={availableLevels} />
+      {/* Provider Level Tabs — hidden on Original tab */}
+      {viewMode !== 'original' && <ProviderLevelTabs availableLevels={availableLevels} />}
 
       <div className="pt-4">
         {/* Breadcrumbs */}
@@ -156,7 +175,7 @@ export function ProtocolPage() {
       </nav>
 
       {/* Protocol Header */}
-      <div className="mb-8 bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm">
+      <div className="mb-4 bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm">
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
           {protocol.title}
         </h1>
@@ -167,150 +186,137 @@ export function ProtocolPage() {
         )}
       </div>
 
-      {/* Protocol Content */}
-      <div className="space-y-6">
-        {protocol.pages.map((page, pageIndex) => (
-          <div key={page.pageId} id={page.pageId}>
-            {page.isContinuation && pageIndex > 0 && (
-              <div className="mb-4 p-3 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 rounded">
-                <p className="text-sm italic text-blue-800 dark:text-blue-200">
-                  Continued from {protocol.pages[pageIndex - 1].pageNumber}
-                </p>
-              </div>
-            )}
-
-            <div className="protocol-content" onClick={handleProtocolClick}>
-              {page.sections.map((section, sectionIndex) => {
-                // For mermaid sections, extract from HTML field (has <br> tags) and decode entities
-                const isMermaidSection = section.type === 'mermaid';
-                const mermaidContent = isMermaidSection ? extractMermaidContent(section.html) : null;
-                const cleanHtml = isMermaidSection ? '' : section.html;
-
-                // Determine the effective provider level for this section
-                // If this is a continuation page and the section is marked as 'ALL',
-                // check if it's a list continuing from a previous provider level
-                let effectiveProviderLevel = section.providerLevel;
-                if (page.isContinuation && section.providerLevel === 'ALL' && section.type === 'list') {
-                  // Check if this list starts with a number > 1 (continuation)
-                  const listMatch = section.html.match(/start="(\d+)"/);
-                  if (listMatch && parseInt(listMatch[1]) > 1 && pageIndex > 0) {
-                    // Find the last non-ALL provider level from previous page
-                    const prevPage = protocol.pages[pageIndex - 1];
-                    for (let i = prevPage.sections.length - 1; i >= 0; i--) {
-                      if (prevPage.sections[i].providerLevel !== 'ALL' && prevPage.sections[i].providerLevel !== 'PEARLS') {
-                        effectiveProviderLevel = prevPage.sections[i].providerLevel;
-                        break;
-                      }
-                    }
-                  }
-                }
-
-                // Combined levels match any of their constituent providers
-                const levelIncludes = (sectionLevel: string, selected: string): boolean => {
-                  if (sectionLevel === selected) return true;
-                  if (sectionLevel === 'EMT_ADVANCED_EMT_PARAMEDIC') return true;
-                  if (sectionLevel === 'EMT_ADVANCED_EMT') return selected === 'EMT' || selected === 'ADVANCED_EMT';
-                  if (sectionLevel === 'ADVANCED_EMT_PARAMEDIC') return selected === 'ADVANCED_EMT' || selected === 'PARAMEDIC';
-                  return false;
-                };
-                const isHighlighted = providerLevel !== 'ALL' && levelIncludes(effectiveProviderLevel, providerLevel);
-                // Only show provider badge for header sections, not for every section with a provider level
-                const showProviderBadge = section.type === 'header' && effectiveProviderLevel !== 'ALL';
-                const isPearls = effectiveProviderLevel === 'PEARLS';
-
-                const providerColors = effectiveProviderLevel !== 'ALL' ? getProviderLevelColors(effectiveProviderLevel) : [];
-
-                return (
-                  <div
-                    key={sectionIndex}
-                    ref={(el) => {
-                      if (effectiveProviderLevel !== 'ALL') {
-                        setRef(effectiveProviderLevel, el);
-                      }
-                    }}
-                    className={`
-                      transition-all duration-300 rounded-lg relative
-                      ${effectiveProviderLevel !== 'ALL' ? 'p-4 mb-4' : ''}
-                      ${effectiveProviderLevel !== 'ALL' ? 'pl-6' : ''}
-                      ${isHighlighted && isPearls ? 'bg-amber-50 dark:bg-amber-900/20 shadow-md' : ''}
-                      ${isHighlighted && !isPearls && effectiveProviderLevel !== 'ALL' ? 'bg-blue-50 dark:bg-blue-900/20 shadow-md' : ''}
-                    `}
-                  >
-                    {/* Render multiple color bars for combined provider levels */}
-                    {providerColors.length > 0 && (
-                      <div className="absolute left-0 top-0 bottom-0 flex rounded-l-lg overflow-hidden">
-                        {providerColors.map((color, index) => (
-                          <div
-                            key={index}
-                            className={`w-1 ${color}`}
-                          />
-                        ))}
-                      </div>
-                    )}
-                    {/* Provider level header badge */}
-                    {showProviderBadge && (
-                      <div className="mb-3">
-                        <h3 className={`inline-block px-3 py-1.5 text-sm font-bold rounded-md shadow-sm ${
-                          effectiveProviderLevel === 'PEARLS'
-                            ? 'bg-gradient-to-r from-amber-500 to-yellow-500 text-white'
-                            : effectiveProviderLevel === 'EMT'
-                            ? 'bg-gradient-to-r from-green-600 to-green-500 text-white'
-                            : effectiveProviderLevel === 'ADVANCED_EMT'
-                            ? 'bg-gradient-to-r from-yellow-600 to-yellow-500 text-gray-900'
-                            : effectiveProviderLevel === 'PARAMEDIC'
-                            ? 'bg-gradient-to-r from-red-600 to-red-500 text-white'
-                            : effectiveProviderLevel === 'EMT_ADVANCED_EMT'
-                            ? 'bg-gradient-to-r from-green-600 to-yellow-500 text-white'
-                            : effectiveProviderLevel === 'ADVANCED_EMT_PARAMEDIC'
-                            ? 'bg-gradient-to-r from-yellow-500 to-red-500 text-white'
-                            : effectiveProviderLevel === 'EMT_ADVANCED_EMT_PARAMEDIC'
-                            ? 'bg-gradient-to-r from-green-600 to-red-500 text-white'
-                            : 'bg-gradient-to-r from-blue-600 to-blue-500 text-white'
-                        }`}>
-                          {getProviderLevelDisplay(effectiveProviderLevel, section.pearlsTitle)}
-                        </h3>
-                      </div>
-                    )}
-
-                    {/* Render diagram if present */}
-                    {mermaidContent && (
-                      <MermaidDiagram
-                        content={mermaidContent}
-                        id={`${page.pageId}-section-${sectionIndex}`}
-                      />
-                    )}
-
-                    {/* Render remaining HTML content with icons */}
-                    {/* Skip rendering HTML for provider level headers since we show the styled badge instead */}
-                    {cleanHtml && !(section.type === 'header' && effectiveProviderLevel !== 'ALL') && (
-                      <div>{renderProtocolHtml(cleanHtml)}</div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-
-            {page.jpgReference && (
-              <div className="mt-4">
-                <PhotoView src={page.jpgReference}>
-                  <button
-                    className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg transition-colors text-sm font-medium text-gray-700 dark:text-gray-300"
-                  >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    View Original Page {page.pageNumber}
-                  </button>
-                </PhotoView>
-              </div>
-            )}
-
-            {pageIndex < protocol.pages.length - 1 && (
-              <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700"></div>
-            )}
-          </div>
+      {/* View mode tabs */}
+      <div className="flex gap-1 mb-6 bg-gray-200 dark:bg-gray-700 rounded-xl p-1">
+        {([['summary', '⬡ Summary'], ['fulltext', '≡ Full Text'], ['original', '⊡ Original']] as [ViewMode, string][]).map(([mode, label]) => (
+          <button
+            key={mode}
+            onClick={() => setViewMode(mode)}
+            className={`flex-1 py-2 text-xs font-bold rounded-lg transition-all ${
+              viewMode === mode
+                ? 'bg-white dark:bg-gray-800 text-gray-900 dark:text-white shadow-sm'
+                : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300'
+            }`}
+          >
+            {label}
+          </button>
         ))}
       </div>
+
+      {/* Summary view */}
+      {viewMode === 'summary' && <ProtocolSummaryView protocol={protocol} />}
+
+      {/* Original view */}
+      {viewMode === 'original' && (
+        <div className="space-y-4">
+          {protocol.pages.map((page) => (
+            page.jpgReference ? (
+              <div key={page.pageId} className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm">
+                <div className="px-4 py-2 border-b border-gray-100 dark:border-gray-700 text-xs font-bold text-gray-400 uppercase tracking-widest">
+                  {page.pageNumber}
+                </div>
+                <img src={page.jpgReference} alt={`Original ${page.pageNumber}`} className="w-full block" />
+              </div>
+            ) : null
+          ))}
+        </div>
+      )}
+
+      {/* Full Text view */}
+      {viewMode === 'fulltext' && (
+        <div onClick={handleProtocolClick}>
+          {/* Intro content (definitions, mermaid, bullet lists, tables) */}
+          {protocol.intro.map((item, i) => (
+            <div key={i} className="mb-4">
+              {item.type === 'mermaid'
+                ? <MermaidDiagram content={extractMermaidContent(item.html) || ''} id={`intro-${i}`} />
+                : <div className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                    {renderProtocolHtml(item.html)}
+                  </div>
+              }
+            </div>
+          ))}
+
+          {/* ONE unified step list — grouped by provider level for visual differentiation */}
+          {stepGroups.map((group, gi) => {
+            const s = LEVEL_STYLES[group.level] ?? LEVEL_STYLES.ALL;
+            const isHighlighted = providerLevel !== 'ALL' && levelIncludes(group.level, providerLevel);
+            const colors = getProviderLevelColors(group.level);
+            return (
+              <React.Fragment key={gi}>
+                {/* Provider level divider pill */}
+                {s.pillGrad && (
+                  <div
+                    ref={el => setRef(group.level, el as HTMLDivElement | null)}
+                    className="flex items-center gap-3 my-5"
+                  >
+                    <span className={`bg-gradient-to-r ${s.pillGrad} text-[10px] font-extrabold tracking-widest uppercase px-3 py-1.5 rounded-xl shadow-sm whitespace-nowrap`}>
+                      {s.label}
+                    </span>
+                    <div className="flex-1 h-px bg-gray-200 dark:bg-gray-700" />
+                  </div>
+                )}
+                {/* Steps for this provider level */}
+                <div className={`relative pl-6 mb-4 ${isHighlighted ? 'bg-blue-50 dark:bg-blue-900/20 rounded-lg' : ''}`}>
+                  {/* Color bar(s) on left */}
+                  {colors.length > 0 && (
+                    <div className="absolute left-0 top-0 bottom-0 flex rounded-l-lg overflow-hidden">
+                      {colors.map((color, ci) => <div key={ci} className={`w-1 ${color}`} />)}
+                    </div>
+                  )}
+                  <ol
+                    start={group.steps[0].num}
+                    className="pl-5 space-y-2 leading-relaxed"
+                    style={{ listStyleType: 'decimal' }}
+                  >
+                    {group.steps.map(step => (
+                      <li key={step.num} value={step.num} className="text-sm text-gray-800 dark:text-gray-200">
+                        {renderProtocolHtml(step.html)}
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              </React.Fragment>
+            );
+          })}
+
+          {/* PEARLS sections */}
+          {protocol.pearls.length > 0 && (
+            <div className="mt-6">
+              {protocol.pearls.map((pearl, i) => (
+                <div key={i} className="bg-amber-50 dark:bg-amber-900/10 border border-amber-200 dark:border-amber-800 rounded-xl p-4 mb-4">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="bg-gradient-to-r from-amber-500 to-yellow-400 text-white text-[10px] font-extrabold tracking-widest uppercase px-3 py-1.5 rounded-xl shadow-sm">
+                      {pearl.title ? `PEARLS: ${pearl.title}` : 'PEARLS'}
+                    </span>
+                  </div>
+                  <div className="text-sm text-gray-700 dark:text-gray-300 space-y-2">
+                    {pearl.html.map((h, j) => (
+                      <div key={j}>{renderProtocolHtml(h)}</div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* View Original buttons */}
+          {protocol.pages.some(p => p.jpgReference) && (
+            <div className="mt-6 flex flex-wrap gap-2 justify-end">
+              {protocol.pages.filter(p => p.jpgReference).map((page, i) => (
+                <PhotoView key={i} src={page.jpgReference}>
+                  <button className="inline-flex items-center gap-2 px-3 py-1.5 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg transition-colors text-xs font-medium text-gray-500 dark:text-gray-400">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    View Original {page.pageNumber}
+                  </button>
+                </PhotoView>
+              ))}
+            </div>
+          )}
+        </div>
+      )} {/* end fulltext */}
 
       {/* Back to category button */}
       <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">

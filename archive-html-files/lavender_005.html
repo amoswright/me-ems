@@ -1,30 +1,29 @@
 <h1>Newborn Resuscitation</h1>
 <mermaid>
 graph TD
-    A[Term gestation? Breathing or crying? Good muscle tone?] --&gt;|YES| B[Routine care<br>Provide warmth<br>Open airway<br>Dry<br>Ongoing evaluation]
-    A --&gt;|NO| C[Provide warmth<br>Open airway<br>Dry, stimulate]
-<pre><code>B --&gt; D[HR Below 100?&lt;br&gt;Gasping or apnea?]
-C --&gt; D
-<p>D --&gt;|YES| E[PPV With room air (No oxygen). Advanced airway as needed]<br>
-D --&gt;|NO| F[Labored breathing or&lt;br&gt;Persistent cyanosis?]</p>
-<p>E --&gt; G[HR below 100?]<br>
-F --&gt; H[Clear airway&lt;br&gt;Supplemental O2 as needed]</p>
-<p>G --&gt;|YES| I[Ensure adequate ventilation&lt;br&gt;Add 100% oxygen]<br>
-G --&gt;|NO| J[Post-resuscitation care]</p>
-<p>H --&gt;|YES| K[Consider:&lt;br&gt;1) Hypovolemia&lt;br&gt;2) Pneumothorax]<br>
-H --&gt;|NO| J</p>
-<p>I --&gt; L[HR below 60?]<br>
-J --&gt; K</p>
-<p>L --&gt;|YES| M[AEMT/Paramedic BIAD - if available, or&lt;br&gt;Paramedic -BIAD is preferred to intubation in the newborn]<br>
-L --&gt;|NO| J</p>
-<p>M --&gt; N[HR below 60?]<br>
-N --&gt;|YES| O[Chest compressions&lt;br&gt;Coordinate with PPV]<br>
-N --&gt;|NO| J</p>
-<p>O --&gt; P[HR below 60?]<br>
-P --&gt;|YES| Q[EPINEPHrine 1mg/10ml&lt;br&gt;0.02 mg/kg every 3-5 minutes until HR &gt; 60]<br>
-P --&gt;|NO| J</p>
-</code><p><code>Q --&gt; P<br>
-</code></p></pre><br>
+    A["Term gestation?<br/>Breathing or crying?<br/>Good muscle tone?"] -->|YES| B["Routine care<br/>Provide warmth<br/>Open airway<br/>Dry<br/>Ongoing evaluation"]
+    A -->|NO| C["Provide warmth<br/>Open airway<br/>Dry, stimulate"]
+    B --> D["HR Below 100?<br/>Gasping or apnea?"]
+    C --> D
+    D -->|YES| E["PPV With room air (No oxygen).<br/>Advanced airway as needed"]
+    D -->|NO| F["Labored breathing or<br/>Persistent cyanosis?"]
+    E --> G["HR below 100?"]
+    F --> H["Clear airway<br/>Supplemental O2 as needed"]
+    G -->|YES| I["Ensure adequate ventilation<br/>Add 100% oxygen"]
+    G -->|NO| J["Post-resuscitation care"]
+    H -->|YES| K["Consider:<br/>1) Hypovolemia<br/>2) Pneumothorax"]
+    H -->|NO| J
+    I --> L["HR below 60?"]
+    J --> K
+    L -->|YES| M["AEMT/Paramedic BIAD - if available, or<br/>Paramedic - BIAD preferred to intubation in newborn"]
+    L -->|NO| J
+    M --> N["HR below 60?"]
+    N -->|YES| O["Chest compressions<br/>Coordinate with PPV"]
+    N -->|NO| J
+    O --> P["HR below 60?"]
+    P -->|YES| Q["EPINEPHrine 1mg/10ml<br/>0.02 mg/kg every 3-5 min until HR greater than 60"]
+    P -->|NO| J
+    Q --> P
 </mermaid><p></p>
 <p><strong>Pearls:</strong></p>
 <ol>

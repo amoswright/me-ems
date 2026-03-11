@@ -200,7 +200,7 @@
     "id": "blue_003",
     "category": "blue",
     "title": "Confirmation and Monitoring of Advanced Airways",
-    "content": "graph TD A[Place Advanced Airway] --&gt; B[Confirm ETT or Blind Insertion Airway Device placement with continuous wave form capnography.* AND Confirm ETT and BIAD placement with physical exam, including absence of sounds over the epigastrum, presence of symmetric bilateral breath sounds, etc.] B --&gt; C[ETT/BIAD placement correct] B --&gt; D[ETT/BIAD placement uncertain or equivocal findings for confirmation] B --&gt; E[ETT/BIAD placement incorrect] C --&gt; F[Secure ETT/BIAD in place] F --&gt;",
+    "content": "graph TD A[\"Place Advanced Airway\"] --&gt; B[\"Confirm ETT or BIAD placement with continuous waveform capnography* AND physical exam: absence of sounds over epigastrum, presence of symmetric bilateral breath sounds, etc.\"] B --&gt; C[\"ETT/BIAD placement correct\"] B --&gt; D[\"ETT/BIAD placement uncertain or equivocal\"] B --&gt; E[\"ETT/BIAD placement incorrect\"] C --&gt; F[\"Secure ETT/BIAD in place\"] F --&gt; G[\"Continue EtCO₂ monitoring en route and repeated evaluation of placement via breath soun",
     "providerLevels": [],
     "keywords": [
       "airway",
@@ -246,7 +246,8 @@
     "content": "(COPD, Emphysema, Chronic Bronchitis, Asthma) CAUTION: RESPIRATORY DISTRESS MAY BE DUE TO MULTIPLE OTHER CAUSES FOR WHICH OTHER TREATMENTS MAY BE INDICATED, INCLUDING THE FOLLOWING: Pulmonary Edema, see Blue 10 Anaphylaxis, see Gold 1 Chest Trauma, see Green 7 (COPD, Emphysema, Chronic Bronchitis, Asthma) Asthmatic patients: Airway management of asthmatic patients is primarily pharmacological, not mechanical. Therefore, the focus should be on taking those actions that enable the clinician to pro",
     "providerLevels": [
       "PARAMEDIC",
-      "EMT_ADVANCED_EMT"
+      "EMT_ADVANCED_EMT",
+      "ADVANCED_EMT"
     ],
     "keywords": [
       "airway",
@@ -267,11 +268,11 @@
     "id": "blue_009",
     "category": "blue",
     "title": "Anxiolysis in CPAP",
-    "content": "Adult patients with respiratory failure who are unable to oxygenate and ventilate often require CPAP. These patients may be combative and unable to tolerate CPAP either due to their hypoxia or anxiety. a. Midazolam i. 0.5 - 2.5 mg IV/IO every 5 minutes, may repeat x 3 to a MAX cumulative dose of 5 mg. ii. 1-5 mg IM every 5 minutes, may repeat x 3 to a MAX cumulative dose of 10 mg. b. Ketamine i. 0.2 mg/kg IV/IO, MAX single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via",
+    "content": "Adult patients with respiratory failure who are unable to oxygenate and ventilate often require CPAP. These patients may be combative and unable to tolerate CPAP either due to their hypoxia or anxiety. Attempt coaching. If CPAP causing nausea and bloating, consider ondansetron, see Nausea and Vomiting protocol, Gold 18. If unable to achieve sufficient anxiolysis to tolerate CPAP with coaching, contact OLMC for ONE of the following anxiolytics: Midazolam 0.5 - 2.5 mg IV/IO every 5 minutes, may re",
     "providerLevels": [
-      "PARAMEDIC",
       "EMT_ADVANCED_EMT_PARAMEDIC",
-      "ADVANCED_EMT_PARAMEDIC"
+      "ADVANCED_EMT_PARAMEDIC",
+      "PARAMEDIC"
     ],
     "keywords": [
       "respiratory",
@@ -314,7 +315,9 @@
     "category": "blue",
     "title": "Surgical Cricothyrotomy",
     "content": "The following protocol is an effort to maintain awareness of a procedure that occurs rarely in the Maine EMS system. Ultimately, this procedure should be practiced on a regular basis to maintain proficiency. PLEASE NOTE, this protocol describes a generally acceptable open cricothyrotomy and will differ from services that employ percutaneous kits. The inclusion of this protocol DOES NOT mandate that all clinicians use this exact procedural description. Clinicians should employ the procedure they ",
-    "providerLevels": [],
+    "providerLevels": [
+      "PARAMEDIC"
+    ],
     "keywords": [
       "airway",
       "trauma",
@@ -327,7 +330,10 @@
     "category": "blue",
     "title": "Tracheostomy Care",
     "content": "Indication: An adult or pediatric patient with an established tracheostomy with signs of respiratory distress or failure. &lt;img&gt;A small teddy bear icon.&lt;/img&gt; Procedure: In the case of an adult or pediatric patient with established tracheostomy tube (greater than 1-2 weeks old), in respiratory distress or failure in which the above measures have not succeeded in improving respiratory status, consider replacing the tracheostomy tube. This protocol may also be appropriate for patients w",
-    "providerLevels": [],
+    "providerLevels": [
+      "EMT_ADVANCED_EMT",
+      "PARAMEDIC"
+    ],
     "keywords": [
       "airway",
       "respiratory",
@@ -638,23 +644,25 @@
     ]
   },
   {
-    "id": "red_034_red_035",
+    "id": "red_034_red_035_red_037",
     "category": "red",
     "title": "Ventricular Assist Devices",
     "content": "Patient Care Goals Rapid identification of, and interventions for, cardiovascular compromise in patients with VADs Rapid identification of, and interventions for, VAD-related malfunctions or complications Inclusion Criteria Any patient with a Ventricular Assist Device Patient Management a. If patient has a functioning VAD and is experiencing a non-cardiovascular-related problem, contact OLMC and transport to a facility that is appropriate for the patient's main presenting problem without manipul",
-    "providerLevels": [],
-    "keywords": []
-  },
-  {
-    "id": "red_036_red_037",
-    "category": "red",
-    "title": "Hyperkalemia",
-    "content": "If the patient is in cardiac arrest CPR should NOT be performed if there is any evidence the pump is still functioning. The decision whether to perform CPR should be based upon best clinical judgment. Consult OLMC or the patient's VAD coordinator for questions. CPR is indicated only when: The patient's pump has stopped and troubleshooting efforts to restart the pump have failed, AND The patient is unresponsive with no detectable signs of life. Manage the patient's airway as indicated by the Airw",
     "providerLevels": [],
     "keywords": [
       "airway",
       "cardiac",
       "stroke"
+    ]
+  },
+  {
+    "id": "red_038_red_039",
+    "category": "red",
+    "title": "Hyperkalemia",
+    "content": "Hyperkalemia (elevated serum potassium levels) can become a life-threatening electrolyte disturbance which causes changes in the electrical system of the heart potentially leading to fatal arrhythmias. While serum electrolyte values are not routinely available in the prehospital setting, a paramedic can identify the electrical changes on ECG and initiate prompt treatment. Patients at highest risk of cardiac consequences of hyperkalemia are those in renal failure: either end stage kidney disease ",
+    "providerLevels": [],
+    "keywords": [
+      "cardiac"
     ]
   },
   {
@@ -908,7 +916,7 @@
     ]
   },
   {
-    "id": "green_013_green_014_green_015",
+    "id": "green_013_green_014_green_015_green_016",
     "category": "green",
     "title": "Hemorrhagic Shock",
     "content": "If history of illness or mechanism of injury consistent with signs/symptoms of shock (elevated pulse, elevated respiratory rate, cool/pale skin, altered LOC, anxiety, sweating or lowered BP) then transport as soon and as efficiently as possible. If the cause of the shock is NOT related to hemorrhage , consider the following protocols: Anaphylaxis, refer to the Anaphylaxis protocol, Gold 1 Cardiogenic, refer to the Cardiogenic Shock protocol, Red 32 Tension pneumothorax, refer to the Chest Trauma",
@@ -928,10 +936,10 @@
     ]
   },
   {
-    "id": "green_016_green_017",
+    "id": "green_017_green_018",
     "category": "green",
     "title": "Burn",
-    "content": "Compensated Shock Mild Shock Moderate Shock Severe Shock Blood Loss &lt;15% (1000 mL) 15-30% (1000-1500 mL) 30-40% (1500-2000 mL) &gt;40% (&gt; 2000 mL) Pulse Normal Elevated (&gt;100) Elevated (&gt;120) Elevated (&gt;140) Blood Pressure Normal Orthostatic Change Marked Decrease Profound Decrease Cap Refill Normal May be Delayed Usually Delayed Always Delayed Respiration Normal Mild Increase Moderate Tachypnea Marked Tachypnea and Respiratory Collapse Mental Status Normal or Agitated Agitated Co",
+    "content": "&lt;img&gt;A small teddy bear illustration.&lt;/img&gt; &lt;img&gt;Rule of 9's Estimation of Burned Body Surface (Percent) Diagram&lt;/img&gt; Remember: The patient's hand (palm PLUS fingers) is about 1% of the patient's body surface area. Remove burned clothing and/or jewelry, unless adhered to patient. Administer high flow oxygen in patients with respiratory distress or evidence of hemorrhagic shock. Additionally, consider the administration of oxygen in patients who may have been exposed to h",
     "providerLevels": [
       "ADVANCED_EMT_PARAMEDIC",
       "EMT"
@@ -947,10 +955,10 @@
     ]
   },
   {
-    "id": "green_018_green_019_green_020_green_021",
+    "id": "green_019_green_020_green_021_green_022_green_023",
     "category": "green",
     "title": "Universal Pain Management",
-    "content": "&lt;img&gt;Rule of 9's Estimation of Burned Body Surface (Percent) Diagram&lt;/img&gt; Remember: The patient's hand (palm PLUS fingers) is about 1% of the patient's body surface area. Patient Inclusion Criteria Adult and pediatric patients who are experiencing pain either from a traumatic injury or with non-traumatic chest, abdominal, or flank pain. Contact OLMC for any other painful conditions including but not limited to back pain, headache, and non-traumatic extremity pain. Patient Exclusion ",
+    "content": "Patient Inclusion Criteria Adult and pediatric patients who are experiencing pain either from a traumatic injury or with non-traumatic chest, abdominal, or flank pain. Contact OLMC for any other painful conditions including but not limited to back pain, headache, and non-traumatic extremity pain. Patient Exclusion Criteria Change in baseline mental status or head injury with change in mental status from baseline. For suspected cardiac chest pain, refer to Chest Pain - Suspected Cardiac Origin pr",
     "providerLevels": [
       "EMT",
       "PARAMEDIC",
@@ -960,32 +968,13 @@
       "cardiac",
       "trauma",
       "shock",
-      "oxygen",
-      "burn"
+      "oxygen"
     ]
-  },
-  {
-    "id": "green_022",
-    "category": "green",
-    "title": "Termination of Resuscitation for Traumatic Cardiac Arrest",
-    "content": "PEARLS for Pain Management: Contact OLMC if desiring to switch from one type of analgesic to another (other than from acetaminophen), no matter the duration of time that has passed since dosing the initial agent. Adding one class of medications to another can have additive effects such as hypotension, bradypnea, depression of mental status, etc. &lt;img&gt;feather&lt;/img&gt; Transport in position of comfort and reassess pain, as indicated. Consider the potential for medical causes of trauma, es",
-    "providerLevels": [],
-    "keywords": [
-      "trauma"
-    ]
-  },
-  {
-    "id": "green_023",
-    "category": "green",
-    "title": "Crush Injury",
-    "content": "Pediatric considerations: Have the patient rate his/her pain from 0-10, or on an another appropriate pain scale: a. Ages less than 4 years, use FLACC Scale, b. Ages 4-12 years, use Wong Baker “Faces” Scale, c. Avoid coaching the patient; simply ask them to rate their pain on a scale from 0-10, where 0 is no pain at all, and 10 is the worst pain ever experienced by the patient. &lt;img&gt;A small teddy bear icon.&lt;/img&gt; The FLACC Behavioral Pain Assessment Scale Scoring Categories 0 1 2 Face",
-    "providerLevels": [],
-    "keywords": []
   },
   {
     "id": "green_024",
     "category": "green",
-    "title": "Facial / Dental Injury",
+    "title": "Termination of Resuscitation for Traumatic Cardiac Arrest",
     "content": "Do NOT initiate cardiac arrest resuscitation regardless of transport if any of the following exist: Injuries incompatible with life Evidence of significant time lapse since pulselessness, including dependent lividity, rigor mortis or decomposition Inclusion Criteria: Cardiac arrest from blunt or penetrating trauma in adult and pediatric patients Exclusion Criteria: (Patients for whom this protocol does not apply): Patients whose presentation is consistent with a medical cause of cardiac arrest, ",
     "providerLevels": [
       "PARAMEDIC",
@@ -1002,7 +991,7 @@
   {
     "id": "green_025",
     "category": "green",
-    "title": "Ophthalmology",
+    "title": "Crush Injury",
     "content": "&lt;img&gt;A small teddy bear icon.&lt;/img&gt; PEARLS for Crush Injury: Treat suspension trauma as prolonged entrapment and follow crush injury protocols as above If severe hemorrhage is present, refer to Hemorrhage protocol, Green 12 . Administer high-flow oxygen to maintain O₂ sat between 94-99%. Manage airway as appropriate, see Airway Algorithm, Blue 2 . Intravenous access should be established with Normal Saline initial bolus of 10-15 mL/kg (prior to extrication if possible). For significa",
     "providerLevels": [
       "PARAMEDIC",
@@ -1019,7 +1008,7 @@
   {
     "id": "green_026",
     "category": "green",
-    "title": "Open Fractures",
+    "title": "Facial / Dental Injury",
     "content": "Administer oxygen, as appropriate, with a target of achieving 94-99% saturation. Avulsed tooth: Avoid touching the root of the avulsed tooth. Do not wipe off tooth. Pick up at crown end. If dirty, rinse off under cold water for 10 seconds. Place tooth in milk or saline as the storage medium. Alternatively, a cooperative patient can hold tooth in mouth using own saliva as storage medium. Unstable Mandible Injury: Expect patient cannot spit/swallow effectively and have suction readily available. P",
     "providerLevels": [
       "EMT_ADVANCED_EMT_PARAMEDIC",
@@ -1034,7 +1023,7 @@
   {
     "id": "green_027",
     "category": "green",
-    "title": "Strangulation",
+    "title": "Ophthalmology",
     "content": "Pearls for eye injuries Normal or near normal vision does not rule out significant eye injury Chemical and thermal burns to the face may have concomitant respiratory injury Vomiting increases intraocular pressure and should be avoided in patients with eye injury. Tetracaine is to be provided by the Paramedic clinician only and not provided to the patient for ongoing use Assess eye. Never put pressure on an injured globe. Assess gross visual acuity (e.g., count fingers). For thermal exposure, ass",
     "providerLevels": [
       "PARAMEDIC",
@@ -1045,6 +1034,36 @@
       "respiratory",
       "trauma",
       "burn"
+    ]
+  },
+  {
+    "id": "green_028",
+    "category": "green",
+    "title": "Open Fractures",
+    "content": "Definition of Open Fracture: Suspected fracture with associated extensive tissue damage, wound, and/or visible bone; including partial or completed amputations. &lt;img&gt;A small teddy bear icon.&lt;/img&gt; Assess for other life-threatening injuries and manage as indicated. In patients who are otherwise stable, gross contamination (such as leaves or gravel) should be removed if possible. Cover open fractures with moist, sterile dressing. Splint the fractured extremity in the anatomic position,",
+    "providerLevels": [
+      "PARAMEDIC",
+      "EMT",
+      "ADVANCED_EMT"
+    ],
+    "keywords": [
+      "anaphylaxis"
+    ]
+  },
+  {
+    "id": "green_029",
+    "category": "green",
+    "title": "Strangulation",
+    "content": "Strangulation should be suspected anytime that someone has been assaulted and experienced either syncope, blunt neck trauma (e.g., \"choking\", being held down with an extremity to their neck, etc.), facial or chest injuries, hoarse voice, loss of hearing or vision, incontinence, etc. Patients who have suffered strangulation are at risk for airway compromise, vascular injury and stroke up to 72 hours after injury. Interpersonal violence scenes are high risk for EMS providers. Please see Grey 25 re",
+    "providerLevels": [
+      "EMT_ADVANCED_EMT_PARAMEDIC"
+    ],
+    "keywords": [
+      "airway",
+      "breathing",
+      "trauma",
+      "stroke",
+      "seizure"
     ]
   },
   {
@@ -1161,37 +1180,48 @@
     ]
   },
   {
-    "id": "yellow_012",
+    "id": "yellow_012_yellow_013_yellow_014_yellow_015",
     "category": "yellow",
     "title": "Severe Hypothermia WITHOUT Signs of Life",
-    "content": "Note: Assess for pulse and respirations for 1 minute. Note: Definitive treatment for severe hypothermia without signs of life is rewarming with cardiopulmonary bypass. Do not delay transport of these patients. Do not initiate CPR if it will delay transport. Do not initiate resuscitation if the patient meets any of the criteria in Grey 3 Section II.A OR Rescuers are exhausted or in a dangerous situation. These patients are deceased. Initiate CPR after 1 minute pulse/respiration assessment. Attach",
+    "content": "Note: Assess for pulse and respirations for 1 minute. Note: Definitive treatment for severe hypothermia without signs of life is rewarming with cardiopulmonary bypass. Do not delay transport of these patients. Do not initiate CPR if it will delay transport. Do not initiate resuscitation if the patient meets any of the criteria in Grey 3 Section II.A OR Rescuers are exhausted or in a dangerous situation. These patients are deceased. &lt;img&gt;Bear&lt;/img&gt; &lt;img&gt;Bear&lt;/img&gt; Initiate",
     "providerLevels": [
+      "ADVANCED_EMT_PARAMEDIC",
       "EMT"
     ],
     "keywords": [
-      "cardiac"
+      "cardiac",
+      "trauma"
     ]
   },
   {
-    "id": "yellow_013_yellow_014",
+    "id": "yellow_016_yellow_017",
     "category": "yellow",
     "title": "Hyperthermia - Heat Exhaustion / Heat Stroke",
-    "content": "&lt;img&gt;Bear&lt;/img&gt; &lt;img&gt;Bear&lt;/img&gt; If no ROSC after 20 minutes of CPR/rewarming, consider termination of resuscitation. Contact OLMC, if possible. Consider 1000 mL (20 mL/ kg for pediatrics ) bolus of NS heated to 104 - 108° F (40 - 42° C). Contact OLMC for additional boluses. Otherwise, treat as per normothermic cardiac arrest management for the patient's dysrhythmia, refer to Adult (Red 9) or Pediatric (Red 18) Cardiac Arrest protocol.",
+    "content": "HEAT EXHAUSTION — Volume depletion due to sweat loss. ASSESSMENT: If core temperature is obtained, it will be variable but always below 105° F (40.6° C). Clinical pattern is essentially that of compensated hypovolemic shock: Weakness and vomiting, Skin condition/color is variable. Core-shell shunt to increase heat loss competes with shell-core shunt to protect volume. Skin is usually pale and moist with variable skin temperature, Sweating, Normal consciousness and CNS function. TREATMENT: Goal i",
     "providerLevels": [
-      "ADVANCED_EMT_PARAMEDIC"
+      "ADVANCED_EMT_PARAMEDIC",
+      "EMT"
     ],
     "keywords": [
-      "cardiac"
+      "cardiac",
+      "shock",
+      "stroke",
+      "seizure"
     ]
   },
   {
-    "id": "yellow_015",
+    "id": "yellow_018",
     "category": "yellow",
     "title": "Drowning/Submersion Injuries",
-    "content": "Do not massage extremities in attempt to actively re-warm the patient; massaging the extremities will not significantly increase body temperature and it may worsen the damage caused by frostbite. Moderate-to-severe frostbite is defined as: Frostbite involving hands, feet, face, or genitals, Frostbite associated with cyanotic tissue, blisters (clear or hemorrhagic) or skin necrosis, Frostbite associated with loss of sensation or weakness in the involved area. Follow your local trauma system trans",
-    "providerLevels": [],
+    "content": "PEARLS for Drowning: Fresh and salt water drowning are treated the same in the field; treatment must be directed toward correcting severe hypoxia. Factors affecting survival include the patient’s age, length of time submerged, general health of the victim, type and cleanliness of liquid medium and water temperature that may contribute to the effectiveness of the mammalian diving reflex (decreased respirations, decreased heart rate, and vasoconstriction, with maintenance of blood flow to the brai",
+    "providerLevels": [
+      "ADVANCED_EMT_PARAMEDIC",
+      "EMT"
+    ],
     "keywords": [
-      "trauma"
+      "respiratory",
+      "trauma",
+      "cpap"
     ]
   },
   {
@@ -1242,7 +1272,7 @@
     "id": "lavender_005",
     "category": "lavender",
     "title": "Newborn Resuscitation",
-    "content": "graph TD A[Term gestation? Breathing or crying? Good muscle tone?] --&gt;|YES| B[Routine care Provide warmth Open airway Dry Ongoing evaluation] A --&gt;|NO| C[Provide warmth Open airway Dry, stimulate] B --&gt; D[HR Below 100?&lt;br&gt;Gasping or apnea?] C --&gt; D D --&gt;|YES| E[PPV With room air (No oxygen). Advanced airway as needed] D --&gt;|NO| F[Labored breathing or&lt;br&gt;Persistent cyanosis?] E --&gt; G[HR below 100?] F --&gt; H[Clear airway&lt;br&gt;Supplemental O2 as needed] G --&g",
+    "content": "graph TD A[\"Term gestation? Breathing or crying? Good muscle tone?\"] --&gt;|YES| B[\"Routine care Provide warmth Open airway Dry Ongoing evaluation\"] A --&gt;|NO| C[\"Provide warmth Open airway Dry, stimulate\"] B --&gt; D[\"HR Below 100? Gasping or apnea?\"] C --&gt; D D --&gt;|YES| E[\"PPV With room air (No oxygen). Advanced airway as needed\"] D --&gt;|NO| F[\"Labored breathing or Persistent cyanosis?\"] E --&gt; G[\"HR below 100?\"] F --&gt; H[\"Clear airway Supplemental O2 as needed\"] G --&gt;|YES| I[\"",
     "providerLevels": [],
     "keywords": [
       "airway",
@@ -1334,8 +1364,10 @@
     "id": "orange_003",
     "category": "orange",
     "title": "Depression / Suicidal Ideation",
-    "content": "Refer to Orange 1 for Transport of Mentally Ill Patients protocol Refer to Orange 4 for Restraint protocol Refer to Orange 5 for Hyperactive Delirium with Severe Agitation protocol PEARL A SAD PERSONS Score &gt; 4 or a \"yes\" answer to any of the Columbia Suicide Screening questions may indicate that the patient requires psychiatric hospitalization. However, all patients presenting with a psychiatric emergency should be transported to the hospital for evaluation. Ensure the scene is safe and requ",
-    "providerLevels": [],
+    "content": "Refer to Orange 1 for Transport of Mentally Ill Patients protocol Refer to Orange 4 for Restraint protocol Refer to Orange 5 for Hyperactive Delirium with Severe Agitation protocol Ensure the scene is safe and request law enforcement for patients actively threatening/attempting suicide. Assess the patient: has suicide attempt or self-harm occurred? If yes, evaluate for need of medical treatment (e.g., ingestion) or traumatic injuries (e.g., cutting, strangulation) and refer to appropriate protoc",
+    "providerLevels": [
+      "EMT_ADVANCED_EMT_PARAMEDIC"
+    ],
     "keywords": [
       "trauma",
       "overdose",
@@ -1607,6 +1639,14 @@
     "category": "grey",
     "title": "Telephone / Radio Reference/ Contact Numbers",
     "content": "NAME Radio Frequency Phone Number Hospital: Hospital: Hospital: Hospital: Hospital: Hospital: Dispatch: State wide EMS Frequency 155.3850 Maine EMS Phone: (207)626-3860 Fax: (207)287-6251 e-mail: maine.ems@maine.gov www.maine.gov/ems Maine EMS Director: William D. O'Neal, A.S. State Medical Director: Matthew Sholl, M.D., MPH State Associate Medical Director: Jack Lewis, D.O., NREMTP Maine EMS Offices: Education Licensing and Investigations Data Systems of Care EMS for Children Substance Use Diso",
+    "providerLevels": [],
+    "keywords": []
+  },
+  {
+    "id": "grey_036",
+    "category": "grey",
+    "title": "Non-EMS System Medical Interveners",
+    "content": "Thank you for your offer of assistance. Please be advised that these Emergency Medical Services clinicians are operating under the authority of the State of Maine and under protocols approved by the State of Maine. These EMS clinicians are also operating under the authority of a Medical Control physician and standing medical orders. If you are currently providing patient care, you will be relinquishing care to these EMS personnel and their Medical Control physician. No individual should interven",
     "providerLevels": [],
     "keywords": []
   }

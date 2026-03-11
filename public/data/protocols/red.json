@@ -1903,7 +1903,7 @@
     ]
   },
   {
-    "id": "red_034_red_035",
+    "id": "red_034_red_035_red_037",
     "title": "Ventricular Assist Devices",
     "category": "red",
     "intro": [
@@ -1958,28 +1958,7 @@
         "num": 4,
         "providerLevel": "ALL",
         "html": "If the patient is experiencing VAD-related complications or cardiovascular problems, expedite transport to the medical facility where the VAD was placed if the patient's clinical condition and operational considerations allow. If direct transport to the patient's VAD center is not possible, take the patient to the most appropriate facility based on their clinical condition, notifying OLMC and the patient's VAD coordinator of destination decision."
-      }
-    ],
-    "pearls": [],
-    "pages": [
-      {
-        "pageId": "red_034",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/068.jpg"
       },
-      {
-        "pageId": "red_035",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/069.jpg"
-      }
-    ]
-  },
-  {
-    "id": "red_036_red_037",
-    "title": "Hyperkalemia",
-    "category": "red",
-    "intro": [],
-    "steps": [
       {
         "num": 5,
         "providerLevel": "ALL",
@@ -2016,12 +1995,119 @@
     ],
     "pages": [
       {
-        "pageId": "red_036",
+        "pageId": "red_034",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/068.jpg"
+      },
+      {
+        "pageId": "red_035",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/068.jpg"
+      },
+      {
+        "pageId": "red_037",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/069.jpg"
+      }
+    ]
+  },
+  {
+    "id": "red_038_red_039",
+    "title": "Hyperkalemia",
+    "category": "red",
+    "intro": [
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p>Hyperkalemia (elevated serum potassium levels) can become a life-threatening electrolyte disturbance which causes changes in the electrical system of the heart potentially leading to fatal arrhythmias. While serum electrolyte values are not routinely available in the prehospital setting, a paramedic can identify the electrical changes on ECG and initiate prompt treatment.</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p>Patients at highest risk of cardiac consequences of hyperkalemia are those in renal failure: either end stage kidney disease requiring dialysis or with acute decompensations in renal function. The most common at-risk patient is the dialysis dependent patient who has missed one or more scheduled dialysis sessions and thus has accumulated dangerously high levels of electrolytes, including potassium. There are also a number of prescription medications that can alter serum potassium levels such as diuretics, blood pressure medications, chemotherapy agents, and more.</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p>Electrocardiographic signs of hyperkalemia include the following:</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p>&lt;img&gt;ECG showing peaked T-wave&lt;/img&gt;<br>\nPeaked T-Wave (tall and symmetric)</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p>&lt;img&gt;ECG showing widened QRS&lt;/img&gt;<br>\nWidened QRS</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p>&lt;img&gt;ECG showing widened QRS and lengthened QT interval&lt;/img&gt;<br>\nWidened QRS and lengthened QT interval</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p>&lt;img&gt;Bear icon&lt;/img&gt;<br>\n&lt;img&gt;Hospital icon&lt;/img&gt;</p>"
+      },
+      {
+        "type": "pearls",
+        "providerLevel": "ALL",
+        "html": "<p>PEARLS for Hyperkalemia:</p>"
+      },
+      {
+        "type": "list",
+        "providerLevel": "ALL",
+        "html": "<ul>\n<li>Higher serum potassium levels (reported as K+) may not directly correlate with higher risk for cardiac instability, any elevation in serum potassium can increase risk of cardiac instability.</li>\n<li>Hyperkalemia should ONLY be treated if ECG changes are present. Patients presenting with elevated serum potassium levels based on outpatient/hospital lab testing do not warrant treatment unless ECG changes are present. If elevated serum potassium levels are noted on laboratory testing, obtain 12-lead ECG and perform continuous cardiac monitoring to evaluate for electrical changes.</li>\n<li>These can be dynamic situations. Monitor QRS complexes closely after therapy. If initial improvement, but recurrence of QRS changes, please re-initiate protocol.</li>\n<li>The treatment of hyperkalemia is based on several mechanisms:\n<ul>\n<li>Dilution: dilution of the serum potassium with fluid bolus</li>\n<li>Cardiac stabilization: Calcium gluconate stabilizes the electrical conduction system of the heart, making it less susceptible to electrolyte disturbance</li>\n<li>Potassium shift: albuterol and sodium bicarbonate can temporarily shift potassium ions from the serum into cells, thus reducing the serum potassium level. The half-life of albuterol is short, but may temporarily improve serum potassium levels while the other treatments take effect.</li>\n</ul>\n</li>\n</ul>"
+      }
+    ],
+    "steps": [
+      {
+        "num": 1,
+        "providerLevel": "ALL",
+        "html": "Obtain 12-lead ECG and evaluate for signs of hyperkalemia, including peaked T waves, widened QRS, lengthened QT interval, loss of P waves."
+      },
+      {
+        "num": 2,
+        "providerLevel": "ALL",
+        "html": "Perform continuous cardiac monitoring."
+      },
+      {
+        "num": 3,
+        "providerLevel": "ALL",
+        "html": "Establish 2 points of IV/IO access."
+      },
+      {
+        "num": 4,
+        "providerLevel": "ALL",
+        "html": "If ECG changes suggestive of hyperkalemia are noted, administer:\n<ol type=\"a\">\n<li>IV/IO fluid bolus: 500 - 1000 mL (NS or LR)</li>\n<li>Calcium gluconate - NOTE: DO NOT administer calcium through same IV/IO as sodium bicarbonate\n<ol type=\"i\">\n<li>Adult: 2 grams diluted in 50-100 mL IVF IV/IO over 15 minutes, via pump</li>\n<li>Pediatric: 60 mg/kg diluted in 50-100 mL IVF (with MAX dose of 2 grams) IV/IO over 15 minutes, via pump</li>\n</ol></li>\n<li>Sodium bicarbonate - NOTE: DO NOT administer sodium bicarbonate through same IV/IO as Calcium\n<ol type=\"i\">\n<li>Adult: 50mEq IV/IO</li>\n<li>Pediatric: 1mEq/kg IV/IO over 5 minutes with MAX dose of 50mEq (8.4% sodium bicarbonate must be diluted with D₅W to 4.2% [0.5 mEq/mL] prior to administration in patients less than 2 years of age.)</li>\n</ol></li>\n<li>Albuterol\n<ol type=\"i\">\n<li>Adult: 15 mg via nebulizer</li>\n<li>Pediatric:\n<ol>\n<li>Pediatric less than 25 kg: 2.5 mg via nebulizer</li>\n<li>Pediatric greater than 25 kg: 5 mg via nebulizer</li>\n</ol></li>\n</ol></li>\n</ol>"
+      },
+      {
+        "num": 5,
+        "providerLevel": "ALL",
+        "html": "Repeat 12-lead ECG after treatment to evaluate for improvement."
+      },
+      {
+        "num": 6,
+        "providerLevel": "ALL",
+        "html": "Consult OLMC with questions or to discuss repeat doses if ECG not improved.<br>"
+      },
+      {
+        "num": 7,
+        "providerLevel": "ALL",
+        "html": "Note: If patient progresses to cardiac arrest, give the following early in your resuscitation efforts (Refer to Adult Cardiac Arrest #2 protocol, Red 10 or Pediatric Cardiac Arrest #2 protocol, Red 19):\n<ol type=\"a\">\n<li>Calcium gluconate:\n<ol type=\"i\">\n<li>Adult: 3 gram IV/IO push, diluted in a minimum of 10 mL of IVF, over 1 minute, may repeat in 10 minutes.</li>\n<li>Pediatric: 60 mg/kg IV/IO push, diluted in a minimum of 10 mL of IVF, over 1 minute, max dose 3000 mg, may repeat in 10 minutes. &lt;img&gt;Bear with syringe&lt;/img&gt;</li>\n</ol></li>\n<li>Sodium bicarbonate:\n<ol type=\"i\">\n<li>Adult: 50 mEq IV/IO push over 1-2 minutes, repeat every 5 minutes until QRS duration less than 120 msec.</li>\n<li>Pediatric: 1 to 2 mEq/kg IV/IO push over 1-2 minutes, MAX single dose: 50 mEq, repeat every 5 minutes until QRS duration less than 120 msec. (8.4% sodium bicarbonate must be diluted 1:1 with D₅W to 4.2% [0.5 mEq/L] prior to administration in patients less than 2 years of age.) &lt;img&gt;Bear with syringe&lt;/img&gt;</li>\n</ol></li>\n<li>Fluid bolus</li>\n</ol>"
+      }
+    ],
+    "pearls": [],
+    "pages": [
+      {
+        "pageId": "red_038",
         "pageNumber": "",
         "jpgReference": "/page_jpg/070.jpg"
       },
       {
-        "pageId": "red_037",
+        "pageId": "red_039",
         "pageNumber": "",
         "jpgReference": "/page_jpg/071.jpg"
       }

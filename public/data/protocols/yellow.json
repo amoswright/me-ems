@@ -642,7 +642,7 @@
     ]
   },
   {
-    "id": "yellow_012",
+    "id": "yellow_012_yellow_013_yellow_014_yellow_015",
     "title": "Severe Hypothermia WITHOUT Signs of Life",
     "category": "yellow",
     "intro": [
@@ -660,6 +660,16 @@
         "type": "content",
         "providerLevel": "ALL",
         "html": "<p>Do not initiate resuscitation if the patient meets any of the criteria in Grey 3 Section II.A OR Rescuers are exhausted or in a dangerous situation. These patients are deceased.</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+        "html": "<p>&lt;img&gt;Bear&lt;/img&gt;</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+        "html": "<p>&lt;img&gt;Bear&lt;/img&gt;</p>"
       }
     ],
     "steps": [
@@ -677,37 +687,10 @@
         "num": 3,
         "providerLevel": "EMT",
         "html": "Rewarm using techniques as listed under Treatment: Not in Cardiac Arrest (above)."
-      }
-    ],
-    "pearls": [],
-    "pages": [
-      {
-        "pageId": "yellow_012",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/130.jpg"
-      }
-    ]
-  },
-  {
-    "id": "yellow_013_yellow_014",
-    "title": "Hyperthermia - Heat Exhaustion / Heat Stroke",
-    "category": "yellow",
-    "intro": [
-      {
-        "type": "content",
-        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
-        "html": "<p>&lt;img&gt;Bear&lt;/img&gt;</p>"
       },
       {
-        "type": "content",
-        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
-        "html": "<p>&lt;img&gt;Bear&lt;/img&gt;</p>"
-      }
-    ],
-    "steps": [
-      {
         "num": 4,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT",
         "html": "If no ROSC after 20 minutes of CPR/rewarming, consider termination of resuscitation. Contact OLMC, if possible."
       },
       {
@@ -726,26 +709,6 @@
         "html": "Otherwise, treat as per normothermic cardiac arrest management for the patient's dysrhythmia, refer to Adult (Red 9) or Pediatric (Red 18) Cardiac Arrest protocol."
       }
     ],
-    "pearls": [],
-    "pages": [
-      {
-        "pageId": "yellow_013",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/131.jpg"
-      },
-      {
-        "pageId": "yellow_014",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/132.jpg"
-      }
-    ]
-  },
-  {
-    "id": "yellow_015",
-    "title": "Drowning/Submersion Injuries",
-    "category": "yellow",
-    "intro": [],
-    "steps": [],
     "pearls": [
       {
         "html": [
@@ -755,7 +718,221 @@
     ],
     "pages": [
       {
+        "pageId": "yellow_012",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/130.jpg"
+      },
+      {
+        "pageId": "yellow_013",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/130.jpg"
+      },
+      {
+        "pageId": "yellow_014",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/130.jpg"
+      },
+      {
         "pageId": "yellow_015",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/130.jpg"
+      }
+    ]
+  },
+  {
+    "id": "yellow_016_yellow_017",
+    "title": "Hyperthermia - Heat Exhaustion / Heat Stroke",
+    "category": "yellow",
+    "intro": [
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p><strong>HEAT EXHAUSTION</strong> — Volume depletion due to sweat loss.</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p><strong>ASSESSMENT:</strong><br>\nIf core temperature is obtained, it will be variable but always below 105° F (40.6° C).<br>\nClinical pattern is essentially that of compensated hypovolemic shock:</p>"
+      },
+      {
+        "type": "list",
+        "providerLevel": "ALL",
+        "html": "<ul>\n<li>Weakness and vomiting,</li>\n<li>Skin condition/color is variable. Core-shell shunt to increase heat loss competes with shell-core shunt to protect volume. Skin is usually pale and moist with variable skin temperature,</li>\n<li>Sweating,</li>\n<li>Normal consciousness and CNS function.</li>\n</ul>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p><strong>TREATMENT:</strong> Goal is to reduce sweating and to restore volume.</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p><strong>HEAT STROKE</strong> — A true medical emergency that requires radical field treatment, usually, but not always, associated with heat exhaustion. Heat stroke is characterized by multisystem organ injury and failure. CNS dysfunction characterized by alterations in mental status is a hallmark distinguishing between heat exhaustion and heat stroke.</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p><strong>ASSESSMENT:</strong><br>\nIf core temperature is obtained, it is 105° F (40.6° C) or greater. Abnormal consciousness and/or CNS function; seizures are common. Any acute change in consciousness/CNS function in the context of a significant heat challenge should be managed as heat stroke without delay. Skin condition/color and sweating are variable, depending on volume status. Note that red, dry skin is not a dependable sign of heat stroke.</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p><strong>TREATMENT:</strong><br>\nImmediate radical cooling is the urgent priority, followed by volume replacement.</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+        "html": "<p><strong>PEARL</strong><br>\nIf at a sporting or athletic event, it is important to discuss the cooling plan with other on-scene clinicians, i.e. sports medicine clinicians or athletic trainers prior to the start of the event to ensure that necessary equipment is available.</p>"
+      }
+    ],
+    "steps": [
+      {
+        "num": 1,
+        "providerLevel": "EMT",
+        "html": "Protect the patient from heat challenge. Stop exercise and put patient at rest in a cool, shady place."
+      },
+      {
+        "num": 2,
+        "providerLevel": "EMT",
+        "html": "Use evaporation techniques and remove/loosen as much clothing as practical."
+      },
+      {
+        "num": 3,
+        "providerLevel": "EMT",
+        "html": "Oral fluids can be effective if the patient is not vomiting. Use dilute (less than 5% sugar) fluids given in small sips. Appropriate fluids to use include the World Health Organization's Oral Rehydration Solution OR a \"homemade\" solution using 1 teaspoon of salt and 8 teaspoons of sugar per 1 liter of water."
+      },
+      {
+        "num": 4,
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+        "html": "Establish IV."
+      },
+      {
+        "num": 5,
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+        "html": "Perform fluid bolus."
+      },
+      {
+        "num": 6,
+        "providerLevel": "EMT",
+        "html": "Cool the patient immediately by any means practical, such as:\n<ol type=\"a\">\n<li>Initiate Radical Cooling when available (especially beneficial for exertional hyperthermia, e.g., athletes, laborers):\n<ol type=\"i\">\n<li>Immerse patient up to their neck in ice water tub, if available.</li>\n<li>TACO Method (Tarp-Assisted Cooling with Oscillation), if available, with 4-5 people holding the patient in a tarp, add ice water at foot and up to the neck and continuously oscillate the tarp to avoid warming of water in contact with the patient.</li>\n</ol></li>\n<li>Also consider non-radical cooling which includes: ice packs applied to neck, axillae, groin, back; wet patient, apply cold wet sheets to patient, and air conditioning en route.</li>\n<li>Consider moistening the skin and fan vigorously. This method is effective only at low ambient humidity and a large electric fan is more beneficial than manual fanning.</li>\n</ol>"
+      },
+      {
+        "num": 7,
+        "providerLevel": "EMT",
+        "html": "Discontinue radical cooling if:\n<ol type=\"a\">\n<li>Shivering begins,</li>\n<li>Core temperature falls to or below 102° F (38.8° C).</li>\n</ol>"
+      },
+      {
+        "num": 3,
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+        "html": "Establish IV."
+      },
+      {
+        "num": 4,
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+        "html": "Cardiac Monitor"
+      },
+      {
+        "num": 5,
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+        "html": "Perform fluid bolus."
+      }
+    ],
+    "pearls": [],
+    "pages": [
+      {
+        "pageId": "yellow_016",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/131.jpg"
+      },
+      {
+        "pageId": "yellow_017",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/132.jpg"
+      }
+    ]
+  },
+  {
+    "id": "yellow_018",
+    "title": "Drowning/Submersion Injuries",
+    "category": "yellow",
+    "intro": [
+      {
+        "type": "pearls",
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+        "html": "<p><strong>PEARLS for Drowning:</strong></p>"
+      },
+      {
+        "type": "list",
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+        "html": "<ul>\n<li>\n<p>Fresh and salt water drowning are treated the same in the field; treatment must be directed toward correcting severe hypoxia.</p>\n</li>\n<li>\n<p>Factors affecting survival include the patient’s age, length of time submerged, general health of the victim, type and cleanliness of liquid medium and water temperature that may contribute to the effectiveness of the mammalian diving reflex (decreased respirations, decreased heart rate, and vasoconstriction, with maintenance of blood flow to the brain, heart and kidneys).</p>\n</li>\n<li>\n<p>Circum-rescue hemodynamic collapse can occur in these patients. The drop in catecholamines and mental relaxation that occurs just before, during, or after rescue may lead to life-threatening hypotension or arrhythmia (i.e. ventricular fibrillation).</p>\n</li>\n<li>\n<p>All drowning/near-drowning victims with suspected barotrauma/decompression sickness should be transported in the left lateral Trendelenburg position to prevent any emboli in the ventricles from migrating to the arterial system.</p>\n</li>\n<li>\n<p>Even patients that are conscious and appear well after a submersion event require hospital-level evaluation and observation as they may develop delayed symptoms.</p>\n</li>\n</ul>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+        "html": "<p>Reference - Michael J. Tipton, Frank St. C. Golden, November 2010.A proposed decision- making guide for the search, rescue and resuscitation of submersion (head under) victims based on expert opinion. Resuscitation. (2011) 82; 819–824.</p>"
+      }
+    ],
+    "steps": [
+      {
+        "num": 1,
+        "providerLevel": "EMT",
+        "html": "If C-spine injury suspected, manage C-spine per Spine Assessment &amp; Management protocol, <strong>Green 3</strong>."
+      },
+      {
+        "num": 2,
+        "providerLevel": "EMT",
+        "html": "Obtain specific history including time, temperature, associated injury, etc."
+      },
+      {
+        "num": 3,
+        "providerLevel": "EMT",
+        "html": "Begin resuscitation efforts while removing patient from the water (e.g., rescue breaths) - follow ABC (rather than CAB) flow of resuscitation."
+      },
+      {
+        "num": 4,
+        "providerLevel": "EMT",
+        "html": "Consider hypothermia, refer to Severe Hypothermia protocols, <strong>Yellow 11 &amp; 12</strong>."
+      },
+      {
+        "num": 5,
+        "providerLevel": "EMT",
+        "html": "Remove wet clothes and warm the patient."
+      },
+      {
+        "num": 6,
+        "providerLevel": "EMT",
+        "html": "Conscious patients with submersion injuries should be transported to the hospital for further evaluation."
+      },
+      {
+        "num": 7,
+        "providerLevel": "EMT",
+        "html": "If water temperature is estimated to be less than 43° F and submerged:\n<ul>\n<li>Less than 90 minutes - initiate full resuscitation.</li>\n<li>Greater than 90 minutes - consider not initiating resuscitation or termination of resuscitation.</li>\n</ul>\n"
+      },
+      {
+        "num": 8,
+        "providerLevel": "EMT",
+        "html": "If water temperature is estimated to be greater than 43° F and submerged:\n<ul>\n<li>Less than 30 minutes - initiate full resuscitation.</li>\n<li>Greater than 30 minutes - consider not initiating resuscitation or termination of resuscitation.</li>\n</ul>\n"
+      },
+      {
+        "num": 9,
+        "providerLevel": "EMT",
+        "html": "Consider CPAP to supplement the patient’s own respiratory effort."
+      },
+      {
+        "num": 10,
+        "providerLevel": "EMT",
+        "html": "If needed, refer to Anxiolysis in CPAP protocol, <strong>Blue 9</strong>."
+      },
+      {
+        "num": 11,
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
+        "html": "If near-drowning incident involves scuba diver, suggesting barotrauma, contact OLMC and consider hyperbaric treatment facility."
+      }
+    ],
+    "pearls": [],
+    "pages": [
+      {
+        "pageId": "yellow_018",
         "pageNumber": "",
         "jpgReference": "/page_jpg/133.jpg"
       }

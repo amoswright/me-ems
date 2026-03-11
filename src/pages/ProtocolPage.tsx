@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
-import { useProtocol } from '@/hooks/useProtocolData';
+import { useProtocol, useTOC } from '@/hooks/useProtocolData';
 import { ProviderLevelTabs } from '@/components/ProviderLevelTabs';
 import { useAppStore } from '@/store/useAppStore';
 import { MermaidDiagram } from '@/components/MermaidDiagram';
@@ -28,8 +28,17 @@ const LEVEL_STYLES: Record<string, { border: string; iconBg: string; pillGrad: s
 export function ProtocolPage() {
   const { protocolId } = useParams<{ protocolId: string }>();
   const { protocol, loading, error } = useProtocol(protocolId);
+  const { toc } = useTOC();
   const { providerLevel } = useAppStore();
   const navigate = useNavigate();
+
+  // Flat ordered list of all protocol ids from TOC
+  const allProtocolIds = toc
+    ? toc.categories.flatMap(c => c.protocols.map(p => p.id))
+    : [];
+  const currentIndex = protocolId ? allProtocolIds.indexOf(protocolId) : -1;
+  const prevId = currentIndex > 0 ? allProtocolIds[currentIndex - 1] : null;
+  const nextId = currentIndex >= 0 && currentIndex < allProtocolIds.length - 1 ? allProtocolIds[currentIndex + 1] : null;
   const sectionRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const [viewMode, setViewMode] = useState<ViewMode>('summary');
 
@@ -93,18 +102,6 @@ export function ProtocolPage() {
         .filter(l => l !== 'ALL' && l !== 'PEARLS')
     )
   );
-
-  // Group consecutive steps by provider level
-  interface StepGroup { level: string; steps: ProtocolStep[] }
-  const stepGroups = protocol.steps.reduce<StepGroup[]>((acc, step) => {
-    const last = acc[acc.length - 1];
-    if (last && last.level === step.providerLevel) {
-      last.steps.push(step);
-    } else {
-      acc.push({ level: step.providerLevel, steps: [step] });
-    }
-    return acc;
-  }, []);
 
   // Helper to set ref for first occurrence of each provider level
   const setRef = (providerLevelType: string, el: HTMLDivElement | null) => {
@@ -175,15 +172,34 @@ export function ProtocolPage() {
       </nav>
 
       {/* Protocol Header */}
-      <div className="mb-4 bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm">
-        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
-          {protocol.title}
-        </h1>
-        {protocol.pages.length > 1 && (
-          <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
-            {protocol.pages.length} pages
-          </p>
-        )}
+      <div className="mb-4 bg-white dark:bg-gray-800 p-4 rounded-xl shadow-sm flex items-center gap-3">
+        <button
+          onClick={() => { if (prevId) { window.scrollTo(0, 0); navigate(`/protocol/${prevId}`); } }}
+          disabled={!prevId}
+          className="flex-shrink-0 p-2 rounded-lg transition-colors disabled:opacity-30 disabled:cursor-not-allowed hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400"
+          aria-label="Previous protocol"
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+
+        <div className="flex-1 min-w-0">
+          <h1 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white leading-tight">
+            {protocol.title}
+          </h1>
+        </div>
+
+        <button
+          onClick={() => { if (nextId) { window.scrollTo(0, 0); navigate(`/protocol/${nextId}`); } }}
+          disabled={!nextId}
+          className="flex-shrink-0 p-2 rounded-lg transition-colors disabled:opacity-30 disabled:cursor-not-allowed hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-600 dark:text-gray-400"
+          aria-label="Next protocol"
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
       </div>
 
       {/* View mode tabs */}
@@ -225,60 +241,90 @@ export function ProtocolPage() {
       {/* Full Text view */}
       {viewMode === 'fulltext' && (
         <div onClick={handleProtocolClick}>
-          {/* Intro content (definitions, mermaid, bullet lists, tables) */}
-          {protocol.intro.map((item, i) => (
-            <div key={i} className="mb-4">
-              {item.type === 'mermaid'
-                ? <MermaidDiagram content={extractMermaidContent(item.html) || ''} id={`intro-${i}`} />
-                : <div className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-                    {renderProtocolHtml(item.html)}
-                  </div>
+          {/* Unified stream: intro items + steps, grouped by provider level.
+              Level order is derived from first-appearance across both intro and steps,
+              so that all content for each level stays together regardless of page splits. */}
+          {(() => {
+            // Determine level order by scanning intro then steps for new levels
+            const seenLevels = new Set<string>();
+            const levelOrder: string[] = [];
+            for (const item of protocol.intro) {
+              if (!seenLevels.has(item.providerLevel)) {
+                seenLevels.add(item.providerLevel);
+                levelOrder.push(item.providerLevel);
               }
-            </div>
-          ))}
+            }
+            for (const step of protocol.steps) {
+              if (!seenLevels.has(step.providerLevel)) {
+                seenLevels.add(step.providerLevel);
+                levelOrder.push(step.providerLevel);
+              }
+            }
 
-          {/* ONE unified step list — grouped by provider level for visual differentiation */}
-          {stepGroups.map((group, gi) => {
-            const s = LEVEL_STYLES[group.level] ?? LEVEL_STYLES.ALL;
-            const isHighlighted = providerLevel !== 'ALL' && levelIncludes(group.level, providerLevel);
-            const colors = getProviderLevelColors(group.level);
-            return (
-              <React.Fragment key={gi}>
-                {/* Provider level divider pill */}
-                {s.pillGrad && (
-                  <div
-                    ref={el => setRef(group.level, el as HTMLDivElement | null)}
-                    className="flex items-center gap-3 my-5"
-                  >
-                    <span className={`bg-gradient-to-r ${s.pillGrad} text-[10px] font-extrabold tracking-widest uppercase px-3 py-1.5 rounded-xl shadow-sm whitespace-nowrap`}>
-                      {s.label}
-                    </span>
-                    <div className="flex-1 h-px bg-gray-200 dark:bg-gray-700" />
-                  </div>
-                )}
-                {/* Steps for this provider level */}
-                <div className={`relative pl-6 mb-4 ${isHighlighted ? 'bg-blue-50 dark:bg-blue-900/20 rounded-lg' : ''}`}>
-                  {/* Color bar(s) on left */}
-                  {colors.length > 0 && (
-                    <div className="absolute left-0 top-0 bottom-0 flex rounded-l-lg overflow-hidden">
-                      {colors.map((color, ci) => <div key={ci} className={`w-1 ${color}`} />)}
+            // Build one group per level with all its intro items and steps
+            const groups = levelOrder.map(level => ({
+              level,
+              introItems: protocol.intro.filter(item => item.providerLevel === level),
+              stepItems: protocol.steps.filter(step => step.providerLevel === level),
+            }));
+
+            return groups.map((group, gi) => {
+              const s = LEVEL_STYLES[group.level] ?? LEVEL_STYLES.ALL;
+              const isHighlighted = providerLevel !== 'ALL' && levelIncludes(group.level, providerLevel);
+              const colors = getProviderLevelColors(group.level);
+              const { introItems, stepItems } = group;
+
+              return (
+                <React.Fragment key={gi}>
+                  {/* Provider level divider pill */}
+                  {s.pillGrad && (
+                    <div
+                      ref={el => setRef(group.level, el as HTMLDivElement | null)}
+                      className="flex items-center gap-3 my-5"
+                    >
+                      <span className={`bg-gradient-to-r ${s.pillGrad} text-[10px] font-extrabold tracking-widest uppercase px-3 py-1.5 rounded-xl shadow-sm whitespace-nowrap`}>
+                        {s.label}
+                      </span>
+                      <div className="flex-1 h-px bg-gray-200 dark:bg-gray-700" />
                     </div>
                   )}
-                  <ol
-                    start={group.steps[0].num}
-                    className="pl-5 space-y-2 leading-relaxed"
-                    style={{ listStyleType: 'decimal' }}
-                  >
-                    {group.steps.map(step => (
-                      <li key={step.num} value={step.num} className="text-sm text-gray-800 dark:text-gray-200">
-                        {renderProtocolHtml(step.html)}
-                      </li>
+                  <div className={`relative pl-6 mb-4 ${isHighlighted ? 'bg-blue-50 dark:bg-blue-900/20 rounded-lg' : ''}`}>
+                    {/* Color bar(s) on left */}
+                    {colors.length > 0 && (
+                      <div className="absolute left-0 top-0 bottom-0 flex rounded-l-lg overflow-hidden">
+                        {colors.map((color, ci) => <div key={ci} className={`w-1 ${color}`} />)}
+                      </div>
+                    )}
+                    {/* Intro content for this level (paragraphs, tables, mermaid) */}
+                    {introItems.map((item, ii) => (
+                      <div key={`i-${ii}`} className="mb-3">
+                        {item.type === 'mermaid'
+                          ? <MermaidDiagram content={extractMermaidContent(item.html) || ''} id={`g${gi}-i${ii}`} />
+                          : <div className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                              {renderProtocolHtml(item.html)}
+                            </div>
+                        }
+                      </div>
                     ))}
-                  </ol>
-                </div>
-              </React.Fragment>
-            );
-          })}
+                    {/* Numbered steps for this level */}
+                    {stepItems.length > 0 && (
+                      <ol
+                        start={stepItems[0].num}
+                        className="pl-5 space-y-2 leading-relaxed"
+                        style={{ listStyleType: 'decimal' }}
+                      >
+                        {stepItems.map(step => (
+                          <li key={step.num} value={step.num} className="text-sm text-gray-800 dark:text-gray-200">
+                            {renderProtocolHtml(step.html)}
+                          </li>
+                        ))}
+                      </ol>
+                    )}
+                  </div>
+                </React.Fragment>
+              );
+            });
+          })()}
 
           {/* PEARLS sections */}
           {protocol.pearls.length > 0 && (

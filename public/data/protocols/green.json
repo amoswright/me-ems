@@ -494,7 +494,7 @@
     ]
   },
   {
-    "id": "green_013_green_014_green_015",
+    "id": "green_013_green_014_green_015_green_016",
     "title": "Hemorrhagic Shock",
     "category": "green",
     "intro": [
@@ -522,6 +522,11 @@
         "type": "content",
         "providerLevel": "PARAMEDIC",
         "html": "<p><em>Additionally, discuss the use of TXA in patients on anticoagulants as these patients may require anticoagulation reversal and the combination of TXA and some of the reversal agents may have additive thrombotic effects. There are few adverse effects of this medication. TXA may cause hypotension if provided rapidly. The full dose should be provided over 10 minutes to prevent hypotension.</em></p>"
+      },
+      {
+        "type": "table",
+        "providerLevel": "ALL",
+        "html": "<table>\n  <thead>\n    <tr>\n      <th></th>\n      <th>Compensated Shock</th>\n      <th>Mild Shock</th>\n      <th>Moderate Shock</th>\n      <th>Severe Shock</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Blood Loss</td>\n      <td>&lt;15% (1000 mL)</td>\n      <td>15-30% (1000-1500 mL)</td>\n      <td>30-40% (1500-2000 mL)</td>\n      <td>&gt;40% (&gt; 2000 mL)</td>\n    </tr>\n    <tr>\n      <td>Pulse</td>\n      <td>Normal</td>\n      <td>Elevated (&gt;100)</td>\n      <td>Elevated (&gt;120)</td>\n      <td>Elevated (&gt;140)</td>\n    </tr>\n    <tr>\n      <td>Blood Pressure</td>\n      <td>Normal</td>\n      <td>Orthostatic Change</td>\n      <td>Marked Decrease</td>\n      <td>Profound Decrease</td>\n    </tr>\n    <tr>\n      <td>Cap Refill</td>\n      <td>Normal</td>\n      <td>May be Delayed</td>\n      <td>Usually Delayed</td>\n      <td>Always Delayed</td>\n    </tr>\n    <tr>\n      <td>Respiration</td>\n      <td>Normal</td>\n      <td>Mild Increase</td>\n      <td>Moderate Tachypnea</td>\n      <td>Marked Tachypnea and Respiratory Collapse</td>\n    </tr>\n    <tr>\n      <td>Mental Status</td>\n      <td>Normal or Agitated</td>\n      <td>Agitated</td>\n      <td>Confused</td>\n      <td>Lethargic/Obscunded</td>\n    </tr>\n  </tbody>\n</table>"
       }
     ],
     "steps": [
@@ -611,7 +616,13 @@
         "html": "Flag the IV line that the patient received TXA through with a labeled piece of tape as some medications and blood products should not be provided through the same line."
       }
     ],
-    "pearls": [],
+    "pearls": [
+      {
+        "html": [
+          "<ol>\n<li>\n<p><strong>TXA and GI Bleeding:</strong> Recent evidence suggests patients with gastrointestinal bleeding SHOULD NOT receive tranexamic acid. Patients with GI bleeding who received TXA had no improvement in mortality but did suffer increased morbidity, including increased venous thromboembolic events.</p>\n</li>\n<li>\n<p><strong>TXA and Isolated Head Injury:</strong> The role of TXA in isolated head injury remains controversial with conflicting evidence in the medical literature. The most recent evidence suggests an association between prehospital TXA and increased mortality in patients with isolated severe brain injury. In an effort to maintain the utmost patient safety and promote the best possible patient outcomes, <strong>isolated</strong> head trauma remains a contraindication for TXA in the protocols. As a reminder, multi-trauma patients with hemorrhagic shock SHOULD receive TXA regardless of head injury.</p>\n</li>\n</ol>"
+        ]
+      }
+    ],
     "pages": [
       {
         "pageId": "green_013",
@@ -626,24 +637,34 @@
       {
         "pageId": "green_015",
         "pageNumber": "",
+        "jpgReference": "/page_jpg/105.jpg"
+      },
+      {
+        "pageId": "green_016",
+        "pageNumber": "",
         "jpgReference": "/page_jpg/106.jpg"
       }
     ]
   },
   {
-    "id": "green_016_green_017",
+    "id": "green_017_green_018",
     "title": "Burn",
     "category": "green",
     "intro": [
       {
-        "type": "table",
-        "providerLevel": "ALL",
-        "html": "<table>\n  <thead>\n    <tr>\n      <th></th>\n      <th>Compensated Shock</th>\n      <th>Mild Shock</th>\n      <th>Moderate Shock</th>\n      <th>Severe Shock</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Blood Loss</td>\n      <td>&lt;15% (1000 mL)</td>\n      <td>15-30% (1000-1500 mL)</td>\n      <td>30-40% (1500-2000 mL)</td>\n      <td>&gt;40% (&gt; 2000 mL)</td>\n    </tr>\n    <tr>\n      <td>Pulse</td>\n      <td>Normal</td>\n      <td>Elevated (&gt;100)</td>\n      <td>Elevated (&gt;120)</td>\n      <td>Elevated (&gt;140)</td>\n    </tr>\n    <tr>\n      <td>Blood Pressure</td>\n      <td>Normal</td>\n      <td>Orthostatic Change</td>\n      <td>Marked Decrease</td>\n      <td>Profound Decrease</td>\n    </tr>\n    <tr>\n      <td>Cap Refill</td>\n      <td>Normal</td>\n      <td>May be Delayed</td>\n      <td>Usually Delayed</td>\n      <td>Always Delayed</td>\n    </tr>\n    <tr>\n      <td>Respiration</td>\n      <td>Normal</td>\n      <td>Mild Increase</td>\n      <td>Moderate Tachypnea</td>\n      <td>Marked Tachypnea and Respiratory Collapse</td>\n    </tr>\n    <tr>\n      <td>Mental Status</td>\n      <td>Normal or Agitated</td>\n      <td>Agitated</td>\n      <td>Confused</td>\n      <td>Lethargic/Obscunded</td>\n    </tr>\n  </tbody>\n</table>"
-      },
-      {
         "type": "content",
         "providerLevel": "ADVANCED_EMT_PARAMEDIC",
         "html": "<p>&lt;img&gt;A small teddy bear illustration.&lt;/img&gt;</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p>&lt;img&gt;Rule of 9's Estimation of Burned Body Surface (Percent) Diagram&lt;/img&gt;</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p>Remember: The patient's hand (palm PLUS fingers) is about 1% of the patient's body surface area.</p>"
       }
     ],
     "steps": [
@@ -705,11 +726,6 @@
     ],
     "pearls": [
       {
-        "html": [
-          "<ol>\n<li>\n<p><strong>TXA and GI Bleeding:</strong> Recent evidence suggests patients with gastrointestinal bleeding SHOULD NOT receive tranexamic acid. Patients with GI bleeding who received TXA had no improvement in mortality but did suffer increased morbidity, including increased venous thromboembolic events.</p>\n</li>\n<li>\n<p><strong>TXA and Isolated Head Injury:</strong> The role of TXA in isolated head injury remains controversial with conflicting evidence in the medical literature. The most recent evidence suggests an association between prehospital TXA and increased mortality in patients with isolated severe brain injury. In an effort to maintain the utmost patient safety and promote the best possible patient outcomes, <strong>isolated</strong> head trauma remains a contraindication for TXA in the protocols. As a reminder, multi-trauma patients with hemorrhagic shock SHOULD receive TXA regardless of head injury.</p>\n</li>\n</ol>"
-        ]
-      },
-      {
         "title": "Burn Management",
         "html": [
           "<ul>\n<li><em>Severe burns include greater than 10% body surface area (counting only partial and full thickness burns), circumferential burns, airway involvement, genital burns, and burns to the hands or face. Severe burns should be transported following the Trauma Triage Guidelines, <strong>Green 1</strong>.</em></li>\n<li>Only second (partial thickness) and third (full thickness) degree burns are counted when calculating burn surface area. Do not include first degree burns (superficial thickness).</li>\n<li>Errors are made in burn surface area calculation when an entire limb is counted despite only partial involvement. Consider using the patient's hand size (palm PLUS fingers = 1% BSA) to estimate 1% body surface area.</li>\n<li>Clean, dry dressings are adequate for covering all burns, regardless of size.</li>\n<li>It is preferable to establish IV access in non-burned tissue, but, if necessary, burned tissue may be used as a site for IV access.</li>\n<li>Research indicates that resuscitation based upon a 4 mL/kg/% TBSA strategy commonly results in over-resuscitation and excessive edema formation. National and local burn specialists instead recommend fixed resuscitation strategies.</li>\n<li>Maintain body temperature by keeping the patient warm and dry.</li>\n</ul>"
@@ -718,32 +734,22 @@
     ],
     "pages": [
       {
-        "pageId": "green_016",
+        "pageId": "green_017",
         "pageNumber": "",
         "jpgReference": "/page_jpg/107.jpg"
       },
       {
-        "pageId": "green_017",
+        "pageId": "green_018",
         "pageNumber": "",
         "jpgReference": "/page_jpg/108.jpg"
       }
     ]
   },
   {
-    "id": "green_018_green_019_green_020_green_021",
+    "id": "green_019_green_020_green_021_green_022_green_023",
     "title": "Universal Pain Management",
     "category": "green",
     "intro": [
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>&lt;img&gt;Rule of 9's Estimation of Burned Body Surface (Percent) Diagram&lt;/img&gt;</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>Remember: The patient's hand (palm PLUS fingers) is about 1% of the patient's body surface area.</p>"
-      },
       {
         "type": "content",
         "providerLevel": "ALL",
@@ -763,6 +769,36 @@
         "type": "content",
         "providerLevel": "PARAMEDIC",
         "html": "<p>&lt;img&gt;Phone icon&lt;/img&gt;</p>"
+      },
+      {
+        "type": "pearls",
+        "providerLevel": "ALL",
+        "html": "<p><strong>PEARLS for Pain Management:</strong></p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p><strong>Pediatric considerations:</strong><br>\nHave the patient rate his/her pain from 0-10, or on an another appropriate pain scale:<br>\na. Ages less than 4 years, use FLACC Scale,<br>\nb. Ages 4-12 years, use Wong Baker “Faces” Scale,<br>\nc. Avoid coaching the patient; simply ask them to rate their pain on a scale from 0-10, where 0 is no pain at all, and 10 is the worst pain ever experienced by the patient.</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p>&lt;img&gt;A small teddy bear icon.&lt;/img&gt;</p>"
+      },
+      {
+        "type": "table",
+        "providerLevel": "ALL",
+        "html": "<table>\n  <thead>\n    <tr>\n      <th colspan=\"3\">The FLACC Behavioral Pain Assessment Scale<br>Scoring</th>\n    </tr>\n    <tr>\n      <th>Categories</th>\n      <th>0</th>\n      <th>1</th>\n      <th>2</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Face</td>\n      <td>No particular expression or smile</td>\n      <td>Occasional grimace or frown, withdrawn, disinterested</td>\n      <td>Frequent to constant frown, clenched jaw, quivering chin</td>\n    </tr>\n    <tr>\n      <td>Legs</td>\n      <td>Normal position or relaxed</td>\n      <td>Uneasy, restless, tense</td>\n      <td>Kicking or legs drawn up</td>\n    </tr>\n    <tr>\n      <td>Activity</td>\n      <td>Lying quietly, normal position, moves easily</td>\n      <td>Squirming, shifting back and forth, tense</td>\n      <td>Arched, rigid, or jerking</td>\n    </tr>\n    <tr>\n      <td>Cry</td>\n      <td>No cry (awake or asleep)</td>\n      <td>Moans or whimpers, occasional complaint</td>\n      <td>Crying steadily, screams or sobs; frequent complaints</td>\n    </tr>\n    <tr>\n      <td>Consolability</td>\n      <td>Content, relaxed</td>\n      <td>Reassured by occasional touching, hugging or being talked to; distractable</td>\n      <td>Difficult to console or comfort</td>\n    </tr>\n  </tbody>\n</table>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p>The faces correspond to the numeric values from 0-5. The scale can be documented with the numeric value or the textual pain description</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p>&lt;img&gt;Wong-Baker Faces Scale showing six faces labeled 0 (No Hurt), 1 (Hurts Little Bit), 2 (Hurts Little More), 3 (Hurts Even More), 4 (Hurts Whole Lot), and 5 (Hurts Worst).&lt;/img&gt;</p>"
       }
     ],
     "steps": [
@@ -835,44 +871,7 @@
         "num": 12,
         "providerLevel": "PARAMEDIC",
         "html": "Contact OLMC before using any analgesic (beyond acetaminophen) in:\n<ol type=\"i\">\n<li>Isolated trauma involving the head,</li>\n<li>Back pain,</li>\n<li>Non-traumatic extremity pain,</li>\n<li>Any patient with mental status changes,</li>\n<li>Any patient with unstable vital signs (including SBP &lt; 100 mmHg),</li>\n<li>Coincident drug use (including alcohol).</li>\n</ol>"
-      }
-    ],
-    "pearls": [],
-    "pages": [
-      {
-        "pageId": "green_018",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/109.jpg"
       },
-      {
-        "pageId": "green_019",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/110.jpg"
-      },
-      {
-        "pageId": "green_020",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/111.jpg"
-      },
-      {
-        "pageId": "green_021",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/112.jpg"
-      }
-    ]
-  },
-  {
-    "id": "green_022",
-    "title": "Termination of Resuscitation for Traumatic Cardiac Arrest",
-    "category": "green",
-    "intro": [
-      {
-        "type": "pearls",
-        "providerLevel": "ALL",
-        "html": "<p><strong>PEARLS for Pain Management:</strong></p>"
-      }
-    ],
-    "steps": [
       {
         "num": 13,
         "providerLevel": "ALL",
@@ -912,56 +911,35 @@
     "pearls": [],
     "pages": [
       {
+        "pageId": "green_019",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/109.jpg"
+      },
+      {
+        "pageId": "green_020",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/110.jpg"
+      },
+      {
+        "pageId": "green_021",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/110.jpg"
+      },
+      {
         "pageId": "green_022",
         "pageNumber": "",
-        "jpgReference": "/page_jpg/113.jpg"
-      }
-    ]
-  },
-  {
-    "id": "green_023",
-    "title": "Crush Injury",
-    "category": "green",
-    "intro": [
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p><strong>Pediatric considerations:</strong><br>\nHave the patient rate his/her pain from 0-10, or on an another appropriate pain scale:<br>\na. Ages less than 4 years, use FLACC Scale,<br>\nb. Ages 4-12 years, use Wong Baker “Faces” Scale,<br>\nc. Avoid coaching the patient; simply ask them to rate their pain on a scale from 0-10, where 0 is no pain at all, and 10 is the worst pain ever experienced by the patient.</p>"
+        "jpgReference": "/page_jpg/111.jpg"
       },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>&lt;img&gt;A small teddy bear icon.&lt;/img&gt;</p>"
-      },
-      {
-        "type": "table",
-        "providerLevel": "ALL",
-        "html": "<table>\n  <thead>\n    <tr>\n      <th colspan=\"3\">The FLACC Behavioral Pain Assessment Scale<br>Scoring</th>\n    </tr>\n    <tr>\n      <th>Categories</th>\n      <th>0</th>\n      <th>1</th>\n      <th>2</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Face</td>\n      <td>No particular expression or smile</td>\n      <td>Occasional grimace or frown, withdrawn, disinterested</td>\n      <td>Frequent to constant frown, clenched jaw, quivering chin</td>\n    </tr>\n    <tr>\n      <td>Legs</td>\n      <td>Normal position or relaxed</td>\n      <td>Uneasy, restless, tense</td>\n      <td>Kicking or legs drawn up</td>\n    </tr>\n    <tr>\n      <td>Activity</td>\n      <td>Lying quietly, normal position, moves easily</td>\n      <td>Squirming, shifting back and forth, tense</td>\n      <td>Arched, rigid, or jerking</td>\n    </tr>\n    <tr>\n      <td>Cry</td>\n      <td>No cry (awake or asleep)</td>\n      <td>Moans or whimpers, occasional complaint</td>\n      <td>Crying steadily, screams or sobs; frequent complaints</td>\n    </tr>\n    <tr>\n      <td>Consolability</td>\n      <td>Content, relaxed</td>\n      <td>Reassured by occasional touching, hugging or being talked to; distractable</td>\n      <td>Difficult to console or comfort</td>\n    </tr>\n  </tbody>\n</table>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>The faces correspond to the numeric values from 0-5. The scale can be documented with the numeric value or the textual pain description</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>&lt;img&gt;Wong-Baker Faces Scale showing six faces labeled 0 (No Hurt), 1 (Hurts Little Bit), 2 (Hurts Little More), 3 (Hurts Even More), 4 (Hurts Whole Lot), and 5 (Hurts Worst).&lt;/img&gt;</p>"
-      }
-    ],
-    "steps": [],
-    "pearls": [],
-    "pages": [
       {
         "pageId": "green_023",
         "pageNumber": "",
-        "jpgReference": "/page_jpg/114.jpg"
+        "jpgReference": "/page_jpg/112.jpg"
       }
     ]
   },
   {
     "id": "green_024",
-    "title": "Facial / Dental Injury",
+    "title": "Termination of Resuscitation for Traumatic Cardiac Arrest",
     "category": "green",
     "intro": [
       {
@@ -1037,13 +1015,13 @@
       {
         "pageId": "green_024",
         "pageNumber": "",
-        "jpgReference": "/page_jpg/115.jpg"
+        "jpgReference": "/page_jpg/113.jpg"
       }
     ]
   },
   {
     "id": "green_025",
-    "title": "Ophthalmology",
+    "title": "Crush Injury",
     "category": "green",
     "intro": [
       {
@@ -1104,13 +1082,13 @@
       {
         "pageId": "green_025",
         "pageNumber": "",
-        "jpgReference": "/page_jpg/116.jpg"
+        "jpgReference": "/page_jpg/114.jpg"
       }
     ]
   },
   {
     "id": "green_026",
-    "title": "Open Fractures",
+    "title": "Facial / Dental Injury",
     "category": "green",
     "intro": [],
     "steps": [
@@ -1155,13 +1133,13 @@
       {
         "pageId": "green_026",
         "pageNumber": "",
-        "jpgReference": "/page_jpg/117.jpg"
+        "jpgReference": "/page_jpg/115.jpg"
       }
     ]
   },
   {
     "id": "green_027",
-    "title": "Strangulation",
+    "title": "Ophthalmology",
     "category": "green",
     "intro": [
       {
@@ -1221,6 +1199,157 @@
     "pages": [
       {
         "pageId": "green_027",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/116.jpg"
+      }
+    ]
+  },
+  {
+    "id": "green_028",
+    "title": "Open Fractures",
+    "category": "green",
+    "intro": [
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p><strong>Definition of Open Fracture:</strong> Suspected fracture with associated extensive tissue damage, wound, and/or visible bone; including partial or completed amputations.</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "PARAMEDIC",
+        "html": "<p>&lt;img&gt;A small teddy bear icon.&lt;/img&gt;</p>"
+      }
+    ],
+    "steps": [
+      {
+        "num": 1,
+        "providerLevel": "EMT",
+        "html": "Assess for other life-threatening injuries and manage as indicated."
+      },
+      {
+        "num": 2,
+        "providerLevel": "EMT",
+        "html": "In patients who are otherwise stable, gross contamination (such as leaves or gravel) should be removed if possible."
+      },
+      {
+        "num": 3,
+        "providerLevel": "EMT",
+        "html": "Cover open fractures with moist, sterile dressing."
+      },
+      {
+        "num": 4,
+        "providerLevel": "EMT",
+        "html": "Splint the fractured extremity in the anatomic position, if possible, or the position of comfort if not able to splint in the anatomic position."
+      },
+      {
+        "num": 5,
+        "providerLevel": "EMT",
+        "html": "Consider pain control. Refer to Universal Pain Management protocol, Green 18."
+      },
+      {
+        "num": 6,
+        "providerLevel": "EMT",
+        "html": "Request ALS, if available, for additional pain control and consideration of antibiotics."
+      },
+      {
+        "num": 7,
+        "providerLevel": "ADVANCED_EMT",
+        "html": "Establish an IV."
+      },
+      {
+        "num": 8,
+        "providerLevel": "ADVANCED_EMT",
+        "html": "Request ALS, if available, for additional pain control and consideration of antibiotics."
+      },
+      {
+        "num": 9,
+        "providerLevel": "PARAMEDIC",
+        "html": "Ceftriaxone, per dosing recommendations listed below:<br>a. For patients 12 years and older: Ceftriaxone 2 grams IV in 50 -100 ml of NS or D5W over at least 10 minutes.<br>b. For patients less than 12 years old:<br>Ceftriaxone 75 mg/kg IV (max dose 2 grams) in 50 -100 ml of NS or D5W over 10 minutes.<br>c. NOTE: ceftriaxone is CONTRAINDICATED in patients with history of allergy or anaphylaxis to penicillins or cephalosporins."
+      },
+      {
+        "num": 10,
+        "providerLevel": "PARAMEDIC",
+        "html": "Notify receiving hospital if patients received antibiotics.<br>a. If patient DID receive antibiotics, notify hospital WHEN antibiotics were initiated.<br>b. If patient DID NOT receive antibiotics, notify hospital WHY antibiotics were withheld."
+      }
+    ],
+    "pearls": [
+      {
+        "title": "Open Fractures",
+        "html": [
+          "<ul>\n<li>Examples of Penicillins include: penicillin, amoxicillin, augmentin, piperacillin (Zosyn), ampicillin (Unasyn)</li>\n<li>Examples of Cephalosporins include: cefazolin (Ancef), Cefdinir, cefuroxime (Ceftin or Zinacef), cefadroxil (Duricef), cephalexin (Keflex), cefepime (Maxipime), ceftriaxone (Rocephin)</li>\n<li>Contact OLMC for questions regarding the patient's allergies</li>\n</ul>"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "pageId": "green_028",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/117.jpg"
+      }
+    ]
+  },
+  {
+    "id": "green_029",
+    "title": "Strangulation",
+    "category": "green",
+    "intro": [
+      {
+        "type": "list",
+        "providerLevel": "ALL",
+        "html": "<ul>\n<li>Strangulation should be suspected anytime that someone has been assaulted and experienced either syncope, blunt neck trauma (e.g., \"choking\", being held down with an extremity to their neck, etc.), facial or chest injuries, hoarse voice, loss of hearing or vision, incontinence, etc.</li>\n<li>Patients who have suffered strangulation are at risk for airway compromise, vascular injury and stroke up to 72 hours after injury.</li>\n<li>Interpersonal violence scenes are high risk for EMS providers. Please see Grey 25 regarding crime scene management.</li>\n<li>Many victims of strangulation have also suffered sexual assault, please see Grey 18, if applicable.</li>\n</ul>"
+      },
+      {
+        "type": "pearls",
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+        "html": "<p><strong>PEARLS</strong></p>"
+      },
+      {
+        "type": "list",
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+        "html": "<ul>\n<li>Patient who have suffered strangulation are at risk for airway compromise, vascular injury and stroke up to 72 hours after injury. These patients should be transported.</li>\n<li>Many victims of interpersonal violence decline transport or refuse medical evaluations for fear of retaliation, not wanting to disclose abuse, lack of childcare, etc. If you suspect strangulation, call OLMC to discuss refusals and options for alternative evaluations and referrals.</li>\n<li>Less than 5% of strangulation victims seek medical attention, which means EMS may be the only medical provider that ever evaluates this injury. If patient cannot be convinced to be transported, make sure to discuss signs and symptoms for which the patient should monitor (e.g., difficulty breathing, swallowing or speaking; hoarse voice; neck swelling; fainting; stroke symptoms).</li>\n<li>Attempt to maintain integrity of evidence at injury sites if it does not interfere with patient care. Up to 50% of strangulation victims have no obvious external injuries (including those who die from their strangulation).</li>\n</ul>"
+      }
+    ],
+    "steps": [
+      {
+        "num": 1,
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+        "html": "Have a high level of suspicion for additional injuries. See Trauma Triage Guidelines, <strong>Green 1</strong>."
+      },
+      {
+        "num": 2,
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+        "html": "In hangings, immobilize c-spine per Spine Assessment &amp; Management protocol, <strong>Green 3</strong>."
+      },
+      {
+        "num": 3,
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+        "html": "In erotic asphyxiation, immobilize c-spine per Spine Assessment &amp; Management protocol, <strong>Green 3</strong>."
+      },
+      {
+        "num": 4,
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+        "html": "Monitor for development of airway compromise with continuous pulse oximetry and frequent re-evaluations."
+      },
+      {
+        "num": 5,
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+        "html": "Manage airway per Airway Algorithm protocol, <strong>Blue 2</strong>."
+      },
+      {
+        "num": 6,
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+        "html": "For seizure, refer to Seizure protocol, <strong>Gold 8</strong>."
+      },
+      {
+        "num": 7,
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
+        "html": "For neurological deficits/stroke symptoms, refer to Stroke protocol, <strong>Gold 10</strong>."
+      }
+    ],
+    "pearls": [],
+    "pages": [
+      {
+        "pageId": "green_029",
         "pageNumber": "",
         "jpgReference": "/page_jpg/118.jpg"
       }

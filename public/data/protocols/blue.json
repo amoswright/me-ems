@@ -136,7 +136,7 @@
       {
         "type": "mermaid",
         "providerLevel": "ALL",
-        "html": "<mermaid>\ngraph TD\n    A[Place Advanced Airway] --&gt; B[Confirm ETT or Blind Insertion Airway Device placement with continuous wave form capnography.* AND Confirm ETT and BIAD placement with physical exam, including absence of sounds over the epigastrum, presence of symmetric bilateral breath sounds, etc.]\n    B --&gt; C[ETT/BIAD placement correct]\n    B --&gt; D[ETT/BIAD placement uncertain or equivocal findings for confirmation]\n    B --&gt; E[ETT/BIAD placement incorrect]\n<pre><code>C --&gt; F[Secure ETT/BIAD in place]\nF --&gt; G[Continue EtCO₂ monitoring en route to hospital and repeated evaluation of ETT/BIAD placement via breath sounds assessment]\n</code><p><code>D --&gt; H{Immediate direct visualization of ETT/BIAD through vocal cords?**}<br>\nH -- Yes --&gt; F<br>\nH -- No --&gt; I[Remove ETT/BIAD and ventilate via BVM]<br>\nI --&gt; J[Attempt correct ETT/BIAD placement or continue BVM ventilation]<br>\n</code></p></pre><br>\n</mermaid>"
+        "html": "<mermaid>\ngraph TD\n    A[\"Place Advanced Airway\"] --&gt; B[\"Confirm ETT or BIAD placement with continuous waveform capnography*<br>AND physical exam: absence of sounds over epigastrum,<br>presence of symmetric bilateral breath sounds, etc.\"]\n    B --&gt; C[\"ETT/BIAD placement correct\"]\n    B --&gt; D[\"ETT/BIAD placement uncertain or equivocal\"]\n    B --&gt; E[\"ETT/BIAD placement incorrect\"]\n    C --&gt; F[\"Secure ETT/BIAD in place\"]\n    F --&gt; G[\"Continue EtCO₂ monitoring en route<br>and repeated evaluation of placement via breath sounds\"]\n    D --&gt; H{\"Immediate direct visualization<br>of ETT/BIAD through vocal cords?**\"}\n    H --&gt;|Yes| F\n    H --&gt;|No| I[\"Remove ETT/BIAD and ventilate via BVM\"]\n    I --&gt; J[\"Attempt correct ETT/BIAD placement<br>or continue BVM ventilation\"]\n    E --&gt; I\n</mermaid>"
       },
       {
         "type": "list",
@@ -336,18 +336,18 @@
       },
       {
         "num": 8,
-        "providerLevel": "EMT_ADVANCED_EMT",
+        "providerLevel": "ADVANCED_EMT",
         "html": "Cardiac monitor"
       },
       {
         "num": 9,
-        "providerLevel": "EMT_ADVANCED_EMT",
+        "providerLevel": "ADVANCED_EMT",
         "html": "Manage airway as needed, refer to Airway Algorithm, Blue 2."
       },
       {
         "num": 10,
         "providerLevel": "PARAMEDIC",
-        "html": "Adult/Pediatric<br>a. Albuterol 2.5 mg by nebulization. May repeat 1 time; or<br>b. Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age and in continued respiratory distress. May repeat every five minutes x 2. &lt;img&gt;Bear&lt;/img&gt;"
+        "html": "Adult/Pediatric\n<ol type=\"a\">\n<li>Albuterol 2.5 mg by nebulization. May repeat 1 time; or</li>\n<li>Ipratropium bromide 0.5 mg / albuterol sulfate 2.5 mg nebulizer if greater than one (1) year of age and in continued respiratory distress. May repeat every five minutes x 2. &lt;img&gt;Bear&lt;/img&gt;</li>\n</ol>\n"
       },
       {
         "num": 11,
@@ -388,16 +388,6 @@
         "type": "content",
         "providerLevel": "ALL",
         "html": "<p>Adult patients with respiratory failure who are unable to oxygenate and ventilate often require CPAP. These patients may be combative and unable to tolerate CPAP either due to their hypoxia or anxiety.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "PARAMEDIC",
-        "html": "<p>a. <strong>Midazolam</strong><br>\ni. 0.5 - 2.5 mg IV/IO every 5 minutes, may repeat x 3 to a MAX cumulative dose of 5 mg.<br>\nii. 1-5 mg IM every 5 minutes, may repeat x 3 to a MAX cumulative dose of 10 mg.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "PARAMEDIC",
-        "html": "<p>b. <strong>Ketamine</strong><br>\ni. 0.2 mg/kg IV/IO, MAX single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via a pump. May repeat x 1 in 5 minutes.<br>\nii. 0.4 mg/kg IM, MAX single dose 50 mg. May repeat x 1 in 10 minutes.</p>"
       }
     ],
     "steps": [
@@ -414,7 +404,7 @@
       {
         "num": 3,
         "providerLevel": "PARAMEDIC",
-        "html": "If unable to achieve sufficient anxiolysis to tolerate CPAP with coaching, contact OLMC for ONE of the following anxiolytics:"
+        "html": "If unable to achieve sufficient anxiolysis to tolerate CPAP with coaching, contact OLMC for ONE of the following anxiolytics:\n<ol type=\"a\">\n<li><strong>Midazolam</strong>\n<ol type=\"i\">\n<li>0.5 - 2.5 mg IV/IO every 5 minutes, may repeat x 3 to a MAX cumulative dose of 5 mg.</li>\n<li>1-5 mg IM every 5 minutes, may repeat x 3 to a MAX cumulative dose of 10 mg.</li>\n</ol>\n</li>\n<li><strong>Ketamine</strong>\n<ol type=\"i\">\n<li>0.2 mg/kg IV/IO, MAX single dose of 25 mg. Mix in 100 mL bag of saline and infuse over 10 minutes via a pump. May repeat x 1 in 5 minutes.</li>\n<li>0.4 mg/kg IM, MAX single dose 50 mg. May repeat x 1 in 10 minutes.</li>\n</ol>\n</li>\n</ol>\n"
       }
     ],
     "pearls": [],
@@ -525,7 +515,7 @@
     "intro": [
       {
         "type": "content",
-        "providerLevel": "ALL",
+        "providerLevel": "EMT",
         "html": "<p>There are increasing numbers of patients being treated for pulmonary hypertension throughout the state of Maine. Pulmonary hypertension is a disease in which a patient's pulmonary arterial pressures are elevated and can be due to multiple factors, including heart disease, chronic lung disease, or thromboembolic disease. Additionally, in some cases of pulmonary hypertension, the etiology is uncertain. Patients manifest with multiple clinical symptoms, including dyspnea, chest pain and syncope. Pulmonary hypertension is NOT a disease that will be diagnosed in the prehospital setting. Increasingly, patients are being treated for the disease with medications that cause pulmonary vascular vasodilation, such as treprostinil (Remodulin).</p>"
       },
       {
@@ -537,21 +527,6 @@
         "type": "content",
         "providerLevel": "ADVANCED_EMT",
         "html": "<p><strong>Medication Interruption</strong><br>\nTreprostinil (Remodulin) and other medications used to treat pulmonary hypertension are provided by central access, typically through a pump. Patients are often treated with both IV and oral medications. Disruptions of the patient's IV medications can lead to increased symptoms. Most medication interruptions are NOT related to the pump, but rather the patient's central line and loss of access.<br>\nIn the case of interruptions of IV medication due to loss of central access:</p>"
-      },
-      {
-        "type": "pearls",
-        "providerLevel": "PARAMEDIC",
-        "html": "<p><strong>PEARLS FOR PULMONARY HYPERTENSION COMPLICATIONS</strong></p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "PARAMEDIC",
-        "html": "<p>Most medications used to treat pulmonary hypertension have a high pH and if left running through a peripheral line too long (greater than 4 hours) may cause peripheral vein phlebitis and sclerosis. Please document the time the medication was initiated through the peripheral line and alert treating Emergency staff.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "PARAMEDIC",
-        "html": "<p>For any questions, please contact On-Line Medical Control.</p>"
       }
     ],
     "steps": [
@@ -576,7 +551,14 @@
         "html": "Consider the transport destination suggestions as listed above."
       }
     ],
-    "pearls": [],
+    "pearls": [
+      {
+        "title": "Pulmonary Hypertension Complications",
+        "html": [
+          "<ul>\n<li>Most medications used to treat pulmonary hypertension have a high pH and if left running through a peripheral line too long (greater than 4 hours) may cause peripheral vein phlebitis and sclerosis. Please document the time the medication was initiated through the peripheral line and alert treating Emergency staff.</li>\n<li>For any questions, please contact On-Line Medical Control.</li>\n</ul>"
+        ]
+      }
+    ],
     "pages": [
       {
         "pageId": "blue_011",
@@ -592,134 +574,104 @@
     "intro": [
       {
         "type": "content",
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "<p>The following protocol is an effort to maintain awareness of a procedure that occurs rarely in the Maine EMS system. Ultimately, this procedure should be practiced on a regular basis to maintain proficiency. PLEASE NOTE, this protocol describes a generally acceptable open cricothyrotomy and will differ from services that employ percutaneous kits. The inclusion of this protocol DOES NOT mandate that all clinicians use this exact procedural description. Clinicians should employ the procedure they are trained, practiced and most comfortable with. This protocol is one of multiple acceptable means to perform this procedure. Regardless of the procedure type, it is essential that Maine EMS paramedics are familiar with the available supplies and materials.</p>"
       },
       {
         "type": "content",
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "<p>The primary indication for surgical cricothyrotomy is failure to maintain the airway (including oxygenation, ventilation, and protection) through other, less invasive means in a patient 8 years or older with palpable landmarks. In the Maine EMS experience, this has occurred predominantly in trauma cases with disruption of the face and normal airway anatomy and in choking patients. Even in some dramatic facial injuries, the airway may be adequately managed by sitting the patient up and leaning forward, as long as the other injury patterns allow.</p>"
       },
       {
         "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>Materials/Equipment for Surgical Cricothyrotomy</p>"
+        "providerLevel": "PARAMEDIC",
+        "html": "<p><strong>Materials/Equipment for Surgical Cricothyrotomy</strong></p>"
+      },
+      {
+        "type": "list",
+        "providerLevel": "PARAMEDIC",
+        "html": "<ul>\n<li>Cuffed tracheostomy tube or 6.0 - 7.0 ETT</li>\n<li>Tracheal hook or bougie</li>\n<li>Trousseau dilator (if available)</li>\n<li>Syringe to inflate cuff</li>\n<li>Scalpel (No. 11 blade)</li>\n<li>Umbilical tape or other means to secure tracheostomy tube or ETT</li>\n<li>4x4 gauze</li>\n</ul>"
       },
       {
         "type": "content",
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "<p>&lt;img&gt;Diagram showing the neck with red lines indicating incision points, labeled \"Start Incision here\", \"Thyroid Cartilage\", \"Cricothyroid membrane\", and \"Cricoid cartilage\".&lt;/img&gt;<br>\n&lt;img&gt;Diagram showing a cross-section of the neck, highlighting \"Thyroid cartilage\", \"Cricothyroid membrane\", and \"Cricoid cartilage\".&lt;/img&gt;</p>"
       },
       {
         "type": "content",
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "<p><strong>Procedure:</strong></p>"
       },
       {
         "type": "content",
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "<p>&lt;img&gt;Surgical Cricothyrotomy #2 Procedure&lt;/img&gt;</p>"
       }
     ],
     "steps": [
       {
         "num": 1,
-        "providerLevel": "ALL",
-        "html": "Cuffed tracheostomy tube or 6.0 - 7.0 ETT"
-      },
-      {
-        "num": 2,
-        "providerLevel": "ALL",
-        "html": "Tracheal hook or bougie"
-      },
-      {
-        "num": 3,
-        "providerLevel": "ALL",
-        "html": "Trousseau dilator (if available)"
-      },
-      {
-        "num": 4,
-        "providerLevel": "ALL",
-        "html": "Syringe to inflate cuff"
-      },
-      {
-        "num": 5,
-        "providerLevel": "ALL",
-        "html": "Scalpel (No. 11 blade)"
-      },
-      {
-        "num": 6,
-        "providerLevel": "ALL",
-        "html": "Umbilical tape or other means to secure tracheostomy tube or ETT"
-      },
-      {
-        "num": 7,
-        "providerLevel": "ALL",
-        "html": "4x4 gauze"
-      },
-      {
-        "num": 8,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "Extend the neck when possible to ensure best access to the trachea. Swab/cleanse the area."
       },
       {
-        "num": 9,
-        "providerLevel": "ALL",
+        "num": 2,
+        "providerLevel": "PARAMEDIC",
         "html": "Immobilize the trachea with your non-dominant thumb and middle finger while palpating the cricothyroid membrane with your non-dominant index finger. NOTE: The cricothyroid membrane is immediately <strong>BELOW</strong> the thyroid cartilage."
       },
       {
-        "num": 10,
-        "providerLevel": "ALL",
+        "num": 3,
+        "providerLevel": "PARAMEDIC",
         "html": "Make a 3 - 5 cm <strong>vertical</strong> incision over the cricothyroid membrane through the skin and subcutaneous tissues. NOTE: Severe bleeding is possible with this procedure and may occur at this or the following steps. Be prepared to suction and provide direct pressure to control bleeding."
       },
       {
-        "num": 11,
-        "providerLevel": "ALL",
+        "num": 4,
+        "providerLevel": "PARAMEDIC",
         "html": "Palpate the membrane through the incision to confirm anatomy."
       },
       {
-        "num": 12,
-        "providerLevel": "ALL",
+        "num": 5,
+        "providerLevel": "PARAMEDIC",
         "html": "Make a small (1 cm or less) incision <strong>horizontally</strong> through the cricothyroid membrane."
       },
       {
-        "num": 13,
-        "providerLevel": "ALL",
+        "num": 6,
+        "providerLevel": "PARAMEDIC",
         "html": "Insert the tracheal hook or bougie in the opening of the membrane and rotate toward the head while maintaining hold of the thyroid cartilage with your non-dominant hand."
       },
       {
-        "num": 14,
-        "providerLevel": "ALL",
+        "num": 7,
+        "providerLevel": "PARAMEDIC",
         "html": "If Trousseau dilator available, insert into the incision site and spread vertical then rotate 90 degrees until the dilator is parallel with the neck."
       },
       {
-        "num": 15,
-        "providerLevel": "ALL",
+        "num": 8,
+        "providerLevel": "PARAMEDIC",
         "html": "Insert the cuffed tracheostomy tube or ETT tube into the incision site. Advance until the flanges rest on the skin of the neck (when using tracheostomy tube)."
       },
       {
-        "num": 16,
-        "providerLevel": "ALL",
+        "num": 9,
+        "providerLevel": "PARAMEDIC",
         "html": "Carefully remove the dilator (if used), tracheal hook and obturator of the tracheostomy tube."
       },
       {
-        "num": 17,
-        "providerLevel": "ALL",
+        "num": 10,
+        "providerLevel": "PARAMEDIC",
         "html": "Inflate the balloon of the tracheostomy tube/ETT."
       },
       {
-        "num": 18,
-        "providerLevel": "ALL",
+        "num": 11,
+        "providerLevel": "PARAMEDIC",
         "html": "Ventilate and confirm position by physical exam and EtCO₂."
       },
       {
-        "num": 19,
-        "providerLevel": "ALL",
+        "num": 12,
+        "providerLevel": "PARAMEDIC",
         "html": "Secure the tube in place."
       },
       {
-        "num": 20,
-        "providerLevel": "ALL",
+        "num": 13,
+        "providerLevel": "PARAMEDIC",
         "html": "Dress incision site."
       }
     ],
@@ -744,153 +696,151 @@
     "intro": [
       {
         "type": "content",
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT",
         "html": "<p><strong>Indication:</strong><br>\nAn adult or pediatric patient with an established tracheostomy with signs of respiratory distress or failure.<br>\n&lt;img&gt;A small teddy bear icon.&lt;/img&gt;</p>"
       },
       {
         "type": "content",
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT",
         "html": "<p><strong>Procedure:</strong></p>"
       },
       {
         "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>In the case of an adult or pediatric patient with established tracheostomy tube (greater than 1-2 weeks old), in respiratory distress or failure in which the above measures have not succeeded in improving respiratory status, consider replacing the tracheostomy tube. This protocol may also be appropriate for patients with dislodged tracheostomy tubes.<br></p>"
-      },
-      {
-        "type": "pearls",
-        "providerLevel": "ALL",
-        "html": "<p><strong>PEARLS FOR TRACHEOSTOMY CARE</strong><br>\nThere are many types of tracheostomy tubes on the market. One of the most common types is the Shiley. These tracheostomy tubes have an inner and outer cannula. <strong>PLEASE NOTE:</strong> only the inner cannula has a 15 mm adapter that will fit a BVM, the outer cannula will not. The inner cannula MUST be in place to ventilate the patient.</p>"
+        "providerLevel": "PARAMEDIC",
+        "html": "<p>In the case of an adult or pediatric patient with established tracheostomy tube (greater than 1-2 weeks old), in respiratory distress or failure in which the above measures have not succeeded in improving respiratory status, consider replacing the tracheostomy tube. This protocol may also be appropriate for patients with dislodged tracheostomy tubes.</p>"
       },
       {
         "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>ANY bleeding from the tracheostomy site should be evaluated emergently. Follow the Hemorrhage/Hemorrhagic Shock protocols, Green 12-15, AND, in the case of severe hemorrhage from the tracheostomy site, hyperinflate the tracheostomy cuff with 50 mL of air, in an effort to tamponade the bleeding vessel. Inflate slowly, to prevent cuff rupture. Depending on the make and model of the tube, inflating the entire 50 mL may not be possible.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "<p><strong>Indication for Tracheostomy Replacement:</strong><br>\nAn adult or pediatric patient with an established tracheostomy (greater than 2 weeks old) with signs of respiratory distress or failure that have not improved with measures listed on the previous page. Also, for patients dislodged tracheostomy. If tracheostomy tube is less than 2 weeks old, refer to <strong>Blue 2</strong> and attempt to secure airway from above.</p>"
       },
       {
         "type": "content",
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "<p><strong>Necessary Equipment:</strong></p>"
       },
       {
         "type": "list",
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "<ul>\n<li>Replacement tracheostomy tube, if available (from the patient or care giver)</li>\n<li>If no replacement tracheostomy tube is available, an ETT of similar internal diameter (see below)</li>\n<li>If possible, water-based lubricant jelly</li>\n</ul>"
       },
       {
         "type": "content",
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "<p><strong>Procedure:</strong></p>"
       },
       {
         "type": "table",
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "<table>\n<thead>\n<tr>\n<th>Portex Cuffed D.I.C. Tracheostomy Tubes</th>\n<th>Shiley Tracheostomy Tubes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Portex Tube Size (mm) and Color</td>\n<td>Internal Diameter (mm) / ETT Equivalent</td>\n<td>Shiley Tube Size</td>\n<td>Internal Diameter (mm) / ETT Equivalent</td>\n</tr>\n<tr>\n<td>3.0</td>\n<td>3.0 / 3.0-3.5</td>\n<td>3.0 (NEO or PED)</td>\n<td>3.0 / 3.0-3.5</td>\n</tr>\n<tr>\n<td>3.5</td>\n<td>3.5 / 3.5-4.0</td>\n<td>3.5 (NEO or PED)</td>\n<td>3.5 / 3.5-4.0</td>\n</tr>\n<tr>\n<td>4.0</td>\n<td>4.0 / 4.0-4.5</td>\n<td>4.0 (NEO or PED)</td>\n<td>4.0 / 4.0-4.5</td>\n</tr>\n<tr>\n<td>5.0</td>\n<td>5.0 / 5.0</td>\n<td>4.5 (NEO or PED)</td>\n<td>4.5 / 4.5-5.0</td>\n</tr>\n<tr>\n<td>6.0 (orange)</td>\n<td>6.0 / 6.0</td>\n<td>5.0 (NEO or PED)</td>\n<td>5.0 / 5.0</td>\n</tr>\n<tr>\n<td>7.0 (green)</td>\n<td>7.0 / 7.0</td>\n<td>6</td>\n<td>6.4 / 6.0-7.0</td>\n</tr>\n<tr>\n<td>8.0 (white)</td>\n<td>8.0 / 8.0</td>\n<td>8</td>\n<td>7.6 / 7.0-8.0</td>\n</tr>\n<tr>\n<td>9.0 (blue)</td>\n<td>9.0 / 9.0</td>\n<td>10</td>\n<td>8.9 / 9.0</td>\n</tr>\n<tr>\n<td>10.0 (yellow)</td>\n<td>10.0 / 10.0</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>"
-      },
-      {
-        "type": "pearls",
-        "providerLevel": "ALL",
-        "html": "<p><strong>PEARLS FOR TRACHEOSTOMY CARE</strong><br>\nPlease Note - the internal diameter of an ETT is designated by the tube name - i.e. 6.0 tube has a 6.0 mm internal diameter. If the tracheostomy is less than 2 weeks old, the tract is immature and there is risk of creating a false lumen if attempts to replace or change the tracheostomy are made.</p>"
       }
     ],
     "steps": [
       {
         "num": 1,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT",
         "html": "Consult the patient's caregiver for assistance."
       },
       {
         "num": 2,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT",
         "html": "Assess the tracheostomy tube looking for easily reversible causes of distress, including detached oxygen source, plugging, etc."
       },
       {
         "num": 3,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT",
         "html": "Administer high-flow O₂ over the tracheostomy via non-rebreather mask or blow by."
       },
       {
         "num": 4,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT",
         "html": "If patient's respiratory distress continues, assist ventilation using a bag-valve-mask to the tracheostomy tube."
       },
       {
         "num": 5,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT",
         "html": "Suction the tracheostomy tube if unable to ventilate with BVM, coarse upper airway sounds or if respiratory distress continues despite BVM ventilation:\n<ol type=\"a\">\n<li>Use the patient's suctioning supplies or a tube that is no more than 1/2 the diameter of the tracheostomy tube.</li>\n<li>Use no more than <strong>80 mmHg</strong> suction pressure in <strong>pediatric patients</strong> and <strong>150 mmHg</strong> in <strong>adults</strong>.</li>\n<li>If tracheostomy tube has a cannula, remove it prior to suctioning.</li>\n<li>Determine the proper suction catheter depth by measuring the obturator. If no obturator is available, insert the suction catheter 2-3 inches into the tracheostomy tube. DO NOT force the suction catheter into the tracheostomy tube.</li>\n<li>Pre-oxygenate when possible for 30-60 seconds then insert the suction catheter to the desired depth. Apply suctioning while removing the catheter. Gently rotate the catheter while withdrawing. This should take 10 - 15 seconds.</li>\n</ol>"
       },
       {
         "num": 6,
-        "providerLevel": "ALL",
-        "html": "Consider using 2 - 3 mL of saline or nebulized saline to help loosen thick secretions"
+        "providerLevel": "EMT_ADVANCED_EMT",
+        "html": "Consider using 2 - 3 mL of saline or nebulized saline to help loosen thick secretions."
       },
       {
         "num": 7,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT",
         "html": "If respiratory distress continues, consider likely cause and reference appropriate protocol."
       },
       {
         "num": 8,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "Place the patient on high-flow O₂ and monitor."
       },
       {
         "num": 9,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "Place patient in a semi-recumbent position with the neck slightly extended."
       },
       {
         "num": 10,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "Remove old stoma dressing and clean the site."
       },
       {
         "num": 11,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "Lubricate the new tracheostomy tube or replacement ETT."
       },
       {
         "num": 12,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "Deflate the old tracheostomy tube's balloon and remove during exhalation."
       },
       {
         "num": 13,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "Using the replacement tracheostomy tube's obturator, insert the replacement tube at a 90 degree angle to the cervical axis."
       },
       {
         "num": 14,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "Next, gently advance the replacement tracheostomy tube in a fluid fashion, using the natural curvature of the tube until the flange is flush against the neck."
       },
       {
         "num": 15,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "Remove the obturator if using a replacement tracheostomy tube and insert the hollow internal cannula."
       },
       {
         "num": 16,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "If using an ETT as replacement, remove the old tracheostomy tube as described above, insert a bougie into the stoma directed downward. Slowly advance the lubricated ETT into the stoma. RECALL, when using an ETT as replacement, it need only be advanced a few centimeters into the stoma. Consider shortening the ETT by cutting the tube AFTER the takeoff for the balloon inflation."
       },
       {
         "num": 17,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "Inflate the cuff of the replacement tracheostomy tube or ETT."
       },
       {
         "num": 18,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "Secure the device to the patient's neck."
       }
     ],
-    "pearls": [],
+    "pearls": [
+      {
+        "title": "Tracheostomy Care",
+        "html": [
+          "<ul>\n<li>There are many types of tracheostomy tubes on the market. One of the most common types is the Shiley. These tracheostomy tubes have an inner and outer cannula. <strong>PLEASE NOTE:</strong> only the inner cannula has a 15 mm adapter that will fit a BVM, the outer cannula will not. The inner cannula MUST be in place to ventilate the patient.</li>\n<li>ANY bleeding from the tracheostomy site should be evaluated emergently. Follow the Hemorrhage/Hemorrhagic Shock protocols, Green 12-15, AND, in the case of severe hemorrhage from the tracheostomy site, hyperinflate the tracheostomy cuff with 50 mL of air, in an effort to tamponade the bleeding vessel. Inflate slowly, to prevent cuff rupture. Depending on the make and model of the tube, inflating the entire 50 mL may not be possible.</li>\n</ul>"
+        ]
+      },
+      {
+        "title": "Tracheostomy Care",
+        "html": [
+          "<ul>\n<li>Please Note - the internal diameter of an ETT is designated by the tube name - i.e. 6.0 tube has a 6.0 mm internal diameter. If the tracheostomy is less than 2 weeks old, the tract is immature and there is risk of creating a false lumen if attempts to replace or change the tracheostomy are made.</li>\n</ul>"
+        ]
+      }
+    ],
     "pages": [
       {
         "pageId": "blue_014",

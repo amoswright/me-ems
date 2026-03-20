@@ -245,21 +245,23 @@ export function ProtocolPage() {
               Level order is derived from first-appearance across both intro and steps,
               so that all content for each level stays together regardless of page splits. */}
           {(() => {
-            // Determine level order by scanning intro then steps for new levels
+            // Collect all distinct provider levels, then sort by canonical hierarchy
+            const LEVEL_RANK: Record<string, number> = {
+              ALL: 0,
+              EMT: 1,
+              EMT_ADVANCED_EMT: 2,
+              ADVANCED_EMT: 3,
+              ADVANCED_EMT_PARAMEDIC: 4,
+              EMT_ADVANCED_EMT_PARAMEDIC: 5,
+              PARAMEDIC: 6,
+              PEARLS: 7,
+            };
             const seenLevels = new Set<string>();
-            const levelOrder: string[] = [];
-            for (const item of protocol.intro) {
-              if (!seenLevels.has(item.providerLevel)) {
-                seenLevels.add(item.providerLevel);
-                levelOrder.push(item.providerLevel);
-              }
-            }
-            for (const step of protocol.steps) {
-              if (!seenLevels.has(step.providerLevel)) {
-                seenLevels.add(step.providerLevel);
-                levelOrder.push(step.providerLevel);
-              }
-            }
+            for (const item of protocol.intro) seenLevels.add(item.providerLevel);
+            for (const step of protocol.steps) seenLevels.add(step.providerLevel);
+            const levelOrder = [...seenLevels].sort(
+              (a, b) => (LEVEL_RANK[a] ?? 99) - (LEVEL_RANK[b] ?? 99)
+            );
 
             // Build one group per level with all its intro items and steps
             const groups = levelOrder.map(level => ({

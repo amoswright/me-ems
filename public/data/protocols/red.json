@@ -52,38 +52,8 @@
       },
       {
         "type": "content",
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "<p><em><strong>Apply defib pads and be prepared to defibrillate as these patients are high risk for VF/VT</strong></em></p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>The management of STEMI patients is commonly guided by 2 possible time goals:</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>In most settings, these goal establish cascading treatment possibilities. For instance, if both a catheterization strategy and a thrombolytic strategy can be accomplished within the above goals, catheterization is preferred. If catheterization cannot be accomplished with the above goals, but a thrombolytic strategy an be accomplished, a thrombolytic strategy may be preferred. If neither goal can be be accomplished within the established goals, consider the strategy that is most likely to open the artery as soon as possible.*</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>*Destination guidance considers availability of local resources, geography, clinician licensure-level, patient stability, comorbidities and many other factors. EMS clinicians are encouraged to work closely with their service medical director as well as their regional medical director and leadership from the local STEMI system of care to determine the best treatment strategy.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>Inferior MIs and right-sided MIs are commonly associated with bradycardia and blocks.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>Hypotension may occur in any MI, not just inferior MIs with right ventricular involvement.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p><em><strong>New LBBB is no longer a criteria for STEMI</strong></em><br>\n(Presence of any LBBB makes the diagnosis of STEMI difficult)</p>"
       }
     ],
     "steps": [
@@ -115,7 +85,7 @@
       {
         "num": 6,
         "providerLevel": "EMT",
-        "html": "Contact OLMC for the OPTION of assisting with the administration of patient's own nitroglycerin"
+        "html": "Contact OLMC for the OPTION of assisting with the administration of patient's own nitroglycerin."
       },
       {
         "num": 7,
@@ -140,50 +110,38 @@
       {
         "num": 11,
         "providerLevel": "PARAMEDIC",
-        "html": "Obtain 12-lead ECG within first 10 minutes of patient contact.<br>If patient meets STEMI criteria, refer to local or regional cardiac systems of care for destination decision support.* Alert the destination hospital as soon as possible to allow the hospital to prepare while addressing any questions regarding appropriateness of destination, dynamic patient presentations or treatment modalities. &lt;img&gt;Hospital Icon&lt;/img&gt;"
+        "html": "Obtain 12-lead ECG within first 10 minutes of patient contact. If patient meets STEMI criteria, refer to local or regional cardiac systems of care for destination decision support.* Alert the destination hospital as soon as possible to allow the hospital to prepare while addressing any questions regarding appropriateness of destination, dynamic patient presentations or treatment modalities. &lt;img&gt;Hospital Icon&lt;/img&gt;"
       },
       {
         "num": 12,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "\n<p>Patients who present with inferior MI, clear lung sounds, and BP less than 90 mmHg, give fluid bolus.</p>\n"
       },
       {
         "num": 13,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "\n<p>Consider\n</p><ol type=\"a\">\n<li>Additional nitroglycerin</li>\n<li>Fentanyl 1 mcg/kg IV/IM, or IN to a MAX dose of 100 mcgs</li>\n<li>Additional fluid bolus in patients with inferior MI<p></p></li>\n</ol>"
       },
       {
         "num": 14,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "\n<p>If patient develops a dysrhythmia, refer to appropriate protocol.</p>\n"
-      },
-      {
-        "num": 15,
-        "providerLevel": "ALL",
-        "html": "90 minutes from first medical contact to device deployment in the coronary artery, and"
-      },
-      {
-        "num": 16,
-        "providerLevel": "ALL",
-        "html": "30 minutes from the hospital arrival to treatment with thrombolytics"
-      },
-      {
-        "num": 17,
-        "providerLevel": "ALL",
-        "html": "Septal (V1, V2), Anterior (V3, V4) , Inferior (II, III, aVF) or Lateral MI (I, aVL, V5, V6): ST elevation greater than 1 mm in two or more anatomically contiguous leads with reciprocal changes."
-      },
-      {
-        "num": 18,
-        "providerLevel": "ALL",
-        "html": "For leads V2-V3, the criteria for STEMI are:\n<ul>\n<li>2 mm - Males 40 yo and older</li>\n<li>2.5 mm - Males younger than 40 yo</li>\n<li>1.5 mm for Women independent of age</li>\n</ul>\n"
-      },
-      {
-        "num": 19,
-        "providerLevel": "ALL",
-        "html": "Posterior MI: ST depression greater than 1 mm in V1, V2 (and possibly V3) with an R/S ratio of greater than or equal to 1, place posterior leads to evaluate for ST segment elevation in leads V7/V8/V9"
       }
     ],
-    "pearls": [],
+    "pearls": [
+      {
+        "title": "Chest Pain - Suspected Cardiac Origin",
+        "html": [
+          "<ul>\n<li>The management of STEMI patients is commonly guided by 2 possible time goals:\n<ul>\n<li>90 minutes from first medical contact to device deployment in the coronary artery</li>\n<li>30 minutes from the hospital arrival to treatment with thrombolytics</li>\n</ul>\n</li>\n<li>In most settings, these goals establish cascading treatment possibilities. For instance, if both a catheterization strategy and a thrombolytic strategy can be accomplished within the above goals, catheterization is preferred. If catheterization cannot be accomplished within the above goals, but a thrombolytic strategy can be accomplished, a thrombolytic strategy may be preferred. If neither goal can be accomplished within the established goals, consider the strategy that is most likely to open the artery as soon as possible.*</li>\n<li>*Destination guidance considers availability of local resources, geography, clinician licensure-level, patient stability, comorbidities and many other factors. EMS clinicians are encouraged to work closely with their service medical director as well as their regional medical director and leadership from the local STEMI system of care to determine the best treatment strategy.</li>\n</ul>"
+        ]
+      },
+      {
+        "title": "Chest Pain - Suspected Cardiac Origin",
+        "html": [
+          "<ul>\n<li>Inferior MIs and right-sided MIs are commonly associated with bradycardia and blocks.</li>\n<li>Hypotension may occur in any MI, not just inferior MIs with right ventricular involvement.</li>\n<li>STEMI Criteria:\n<ul>\n<li>Septal (V1, V2), Anterior (V3, V4), Inferior (II, III, aVF) or Lateral MI (I, aVL, V5, V6): ST elevation greater than 1 mm in two or more anatomically contiguous leads with reciprocal changes.</li>\n<li>For leads V2-V3, the criteria for STEMI are: 2 mm for males 40 yo and older; 2.5 mm for males younger than 40 yo; 1.5 mm for women independent of age.</li>\n<li>Posterior MI: ST depression greater than 1 mm in V1, V2 (and possibly V3) with an R/S ratio of greater than or equal to 1, place posterior leads to evaluate for ST segment elevation in leads V7/V8/V9.</li>\n</ul>\n</li>\n<li><em><strong>New LBBB is no longer a criteria for STEMI</strong></em> (Presence of any LBBB makes the diagnosis of STEMI difficult)</li>\n</ul>"
+        ]
+      }
+    ],
     "pages": [
       {
         "pageId": "red_002",
@@ -444,6 +402,11 @@
         "html": "<p><strong>Narrow/Fast QRS Complex</strong><br>\nTreatment:</p>"
       },
       {
+        "type": "list",
+        "providerLevel": "PARAMEDIC",
+        "html": "<ul>\n<li>IV fluid bolus</li>\n<li>Consider bilateral needle decompression for suspected tension pneumothorax.</li>\n</ul>"
+      },
+      {
         "type": "content",
         "providerLevel": "PARAMEDIC",
         "html": "<p>Potential causes include: hypovolemia or mechanical obstruction of blood flow (tension pneumothorax, pericardial tamponade, pulmonary embolism).</p>"
@@ -454,69 +417,14 @@
         "html": "<p><strong>Wide/Slow QRS Complex</strong><br>\nTreatment:</p>"
       },
       {
+        "type": "list",
+        "providerLevel": "PARAMEDIC",
+        "html": "<ul>\n<li>Sodium bicarbonate</li>\n<li>Consider Calcium gluconate for suspected hyperkalemia.</li>\n</ul>"
+      },
+      {
         "type": "content",
         "providerLevel": "PARAMEDIC",
         "html": "<p>Potential causes include: metabolic/toxicologic etiologies such as hyperkalemia (e.g., dialysis patients) or overdose (e.g., TCA, sodium channel blocker, etc.).</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>Pearls for Cardiac Arrest:<br>\nEffective chest compressions and defibrillation are the most important therapies for the patient in cardiac arrest. Effective chest compressions are defined as:<br>\na. A rate of 100 - 120 compressions/minute<br>\nb. Depth of between 2 - 2.5 inches<br>\nc. Allow for complete chest recoil<br>\nd. Minimize interruptions in compressions<br>\ne. Rotate rescuers every 2 minutes<br>\nf. Avoid respiratory rate greater than 10/min<br>\ng. Quantitative end-tidal CO₂ should be used to monitor effectiveness of chest compressions. If EtCO₂ is &lt; 10 mmHg, attempt to improve chest compression quality<br>\nh. Consider additional monitoring with biometric feedback</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>Resuscitate on scene as the effectiveness of chest compressions decreases during any patient movement. Resuscitation on scene should be the goal, with the only exceptions being safety concerns for the responding crew OR inability to effectively resuscitate in the patient's current location.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p><strong>Pearls for Cardiac Arrest, continued:</strong></p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>All services MUST have an organized and structured response to the care of patients in cardiac arrest. This approach must be pre-arranged and may be modeled on the Maine EMS ICS for OHCA Program or other well-accepted structured approach to patient care. Also, EMS services are encouraged to train clinicians to these systems of care and to regularly train clinicians in high-performance CPR.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>Use capnography during resuscitation for</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>Note: The algorithms for cardiac arrest or arrhythmias reflect the MEMS Medical Direction and Practices Board's interpretation of ACLS guidelines, as they should be used in the prehospital setting.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>IO: In OHCA patients, consider humeral head placement preferentially due to proximity to central circulation.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>Classes of common sodium channel blockers include the following:</p>"
-      },
-      {
-        "type": "list",
-        "providerLevel": "ALL",
-        "html": "<ul>\n<li>Antidepressants (amitriptyline, nortriptyline, imipramine, doxepin)</li>\n<li>Antiarrhythmics (quinine/quinidine, propafenone, flecainide)</li>\n<li>Anesthetics (cocaine, lidocaine, bupivacaine)</li>\n<li>Muscle Relaxants (cyclobenzaprine)</li>\n<li>Antihistamines (diphenhydramine)</li>\n</ul>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>Consider metabolic acidosis as the cause of cardiac arrest in the following clinical settings: aspirin overdose, severe diabetic ketoacidosis, severe sepsis, and hyperactive delirium with severe agitation.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>In the case of peripartum cardiac arrest, provision of high-quality CPR remains a priority. If a patient's fundus height is at or above the level of the umbilicus, manual uterine displacement to either the left or right is the preferred method of relieving aortocaval compression during chest compressions. Additionally, local hospital resources for advanced care should be activated immediately upon recognition of peripartum cardiac arrest. Contact OLMC to discuss the potential of additional therapies.<br>\n&lt;img&gt;Hospital Icon&lt;/img&gt;</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>&lt;watermark&gt;EAP&lt;/watermark&gt;</p>"
       }
     ],
     "steps": [
@@ -593,95 +501,78 @@
       {
         "num": 15,
         "providerLevel": "PARAMEDIC",
-        "html": "One medication intervention at each 2-minute reassessment per ACLS protocol:<br>a.  VF/VT: amiodarone 300 mg IV/IO; may consider additional 150 mg IV/IO one time (mix in D₅W).<br>b.  Torsades: 2 grams of magnesium sulfate IV/IO, diluted in 10 mL of IVF (D₅W preferred), over 1-2 minutes.<br>c.  For refractory VF/VT, refer to Refractory VF/VT protocol, Red 13.<br>d.  For PEA, in addition to standard therapies, consider treatment based on QRS complex width and rate: narrow/fast vs wide/slow"
+        "html": "One medication intervention at each 2-minute reassessment per ACLS protocol:\n<ol type=\"a\">\n<li>VF/VT: amiodarone 300 mg IV/IO; may consider additional 150 mg IV/IO one time (mix in D₅W).</li>\n<li>Torsades: 2 grams of magnesium sulfate IV/IO, diluted in 10 mL of IVF (D₅W preferred), over 1-2 minutes.</li>\n<li>For refractory VF/VT, refer to Refractory VF/VT protocol, Red 13.</li>\n<li>For PEA, in addition to standard therapies, consider treatment based on QRS complex width and rate: narrow/fast vs wide/slow</li>\n</ol>\n"
       },
       {
         "num": 16,
         "providerLevel": "PARAMEDIC",
-        "html": "IV fluid bolus"
-      },
-      {
-        "num": 17,
-        "providerLevel": "PARAMEDIC",
-        "html": "Consider bilateral needle decompression for suspected tension pneumothorax."
-      },
-      {
-        "num": 18,
-        "providerLevel": "PARAMEDIC",
-        "html": "Sodium bicarbonate"
-      },
-      {
-        "num": 19,
-        "providerLevel": "PARAMEDIC",
-        "html": "Consider Calcium gluconate for suspected hyperkalemia."
-      },
-      {
-        "num": 16,
-        "providerLevel": "ALL",
         "html": "\n<p>Consider causes of OHCA. Consult OLMC early for questions/advice.\n</p><ol type=\"a\">\n<li>Is patient on dialysis, have known renal disease or suspicion for hyperkalemia?\n<ol type=\"i\">\n<li>Calcium gluconate 3 gram bolus IV/IO, diluted in a minimum of 10 mL of IVF, over 1 minute</li>\n<li>Sodium bicarbonate 50 mEq bolus IV/IO; may repeat x 2</li>\n<li>IV fluid bolus</li>\n</ol></li>\n<li>Is patient suspected TCA or other suspected sodium channel blocker overdose? (See Pearls)\n<ol type=\"i\">\n<li>Sodium bicarbonate 50 mEq bolus IV/IO; may repeat x 2</li>\n<li>IV fluid bolus</li>\n</ol></li>\n<li>Is there a suspected pre-existing metabolic acidosis? (See Pearls)\n<ol type=\"i\">\n<li>Sodium bicarbonate 50 mEq bolus IV/IO; may repeat x 2</li>\n<li>IV fluid bolus</li>\n</ol></li>\n<li>Is hypovolemia suspected? If yes, give fluid bolus.</li>\n<li>Is hypoxia suspected? If yes, administer high-flow oxygen and manage airway per Airway Algorithm, Blue 2.</li>\n<li>Do you suspect a pneumothorax? If yes, perform needle decompression.</li>\n<li>Is patient's core temperature less than 30°C (86°F) and circumstances consistent with hypothermia? If yes, see Severe Hypothermia WITHOUT signs of Life protocol, Yellow 12.<p></p></li>\n</ol>"
       },
       {
         "num": 17,
-        "providerLevel": "ALL",
+        "providerLevel": "PARAMEDIC",
         "html": "\n<p>Upon ROSC:\n</p><ol type=\"a\">\n<li>Refer to Adult Post-Resuscitation Care protocol, Red 16.</li>\n<li>Contact OLMC for options of:\n<ol type=\"i\">\n<li>Post-resuscitation amiodarone bolus (mix in D₅W)<p></p></li>\n</ol></li>\n</ol>"
       },
       {
-        "num": 18,
-        "providerLevel": "ALL",
-        "html": "confirmation and monitoring of advanced airways and prolonged use of BVM by the AEMT/Paramedic"
-      },
-      {
-        "num": 19,
-        "providerLevel": "ALL",
-        "html": "monitoring effectiveness of chest compressions and change in circulation (ROSC vs. loss of spontaneous circulation."
-      },
-      {
-        "num": 20,
+        "num": 1,
         "providerLevel": "ALL",
         "html": "Mechanical CPR (mCPR) devices are not mandatory devices, but may play a role in three prehospital cardiac arrest settings, including:\n<ol type=\"a\">\n<li>Resuscitation events with few numbers of rescuers,</li>\n<li>Resuscitation events that are prolonged,</li>\n<li>Resuscitation events occurring during transport.</li>\n</ol>"
       },
       {
-        "num": 21,
+        "num": 2,
         "providerLevel": "ALL",
         "html": "Manual CPR <strong>MUST</strong> remain the FIRST strategy for chest compressions as manual CPR is the most readily available and effective compression strategy in the vast majority of cases."
       },
       {
-        "num": 22,
+        "num": 3,
         "providerLevel": "ALL",
         "html": "If applied, a mCPR device should be placed in a manner which minimizes interruptions, keeping all breaks in CPR to less than 10 seconds."
       },
       {
-        "num": 23,
+        "num": 4,
         "providerLevel": "ALL",
         "html": "Application Process -- Upon encountering a patient in cardiac arrest:\n<ol type=\"a\">\n<li>Initiate manual CPR.</li>\n<li>Continue manual CPR for a minimum of 2 two-minute cycles. Placement or implementation of mechanical CPR may not begin until AFTER the 2nd cycle of CPR.</li>\n<li>If the responding EMS service chooses to implement mechanical CPR, placement may begin AFTER the second cycle of CPR and must be applied in a manner that coordinates with pulse/rhythm checks AND keeps all breaks in CPR to less than 10 seconds.</li>\n<li>Apply the device in accordance to manufacturer's instructions.</li>\n<li>It is possible that application of the device, in a manner that is coordinated with pulse/rhythm checks and maintains interruptions in CPR less than 10 seconds, may take an additional 2 or more cycles of CPR, leading to initiation of mechanical CPR after the 4th round of manual CPR.</li>\n</ol>"
       },
       {
-        "num": 24,
+        "num": 5,
         "providerLevel": "ALL",
         "html": "Contraindications to Mechanical CPR\n<ol type=\"a\">\n<li>Age less than 18.</li>\n<li>Patients who are unable to fit into the device due to body habitus.</li>\n</ol>"
       },
       {
-        "num": 25,
+        "num": 6,
         "providerLevel": "ALL",
-        "html": "In addition to the above, mechanical CPR devices may be placed prior to transport in patients that have recently achieved ROSC in the event of rearrest. The device should be in “stand-by” mode and activated if patient re-arrests en route to the hospital."
+        "html": "In addition to the above, mechanical CPR devices may be placed prior to transport in patients that have recently achieved ROSC in the event of rearrest. The device should be in \"stand-by\" mode and activated if patient re-arrests en route to the hospital."
       },
       {
-        "num": 26,
+        "num": 7,
         "providerLevel": "ALL",
         "html": "All Maine EMS clinicians should be trained in High Performance CPR and Incident Command for Cardiac Arrest."
       },
       {
-        "num": 27,
+        "num": 8,
         "providerLevel": "ALL",
         "html": "Mechanical CPR devices should ONLY be used by clinicians who have been trained to use the devices and can apply the devices while maintaining all breaks in CPR to 10 seconds or less."
       },
       {
-        "num": 28,
+        "num": 9,
         "providerLevel": "ALL",
         "html": "Additionally, Maine EMS clinicians should routinely practice High Performance CPR, Incident Command for Cardiac Arrest and, if the service chooses, placement and use of mechanical CPR devices. The frequency of such training is difficult for the MDPB to determine for each individual service. Ultimately, this number will be determined by multiple factors, including the size of the service and the service's annual number of resuscitation attempts. As a guide, some of the EMS services with the highest survival from witnessed VF arrest perform resuscitation training (including high performance CPR and ICS for cardiac arrest) 2-4 times a year. Please consult with your service medical director and QI program to assist in determining the proper frequency of trainings for your service."
       }
     ],
-    "pearls": [],
+    "pearls": [
+      {
+        "title": "Adult Cardiac Arrest",
+        "html": [
+          "<ul>\n<li>Effective chest compressions and defibrillation are the most important therapies for the patient in cardiac arrest. Effective chest compressions are defined as:\n<ul>\n<li>A rate of 100 - 120 compressions/minute</li>\n<li>Depth of between 2 - 2.5 inches</li>\n<li>Allow for complete chest recoil</li>\n<li>Minimize interruptions in compressions</li>\n<li>Rotate rescuers every 2 minutes</li>\n<li>Avoid respiratory rate greater than 10/min</li>\n<li>Quantitative end-tidal CO₂ should be used to monitor effectiveness of chest compressions. If EtCO₂ is &lt; 10 mmHg, attempt to improve chest compression quality</li>\n<li>Consider additional monitoring with biometric feedback</li>\n</ul>\n</li>\n<li>Resuscitate on scene as the effectiveness of chest compressions decreases during any patient movement. Resuscitation on scene should be the goal, with the only exceptions being safety concerns for the responding crew OR inability to effectively resuscitate in the patient's current location.</li>\n</ul>"
+        ]
+      },
+      {
+        "title": "Adult Cardiac Arrest",
+        "html": [
+          "<ul>\n<li>All services MUST have an organized and structured response to the care of patients in cardiac arrest. This approach must be pre-arranged and may be modeled on the Maine EMS ICS for OHCA Program or other well-accepted structured approach to patient care. Also, EMS services are encouraged to train clinicians to these systems of care and to regularly train clinicians in high-performance CPR.</li>\n<li>Use capnography during resuscitation for:\n<ul>\n<li>Confirmation and monitoring of advanced airways and prolonged use of BVM by the AEMT/Paramedic</li>\n<li>Monitoring effectiveness of chest compressions and change in circulation (ROSC vs. loss of spontaneous circulation)</li>\n</ul>\n</li>\n<li>Note: The algorithms for cardiac arrest or arrhythmias reflect the MEMS Medical Direction and Practices Board's interpretation of ACLS guidelines, as they should be used in the prehospital setting.</li>\n<li>IO: In OHCA patients, consider humeral head placement preferentially due to proximity to central circulation.</li>\n<li>Classes of common sodium channel blockers include the following:\n<ul>\n<li>Antidepressants (amitriptyline, nortriptyline, imipramine, doxepin)</li>\n<li>Antiarrhythmics (quinine/quinidine, propafenone, flecainide)</li>\n<li>Anesthetics (cocaine, lidocaine, bupivacaine)</li>\n<li>Muscle Relaxants (cyclobenzaprine)</li>\n<li>Antihistamines (diphenhydramine)</li>\n</ul>\n</li>\n<li>Consider metabolic acidosis as the cause of cardiac arrest in the following clinical settings: aspirin overdose, severe diabetic ketoacidosis, severe sepsis, and hyperactive delirium with severe agitation.</li>\n<li>In the case of peripartum cardiac arrest, provision of high-quality CPR remains a priority. If a patient's fundus height is at or above the level of the umbilicus, manual uterine displacement to either the left or right is the preferred method of relieving aortocaval compression during chest compressions. Additionally, local hospital resources for advanced care should be activated immediately upon recognition of peripartum cardiac arrest. Contact OLMC to discuss the potential of additional therapies.</li>\n</ul>"
+        ]
+      }
+    ],
     "pages": [
       {
         "pageId": "red_009",

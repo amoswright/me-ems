@@ -361,9 +361,9 @@
     "title": "Chest Pain - Suspected Cardiac Origin / STEMI Criteria",
     "content": "Avoid nitroglycerin in any patient who has used a phosphodiesterase inhibitor within the past 48 hours. Examples are: sildenafil (Viagra, Revatio), vardenafil (Levitra, Staxyn), tadalafil (Cialis, Adcirca) which are used for erectile dysfunction and pulmonary hypertension. epoprostenol (Flolan) or treprostinil (Remodulin) which are used for pulmonary hypertension. Administer nitrates with caution as hypotension can occur in any patient having an MI. Apply defib pads and be prepared to defibrilla",
     "providerLevels": [
+      "PARAMEDIC",
       "EMT",
-      "ADVANCED_EMT",
-      "PARAMEDIC"
+      "ADVANCED_EMT"
     ],
     "keywords": [
       "cardiac",
@@ -427,7 +427,7 @@
     "id": "red_009_red_010_red_011_red_012",
     "category": "red",
     "title": "Adult Cardiac Arrest",
-    "content": "graph TD A[PEA] --&gt; B[Narrow/Fast QRS Complex] A --&gt; C[Wide/Slow QRS Complex] Narrow/Fast QRS Complex Treatment: Potential causes include: hypovolemia or mechanical obstruction of blood flow (tension pneumothorax, pericardial tamponade, pulmonary embolism). Wide/Slow QRS Complex Treatment: Potential causes include: metabolic/toxicologic etiologies such as hyperkalemia (e.g., dialysis patients) or overdose (e.g., TCA, sodium channel blocker, etc.). Pearls for Cardiac Arrest: Effective chest",
+    "content": "graph TD A[PEA] --&gt; B[Narrow/Fast QRS Complex] A --&gt; C[Wide/Slow QRS Complex] Narrow/Fast QRS Complex Treatment: IV fluid bolus Consider bilateral needle decompression for suspected tension pneumothorax. Potential causes include: hypovolemia or mechanical obstruction of blood flow (tension pneumothorax, pericardial tamponade, pulmonary embolism). Wide/Slow QRS Complex Treatment: Sodium bicarbonate Consider Calcium gluconate for suspected hyperkalemia. Potential causes include: metabolic/to",
     "providerLevels": [
       "PARAMEDIC",
       "EMT",

@@ -79,23 +79,22 @@ graph TD
         C[FAST-ED greater than or equal to 4] --&gt; B
         D[FAST-ED less than 4] --&gt; E[Negative LVO Screen]
     end
-<pre><code>subgraph Establish Thrombolytic Eligibility
-    B --&gt; F{3thrombolytic?s (+) OR LKW greater than 3 hrs}
-    G[3thrombolytic?s (-) AND LKW less than 3 hrs] --&gt; H[thrombolytic eligible]
-    F --&gt; I[thrombolytic ineligible]
-    F --&gt; J{Time added to TOTAL transport time}
-    J --&gt; K[Less than 30 minutes]
-    J --&gt; L[More than 30 minutes]
-end
-<p>subgraph Establish Distance from Endovascular Capable Hospital<br>
-K --&gt; M[Endovascular Center]<br>
-L --&gt; N[Nearest Hospital (including Endovascular Center if this is the closest hospital)]<br>
-end</p>
-</code><p><code>subgraph Destination<br>
-M --&gt; O[Destination]<br>
-N --&gt; O<br>
-end<br>
-</code></p></pre><br>
+    subgraph Establish Thrombolytic Eligibility
+        B --&gt; F{3thrombolytics + OR LKW greater than 3 hrs}
+        G[3thrombolytics - AND LKW less than 3 hrs] --&gt; H[thrombolytic eligible]
+        F --&gt; I[thrombolytic ineligible]
+        F --&gt; J{Time added to TOTAL transport time}
+        J --&gt; K[Less than 30 minutes]
+        J --&gt; L[More than 30 minutes]
+    end
+    subgraph Establish Distance from Endovascular Capable Hospital
+        K --&gt; M[Endovascular Center]
+        L --&gt; N[Nearest Hospital including Endovascular Center if closest]
+    end
+    subgraph Destination
+        M --&gt; O[Destination]
+        N --&gt; O
+    end
 </mermaid><p></p>
 <p>"3thrombolytic?s" refers to the thrombolytic checklist screening questions on Gold 12. If ALL are answered negative and time criteria are met, the patient is considered thrombolytic eligible. If ANY are answered positive, the patient is thrombolytic ineligible.<br>
 LKW refers to the time the patient was Last Known Well and without the presenting stroke symptoms</p>

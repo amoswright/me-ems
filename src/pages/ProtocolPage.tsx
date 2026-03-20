@@ -10,7 +10,6 @@ import { renderProtocolHtml } from '@/utils/renderProtocolHtml';
 import { ProtocolSummaryView } from '@/components/ProtocolSummaryView';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
-import type { ProtocolStep } from '@/types/protocol';
 
 type ViewMode = 'summary' | 'fulltext' | 'original';
 

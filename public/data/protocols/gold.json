@@ -525,22 +525,7 @@
       {
         "type": "table",
         "providerLevel": "ALL",
-        "html": "<table>\n  <tbody><tr>\n    <td>Yes</td>\n    <td>No</td>\n  </tr>\n</tbody></table>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>Has the patient had any recent trauma, surgeries or procedures in the last 3 months?<br>\n☐ ☐<br>\nIf Yes, what was the procedure and when did it occur? Including:</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>Has the patient had any bleeding problems in the past?<br>\n☐ ☐<br>\nIf Yes, what was the bleeding problem and when did it occur?<br>\nIncluding:</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p>☐ ☐ Is the patient taking any anticoagulants, including oral or injectable medications?<br>\nIf Yes, clarify what the medication is and when it was last administered. See below lists of common anticoagulants</p>"
+        "html": "<table>\n  <thead>\n    <tr>\n      <th>Yes</th>\n      <th>No</th>\n      <th>Question</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>☐</td>\n      <td>☐</td>\n      <td>Has the patient had any recent trauma, surgeries or procedures in the last 3 months?<br><em>If Yes, what was the procedure and when did it occur? Including:</em><ul><li>Severe head trauma within the past 3 months</li><li>Intracranial or spinal surgery within the past 3 months</li><li>Major non-cranial surgery or trauma within 14 days with uncontrollable bleeding (e.g., internal organs)</li></ul></td>\n    </tr>\n    <tr>\n      <td>☐</td>\n      <td>☐</td>\n      <td>Has the patient had any bleeding problems in the past?<br><em>If Yes, what was the bleeding problem and when did it occur? Including:</em><ul><li>History of spontaneous (non-traumatic) intracranial hemorrhage</li><li>GI malignancy or GI bleed within the past 21 days</li></ul></td>\n    </tr>\n    <tr>\n      <td>☐</td>\n      <td>☐</td>\n      <td>Is the patient taking any anticoagulants, including oral or injectable medications?<br><em>If Yes, clarify what the medication is and when it was last administered. See below lists of common anticoagulants.</em></td>\n    </tr>\n  </tbody>\n</table>"
       },
       {
         "type": "content",
@@ -581,81 +566,56 @@
     "steps": [
       {
         "num": 1,
-        "providerLevel": "ALL",
-        "html": "Severe head trauma within the past 3 months"
-      },
-      {
-        "num": 2,
-        "providerLevel": "ALL",
-        "html": "Intracranial or spinal surgery within the past 3 months"
-      },
-      {
-        "num": 3,
-        "providerLevel": "ALL",
-        "html": "Major non-cranial surgery or trauma within 14 days with uncontrollable bleeding (e.g., internal organs)"
-      },
-      {
-        "num": 4,
-        "providerLevel": "ALL",
-        "html": "History of spontaneous (non-traumatic) intracranial hemorrhage"
-      },
-      {
-        "num": 5,
-        "providerLevel": "ALL",
-        "html": "GI malignancy or GI bleed within in the past 21 days"
-      },
-      {
-        "num": 6,
         "providerLevel": "EMT",
         "html": "Manage airway as appropriate, see Airway Algorithm, Blue 2"
       },
       {
-        "num": 7,
+        "num": 2,
         "providerLevel": "EMT",
         "html": "Maintain O₂ saturation between 94 - 99%"
       },
       {
-        "num": 8,
+        "num": 3,
         "providerLevel": "EMT",
         "html": "Elevate head of stretcher to 30 degrees (unless patient requires spinal motion restriction)"
       },
       {
-        "num": 9,
+        "num": 4,
         "providerLevel": "EMT",
         "html": "Request ALS, if available. Do not delay transport for ALS intercept. When operationally and medically feasible, limit scene time to 10 minutes or less."
       },
       {
-        "num": 10,
+        "num": 5,
         "providerLevel": "EMT",
         "html": "Perform finger stick to measure blood glucose, if so trained. If blood glucose is less than 60 mg/dL, refer to Diabetic/Hypoglycemic Emergencies protocol, Gold 6"
       },
       {
-        "num": 11,
+        "num": 6,
         "providerLevel": "EMT",
         "html": "As early as possible, alert the receiving hospital of a \"Code Stroke\"\n<ol type=\"a\">\n<li>Relay the following information:\n<ol type=\"i\">\n<li>Patient age and gender</li>\n<li>Identify the patient as a potential stroke patient</li>\n<li>The patient's neurologic deficits and the findings of the Cincinnati Prehospital Stoke Scale and FAST-ED Scale</li>\n<li>The \"Time Last Known Well\"</li>\n<li>The patient's mental status</li>\n<li>The patient's vital signs and finger stick blood glucose results</li>\n<li>ETA</li>\n</ol></li>\n</ol>"
       },
       {
-        "num": 12,
+        "num": 7,
         "providerLevel": "EMT",
         "html": "Transport to the most appropriate facility based on regional resources"
       },
       {
-        "num": 13,
+        "num": 8,
         "providerLevel": "EMT",
         "html": "If available and so trained, perform 12-lead ECG en route."
       },
       {
-        "num": 9,
+        "num": 4,
         "providerLevel": "ADVANCED_EMT_PARAMEDIC",
         "html": "Cardiac monitor"
       },
       {
-        "num": 10,
+        "num": 5,
         "providerLevel": "ADVANCED_EMT_PARAMEDIC",
         "html": "IV en route"
       },
       {
-        "num": 11,
+        "num": 6,
         "providerLevel": "ADVANCED_EMT_PARAMEDIC",
         "html": "Perform 12-lead ECG en route"
       }

@@ -109,6 +109,55 @@ export function renderProtocolHtml(html: string) {
         );
       }
 
+      // Style <table>
+      if (domNode instanceof Element && domNode.name === 'table') {
+        return (
+          <div className="overflow-x-auto my-4 rounded-lg shadow-sm">
+            <table className="w-full border-collapse text-sm">
+              {domToReact(domNode.children as DOMNode[], options)}
+            </table>
+          </div>
+        );
+      }
+
+      // Style <thead>
+      if (domNode instanceof Element && domNode.name === 'thead') {
+        return (
+          <thead className="bg-gradient-to-r from-blue-800 to-blue-600">
+            {domToReact(domNode.children as DOMNode[], options)}
+          </thead>
+        );
+      }
+
+      // Style <th>
+      if (domNode instanceof Element && domNode.name === 'th') {
+        return (
+          <th className="px-3 py-2.5 text-left text-white font-semibold text-xs uppercase tracking-wide">
+            {domToReact(domNode.children as DOMNode[], options)}
+          </th>
+        );
+      }
+
+      // Style <tbody> <tr>
+      if (domNode instanceof Element && domNode.name === 'tr') {
+        const parentName = (domNode.parent as Element)?.name;
+        const isBody = parentName === 'tbody' || parentName === 'table';
+        return (
+          <tr className={isBody ? 'border-t border-gray-200 dark:border-gray-700 even:bg-blue-50/60 dark:even:bg-blue-950/20 hover:bg-blue-100/70 dark:hover:bg-blue-900/20 transition-colors' : ''}>
+            {domToReact(domNode.children as DOMNode[], options)}
+          </tr>
+        );
+      }
+
+      // Style <td>
+      if (domNode instanceof Element && domNode.name === 'td') {
+        return (
+          <td className="px-3 py-2.5 text-gray-800 dark:text-gray-200 align-top leading-snug">
+            {domToReact(domNode.children as DOMNode[], options)}
+          </td>
+        );
+      }
+
       // Linkify protocol references in text nodes
       if (domNode.type === 'text') {
         const data = (domNode as Text).data;

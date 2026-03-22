@@ -1,57 +1,107 @@
 <h2>Page 92</h2>
 <h1>Trauma Triage #1 (Patient with Blunt or Penetrating Trauma)</h1>
-<mermaid>
-graph TD
-    A[Red Criteria - High Risk for Serious Injury] --&gt; B{Injury Patterns}
-    A --&gt; C{Mental Status and Vital Signs}
-    B -- Yes --&gt; D[Go to nearest Level 1 or 2 Trauma Center if total transport time less than 45 minutes, otherwise highest-level trauma center available or closest ED in trauma system]
-    C -- Yes --&gt; E[Transport to nearest Trauma System participating hospital]
-    subgraph Mental Status and Vital Signs
-        direction LR
-        C_note("*Obtain manual blood pressure whenever possible; monitor pulse pressure as early sign of hypotension")
-        C --&gt; C_note
-        C --&gt; C1[All Patients]
-        C --&gt; C2[Age 0-9 years]
-        C --&gt; C3[Age 10-64 years]
-        C --&gt; C4[Age 65 and older]
-        C1 --&gt; C1_1[Unable to follow commands]
-        C1 --&gt; C1_2[RR less than 10 or greater than 29 breaths/min]
-        C1 --&gt; C1_3[Respiratory distress or need for respiratory support]
-        C1 --&gt; C1_4[Room-air pulse oximetry less than 90%]
-        C2 --&gt; C2_1[SBP less than 70 mmHg + 2x age in years]
-        C3 --&gt; C3_1[SBP less than 90 mmHg or HR greater than SBP]
-        C4 --&gt; C4_1[SBP less than 110 mmHg or HR greater than SBP]
-    end
-    B -- No --&gt; F{Yellow Criteria}
-    subgraph Yellow Criteria
-        direction LR
-        F --&gt; F1[Mechanism of Injury]
-        F --&gt; F2[EMS Judgment]
-        F1 --&gt; F1a[High-Risk Auto Crash]
-        F1a --&gt; F1a1[Partial or complete ejection]
-        F1a --&gt; F1a2[Significant intrusion including roof]
-        F1a --&gt; F1a3[Greater than 12 inches occupant site or greater than 18 inches any site]
-        F1a --&gt; F1a4[Need for extrication for entrapped patient]
-        F1a --&gt; F1a5[Death in passenger compartment]
-        F1a --&gt; F1a6[Child age 0-9 unrestrained or in unsecured child safety seat]
-        F1a --&gt; F1a7[Vehicle telemetry data consistent with severe injury]
-        F1 --&gt; F1b[Rider separated from transport vehicle with significant impact]
-        F1 --&gt; F1c[Pedestrian or bicycle rider thrown, run over, or with significant impact]
-        F1 --&gt; F1d[Fall from height greater than 10 feet]
-        F1 --&gt; F1e[Lightning strike or electrical trauma]
-        F1 --&gt; F1f[Significant burn: greater than 10% BSA, circumferential, airway involvement, genital, hands, or face]
-        F2 --&gt; F2a[Consider risk factors including:]
-        F2a --&gt; F2a1[Low-level falls in young or older adults with significant head impact]
-        F2a --&gt; F2a2[Anticoagulant use]
-        F2a --&gt; F2a3[Suspicion of child abuse]
-        F2a --&gt; F2a4[Special high-resource healthcare needs]
-        F2a --&gt; F2a5[Pregnancy greater than 20 weeks]
-        F2a --&gt; F2a6[Burns in conjunction with trauma]
-        F2a --&gt; F2a7[Children triaged preferentially to pediatric capable centers]
-        F2a --&gt; F2b[If concerned take to a trauma center]
-    end
-    D -- Yes --&gt; D_up( )
-    D_up --&gt; F
-    F -- Yes --&gt; E
-    F -- No --&gt; F_exit[Transport to nearest Trauma System participating hospital]
-</mermaid>
+
+<div style="font-size:0.875rem;line-height:1.5">
+
+  <!-- RED CRITERIA -->
+  <div style="border:2px solid #dc2626;border-radius:8px;overflow:hidden;margin-bottom:1rem">
+    <div style="background:#dc2626;color:white;text-align:center;padding:0.5rem;font-weight:700">Red Criteria — High Risk for Serious Injury</div>
+    <div style="display:flex">
+      <div style="flex:1;padding:0.75rem;border-right:1px solid #fca5a5">
+        <strong>Injury Patterns</strong>
+        <ul>
+          <li>Penetrating injuries to head, neck, torso, and proximal extremities</li>
+          <li>Skull deformity, suspected skull fracture</li>
+          <li>Suspected spinal injury with new motor or sensory loss</li>
+          <li>Chest wall instability, deformity, or suspected flail chest</li>
+          <li>Suspected pelvic fracture</li>
+          <li>Suspected fracture of two or more proximal long bones</li>
+          <li>Crushed, degloved, mangled, or pulseless extremity</li>
+          <li>Amputation proximal to wrist or ankle</li>
+          <li>Active bleeding requiring a tourniquet or wound packing with continuous pressure</li>
+        </ul>
+      </div>
+      <div style="flex:1;padding:0.75rem">
+        <strong>Mental Status &amp; Vital Signs</strong>
+        <ul>
+          <li>Unable to follow commands (motor GCS &lt; 6)</li>
+          <li>RR &lt; 10 or &gt; 29 breaths/min</li>
+          <li>Respiratory distress or need for respiratory support</li>
+          <li>Room-air pulse oximetry &lt; 90%</li>
+        </ul>
+        <p><strong>Age 0–9 years:</strong> *SBP &lt; 70 mmHg + (2 × age in years)</p>
+        <p><strong>Age 10–64 years:</strong> *SBP &lt; 90 mmHg or HR &gt; SBP</p>
+        <p><strong>Age ≥ 65 years:</strong> *SBP &lt; 110 mmHg or HR &gt; SBP</p>
+        <p style="font-style:italic;font-size:0.8rem;margin-top:0.5rem">*Obtain a manual blood pressure whenever possible, and consider monitoring pulse pressure as an early sign of hypotension</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOW: Yes / No -->
+  <div style="display:flex;gap:0.75rem;margin-bottom:1rem;align-items:flex-start">
+    <div style="flex:1;text-align:center">
+      <div style="font-weight:700;color:#16a34a;margin-bottom:0.25rem">↓ Yes</div>
+      <div style="border:2px solid #16a34a;border-radius:6px;padding:0.5rem;background:#f0fdf4;font-size:0.8rem">
+        Go to nearest <strong>Level 1 or 2 Trauma Center</strong> if total transport time &lt; 45 minutes; otherwise go to highest-level trauma center available OR closest ED in the trauma system participating hospital**. Any questions, contact OLMC.
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:center;padding-top:1.25rem;flex:0 0 3rem">
+      <div style="font-weight:700;color:#6b7280">No</div>
+      <div style="color:#6b7280;font-size:1.25rem">↓</div>
+    </div>
+  </div>
+
+  <!-- YELLOW CRITERIA -->
+  <div style="border:2px solid #ca8a04;border-radius:8px;overflow:hidden;margin-bottom:1rem">
+    <div style="background:#ca8a04;color:white;text-align:center;padding:0.5rem;font-weight:700">Yellow Criteria — Moderate Risk for Serious Injury</div>
+    <div style="display:flex">
+      <div style="flex:1;padding:0.75rem;border-right:1px solid #fde68a">
+        <strong>Mechanism of Injury</strong>
+        <ul>
+          <li>High-Risk Auto Crash
+            <ul>
+              <li>Partial or complete ejection</li>
+              <li>Significant intrusion (including roof): &gt;12 in. occupant site OR &gt;18 in. any site</li>
+              <li>Need for extrication for entrapped patient</li>
+              <li>Death in passenger compartment</li>
+              <li>Child (age 0–9) unrestrained or in unsecured child safety seat</li>
+              <li>Vehicle telemetry data consistent with severe injury</li>
+            </ul>
+          </li>
+          <li>Rider separated from transport vehicle with significant impact (e.g., motorcycle, ATV, horse)</li>
+          <li>Pedestrian/bicycle rider thrown, run over, or with significant impact</li>
+          <li>Fall from height &gt; 10 feet (all ages)</li>
+          <li>Lightning strike/electrical trauma</li>
+          <li>Significant burn: &gt;10% BSA (partial/full thickness), circumferential burns, airway involvement, genital burns, burns to hands or face</li>
+        </ul>
+      </div>
+      <div style="flex:1;padding:0.75rem">
+        <strong>EMS Judgment</strong>
+        <p>Consider risk factors, including:</p>
+        <ul>
+          <li>Low-level falls in young children (age ≤ 5) or older adults (age ≥ 65) with significant head impact</li>
+          <li>Anticoagulant use</li>
+          <li>Suspicion of child abuse</li>
+          <li>Special, high-resource healthcare needs</li>
+          <li>Pregnancy &gt; 20 weeks</li>
+          <li>Burns in conjunction with trauma</li>
+          <li>Children should be triaged preferentially to pediatric capable centers</li>
+        </ul>
+        <p><strong>If concerned, take to a trauma center</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOW: Yes / No -->
+  <div style="display:flex;gap:0.75rem">
+    <div style="flex:1;text-align:center">
+      <div style="font-weight:700;color:#16a34a;margin-bottom:0.25rem">↓ Yes</div>
+      <div style="border:2px solid #16a34a;border-radius:6px;padding:0.5rem;background:#f0fdf4;font-size:0.8rem">Transport to nearest Trauma System participating hospital</div>
+    </div>
+    <div style="flex:1;text-align:center">
+      <div style="font-weight:700;color:#dc2626;margin-bottom:0.25rem">↓ No</div>
+      <div style="border:2px solid #6b7280;border-radius:6px;padding:0.5rem;background:#f9fafb;font-size:0.8rem">Transport to nearest Trauma System participating hospital</div>
+    </div>
+  </div>
+
+</div>

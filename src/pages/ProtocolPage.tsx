@@ -249,9 +249,9 @@ export function ProtocolPage() {
               ALL: 0,
               EMT: 1,
               EMT_ADVANCED_EMT: 2,
-              ADVANCED_EMT: 3,
-              ADVANCED_EMT_PARAMEDIC: 4,
-              EMT_ADVANCED_EMT_PARAMEDIC: 5,
+              EMT_ADVANCED_EMT_PARAMEDIC: 3,
+              ADVANCED_EMT: 4,
+              ADVANCED_EMT_PARAMEDIC: 5,
               PARAMEDIC: 6,
               PEARLS: 7,
             };

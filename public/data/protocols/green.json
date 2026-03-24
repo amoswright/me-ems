@@ -385,25 +385,25 @@
         "html": "ADOLESCENTS and ADULTS - Goal SBP = greater than 90 mmHg.\n<ol type=\"a\">\n<li>Initiate fluid resuscitation with an initial bolus of 1 liter for any SBP measurement less than 90 mmHg.</li>\n<li>Continue IV fluid administration at a rate and volume sufficient to maintain SBP greater than 90 mmHg.</li>\n</ol>"
       }
     ],
-    “pearls”: [
+    "pearls": [
       {
-        “title”: “Goal Ventilation Rates”,
-        “html”: [
-          “<ul>\n<li>Age 0-2 years: 1 breath every 2-3 seconds (25 BPM)</li>\n<li>Age 3-14 years: 1 breath every 3 seconds (20 BPM)</li>\n<li>Age 15 years +: 1 breath every 6 seconds (10 BPM)</li>\n</ul>”
+        "title": "Goal Ventilation Rates",
+        "html": [
+          "<ul>\n<li>Age 0-2 years: 1 breath every 2-3 seconds (25 BPM)</li>\n<li>Age 3-14 years: 1 breath every 3 seconds (20 BPM)</li>\n<li>Age 15 years +: 1 breath every 6 seconds (10 BPM)</li>\n</ul>"
         ]
       },
       {
-        “title”: “Identifying Hypotension in Children”,
-        “html”: [
-          “<table>\n  <tbody><tr>\n    <td>Newborn:</td>\n    <td>60 mmHg</td>\n  </tr>\n  <tr>\n    <td>Age 0-2 years:</td>\n    <td>70 mmHg</td>\n  </tr>\n  <tr>\n    <td>Age 3-9</td>\n    <td>70+ (age x 2)</td>\n  </tr>\n  <tr>\n    <td>Age 10 years or greater:</td>\n    <td>greater than 90 mmHg</td>\n  </tr>\n</tbody></table>”,
-          “<p>General Rules:<br>\nNewborn: greater than 60 mmHg<br>\n5 Year Old: greater than 80 mmHg<br>\n10 years or greater: greater than 90 mmHg</p>”
+        "title": "Identifying Hypotension in Children",
+        "html": [
+          "<table>\n  <tbody><tr>\n    <td>Newborn:</td>\n    <td>60 mmHg</td>\n  </tr>\n  <tr>\n    <td>Age 0-2 years:</td>\n    <td>70 mmHg</td>\n  </tr>\n  <tr>\n    <td>Age 3-9</td>\n    <td>70+ (age x 2)</td>\n  </tr>\n  <tr>\n    <td>Age 10 years or greater:</td>\n    <td>greater than 90 mmHg</td>\n  </tr>\n</tbody></table>",
+          "<p>General Rules:<br>\nNewborn: greater than 60 mmHg<br>\n5 Year Old: greater than 80 mmHg<br>\n10 years or greater: greater than 90 mmHg</p>"
         ]
       },
       {
-        “title”: “Management of Hypotension/Blood Pressure”,
-        “html”: [
-          “<ul>\n<li>A single episode of SBP &lt;90 mmHg is independently associated with at least a doubling of mortality. Repeated episodes of hypotension can increase the risk of dying by as much as eight times. Hypotension kills neurons!</li>\n<li>In the context of Head Trauma, do not allow permissive hypotension below 90 mmHg (in adults) and do not wait for the patient to become hypotensive. If the SBP is dropping, or if there are any other signs of compensated shock such as increasing heart rate with decreasing SBP, begin aggressive treatment before the patient becomes hypotensive.</li>\n<li>In TBI, treatment of acute hypertension is <strong>NOT</strong> recommended.</li>\n<li>IV fluids should be restricted to a minimal “keep open” rate in patients with, SBP ≥ 100 mmHg (infants/young children) SBP ≥ 130 mmHg (older children/adolescents), and SBP ≥140 mmHg in adults.</li>\n</ul>”,
-          “<ol start=\”14\”>\n<li>For Nausea and Vomiting, refer to Nausea/Vomiting protocol, Gold 18. Please Note: IV/IO ondansetron is the preferred route for patients with moderate to severe head injuries.</li>\n</ol>”
+        "title": "Management of Hypotension/Blood Pressure",
+        "html": [
+          "<ul>\n<li>A single episode of SBP &lt;90 mmHg is independently associated with at least a doubling of mortality. Repeated episodes of hypotension can increase the risk of dying by as much as eight times. Hypotension kills neurons!</li>\n<li>In the context of Head Trauma, do not allow permissive hypotension below 90 mmHg (in adults) and do not wait for the patient to become hypotensive. If the SBP is dropping, or if there are any other signs of compensated shock such as increasing heart rate with decreasing SBP, begin aggressive treatment before the patient becomes hypotensive.</li>\n<li>In TBI, treatment of acute hypertension is <strong>NOT</strong> recommended.</li>\n<li>IV fluids should be restricted to a minimal “keep open” rate in patients with, SBP ≥ 100 mmHg (infants/young children) SBP ≥ 130 mmHg (older children/adolescents), and SBP ≥140 mmHg in adults.</li>\n</ul>",
+          "<ol start=\"14\">\n<li>For Nausea and Vomiting, refer to Nausea/Vomiting protocol, Gold 18. Please Note: IV/IO ondansetron is the preferred route for patients with moderate to severe head injuries.</li>\n</ol>"
         ]
       }
     ],

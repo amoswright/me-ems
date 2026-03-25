@@ -494,47 +494,47 @@
     "steps": [
       {
         "num": 1,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT",
         "html": "Prevent further heat loss by insulating from the ground and shielding from wind and water. Move to a warm environment, when possible. Gently remove wet clothing. Cover with warm blankets."
       },
       {
         "num": 2,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT",
         "html": "Pack thorax with wrapped heat packs (heat packs cannot exceed 113°F); if available, may use hospital-grade electric forced air re-warmers."
       },
       {
         "num": 3,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT",
         "html": "Consider warmed AND humidified 100% O₂."
       },
       {
         "num": 4,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT",
         "html": "High sugar oral fluids, if tolerated, and only in mild hypothermia."
       },
       {
         "num": 5,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT",
         "html": "Handle gently; avoid rough movement and excess activity."
       },
       {
         "num": 6,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT",
         "html": "Maintain supine position in moderate or severe hypothermia."
       },
       {
         "num": 7,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT",
         "html": "Apply clean dressing to frostbitten extremities and between involved fingers and toes."
       },
       {
         "num": 8,
-        "providerLevel": "ALL",
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
         "html": "Consider 1000 mL (20 mL/kg for <strong>pediatrics</strong>) bolus of NS heated to 104 - 108° F (40 - 42° C). &lt;img&gt;Teddy bear icon&lt;/img&gt;"
       },
       {
         "num": 9,
-        "providerLevel": "ALL",
+        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
         "html": "Contact OLMC for additional boluses. &lt;img&gt;Phone icon&lt;/img&gt;"
       }
     ],

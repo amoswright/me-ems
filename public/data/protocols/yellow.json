@@ -368,62 +368,11 @@
       },
       {
         "type": "content",
-        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
-        "html": "<p><strong>AEMT/P</strong></p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "PARAMEDIC",
-        "html": "<p>In case of CN toxicity, either alone or in combination with CO exposure:</p>"
+        "providerLevel": "ALL",
+        "html": "<div style=\"display:flex;flex-direction:column;gap:1rem;\">\n  <div style=\"border:2px solid #16a34a;border-radius:8px;overflow:hidden;\">\n    <div style=\"background:#16a34a;color:white;padding:0.5rem 0.75rem;font-weight:700;font-size:0.95rem;\">Step 1 — All Exposures (Mild · Moderate · Severe)</div>\n    <div style=\"padding:0.75rem;background:var(--bg-primary);color:var(--text-primary);\">\n      <p style=\"font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.4rem;\">EMT / AEMT / Paramedic</p>\n      <ol>\n        <li>Administer high flow O₂</li>\n        <li>Pulse Ox may be inaccurate in exposure to CO/CN or methemoglobinemia</li>\n      </ol>\n      <p style=\"font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;margin:0.6rem 0 0.4rem;\">AEMT / Paramedic</p>\n      <ol start=\"3\">\n        <li>Monitor rhythm</li>\n      </ol>\n    </div>\n  </div>\n  <div style=\"border:2px solid #ca8a04;border-radius:8px;overflow:hidden;\">\n    <div style=\"background:#ca8a04;color:white;padding:0.5rem 0.75rem;font-weight:700;font-size:0.95rem;\">Step 2 — Moderate &amp; Severe Exposure</div>\n    <div style=\"padding:0.75rem;background:var(--bg-primary);color:var(--text-primary);\">\n      <p style=\"font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.4rem;\">EMT / AEMT / Paramedic</p>\n      <ol>\n        <li>Manage Airway as appropriate, see Blue 2</li>\n        <li>12-lead ECG, if trained AEMT/Paramedic</li>\n        <li>Collect rainbow blood sample tubes per local protocol</li>\n        <li>If hypotensive, administer IV bolus, may repeat x 1</li>\n      </ol>\n      <p style=\"font-style:italic;font-size:0.875rem;margin-top:0.6rem;padding-top:0.5rem;border-top:1px solid rgba(202,138,4,0.3);\"><strong>Paramedic:</strong> If antidote considered, contact OLMC</p>\n    </div>\n  </div>\n  <div style=\"border:2px solid #dc2626;border-radius:8px;overflow:hidden;\">\n    <div style=\"background:#dc2626;color:white;padding:0.5rem 0.75rem;font-weight:700;font-size:0.95rem;\">Step 3 — Severe Exposure / CN Toxicity</div>\n    <div style=\"padding:0.75rem;background:var(--bg-primary);color:var(--text-primary);\">\n      <p style=\"font-size:0.8rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.4rem;\">Paramedic</p>\n      <p style=\"margin-bottom:0.4rem;\">In case of CN toxicity, either alone or in combination with CO exposure:</p>\n      <ol>\n        <li><strong>Adult:</strong> Hydroxocobalamin (Cyanokit) — 5 g IV. May repeat x 1 for partial response</li>\n        <li><strong>Peds:</strong> Hydroxocobalamin (Cyanokit) — 70 mg/kg IV, 2.5 g for weight less than 30 kg</li>\n      </ol>\n    </div>\n  </div>\n</div>"
       }
     ],
-    "steps": [
-      {
-        "num": 1,
-        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
-        "html": "Administer high flow O₂"
-      },
-      {
-        "num": 2,
-        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
-        "html": "Pulse Ox may be inaccurate in exposure to CO/CN or methemoglobinemia"
-      },
-      {
-        "num": 3,
-        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
-        "html": "Monitor rhythm"
-      },
-      {
-        "num": 4,
-        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
-        "html": "Manage Airway as appropriate, see Blue 2"
-      },
-      {
-        "num": 5,
-        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
-        "html": "12-lead ECG, if trained AEMT/Paramedic"
-      },
-      {
-        "num": 6,
-        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
-        "html": "Collect rainbow blood sample tubes per local protocol"
-      },
-      {
-        "num": 7,
-        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
-        "html": "If hypotensive, administer IV bolus, may repeat x 1"
-      },
-      {
-        "num": 8,
-        "providerLevel": "PARAMEDIC",
-        "html": "Adult: Hydroxocobalamin (Cyanokit) - 5 g IV. May repeat x 1 for partial response"
-      },
-      {
-        "num": 9,
-        "providerLevel": "PARAMEDIC",
-        "html": "Peds: Hydroxocobalamin (Cyanokit) - 70 mg/kg IV, 2.5 g for weight less than 30 kg &lt;img&gt;Bear icon&lt;/img&gt;"
-      }
-    ],
+    "steps": [],
     "pearls": [
       {
         "html": [

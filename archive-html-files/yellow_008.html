@@ -32,18 +32,17 @@ graph LR
 graph TD
     A[Mild Exposure] --&gt; B[Do Step 1]
     C[Moderate Exposure] --&gt; D[Do Step 1 and 2]
-    E[Severe Exposure] --&gt; F[Do Step 1, 2,and 3]
-<pre><code>subgraph Do Step 1
-    B
-end
-<p>subgraph Do Step 1 and 2<br>
-D<br>
-G[Paramedic: If antidote considered, contact OLMC]<br>
-end</p>
-</code><p><code>subgraph Do Step 1, 2,and 3<br>
-F<br>
-end<br>
-</code></p></pre><br>
+    E[Severe Exposure] --&gt; F["Do Step 1, 2, and 3"]
+    subgraph sg1 [Do Step 1]
+        B
+    end
+    subgraph sg2 [Do Step 1 and 2]
+        D
+        G[Paramedic: If antidote considered contact OLMC]
+    end
+    subgraph sg3 ["Do Step 1, 2, and 3"]
+        F
+    end
 </mermaid><p></p>
 <h2>Treatments</h2>
 <h3>Step 1</h3>

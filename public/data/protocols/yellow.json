@@ -364,7 +364,7 @@
       {
         "type": "mermaid",
         "providerLevel": "ALL",
-        "html": "<mermaid>\ngraph TD\n    A[Mild Exposure] --&gt; B[Do Step 1]\n    C[Moderate Exposure] --&gt; D[Do Step 1 and 2]\n    E[Severe Exposure] --&gt; F[Do Step 1, 2,and 3]\n<pre><code>subgraph Do Step 1\n    B\nend\n<p>subgraph Do Step 1 and 2<br>\nD<br>\nG[Paramedic: If antidote considered, contact OLMC]<br>\nend</p>\n</code><p><code>subgraph Do Step 1, 2,and 3<br>\nF<br>\nend<br>\n</code></p></pre><br>\n</mermaid>"
+        "html": "<mermaid>\ngraph TD\n    A[Mild Exposure] --&gt; B[Do Step 1]\n    C[Moderate Exposure] --&gt; D[Do Step 1 and 2]\n    E[Severe Exposure] --&gt; F[\"Do Step 1, 2, and 3\"]\n    subgraph sg1 [Do Step 1]\n        B\n    end\n    subgraph sg2 [Do Step 1 and 2]\n        D\n        G[Paramedic: If antidote considered contact OLMC]\n    end\n    subgraph sg3 [\"Do Step 1, 2, and 3\"]\n        F\n    end\n</mermaid>"
       },
       {
         "type": "content",

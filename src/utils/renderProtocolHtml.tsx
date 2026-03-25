@@ -151,8 +151,13 @@ export function renderProtocolHtml(html: string) {
 
       // Style <td>
       if (domNode instanceof Element && domNode.name === 'td') {
+        const { colspan, rowspan } = domNode.attribs;
         return (
-          <td className="px-3 py-2.5 text-gray-800 dark:text-gray-200 align-top leading-snug">
+          <td
+            className="px-3 py-2.5 text-gray-800 dark:text-gray-200 align-top leading-snug"
+            {...(colspan ? { colSpan: parseInt(colspan) } : {})}
+            {...(rowspan ? { rowSpan: parseInt(rowspan) } : {})}
+          >
             {domToReact(domNode.children as DOMNode[], options)}
           </td>
         );

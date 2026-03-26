@@ -1440,22 +1440,28 @@
           ]
         },
         {
-          "id": "yellow_016_yellow_017",
-          "title": "Hyperthermia - Heat Exhaustion / Heat Stroke",
+          "id": "yellow_016",
+          "title": "Hyperthermia — Heat Exhaustion",
           "pages": [
             {
               "pageId": "yellow_016",
               "htmlFile": "yellow_016.html",
               "jpgFile": "/page_jpg/131.jpg",
               "jpgPageNumber": 131,
-              "protocolPageNumber": "Yellow 16"
-            },
+              "protocolPageNumber": "Yellow 13"
+            }
+          ]
+        },
+        {
+          "id": "yellow_017",
+          "title": "Hyperthermia — Heat Stroke",
+          "pages": [
             {
               "pageId": "yellow_017",
               "htmlFile": "yellow_017.html",
               "jpgFile": "/page_jpg/132.jpg",
               "jpgPageNumber": 132,
-              "protocolPageNumber": "Yellow 17"
+              "protocolPageNumber": "Yellow 14"
             }
           ]
         },

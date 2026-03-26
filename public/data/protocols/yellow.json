@@ -354,17 +354,12 @@
       {
         "type": "mermaid",
         "providerLevel": "ALL",
-        "html": "<mermaid>\ngraph LR\n    A[Assessment] --&gt; B[Proceed to appropriate trauma or airway management protocol]\n    subgraph Assessment\n        A1[Vital signs]\n        A2[Evidence of major trauma]\n        A3[Major burns, inhalation injury]\n    end\n</mermaid>"
+        "html": "<mermaid>\ngraph LR\n    A[\"Assessment<br/>• Vital signs<br/>• Evidence of major trauma<br/>• Major burns, inhalation injury\"] --&gt; B[Proceed to appropriate trauma or airway management protocol]\n</mermaid>"
       },
       {
         "type": "table",
         "providerLevel": "ALL",
-        "html": "<table>\n  <thead>\n    <tr>\n      <th>Mild Exposure</th>\n      <th>Moderate Exposure</th>\n      <th>Severe Exposure</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Transient neuro changes<br>GCS 14 or 15<br>No cardiovascular symptoms</td>\n      <td>Ongoing neuro changes<br>Confusion<br>GCS 8-13<br>+/- Chest Pain/SOB</td>\n      <td>Severe confusion/Coma<br>GCS &lt; 8<br>+Hypotension (&lt;90 mmHg)<br>Apnea/Cardiac Arrest</td>\n    </tr>\n  </tbody>\n</table>"
-      },
-      {
-        "type": "mermaid",
-        "providerLevel": "ALL",
-        "html": "<mermaid>\ngraph TD\n    A[Mild Exposure] --&gt; B[Do Step 1]\n    C[Moderate Exposure] --&gt; D[Do Step 1 and 2]\n    E[Severe Exposure] --&gt; F[\"Do Step 1, 2, and 3\"]\n    subgraph sg1 [Do Step 1]\n        B\n    end\n    subgraph sg2 [Do Step 1 and 2]\n        D\n        G[Paramedic: If antidote considered contact OLMC]\n    end\n    subgraph sg3 [\"Do Step 1, 2, and 3\"]\n        F\n    end\n</mermaid>"
+        "html": "<table>\n  <thead>\n    <tr>\n      <th>Mild Exposure</th>\n      <th>Moderate Exposure</th>\n      <th>Severe Exposure</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Transient neuro changes<br>GCS 14 or 15<br>No cardiovascular symptoms</td>\n      <td>Ongoing neuro changes<br>Confusion<br>GCS 8-13<br>+/- Chest Pain/SOB</td>\n      <td>Severe confusion/Coma<br>GCS &lt; 8<br>+Hypotension (&lt;90 mmHg)<br>Apnea/Cardiac Arrest</td>\n    </tr>\n      <tr>\n      <td><strong>Treatment Steps</strong></td>\n      <td>Do Step 1</td>\n      <td>Do Steps 1 and 2<br><em>Paramedic: If antidote considered, contact OLMC</em></td>\n      <td>Do Steps 1, 2, and 3</td>\n    </tr>\n  </tbody>\n</table>"
       },
       {
         "type": "content",

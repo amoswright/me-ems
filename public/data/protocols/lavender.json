@@ -18,32 +18,32 @@
     "steps": [
       {
         "num": 1,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
         "html": "<strong>Abruptio placenta:</strong> placenta prematurely separates from the uterus causing intrauterine bleeding"
       },
       {
         "num": 2,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
         "html": "<strong>Placenta previa:</strong> placenta covers part or all of the cervical opening"
       },
       {
         "num": 3,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
         "html": "<strong>Ectopic pregnancy (ruptured)</strong>"
       },
       {
         "num": 4,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
         "html": "<strong>Spontaneous abortion (miscarriage)</strong>"
       },
       {
         "num": 5,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
         "html": "<strong>Pre-eclampsia/eclampsia</strong> (can occur for up to 6 weeks postpartum), refer to Seizure protocol, <strong>Gold 8</strong>"
       },
       {
         "num": 6,
-        "providerLevel": "ALL",
+        "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
         "html": "<strong>Postpartum Hemorrhage</strong>"
       },
       {
@@ -77,22 +77,22 @@
         "html": "Contact OLMC for decision support if questions regarding patient transport destination."
       },
       {
-        "num": 7,
+        "num": 13,
         "providerLevel": "EMT",
         "html": "Refer to Childbirth protocol, <strong>Lavender 2</strong>"
       },
       {
-        "num": 8,
+        "num": 14,
         "providerLevel": "EMT",
         "html": "If history of syncope/lightheadedness, if available and so trained, perform 12-lead ECG"
       },
       {
-        "num": 9,
+        "num": 15,
         "providerLevel": "ADVANCED_EMT",
         "html": "Establish IV. If evidence of shock, resuscitate with fluid boluses"
       },
       {
-        "num": 10,
+        "num": 16,
         "providerLevel": "PARAMEDIC",
         "html": "For patients suffering postpartum hemorrhage and demonstrating evidence of shock, refer to the Hemorrhagic Shock protocol, <strong>Green 13</strong> and consider tranexamic acid (TXA).\n<ul>\n<li>NOTE - TXA is contraindicated in patients greater than 24 weeks pregnant (or pregnant with fundus above umbilicus) suffering hemorrhagic shock due to trauma, refer to Hemorrhagic Shock protocol, <strong>Green 13</strong></li>\n</ul>\n"
       }

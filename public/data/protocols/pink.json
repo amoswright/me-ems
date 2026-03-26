@@ -5,14 +5,9 @@
     "category": "pink",
     "intro": [
       {
-        "type": "pearls",
-        "providerLevel": "ALL",
-        "html": "<p><strong>PEARLS</strong><br>\nDefinition of Brief Resolved Unexplained Event (BRUE):<br>\nThese are sudden, brief (less than 1 minute), now resolved (returned to baseline) episodes of at least one of the following in a child less than 1 years old:</p>"
-      },
-      {
         "type": "content",
         "providerLevel": "ALL",
-        "html": "<p>In many cases, details from the child's home may be important to downstream health care clinicians. Please include details, such as the following, when providing report to the hospital:</p>"
+        "html": "<p><strong>PEARLS</strong><br>\nDefinition of Brief Resolved Unexplained Event (BRUE):<br>\nThese are sudden, brief (less than 1 minute), now resolved (returned to baseline) episodes of at least one of the following in a child less than 1 years old:</p>\n<ol>\n<li>Cyanosis or pallor</li>\n<li>Absent, decreased, or irregular breathing</li>\n<li>Marked change in tone (hyper- or hypotonia)</li>\n<li>Altered level of responsiveness\n<p><strong>NOTE:</strong> Most children who experience a BRUE have a normal physical exam, however, almost 50% will have an underlying condition requiring comprehensive medical care.</p></li>\n</ol>\n<p>In many cases, details from the child's home may be important to downstream health care clinicians. Please include details, such as the following, when providing report to the hospital:</p>\n<ol>\n<li>Make note of the home environment: Medications, condition, caregiver's condition, possibility of toxic exposure, etc.</li>\n<li>Are there any concerns for non-accidental trauma?</li>\n</ol>"
       },
       {
         "type": "content",
@@ -23,46 +18,16 @@
     "steps": [
       {
         "num": 1,
-        "providerLevel": "ALL",
-        "html": "Cyanosis or pallor"
-      },
-      {
-        "num": 2,
-        "providerLevel": "ALL",
-        "html": "Absent, decreased, or irregular breathing"
-      },
-      {
-        "num": 3,
-        "providerLevel": "ALL",
-        "html": "Marked change in tone (hyper- or hypotonia)"
-      },
-      {
-        "num": 4,
-        "providerLevel": "ALL",
-        "html": "Altered level of responsiveness<br>\nNOTE: Most children who experience a BRUE have a normal physical exam, however, almost 50% will have an underlying condition requiring comprehensive medical care."
-      },
-      {
-        "num": 5,
-        "providerLevel": "ALL",
-        "html": "Make note of the home environment: Medications, condition, caregiver's condition, possibility of toxic exposure, etc."
-      },
-      {
-        "num": 6,
-        "providerLevel": "ALL",
-        "html": "Are there any concerns for non-accidental trauma?"
-      },
-      {
-        "num": 7,
         "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
         "html": "Obtain medical history.\n<ol type=\"a\">\n<li>Determine the severity, nature, and duration of the episode.</li>\n<li>Was the patient awake or sleeping at the time of the episode?</li>\n<li>Include details of the resuscitation, if applicable.</li>\n</ol>"
       },
       {
-        "num": 8,
+        "num": 2,
         "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
         "html": "Keep the child warm and transport to the emergency department."
       },
       {
-        "num": 9,
+        "num": 3,
         "providerLevel": "EMT_ADVANCED_EMT_PARAMEDIC",
         "html": "Contact OLMC for assistance if the parent/guardian refuses medical care and/or transport."
       }

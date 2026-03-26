@@ -566,16 +566,6 @@
         "type": "content",
         "providerLevel": "ALL",
         "html": "<p>Do not initiate resuscitation if the patient meets any of the criteria in Grey 3 Section II.A OR Rescuers are exhausted or in a dangerous situation. These patients are deceased.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
-        "html": "<p>&lt;img&gt;Bear&lt;/img&gt;</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
-        "html": "<p>&lt;img&gt;Bear&lt;/img&gt;</p>"
       }
     ],
     "steps": [
@@ -625,21 +615,6 @@
     "pages": [
       {
         "pageId": "yellow_012",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/130.jpg"
-      },
-      {
-        "pageId": "yellow_013",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/130.jpg"
-      },
-      {
-        "pageId": "yellow_014",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/130.jpg"
-      },
-      {
-        "pageId": "yellow_015",
         "pageNumber": "",
         "jpgReference": "/page_jpg/130.jpg"
       }

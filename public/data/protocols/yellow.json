@@ -616,8 +616,8 @@
     ]
   },
   {
-    "id": "yellow_016_yellow_017",
-    "title": "Hyperthermia - Heat Exhaustion / Heat Stroke",
+    "id": "yellow_016",
+    "title": "Hyperthermia — Heat Exhaustion",
     "category": "yellow",
     "intro": [
       {
@@ -639,26 +639,6 @@
         "type": "content",
         "providerLevel": "ALL",
         "html": "<p><strong>TREATMENT:</strong> Goal is to reduce sweating and to restore volume.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p><strong>HEAT STROKE</strong> — A true medical emergency that requires radical field treatment, usually, but not always, associated with heat exhaustion. Heat stroke is characterized by multisystem organ injury and failure. CNS dysfunction characterized by alterations in mental status is a hallmark distinguishing between heat exhaustion and heat stroke.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p><strong>ASSESSMENT:</strong><br>\nIf core temperature is obtained, it is 105° F (40.6° C) or greater. Abnormal consciousness and/or CNS function; seizures are common. Any acute change in consciousness/CNS function in the context of a significant heat challenge should be managed as heat stroke without delay. Skin condition/color and sweating are variable, depending on volume status. Note that red, dry skin is not a dependable sign of heat stroke.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ALL",
-        "html": "<p><strong>TREATMENT:</strong><br>\nImmediate radical cooling is the urgent priority, followed by volume replacement.</p>"
-      },
-      {
-        "type": "content",
-        "providerLevel": "ADVANCED_EMT_PARAMEDIC",
-        "html": "<p><strong>PEARL</strong><br>\nIf at a sporting or athletic event, it is important to discuss the cooling plan with other on-scene clinicians, i.e. sports medicine clinicians or athletic trainers prior to the start of the event to ensure that necessary equipment is available.</p>"
       }
     ],
     "steps": [
@@ -675,7 +655,7 @@
       {
         "num": 3,
         "providerLevel": "EMT",
-        "html": "Oral fluids can be effective if the patient is not vomiting. Use dilute (less than 5% sugar) fluids given in small sips. Appropriate fluids to use include the World Health Organization's Oral Rehydration Solution OR a \"homemade\" solution using 1 teaspoon of salt and 8 teaspoons of sugar per 1 liter of water."
+        "html": "Oral fluids can be effective if the patient is not vomiting. Use dilute (less than 5% sugar) fluids given in small sips. Appropriate fluids to use include the World Health Organization’s Oral Rehydration Solution OR a “homemade” solution using 1 teaspoon of salt and 8 teaspoons of sugar per 1 liter of water."
       },
       {
         "num": 4,
@@ -686,14 +666,46 @@
         "num": 5,
         "providerLevel": "ADVANCED_EMT_PARAMEDIC",
         "html": "Perform fluid bolus."
+      }
+    ],
+    "pearls": [],
+    "pages": [
+      {
+        "pageId": "yellow_016",
+        "pageNumber": "",
+        "jpgReference": "/page_jpg/131.jpg"
+      }
+    ]
+  },
+  {
+    "id": "yellow_017",
+    "title": "Hyperthermia — Heat Stroke",
+    "category": "yellow",
+    "intro": [
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p><strong>HEAT STROKE</strong> — A true medical emergency that requires radical field treatment, usually, but not always, associated with heat exhaustion. Heat stroke is characterized by multisystem organ injury and failure. CNS dysfunction characterized by alterations in mental status is a hallmark distinguishing between heat exhaustion and heat stroke.</p>"
       },
       {
-        "num": 6,
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p><strong>ASSESSMENT:</strong><br>\nIf core temperature is obtained, it is 105° F (40.6° C) or greater. Abnormal consciousness and/or CNS function; seizures are common. Any acute change in consciousness/CNS function in the context of a significant heat challenge should be managed as heat stroke without delay. Skin condition/color and sweating are variable, depending on volume status. Note that red, dry skin is not a dependable sign of heat stroke.</p>"
+      },
+      {
+        "type": "content",
+        "providerLevel": "ALL",
+        "html": "<p><strong>TREATMENT:</strong><br>\nImmediate radical cooling is the urgent priority, followed by volume replacement.</p>"
+      }
+    ],
+    "steps": [
+      {
+        "num": 1,
         "providerLevel": "EMT",
         "html": "Cool the patient immediately by any means practical, such as:\n<ol type=\"a\">\n<li>Initiate Radical Cooling when available (especially beneficial for exertional hyperthermia, e.g., athletes, laborers):\n<ol type=\"i\">\n<li>Immerse patient up to their neck in ice water tub, if available.</li>\n<li>TACO Method (Tarp-Assisted Cooling with Oscillation), if available, with 4-5 people holding the patient in a tarp, add ice water at foot and up to the neck and continuously oscillate the tarp to avoid warming of water in contact with the patient.</li>\n</ol></li>\n<li>Also consider non-radical cooling which includes: ice packs applied to neck, axillae, groin, back; wet patient, apply cold wet sheets to patient, and air conditioning en route.</li>\n<li>Consider moistening the skin and fan vigorously. This method is effective only at low ambient humidity and a large electric fan is more beneficial than manual fanning.</li>\n</ol>"
       },
       {
-        "num": 7,
+        "num": 2,
         "providerLevel": "EMT",
         "html": "Discontinue radical cooling if:\n<ol type=\"a\">\n<li>Shivering begins,</li>\n<li>Core temperature falls to or below 102° F (38.8° C).</li>\n</ol>"
       },
@@ -713,13 +725,15 @@
         "html": "Perform fluid bolus."
       }
     ],
-    "pearls": [],
-    "pages": [
+    "pearls": [
       {
-        "pageId": "yellow_016",
-        "pageNumber": "",
-        "jpgReference": "/page_jpg/131.jpg"
-      },
+        "title": "Athletic Events",
+        "html": [
+          "<p>If at a sporting or athletic event, it is important to discuss the cooling plan with other on-scene clinicians, i.e. sports medicine clinicians or athletic trainers prior to the start of the event to ensure that necessary equipment is available.</p>"
+        ]
+      }
+    ],
+    "pages": [
       {
         "pageId": "yellow_017",
         "pageNumber": "",

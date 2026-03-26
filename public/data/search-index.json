@@ -1194,19 +1194,38 @@
     ]
   },
   {
-    "id": "yellow_016_yellow_017",
+    "id": "yellow_016",
     "category": "yellow",
-    "title": "Hyperthermia - Heat Exhaustion / Heat Stroke",
-    "content": "HEAT EXHAUSTION — Volume depletion due to sweat loss. ASSESSMENT: If core temperature is obtained, it will be variable but always below 105° F (40.6° C). Clinical pattern is essentially that of compensated hypovolemic shock: Weakness and vomiting, Skin condition/color is variable. Core-shell shunt to increase heat loss competes with shell-core shunt to protect volume. Skin is usually pale and moist with variable skin temperature, Sweating, Normal consciousness and CNS function. TREATMENT: Goal i",
+    "title": "Hyperthermia — Heat Exhaustion",
+    "content": "HEAT EXHAUSTION Volume depletion due to sweat loss. ASSESSMENT temperature variable below 105 F compensated hypovolemic shock weakness vomiting skin pale moist sweating normal consciousness CNS function. TREATMENT reduce sweating restore volume. Oral fluids rehydration evaporation techniques.",
     "providerLevels": [
-      "ADVANCED_EMT_PARAMEDIC",
-      "EMT"
+      "EMT",
+      "ADVANCED_EMT_PARAMEDIC"
     ],
     "keywords": [
-      "cardiac",
+      "heat",
+      "hyperthermia",
+      "exhaustion",
       "shock",
+      "dehydration"
+    ]
+  },
+  {
+    "id": "yellow_017",
+    "category": "yellow",
+    "title": "Hyperthermia — Heat Stroke",
+    "content": "HEAT STROKE true medical emergency radical field treatment multisystem organ injury CNS dysfunction altered mental status. ASSESSMENT temperature 105 F or greater abnormal consciousness seizures. TREATMENT immediate radical cooling ice water immersion TACO method tarp oscillation. Discontinue cooling shivering 102 F.",
+    "providerLevels": [
+      "EMT",
+      "ADVANCED_EMT_PARAMEDIC"
+    ],
+    "keywords": [
+      "heat",
+      "hyperthermia",
       "stroke",
-      "seizure"
+      "cooling",
+      "seizure",
+      "cardiac"
     ]
   },
   {

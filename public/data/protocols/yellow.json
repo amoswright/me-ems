@@ -359,7 +359,7 @@
       {
         "type": "table",
         "providerLevel": "ALL",
-        "html": "<table>\n  <thead>\n    <tr>\n      <th>Mild Exposure</th>\n      <th>Moderate Exposure</th>\n      <th>Severe Exposure</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Transient neuro changes<br>GCS 14 or 15<br>No cardiovascular symptoms</td>\n      <td>Ongoing neuro changes<br>Confusion<br>GCS 8-13<br>+/- Chest Pain/SOB</td>\n      <td>Severe confusion/Coma<br>GCS &lt; 8<br>+Hypotension (&lt;90 mmHg)<br>Apnea/Cardiac Arrest</td>\n    </tr>\n      <tr>\n      <td><strong>Treatment Steps</strong></td>\n      <td>Do Step 1</td>\n      <td>Do Steps 1 and 2<br><em>Paramedic: If antidote considered, contact OLMC</em></td>\n      <td>Do Steps 1, 2, and 3</td>\n    </tr>\n  </tbody>\n</table>"
+        "html": "<table>\n  <thead>\n    <tr>\n      <th>Mild Exposure</th>\n      <th>Moderate Exposure</th>\n      <th>Severe Exposure</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Transient neuro changes<br>GCS 14 or 15<br>No cardiovascular symptoms</td>\n      <td>Ongoing neuro changes<br>Confusion<br>GCS 8-13<br>+/- Chest Pain/SOB</td>\n      <td>Severe confusion/Coma<br>GCS &lt; 8<br>+Hypotension (&lt;90 mmHg)<br>Apnea/Cardiac Arrest</td>\n    </tr>\n      <tr>\n      <td colspan=\"3\" style=\"text-align:center;font-weight:700;background:var(--bg-secondary);padding:0.4rem 0.75rem;\">Treatment Steps</td>\n    </tr>\n    <tr>\n      <td>Do Step 1</td>\n      <td>Do Steps 1 and 2<br><em>Paramedic: If antidote considered, contact OLMC</em></td>\n      <td>Do Steps 1, 2, and 3</td>\n    </tr>\n  </tbody>\n</table>"
       },
       {
         "type": "content",

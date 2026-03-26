@@ -247,11 +247,11 @@ export function ProtocolPage() {
             // Collect all distinct provider levels, then sort by canonical hierarchy
             const LEVEL_RANK: Record<string, number> = {
               ALL: 0,
-              EMT: 1,
+              EMT_ADVANCED_EMT_PARAMEDIC: 1,
               EMT_ADVANCED_EMT: 2,
-              EMT_ADVANCED_EMT_PARAMEDIC: 3,
-              ADVANCED_EMT: 4,
-              ADVANCED_EMT_PARAMEDIC: 5,
+              EMT: 3,
+              ADVANCED_EMT_PARAMEDIC: 4,
+              ADVANCED_EMT: 5,
               PARAMEDIC: 6,
               PEARLS: 7,
             };

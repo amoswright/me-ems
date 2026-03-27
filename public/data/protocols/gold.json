@@ -779,7 +779,7 @@
       {
         "num": 6,
         "providerLevel": "ADVANCED_EMT",
-        "html": "For Severe Sepsis\n<ol type=\"a\">\n<li>Assess for acute pulmonary edema. If present, refer to Cardiogenic Shock protocol, <strong>Red 32</strong></li>\n<li>Administer up to 30 mL/kg fluid bolus.</li>\n<li>For patients with evidence of fluid overload or at risk for fluid overload, consider consultation with OLMC for different resuscitation volume goals.</li>\n</ol>"
+        "html": "For Severe Sepsis\n<ol type=\"a\">\n<li>Assess for acute pulmonary edema. If present, refer to Cardiogenic Shock protocol, <strong>Red 32</strong></li>\n<li>Administer up to 30 mL/kg fluid bolus.</li>\n<li>For patients with evidence of fluid overload or at risk for fluid overload, consider consultation with OLMC for different resuscitation volume goals.</li>\n<li>Monitor closely during resuscitation. Goals of resuscitation in shock and sepsis are to treat hypotension and/or signs of hypoperfusion</li>\n</ol>"
       },
       {
         "num": 7,

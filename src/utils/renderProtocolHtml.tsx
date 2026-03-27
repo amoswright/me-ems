@@ -109,6 +109,24 @@ export function renderProtocolHtml(html: string) {
         );
       }
 
+      // Style <h2> — major section header
+      if (domNode instanceof Element && domNode.name === 'h2') {
+        return (
+          <h2 className="text-sm font-bold uppercase tracking-wide text-gray-900 dark:text-gray-100 border-b-2 border-gray-300 dark:border-gray-600 pt-4 pb-1 mb-2 mt-1">
+            {domToReact(domNode.children as DOMNode[], options)}
+          </h2>
+        );
+      }
+
+      // Style <h3> — sub-section header
+      if (domNode instanceof Element && domNode.name === 'h3') {
+        return (
+          <h3 className="text-sm font-semibold text-gray-600 dark:text-gray-400 border-l-2 border-gray-300 dark:border-gray-600 pl-2 mt-3 mb-1">
+            {domToReact(domNode.children as DOMNode[], options)}
+          </h3>
+        );
+      }
+
       // Style <table>
       if (domNode instanceof Element && domNode.name === 'table') {
         return (
